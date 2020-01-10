@@ -14,9 +14,10 @@ Header <- read_csv("Data Sources/National Grid API/Header.csv")
 url <- "https://api.carbonintensity.org.uk"
 path <- "/regional/intensity/"
 #initialdate <- ymd_hm("2019-01-01T00:00Z")
-initialdate <- ymd_hm("2018-12-25T00:00Z")
+initialdate <- ymd_hm("2020-01-01T00:00Z")
 regionlist <- c("1","2","16","18")
 time <- "00:00"
+datalist <- list()
 
 #ScotJan <- fromJSON("https://api.carbonintensity.org.uk/regional/intensity/2019-01-02T12:35Z/2019-01-12T12:35Z/regionid/16")
 #Scotdata <- as_data_frame(jsonlite::flatten(do.call(data.frame,ScotJan)))
@@ -39,7 +40,9 @@ for (x in 1:4){
       resultdata <- as_data_frame(jsonlite::flatten(do.call(data.frame,result)))
       resultdata <- resultdata %>% unnest(data.data.generationmix)
       datefrom <- dateto
-      Header <- merge(Header, resultdata,all=TRUE)
+      datalist[[length(datalist)+1]] <- resultdata
+      print(paste("Region:", regionid, "Date:", datefrom,"done!"))
+      #Header <- merge(Header, resultdata,all=TRUE)
     },
     error=function(error_message) {
       {message(error_message)
@@ -94,6 +97,12 @@ for (x in 1:4){
 
 
 ###
+###
+###
+resultdata <- bind_rows(datalist)
+
+Header <- merge(Header, resultdata,all=TRUE)
+
 Header <- Header %>% distinct
 finalresult<- dcast(Header, data.regionid + data.dnoregion
                     + data.shortname + data.data.from + data.data.to + data.data.intensity.forecast + data.data.intensity.index ~ fuel)
@@ -101,7 +110,7 @@ finalresult<- dcast(Header, data.regionid + data.dnoregion
 finalresult2 <- Header %>% distinct
 write_csv(
   finalresult,
-  "Data Sources/National Grid API/FullData2019.csv"
+  "Data Sources/National Grid API/FullData2020.csv"
 )
 
 finalresult2 <- finalresult
@@ -109,6 +118,10 @@ finalresult2 <- finalresult
 FullData2018 <- read.csv("Data Sources/National Grid API//FullData2018.csv")
 
 finalresult <- rbind(finalresult, FullData2018)
+
+FullData2019 <- read.csv("Data Sources/National Grid API//FullData2019.csv")
+
+finalresult <- rbind(finalresult, FullData2019)
 
 finalresult <- finalresult[order(finalresult$data.data.from,finalresult$data.regionid),]
 
