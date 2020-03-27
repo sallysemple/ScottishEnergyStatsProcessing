@@ -1,0 +1,116 @@
+library(readxl)
+library(readr)
+library(magrittr)
+library(tidyr)
+library(plyr)
+library(data.table)
+
+
+
+DataList <- list()
+
+yearstart <- 2013
+yearend <- format(Sys.Date(), "%Y")
+
+
+for (year in yearstart:yearend) {
+  # TryCatch allows the code to continue when there is an error.
+  # This is used when there is no data for the corresponding year in the loop.
+  
+  
+  ### tryCatch allows the code to still run if an error is encountered, such as a sheet not existing for any given year ###
+  tryCatch({
+    tryCatch({
+      TotalFinalLAConsumption <-
+        read_excel(
+          "Data Sources/Subnational Consumption/TotalFinal.xlsx",
+          sheet = paste(year, "r", " GWh", sep = ""),
+          col_names = FALSE
+        )
+      TotalFinalLAConsumption$Year <- year
+      
+      DataList[[year]] <- TotalFinalLAConsumption
+      
+    }, error = function(e) {
+      cat("ERROR :", conditionMessage(e), "\n")
+    })
+    
+    tryCatch({
+      TotalFinalLAConsumption <-
+        read_excel(
+          "Data Sources/Subnational Consumption/TotalFinal.xlsx",
+          sheet = paste(year, "GWh"),
+          col_names = FALSE
+        )
+      
+      TotalFinalLAConsumption$Year <- year
+      
+      DataList[[year]] <- TotalFinalLAConsumption
+      
+    }, error = function(e) {
+      cat("ERROR :", conditionMessage(e), "\n")
+    })
+    
+  }, error = function(e) {
+    cat("ERROR :", conditionMessage(e), "\n")
+  })
+} # Loop End
+
+TotalFinalLAConsumption <- rbindlist(DataList)
+
+names(TotalFinalLAConsumption) <- c('LA Code',
+                             'Region',
+                             'Coal - Industrial & Commercial',
+                             'Coal - Domestic',
+                             'Coal - Rail',
+                             'Coal - Total',
+                             'Coal',
+                             'Manufactured fuels - Industrial',
+                             'Manufactured fuels - Domestic',
+                             'Manufactured fuels - Total',
+                             'Manufactured fuels',
+                             'Petroleum products - Industrial & Commercial',
+                             'Petroleum products - Domestic',
+                             'Petroleum products - Road transport',
+                             'Petroleum products - Rail',
+                             'Petroleum products - Public Sector',
+                             'Petroleum products - Agriculture',
+                             'Petroleum products - Total',
+                             'Petroleum products',
+                             'Gas - Industrial & Commercial',
+                             'Gas - Domestic',
+                             'Gas - Total',
+                             'Gas',
+                             'Electricity - Industrial & Commercial',
+                             'Electricity - Domestic',
+                             'Electricity - Total',
+                             'Electricity',
+                             'Bioenergy & wastes - Total',
+                             'Bioenergy & wastes',
+                             'All fuels - Total',
+                             'All fuels',
+                             'Consuming Sector - Industry & Commercial',
+                             'Consuming Sector - Domestic',
+                             'Consuming Sector - Transport',
+                             'Year'
+                              )
+
+TotalFinalLAConsumption$Coal <- NULL
+TotalFinalLAConsumption$`Manufactured fuels` <- NULL
+TotalFinalLAConsumption$`Petroleum products` <- NULL
+TotalFinalLAConsumption$Gas <- NULL
+TotalFinalLAConsumption$Electricity <- NULL
+TotalFinalLAConsumption$`Bioenergy & wastes` <- NULL
+TotalFinalLAConsumption$`All fuels` <- NULL
+
+
+
+TotalFinalLAConsumption <- TotalFinalLAConsumption[which(substr(TotalFinalLAConsumption$`LA Code`,1,1) == "S"),]
+
+TotalFinalLAConsumption <- subset(TotalFinalLAConsumption, TotalFinalLAConsumption$Region != "SCOTLAND")
+
+#LACodeUpdate(TotalFinalLAConsumption)
+
+TotalFinalLAConsumption
+
+write_csv(TotalFinalLAConsumption, "Output/Consumption/TotalFinalConsumption.csv")
