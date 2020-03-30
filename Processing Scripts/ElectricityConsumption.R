@@ -92,7 +92,9 @@ ElecLAConsumption$` ` <- NULL
 
 ElecLAConsumption <- ElecLAConsumption[which(substr(ElecLAConsumption$`LA Code`,1,1) == "S"),]
 
-#LACodeUpdate(ElecLAConsumption)
+source("Processing Scripts/LACodeFunction.R")
+
+ElecLAConsumption <- LACodeUpdate(ElecLAConsumption)
 
 ElecLAConsumption
 

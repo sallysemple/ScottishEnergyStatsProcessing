@@ -80,10 +80,16 @@ names(GasLAConsumption) <- c('Region',
 
 GasLAConsumption$` ` <- NULL
 
-GasLAConsumption <- GasLAConsumption[which(substr(GasLAConsumption$`LA Code`,1,1) == "S"),]
+#GasLAConsumption <- GasLAConsumption[which(substr(GasLAConsumption$`LA Code`,1,1) == "S"),]
 
-#LACodeUpdate(GasLAConsumption)
+source("Processing Scripts/LACodeFunction.R")
 
-GasLAConsumption
+GasLAConsumption <- LACodeUpdate(GasLAConsumption)
+
+GasLAConsumption <- as_tibble(GasLAConsumption)
+
+GasLAConsumption[5:17] %<>% lapply(function(x) as.numeric(as.character(x)))
+
+GasLAConsumption <- as_tibble(GasLAConsumption)
 
 write_csv(GasLAConsumption, "Output/Consumption/GasConsumption.csv")

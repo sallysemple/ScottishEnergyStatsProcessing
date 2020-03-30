@@ -109,7 +109,9 @@ TotalFinalLAConsumption <- TotalFinalLAConsumption[which(substr(TotalFinalLACons
 
 TotalFinalLAConsumption <- subset(TotalFinalLAConsumption, TotalFinalLAConsumption$Region != "SCOTLAND")
 
-#LACodeUpdate(TotalFinalLAConsumption)
+source("Processing Scripts/LACodeFunction.R")
+
+TotalFinalLAConsumption <- LACodeUpdate(TotalFinalLAConsumption)
 
 TotalFinalLAConsumption
 
