@@ -102,20 +102,27 @@ CurrentOnshoreTable   <-
 
 write.table(
   CurrentOffshoreTable,
-  "Output/Turbine Analysis/Current/CurrentOffshore.txt",
+  "Output/Turbine Analysis/Quarterly/CurrentOffshore.txt",
   sep = "\t",
   row.names = FALSE
 )
 
 write.table(
   CurrentOnshoreTable,
-  "Output/Turbine Analysis/Current/CurrentOnshore.txt",
+  "Output/Turbine Analysis/Quarterly/CurrentOnshore.txt",
   sep = "\t",
   row.names = FALSE
 )
 
 CurrentAllWindTable <-
   ddply(ScotTurbineCurrent, .(Status), numcolwise(sum))
+
+write.table(
+  CurrentOnshoreTable,
+  "Output/Turbine Analysis/Quarterly/CurrentAll.txt",
+  sep = "\t",
+  row.names = FALSE
+)
 
 Date <- as.character(CurrentData$`Record Last Updated (dd/mm/yyyy)`)
 
@@ -150,3 +157,123 @@ TimeSeriesCapacity <- dcast(TimeSeriesCapacity, Month ~ Status, value.var = "Cap
 
 write.csv(TimeSeriesCapacity, paste0("Output/Turbine Analysis/Time Series/Capacity/",format(Date, "%b-%y"),".csv"))
 
+
+
+
+############
+
+
+
+PreviousData <- read_excel("Data Sources/REPD (Turbines)/Source/Previous.xlsx",
+                          sheet = "Database",
+                          skip = 5)
+
+### Add in site count of 1 for each site, for aggregation later ###
+
+PreviousData$Sites <- 1
+
+PreviousCorrections <- read_excel("Data Sources/REPD (Turbines)/Corrections/PreviousCorrections.xlsx",
+                                 sheet = "Database",
+                                 skip = 5)
+
+#PreviousCorrections$Sites <- 0
+
+PreviousData <- rbind(PreviousData,PreviousCorrections)
+
+### Read Source Data ###
+#PreviousData <- read_csv("Data Sources/REPD/Previous.csv", skip = 6)
+
+### Create Scottish Subset ###
+ScotlandPrevious <- subset(PreviousData, Country == "Scotland")
+
+### Rename Variables ###
+ScotlandPrevious <-
+  plyr::rename(
+    ScotlandPrevious,
+    c(
+      "Technology Type" = "TechType",
+      "Development Status (short)" =
+        "Status",
+      "No. of Turbines" = "TurbineAmount",
+      "Installed Capacity (MWelec)" =
+        "Capacity"
+    )
+  )
+
+### Create Subset of Turbines of the correct status.###
+## Vertical Line is an OR operator ##
+
+### Subset only Wind Tech ###
+ScotTurbinePrevious <-
+  subset(ScotlandPrevious,
+         TechType == "Wind Onshore" | TechType == "Wind Offshore")
+
+### Keep only required Status ###
+ScotTurbinePrevious <- subset(
+  ScotTurbinePrevious,
+  Status == "Operational"
+  | Status == "Awaiting Construction"
+  | Status == "Under Construction"
+  | Status == "Application Submitted"
+  ,  select = c(TechType, Status, Sites, TurbineAmount, Capacity)
+)
+
+### Convert to Number fields and set missing values to 0, for calculations ###
+ScotTurbinePrevious$TurbineAmount <-
+  as.numeric(ScotTurbinePrevious$TurbineAmount)
+
+### Change NA values to 0 ###
+ScotTurbinePrevious$TurbineAmount[is.na(ScotTurbinePrevious$TurbineAmount)] <-
+  0
+
+### Make Capacity Column numeric ###
+ScotTurbinePrevious$Capacity <-
+  as.numeric(ScotTurbinePrevious$Capacity)
+
+### Make NA Values 0 ###
+ScotTurbinePrevious$Capacity[is.na(ScotTurbinePrevious$Capacity)] <- 0
+
+### Split data into Onshore and Offshore ###
+
+### Offshore Subset ###
+OffshorePrevious <-
+  subset(ScotTurbinePrevious, TechType == "Wind Offshore")
+
+### Onshore Subset ###
+OnshorePrevious <-
+  subset(ScotTurbinePrevious, TechType == "Wind Onshore")
+
+### Sum up Numerical Columns, to give totals ###
+
+PreviousOffshoreTable  <-
+  ddply(OffshorePrevious, .(Status), numcolwise(sum))
+
+PreviousOnshoreTable   <-
+  ddply(OnshorePrevious, .(Status), numcolwise(sum))
+
+### Export to CSV Files ###
+
+
+write.table(
+  PreviousOffshoreTable,
+  "Output/Turbine Analysis/Quarterly/PreviousOffshore.txt",
+  sep = "\t",
+  row.names = FALSE
+)
+
+write.table(
+  PreviousOnshoreTable,
+  "Output/Turbine Analysis/Quarterly/PreviousOnshore.txt",
+  sep = "\t",
+  row.names = FALSE
+)
+
+PreviousAllWindTable <-
+  ddply(ScotTurbinePrevious, .(Status), numcolwise(sum))
+
+write.table(
+  PreviousOnshoreTable,
+  "Output/Turbine Analysis/Quarterly/PreviousAll.txt",
+  sep = "\t",
+  row.names = FALSE
+)
