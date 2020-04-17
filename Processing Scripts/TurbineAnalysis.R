@@ -138,7 +138,7 @@ TimeSeriesSites <- CurrentAllWindTable[c(5,1,2)]
 
 TimeSeriesSites <- dcast(TimeSeriesSites, Month ~ Status, value.var = "Sites")
 
-write.csv(TimeSeriesSites, paste0("Output/Turbine Analysis/Time Series/Sites/",format(Date, "%b-%y"),".csv"))
+write.csv(TimeSeriesSites, paste0("Output/Turbine Analysis/Time Series/Sites/",format(Date, "%b-%y"),".csv"), row.names = FALSE)
 
 ### Turbines
 
@@ -146,7 +146,7 @@ TimeSeriesTurbines <- CurrentAllWindTable[c(5,1,3)]
 
 TimeSeriesTurbines <- dcast(TimeSeriesTurbines, Month ~ Status, value.var = "TurbineAmount")
 
-write.csv(TimeSeriesTurbines, paste0("Output/Turbine Analysis/Time Series/Turbines/",format(Date, "%b-%y"),".csv"))
+write.csv(TimeSeriesTurbines, paste0("Output/Turbine Analysis/Time Series/Turbines/",format(Date, "%b-%y"),".csv"), row.names = FALSE)
 
 
 ###Capacity
@@ -155,7 +155,7 @@ TimeSeriesCapacity <- CurrentAllWindTable[c(5,1,4)]
 
 TimeSeriesCapacity <- dcast(TimeSeriesCapacity, Month ~ Status, value.var = "Capacity")
 
-write.csv(TimeSeriesCapacity, paste0("Output/Turbine Analysis/Time Series/Capacity/",format(Date, "%b-%y"),".csv"))
+write.csv(TimeSeriesCapacity, paste0("Output/Turbine Analysis/Time Series/Capacity/",format(Date, "%b-%y"),".csv"), row.names = FALSE)
 
 
 
