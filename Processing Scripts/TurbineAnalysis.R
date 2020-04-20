@@ -118,7 +118,7 @@ CurrentAllWindTable <-
   ddply(ScotTurbineCurrent, .(Status), numcolwise(sum))
 
 write.table(
-  CurrentOnshoreTable,
+  CurrentAllWindTable,
   "Output/Turbine Analysis/Quarterly/CurrentAll.txt",
   sep = "\t",
   row.names = FALSE
