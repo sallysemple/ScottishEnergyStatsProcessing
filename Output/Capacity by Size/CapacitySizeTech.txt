@@ -1,0 +1,14 @@
+"Technology Type"	"<5MW"	"5 - 10MW"	"10-50MW"	"50MW +"	"Total"
+"Wind Onshore"	247.6975	379.9235	3038.542	4487.55	8153.713
+"Wind Offshore"	0	7	88.6325	855.2	950.8325
+"Large Hydro"	0	38.1	219.5	165	422.6
+"Biomass (dedicated)"	7.25	30.92	83.043	115.4	236.613
+"Small Hydro"	129.165	0	0	0	129.165
+"Landfill Gas"	63.467	7.39	14	0	84.857
+"Solar Photovoltaics"	21.17	25	23	0	69.17
+"EfW Incineration"	0	8.3	23	0	31.3
+"Anaerobic Digestion"	19.9	5	0	0	24.9
+"Advanced Conversion Technologies"	2	0	22.5	0	24.5
+"Tidal Barrage and Tidal Stream"	4.5	6	0	0	10.5
+"Shoreline Wave"	1	0	0	0	1
+"All Technologies"	496.1495	507.6335	3512.2175	5623.15	10139.1505
