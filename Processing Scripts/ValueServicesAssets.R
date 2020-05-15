@@ -41,6 +41,6 @@ Renewables$Asset <- as.numeric(Renewables$Asset)/1000
 Renewables <- Renewables[complete.cases(Renewables),]
 
 write.table(Renewables,
-            "Output/Services and assets/FossilFuels.txt",
+            "Output/Services and assets/Renewables.txt",
             sep = "\t",
             row.names = FALSE)
