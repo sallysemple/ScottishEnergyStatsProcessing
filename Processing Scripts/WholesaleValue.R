@@ -16,9 +16,11 @@ names(Monthly_Electricity_Prices)[1] <- "Month Year"
 
 Monthly_Electricity_Prices$`Month Year` <- format(dmy(Monthly_Electricity_Prices$`Month Year`), format = "%b %Y")
 
+Monthly_Electricity_Prices$Price <- Monthly_Electricity_Prices$Price*1000
+
 ExportPrices <- merge(merge(ExportsGB, ExportsNI), Monthly_Electricity_Prices)
 
-ExportPrices$WholesaleValue <- (ExportPrices$`Exports to GB` + ExportPrices$`Exports to NI`) * ExportPrices$Price
+ExportPrices$WholesaleValue <- (ExportPrices$`Exports to GB` + ExportPrices$`Exports to NI`) * (ExportPrices$Price)
 
 write.table(ExportPrices,
             "Output/Exports/WholesaleValue.txt",
