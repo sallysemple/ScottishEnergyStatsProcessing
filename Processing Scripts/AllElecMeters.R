@@ -49,3 +49,32 @@ write.table(RegionLatestMeters,
             "Output/Electricity Meters/RegionLatestMeters.txt",
             sep = "\t",
             row.names = FALSE)
+
+Smart_Meters <- read_excel("Data Sources/MANUAL/Smart Meters.xlsx")
+
+FullDataforSmart <- FullData %>% group_by(Year, Region) %>% summarise(METERS = sum(METERS))
+
+FullDataforSmart  <- as_tibble(dcast(FullDataforSmart, Year ~ Region, value.var = "METERS"))
+
+FullDataforSmart$Date <- ymd(paste0(FullDataforSmart$Year, "-01-01"))
+
+SmartMeters <- merge(Smart_Meters, FullDataforSmart, all  = TRUE)
+
+SmartMeters <- fill(SmartMeters, 6:7)
+
+SmartMeters$Year <- NULL
+
+SmartMeters <- SmartMeters[complete.cases(SmartMeters),]
+
+SmartMeters$`All Scotland - Proportion` <- SmartMeters$`All Scotland - Installations` / (SmartMeters$North + SmartMeters$South)
+
+SmartMeters$`North Scotland - Proportion` <- SmartMeters$`North Scotland - Installations` / (SmartMeters$North)
+
+SmartMeters$`South Scotland - Proportion` <- SmartMeters$`South Scotland - Installations` / (SmartMeters$South)
+
+SmartMeters <- SmartMeters[c(1,2,7,3,8,4,9)]
+
+write.table(SmartMeters,
+            "Output/Electricity Meters/SmartMeters.txt",
+            sep = "\t",
+            row.names = FALSE)
