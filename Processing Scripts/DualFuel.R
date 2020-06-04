@@ -26,6 +26,8 @@ ElecTariff$Dates <- gsub(' -', '-', ElecTariff$Dates)
 ElecTariff$Dates <- gsub('- ', '-', ElecTariff$Dates)
 ElecTariff$Dates <- gsub('-', ' - ', ElecTariff$Dates)
 
+ElecTariff$Dates <- factor(ElecTariff$Dates, levels = unique(ElecTariff$Dates))
+
 ElecTariff$Value <- as.numeric(ElecTariff$Value)
 
 ElecTariff$Value[is.na(ElecTariff$Value)] <- 0
