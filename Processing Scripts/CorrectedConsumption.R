@@ -13,6 +13,7 @@ LAUpdatedConsumption <- merge(TotalFinalConsumption, ElectricityConsumption, by 
 
 LAUpdatedConsumption <- merge(LAUpdatedConsumption, GasConsumption, by = c("LA Code", "Year"))
 
+LAUpdatedConsumption[is.na(LAUpdatedConsumption)] <- 0
 
 LAUpdatedConsumption$`Gas - Industrial & Commercial` <- LAUpdatedConsumption$`Sales (GWh) - Non-domestic consumption`
 
