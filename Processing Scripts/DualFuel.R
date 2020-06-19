@@ -26,6 +26,8 @@ ElecTariff$Dates <- gsub(' -', '-', ElecTariff$Dates)
 ElecTariff$Dates <- gsub('- ', '-', ElecTariff$Dates)
 ElecTariff$Dates <- gsub('-', ' - ', ElecTariff$Dates)
 
+ElecTariff <- ElecTariff[which(substr(ElecTariff$Dates,1,1) %in% c("A", "O")),]
+
 ElecTariff$Dates <- factor(ElecTariff$Dates, levels = unique(ElecTariff$Dates))
 
 ElecTariff$Value <- as.numeric(ElecTariff$Value)
@@ -66,6 +68,8 @@ GasTariff$Value <- as.numeric(GasTariff$Value)
 
 GasTariff$Value[is.na(GasTariff$Value)] <- 0
 
+GasTariff <- GasTariff[which(substr(GasTariff$Dates,1,1) %in% c("A", "O")),]
+
 GasTariff <- GasTariff %>% group_by(Category, Region, Dates) %>% 
   summarise(Value = sum(Value))
 
@@ -94,6 +98,8 @@ NSDualFuel <- NSDualFuel[c(1,7,3,5,4,2,6)]
 
 NSDualFuel[,(2:7)] %<>% sapply(`/`,NSDualFuel[,7])
 
+NSDualFuel<- NSDualFuel[seq(dim(NSDualFuel)[1],1),]
+
 write.table(NSDualFuel,
             "Output/Energy Bills/NorthScotlandDualFuelBreakdown.txt",
             sep = "\t",
@@ -110,6 +116,8 @@ SSDualFuel$Headroom <- NULL
 SSDualFuel <- SSDualFuel[c(1,7,3,5,4,2,6)]
 
 SSDualFuel[,(2:7)] %<>% sapply(`/`,SSDualFuel[,7])
+
+SSDualFuel<- SSDualFuel[seq(dim(SSDualFuel)[1],1),]
 
 write.table(SSDualFuel,
             "Output/Energy Bills/SouthScotlandDualFuelBreakdown.txt",
