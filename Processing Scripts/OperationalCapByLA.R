@@ -65,10 +65,10 @@ REPD <- rbind(REPDIDLookup, REPD)
 
 REPD = REPD[!duplicated(REPD$`Ref ID`),]
 
-REPD <- REPD %>%  group_by(`LA`, `Development Status (short)`) %>% 
+REPD <- REPD %>%  group_by(`LA`, `LACode`, `Development Status (short)`) %>% 
   summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`, na.rm = TRUE))
 
-REPD <- dcast(REPD, `LA` ~ `Development Status (short)`)
+REPD <- dcast(REPD, `LA` + `LACode` ~ `Development Status (short)`)
 
 REPD[is.na(REPD)] <- 0
 
@@ -82,7 +82,7 @@ LARenCap <- LACodeUpdate(LARenCap)
 
 LARenCap[is.na(LARenCap)] <- 0
 
-write.table(LARenCap[c(1,2,3,5,4,6)],
+write.table(LARenCap[c(1,2,3,4,6,5,7)],
             "Output/Renewable Capacity/LARenCap.txt",
             sep = "\t",
             row.names = FALSE)
