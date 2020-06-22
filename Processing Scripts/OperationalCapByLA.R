@@ -1,3 +1,5 @@
+library(plyr)
+library(dplyr)
 library(readr)
 library(readxl)
 library(tidyverse)
@@ -5,8 +7,7 @@ library(reshape2)
 library(readr)
 library(lubridate)
 library(zoo)
-library(plyr)
-library(dplyr)
+
 
 
 #REPD <- read_excel("C:/Users/ische/Downloads/renewable-energy-planning-database-december-2019.xlsx", 
@@ -17,28 +18,6 @@ REPD <- read_delim("Output/REPD (Operational Corrections)/REPD.txt",
 
 REPD <- REPD[c(2,5,6,9,19,27,21,23)]
 
-PlanningAuthorityLookup <- read_excel("Data Sources/REPD (Operational Corrections)/PlanningAuthorityLookup.xlsx")
-
-REPD <- merge(REPD, PlanningAuthorityLookup, all.x = TRUE)
-
-CountyLookup <- read_excel("Data Sources/REPD (Operational Corrections)/CountyLookup.xlsx")
-
-
-v <-  REPD[which(is.na(REPD$LACode)),]
-
-v$LA <- NULL
-
-v$LACode <- NULL
-v <- merge(v, CountyLookup, all.x = TRUE)
-
-z <- rbind(v, REPD)
-
-z = z[!duplicated(z$`Ref ID`),]
-
-
-unique(REPD$`Development Status (short)`)
-unique(REPD$Country)
-
 REPD <- subset(REPD, `Technology Type` %in% c("Biomass (co-firing)", "EfW Incineration" ,"Biomass (dedicated)", "Advanced Conversion Technologies", "Anaerobic Digestion", "Large Hydro", "Small Hydro","Landfill Gas", "Solar Photovoltaics", "Sewage Sludge Digestion", "Tidal Barrage and Tidal Stream", "Shoreline Wave", "Wind Offshore", "Wind Onshore", "Hot Dry Rocks (HDR)"))
 
 REPD <- REPD %>% 
@@ -47,10 +26,49 @@ REPD <- REPD %>%
 
 REPD <- REPD[which(REPD$`Development Status (short)` %in% c("Operational", "Awaiting Construction", "Under Construction", "Application Submitted")),]
 
-REPD <- REPD %>%  group_by(`Planning Authority`, `County`, `Development Status (short)`) %>% 
+REPD <- REPD %>%  group_by(`Ref ID`,`Planning Authority`, `County`, `Development Status (short)`) %>% 
   summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`, na.rm = TRUE))
 
-REPD <- dcast(REPD, `Planning Authority` + `County` ~ `Development Status (short)`)
+
+PlanningAuthorityLookup <- read_excel("Data Sources/REPD (Operational Corrections)/PlanningAuthorityLookup.xlsx")
+
+REPD <- merge(REPD, PlanningAuthorityLookup, all.x = TRUE)
+
+CountyLookup <- read_excel("Data Sources/REPD (Operational Corrections)/CountyLookup.xlsx")
+
+
+REPDCounty <-  REPD[which(is.na(REPD$LACode)),]
+
+REPDCounty$LA <- NULL
+
+REPDCounty$LACode <- NULL
+
+REPDCounty <- merge(REPDCounty, CountyLookup, all.x = TRUE)
+
+REPD <- rbind(REPDCounty, REPD)
+
+REPD = REPD[!duplicated(REPD$`Ref ID`),]
+
+
+RefIDLookup <- read_excel("Data Sources/REPD (Operational Corrections)/RefIDLALookup.xlsx")
+
+
+REPDIDLookup <-  REPD[which(is.na(REPD$LACode)),]
+
+REPDIDLookup$LA <- NULL
+
+REPDIDLookup$LACode <- NULL
+
+REPDIDLookup <- merge(REPDIDLookup, RefIDLookup, all.x = TRUE)
+
+REPD <- rbind(REPDIDLookup, REPD)
+
+REPD = REPD[!duplicated(REPD$`Ref ID`),]
+
+REPD <- REPD %>%  group_by(`LA`, `Development Status (short)`) %>% 
+  summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`, na.rm = TRUE))
+
+REPD <- dcast(REPD, `LA` ~ `Development Status (short)`)
 
 REPD[is.na(REPD)] <- 0
 
@@ -64,7 +82,7 @@ LARenCap <- LACodeUpdate(LARenCap)
 
 LARenCap[is.na(LARenCap)] <- 0
 
-write.table(LARenCap[c(2:5,7:8,6)],
+write.table(LARenCap[c(1,2,3,5,4,6)],
             "Output/Renewable Capacity/LARenCap.txt",
             sep = "\t",
             row.names = FALSE)

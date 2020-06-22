@@ -1,84 +1,32 @@
-"LA"	"LACode"	"County"	"Application Submitted"	"Operational"	"Under Construction"	"Awaiting Construction"
-"Aberdeen City"	"S12000033"	"Grampian"	0	2.2	0	0
-"Aberdeen City"	"S12000033"	"Aberdeen"	0	0	0	0.25
-"Aberdeen City"	"S12000033"	"Aberdeenshire"	0	0	11.1	0
-"Aberdeenshire"	"S12000034"	"Aberdeenshire"	52.95	8.95	2	56
-"Aberdeenshire"	"S12000034"	"Grampian"	0	428.222	0	8.9
-"Angus"	"S12000041"	"Tayside"	0	18.4	0	23.8
-"Angus"	"S12000041"	"Angus"	0	10	9.99	52.57
-"Argyll and Bute"	"S12000035"	"Argyll and Bute"	0	1.5	2	39.47
-"Argyll and Bute"	"S12000035"	"Strathclyde"	0	345.059	0	77.9
-"0"	"0"	"Aberdeenshire"	0	0	2	0
-"Clackmannanshire"	"S12000005"	"Clackmannanshire"	0	42.99	0	10.8
-"Comhairle nan Eilean Siar"	"S12000013"	"Comhairle nan Eilean Siar"	61.8	0	0	54.7
-"Comhairle nan Eilean Siar"	"S12000013"	"Highland"	0	1.5	0	0
-"Comhairle nan Eilean Siar"	"S12000013"	"Western Isles"	0	36.3	0	0
-"Dumfries and Galloway"	"S12000006"	"Dumfries and Galloway"	72.98	393.32	34	413.7
-"Dundee City"	"S12000042"	"Dundee"	0	10.5	0	0
-"Dundee City"	"S12000042"	"Tayside"	0	12.3	0	0
-"East Ayrshire"	"S12000008"	"East Ayrshire"	33	0	0	12.3
-"East Ayrshire"	"S12000008"	"Strathclyde"	49.5	49.69	30	26.5
-"East Dunbartonshire"	"S12000045"	"0"	0	0	0	0
-"East Lothian"	"S12000010"	"Lothian"	0	75.3	25.6	0
-"East Lothian"	"S12000010"	"East Lothian"	0	6.3	0	0
-"East Renfrewshire"	"S12000011"	"Strathclyde"	0	39.084	0	2.5
-"City of Edinburgh"	"S12000036"	"Lothian"	0	2.4	0	0
-"Falkirk"	"S12000014"	"Stirling"	0	26	0	0
-"Falkirk"	"S12000014"	"Falkirk"	0	14	21.5	4
-"Fife"	"S12000047"	"Fife"	1	130	0.23	31.45
-"Glasgow City"	"S12000049"	"Strathclyde"	0	14.72	10	20
-"Highland"	"S12000017"	"Highland"	174.3	1044.645	2	283.995
-"Inverclyde"	"S12000018"	"Strathclyde"	0	0	24	0
-"0"	"0"	"Argyll and Bute"	0	1.35	0	0
-"0"	"0"	"Loch Lomond and The Trossachs"	0	1.1	0	0
-"0"	"0"	"Stirling"	0	5.6	0	0
-"0"	"0"	"Highland"	0	0	10	0
-"0"	"0"	"Offshore"	0	78.6325	1.3675	2343.9
-"0"	"0"	"Orkney Islands"	220	0	0	0
-"0"	"0"	"Shetland"	0	0.5	0	1.4
-"Midlothian"	"S12000019"	"Borders"	0	17.16	0	0
-"Midlothian"	"S12000019"	"Lothian"	0	38.88	0	0
-"Midlothian"	"S12000019"	"Midlothian"	0	12.5	0	0
-"Moray"	"S12000020"	"Moray"	0	1.5	0	37
-"Moray"	"S12000020"	"Grampian"	0	174.42	0	39.8
-"North Ayrshire"	"S12000021"	"North Ayrshire"	15	5	0	23.9
-"North Ayrshire"	"S12000021"	"Strathclyde"	0	140.793	0	14
-"North Lanarkshire"	"S12000050"	"Strathclyde"	0	45.372	25	68.7
-"North Lanarkshire"	"S12000050"	"North Lanarkshire"	15.5	18.65	0	47.5
-"Orkney Islands"	"S12000023"	"Orkney Islands"	0	39.1	0	40.82
-"Perth and Kinross"	"S12000048"	"Perth and Kinross"	0	1.5	0	42.92
-"Perth and Kinross"	"S12000048"	"Tayside"	0	206.22	0	37.64
-"Renfrewshire"	"S12000038"	"0"	0	0	0	0
-"Scottish Borders"	"S12000026"	"Borders"	0	310.45	0	42
-"Scottish Borders"	"S12000026"	"Scottish Borders"	33.6	0	0	77
-"0"	"0"	"Borders"	89	379	0	75.5
-"0"	"0"	"Dumfries and Galloway"	1190.9	540.1	0	72
-"0"	"0"	"East Ayrshire"	0	0	0	84
-"0"	"0"	"Scottish Borders"	0	0	0	50.4
-"0"	"0"	"Aberdeenshire"	104	0	0	0
-"0"	"0"	"Argyll and Bute"	183.8	0	0	80
-"0"	"0"	"South Ayrshire"	0	120	0	0
-"0"	"0"	"South Lanarkshire"	68.4	0	0	0
-"0"	"0"	"Stirling"	0	77.4	0	0
-"0"	"0"	"Fife"	0	65	0	120
-"0"	"0"	"Grampian"	68	435.2	0	48
-"0"	"0"	"Highland"	383.2	1216.35	0	1289.6
-"0"	"0"	"Lothian"	0	112.5	0	0
-"0"	"0"	"Moray"	406	0	0	50
-"0"	"0"	"Offshore"	0	872.2	950	13
-"0"	"0"	"Western Isles"	16	0	0	342
-"0"	"0"	"Shetland"	0	0	0	457
-"0"	"0"	"Shetland Islands"	200	0	0	57.8
-"0"	"0"	"Tayside"	0	156	0	0
-"0"	"0"	"Orkney Islands"	0	11	0	80
-"0"	"0"	"Strathclyde"	456.3	1795.63	0	663.9
-"Shetland Islands"	"S12000027"	"Shetland"	0	0	0	0.9
-"Shetland Islands"	"S12000027"	"Shetland Islands"	0	11.18	0	49.5
-"South Ayrshire"	"S12000028"	"South Ayrshire"	0	2.55	0	24
-"South Ayrshire"	"S12000028"	"Strathclyde"	0	47	20	0
-"South Lanarkshire"	"S12000029"	"South Lanarkshire"	102.4	4.05	0	74.9
-"South Lanarkshire"	"S12000029"	"Strathclyde"	27.2	292.64	1.6	97.8
-"Stirling"	"S12000030"	"Stirling"	0	98.9	0	0
-"West Dunbartonshire"	"S12000039"	"Strathclyde"	0	4.113	0	1.6
-"West Lothian"	"S12000040"	"West Lothian"	46	13.78	0	18.75
-"West Lothian"	"S12000040"	"Lothian"	0	72.45	0	25.4
+"LA"	"Application Submitted"	"Awaiting Construction"	"Under Construction"	"Operational"	"Pipeline"
+"Aberdeen City"	0	0.25	11.1	2.2	11.35
+"Aberdeenshire"	196.95	64.9	4	513.072	265.85
+"Angus"	0	76.37	9.99	28.4	86.36
+"Argyll and Bute"	317.8	197.37	2	393.909	517.17
+"City of Edinburgh"	0	0	0	2.4	0
+"Clackmannanshire"	0	10.8	0	42.99	10.8
+"Comhairle nan Eilean Siar"	77.8	396.7	0	37.8	474.5
+"Dumfries and Galloway"	1263.88	485.7	34	933.42	1783.58
+"Dundee City"	0	0	0	12.3	0
+"East Ayrshire"	326.8	497.9	30	382.69	854.7
+"East Lothian"	0	0	25.6	142.4	25.6
+"East Renfrewshire"	0	2.5	0	361.084	2.5
+"Falkirk"	0	4	21.5	40	25.5
+"Fife"	1	151.45	0.23	195	152.68
+"Glasgow City"	0	20	10	14.72	30
+"Highland"	557.5	1573.595	12	2231.095	2143.095
+"Inverclyde"	0	0	24	0	24
+"Midlothian"	0	0	0	68.54	0
+"Moray"	434	174.8	0	535.22	608.8
+"North Ayrshire"	15	37.9	0	145.793	52.9
+"North Lanarkshire"	15.5	116.2	25	64.022	156.7
+"Orkney Islands"	220	120.82	0	50.1	340.82
+"Perth and Kinross"	0	80.56	0	363.72	80.56
+"Scottish Borders"	122.6	244.9	0	689.45	367.5
+"Shetland Islands"	200	566.6	0	11.68	766.6
+"South Ayrshire"	0	100	20	414.55	120
+"South Lanarkshire"	276	385.5	1.6	1146.32	663.1
+"Stirling"	0	0	0	183	0
+"West Dunbartonshire"	0	1.6	0	4.113	1.6
+"West Lothian"	46	44.15	0	137.93	90.15
+"0"	0	2356.9	951.3675	902.2	3308.2675
