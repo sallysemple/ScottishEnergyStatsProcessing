@@ -5,6 +5,8 @@ library(reshape2)
 library(readr)
 library(lubridate)
 library(zoo)
+library(plyr)
+library(dplyr)
 
 
 #REPD <- read_excel("C:/Users/ische/Downloads/renewable-energy-planning-database-december-2019.xlsx", 
@@ -13,7 +15,26 @@ REPD <- read_delim("Output/REPD (Operational Corrections)/REPD.txt",
                       "\t", escape_double = FALSE, trim_ws = TRUE)
 
 
-REPD <- REPD[c(2,5,6,9,19,27,23)]
+REPD <- REPD[c(2,5,6,9,19,27,21,23)]
+
+PlanningAuthorityLookup <- read_excel("Data Sources/REPD (Operational Corrections)/PlanningAuthorityLookup.xlsx")
+
+REPD <- merge(REPD, PlanningAuthorityLookup, all.x = TRUE)
+
+CountyLookup <- read_excel("Data Sources/REPD (Operational Corrections)/CountyLookup.xlsx")
+
+
+v <-  REPD[which(is.na(REPD$LACode)),]
+
+v$LA <- NULL
+
+v$LACode <- NULL
+v <- merge(v, CountyLookup, all.x = TRUE)
+
+z <- rbind(v, REPD)
+
+z = z[!duplicated(z$`Ref ID`),]
+
 
 unique(REPD$`Development Status (short)`)
 unique(REPD$Country)
@@ -26,18 +47,16 @@ REPD <- REPD %>%
 
 REPD <- REPD[which(REPD$`Development Status (short)` %in% c("Operational", "Awaiting Construction", "Under Construction", "Application Submitted")),]
 
-REPD <- REPD %>%  group_by(`Planning Authority`, `Development Status (short)`) %>% 
+REPD <- REPD %>%  group_by(`Planning Authority`, `County`, `Development Status (short)`) %>% 
   summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`, na.rm = TRUE))
 
-REPD <- dcast(REPD, `Planning Authority` ~ `Development Status (short)`)
+REPD <- dcast(REPD, `Planning Authority` + `County` ~ `Development Status (short)`)
 
 REPD[is.na(REPD)] <- 0
 
 REPD$Pipeline <- REPD$`Application Submitted`+REPD$`Awaiting Construction`+REPD$`Under Construction`
 
-PlanningAuthorityLookup <- read_excel("Data Sources/REPD (Operational Corrections)/PlanningAuthorityLookup.xlsx")
-
-LARenCap <- merge(PlanningAuthorityLookup,REPD, all.x = TRUE)
+LARenCap <- REPD
 
 source("Processing Scripts/LACodeFunction.R")
 
