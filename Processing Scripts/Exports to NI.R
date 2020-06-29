@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyverse)
 library(lubridate)
 
+print("Exports to NI")
 
 ElecDemand <-
   do.call(rbind.fill,

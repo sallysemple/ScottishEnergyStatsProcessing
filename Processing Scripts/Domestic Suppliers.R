@@ -2,6 +2,8 @@ library(readr)
 library(lubridate)
 library(zoo)
 
+print("Domestic Suppliers")
+
 DomesticSuppliers <- read_csv("Data Sources/Ofgem/Domestic Suppliers/Domestic Sales.csv")
 
 names(DomesticSuppliers)[c(1,4)] <- c("Date", "Dual")

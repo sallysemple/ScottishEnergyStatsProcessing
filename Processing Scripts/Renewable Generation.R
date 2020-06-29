@@ -4,6 +4,8 @@ library(dplyr)
 library(tidyverse)
 library(magrittr)
 
+print("Renewable Generation")
+
 Renewable_Generation <- read_excel("Data Sources/Renewable Generation/Renewable Generation.xls", 
                                    sheet = "Generation & Supply", col_names = FALSE)
 

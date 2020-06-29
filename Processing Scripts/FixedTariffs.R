@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyverse)
 library(data.table)
 
+print("FixedTariffs")
 
 ElectricityPaymentMethod <- read_excel("Data Sources/Energy Bills/ElectricityPaymentMethod.xlsx", 
                                        sheet = "Quarterly Database Fixed Tariff", 

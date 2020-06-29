@@ -8,6 +8,8 @@ library(readr)
 library(lubridate)
 library(zoo)
 
+print("OperactionalCapByLA")
+
 
 
 #REPD <- read_excel("C:/Users/ische/Downloads/renewable-energy-planning-database-december-2019.xlsx", 

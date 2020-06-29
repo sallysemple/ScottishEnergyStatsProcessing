@@ -1,6 +1,7 @@
 library(readxl)
 library(tidyverse)
 
+print("GrowthExports")
 
 UKEnergyExports <- read_excel("Data Sources/Growth Sector Statistics/GS+database.xlsx", 
                               sheet = "Table 5.1", col_names = FALSE, 
