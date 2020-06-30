@@ -10,6 +10,8 @@ library(lubridate)
 library(plotly)
 library("zoo")
 
+print("AllElecMeters")
+
 myFiles <- list.files(path="Data Sources/Electricity Meters/", pattern = "\\.csv$", recursive = TRUE, full.names = TRUE)
 
 DatasetList <- lapply(myFiles, read.csv, header=TRUE)

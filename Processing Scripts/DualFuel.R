@@ -5,6 +5,7 @@ library(tidyverse)
 library(data.table)
 library(magrittr)
 
+print("DualFuel")
 ElecTariff <- read_excel("Data Sources/Ofgem/Default Tariff/model_-_default_tariff_cap_level_v1.4.xlsx", 
                             sheet = "ElecSingle_nonSC_3100kWh", skip = 11)
 

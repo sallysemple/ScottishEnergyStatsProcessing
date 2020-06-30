@@ -5,6 +5,8 @@ library(magrittr)
 library(lubridate)
 library(zoo)
 
+print("QTRRenCap")
+
 RenGenCap <- read_excel("Data Sources/Energy Trends/RenGenCap.xls", 
                         sheet = "Scotland - Qtr", col_names = FALSE, 
                         skip = 4, n_max = 16)

@@ -1,5 +1,7 @@
 library(readxl)
 
+print("RestrictedMeters")
+
 source("Processing Scripts/LACodeFunction.R")
 
 RestrictedMeters <- read_excel("Data Sources/Restricted Meters/RestrictedMeters.xlsx", 

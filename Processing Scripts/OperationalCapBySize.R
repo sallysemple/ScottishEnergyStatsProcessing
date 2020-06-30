@@ -6,6 +6,8 @@ library(readr)
 library(lubridate)
 library(zoo)
 
+print("OperationalCapBySize")
+
 
 #REPD <- read_excel("C:/Users/ische/Downloads/renewable-energy-planning-database-december-2019.xlsx", 
 #sheet = "Database", skip = 6)

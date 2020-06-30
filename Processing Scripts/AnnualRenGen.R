@@ -4,6 +4,8 @@ library(dplyr)
 library(tidyverse)
 library(magrittr)
 
+print("AnnualRenGen")
+
 RenGen <- read_excel("Data Sources/Energy Trends/RenGenCap.xls", 
                     sheet = "Scotland- Annual", skip = 4)
 

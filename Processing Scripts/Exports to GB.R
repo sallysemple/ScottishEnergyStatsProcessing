@@ -5,6 +5,7 @@ library(dplyr)
 library(tidyverse)
 library(lubridate)
 
+print("Exports to GB")
 
 ElecDemand <- read_excel("Data Sources/Transfer Data/2020.xlsx")
 

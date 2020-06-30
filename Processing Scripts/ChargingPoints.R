@@ -1,5 +1,7 @@
 library(readxl)
 
+print("ChargingPoints")
+
 ChargingPoints <- read_excel("Data Sources/Scotland Transport/Environment.xlsx", 
                           sheet = "T13.11", skip = 2)
 

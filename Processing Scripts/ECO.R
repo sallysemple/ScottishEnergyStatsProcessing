@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyverse)
 library(magrittr)
 
+print("ECO")
 ECOMeasuresHouseholds <- read_excel("Data Sources/ECO/Current.xlsx", 
                                     sheet = "T4.1", skip = 2)
 

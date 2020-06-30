@@ -4,6 +4,8 @@ library(dplyr)
 library(readxl)
 library(tidyverse)
 
+print("HeatConsumptionLA")
+
 TotalFinalConsumption <- read_csv("Output/Consumption/TotalFinalConsumption.csv")
 ElectricityConsumption <- read_csv("Output/Consumption/ElectricityConsumption.csv")
 GasConsumption <- read_csv("Output/Consumption/GasConsumption.csv")

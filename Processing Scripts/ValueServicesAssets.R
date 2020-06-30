@@ -1,6 +1,7 @@
 library(readxl)
 library(tidyverse)
 
+print("ValueServicesAssets")
 
 FossilFuels <- read_excel("Data Sources/Natural Capital/referencetables.xlsx", 
                                    sheet = "Fossil fuels", col_names = FALSE, 

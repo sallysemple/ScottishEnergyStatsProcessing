@@ -1,6 +1,8 @@
 library(readr)
 library(readr)
 
+print("WholesaleValue")
+
 source("Processing Scripts/Exports to GB.R")
 source("Processing Scripts/Exports to NI.R")
 

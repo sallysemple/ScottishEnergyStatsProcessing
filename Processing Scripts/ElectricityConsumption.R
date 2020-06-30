@@ -5,7 +5,7 @@ library(tidyr)
 library(plyr)
 library(data.table)
 
-
+print("ElectricityConsumption")
 
 DataList <- list()
 

@@ -2,6 +2,8 @@ library(readr)
 library(zoo)
 library(lubridate)
 
+print("StFergus")
+
 GasDistribution <- read_delim("Data Sources/Gas Daily/Supplies/GasDistribution.txt", 
                               "\t", escape_double = FALSE, trim_ws = TRUE)
 
