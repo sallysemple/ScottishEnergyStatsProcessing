@@ -1,6 +1,8 @@
 library(readODS)
 library(readxl)
+library(readr)
 library(dplyr)
+library(data.table)
 
 print("ULEVs")
 
@@ -10,7 +12,7 @@ yearend <- format(Sys.Date(), "%Y")
 
 ### Set the Working Directory for the Scripts ###
 
-ULEV <- read_ods("Data Sources/Vehicles/CurrentULEV.ods", sheet = "VEH0132a", skip = 6)
+ULEV <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132a", skip = 6)
 
 colnames(ULEV)[1] <- "CODE"
 
@@ -23,15 +25,9 @@ ULEV[colnames(ULEV)==paste(year," Q2", sep = "")] <- NULL
 ULEV[colnames(ULEV)==paste(year," Q1", sep = "")] <- NULL
 }
 
-write.table(
-  ULEV,
-  "R Data Output/ULEV.txt",
-  sep = "\t",
-  na = "0",
-  row.names = FALSE
-)
+ULEV$Category <- "Total"
 
-Battery <- read_ods("Data Sources/Vehicles/CurrentULEV.ods", sheet = "VEH0132b", skip = 6)
+Battery <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132b", skip = 6)
 
 colnames(Battery)[1] <- "CODE"
 
@@ -44,9 +40,49 @@ for (year in 2011:2014) {
   Battery[colnames(Battery)==paste(year," Q1", sep = "")] <- NULL
 }
 
+Battery$Category <- "Battery"
+
+ULEV <- rbind(ULEV, Battery)
+
+Hybrid <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132c", skip = 6)
+
+colnames(Hybrid)[1] <- "CODE"
+
+Hybrid <- subset(Hybrid, CODE == "S92000003")
+for (year in 2011:2014) { 
+  colnames(Hybrid)[colnames(Hybrid)==paste(year," Q4", sep = "")] <- paste(year)
+  
+  Hybrid[colnames(Hybrid)==paste(year," Q3", sep = "")] <- NULL
+  Hybrid[colnames(Hybrid)==paste(year," Q2", sep = "")] <- NULL
+  Hybrid[colnames(Hybrid)==paste(year," Q1", sep = "")] <- NULL
+}
+
+Hybrid$Category <- "Hybrid"
+
+ULEV <- rbind(ULEV, Hybrid)
+
+ULEV[1:2] <- NULL
+
+ULEV <- ULEV[ncol(ULEV):1]
+
+ULEV <- melt(ULEV, id.vars = "Category")
+
+ULEV <- dcast(ULEV, variable ~ Category)
+
+names(ULEV)[1] <- "Quarter"
+
+ULEV$Battery <- as.numeric(ULEV$Battery)
+ULEV$Hybrid <- as.numeric(ULEV$Hybrid)
+ULEV$Total <- as.numeric(ULEV$Total)
+
+ULEV$Other <- ULEV$Total - ULEV$Battery -ULEV$Hybrid
+
+ULEV <- rbind(read_delim("Data Sources/Vehicles/ULEV2014.txt", 
+                         "\t", escape_double = FALSE, trim_ws = TRUE),ULEV)
+
 write.table(
-  Battery,
-  "R Data Output/Battery.txt",
+  ULEV,
+  "Output/Vehicles/ULEV.txt",
   sep = "\t",
   na = "0",
   row.names = FALSE
@@ -62,7 +98,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q1", sep = ""),
         skip = 7
       )
@@ -83,7 +119,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q2", sep = ""),
         skip = 7
       )
@@ -104,7 +140,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q3", sep = ""),
         skip = 7
       )
@@ -125,7 +161,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q4", sep = ""),
         skip = 7
       )
@@ -146,7 +182,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q1_(r)", sep = ""),
         skip = 7
       )
@@ -167,7 +203,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q2_(r)", sep = ""),
         skip = 7
       )
@@ -188,7 +224,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q3_(r)", sep = ""),
         skip = 7
       )
@@ -209,7 +245,7 @@ for (year in yearstart:yearend) {
   tryCatch({
     AllWorking <-
       read_ods(
-        "Data Sources/Vehicles/CurrentAll.ods",
+        "Data Sources/Vehicles/veh0104.ods",
         sheet = paste(year, "_Q4_(r)", sep = ""),
         skip = 7
       )
@@ -235,34 +271,34 @@ AllVehicles <- arrange(AllVehicles, Time)
 
 write.table(
   AllVehicles,
-  "R Data Output/AllVehicles.txt",
+  "Output/Vehicles/AllVehicles.txt",
   sep = "\t",
   na = "0",
   row.names = FALSE
 )
 
-AllVehiclesRegister <- read_excel("J:/ENERGY BRANCH/Statistics/Energy Statistics Processing/Data Sources/Vehicles/CurrentAllRegister.xlsx", 
+AllVehiclesRegister <- read_excel("Data Sources/Vehicles/CurrentAllRegister.xlsx",
                                      skip = 8)
 
 AllVehiclesRegister <- subset(AllVehiclesRegister, substr(AllVehiclesRegister$Date,5,6) == " Q" )
 
 write.table(
   AllVehiclesRegister,
-  "R Data Output/AllVehiclesRegister.txt",
+  "Output/Vehicles/AllVehiclesRegister.txt",
   sep = "\t",
   na = "0",
   row.names = FALSE
 )
 
 
-ULEVRegister <- read_excel("J:/ENERGY BRANCH/Statistics/Energy Statistics Processing/Data Sources/Vehicles/CurrentULEVRegister.xlsx", 
+ULEVRegister <- read_excel("Data Sources/Vehicles/CurrentULEVRegister.xlsx",
                                       skip = 6)
 
 ULEVRegister <- subset(ULEVRegister, substr(ULEVRegister$Date,5,6) == " Q" )
 
 write.table(
   ULEVRegister,
-  "R Data Output/ULEVRegisterRegister.txt",
+  "Output/Vehicles/ULEVRegister.txt",
   sep = "\t",
   na = "0",
   row.names = FALSE

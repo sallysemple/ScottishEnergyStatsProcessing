@@ -1,5 +1,6 @@
 library(readxl)
 library(tidyverse)
+library(magrittr)
 
 print("EUWindHydro")
 
