@@ -1,4 +1,6 @@
 library(magrittr)
+library(tidyverse)
+library(readxl)
 
 
 yearstart <- 2003
@@ -41,7 +43,15 @@ Renewable_Sites[is.na(Renewable_Sites)] <- 0
 
 Renewable_Sites$Wind <- Renewable_Sites$Wind2 
 
-Renewable_Sites$`Bioenergy and Waste` <- Renewable_Sites$`Landfill gas` + Renewable_Sites$`Other bioenergy3`  + Renewable_Sites$`Sewage gas` + Renewable_Sites$AD + Renewable_Sites$`Biomass and waste3`
+Renewable_Sites$`Other Bioenergy` <-  Renewable_Sites$`Other bioenergy3` + Renewable_Sites$AD + Renewable_Sites$`Biomass and waste3`
 
-Renewable_Sites <- select(Renewable_Sites, "Year", "Wind", "Hydro", "Wave and tidal", "Solar PV", "Bioenergy and Waste", "Total")
+Renewable_Sites <- select(Renewable_Sites, "Year", "Wind", "Offshore Wind", "Hydro","Solar PV", "Landfill gas", "Wave and tidal", "Sewage gas", "Other Bioenergy", "Total" )
 
+names(Renewable_Sites)[2] <- "Onshore Wind"
+
+Renewable_Sites$`Onshore Wind` <- Renewable_Sites$`Onshore Wind` - Renewable_Sites$`Offshore Wind`
+
+write.table(Renewable_Sites,
+            "Output/Renewable Generation/RenewableSites.txt",
+            sep = "\t",
+            row.names = FALSE)
