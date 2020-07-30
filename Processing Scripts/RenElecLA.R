@@ -81,6 +81,8 @@ source("Processing Scripts/LACodeFunction.R")
 
 RenewableElecLA <- LACodeUpdate(RenewableElecLA)
 
+names(RenewableElecLA)[10] <- "Total Renewable"
+
 write.table(RenewableElecLA,
             "Output/Renewable Generation/LARenGen.txt",
             sep = "\t",
