@@ -19,3 +19,12 @@ write.table(RenHeatEnergyFromWaste,
             "Output/Renewable Heat/RenHeatEnergyFromWaste.txt",
             sep = "\t",
             row.names = FALSE)
+
+RenHeatSize <- read_excel("Data Sources/MANUAL/RenHeatSize.xlsx")
+
+RenHeatSize <- RenHeatSize[c(8,1:7)]
+
+write.table(RenHeatSize,
+            "Output/Renewable Heat/RenHeatSize.txt",
+            sep = "\t",
+            row.names = FALSE)
