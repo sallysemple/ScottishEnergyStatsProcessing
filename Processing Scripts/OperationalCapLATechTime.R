@@ -84,25 +84,52 @@ for( i in 5:ncol(REPD)){
 
 REPD <- melt(REPD)
 
-REPD$LACode <- NULL
+REPD$LA <- NULL
 
 REPD$variable <- as.numeric(as.character(REPD$variable))
 
 REPD <- REPD[which(REPD$variable >1999),]
 
-names(REPD) <- c("LA", "Tech", "Year", "Capacity")
+names(REPD) <- c("LACode", "Tech", "Year", "Capacity")
 
-REPD <- dcast(REPD, Tech + Year ~ LA)
+REPD <- dcast(REPD, Tech + Year ~ LACode)
 
 REPD[is.na(REPD)] <- 0
 
 REPD <- melt(REPD, id.vars = c("Year", "Tech"))
 
-names(REPD)[3:4] <- c("LA", "Capacity")
+names(REPD)[3:4] <- c("LACode", "Capacity")
 
-REPD <- dcast(REPD, Year + LA ~ Tech)
+REPD <- dcast(REPD, Year + LACode ~ Tech)
 
 REPD$Total <- rowSums(REPD[3:13])
+
+LANameLookup <- read_excel("LALookup.xlsx", sheet = "Code to LA")
+
+names(LANameLookup) <- c("LACode", "LAName")
+
+REPDList <- list()
+
+for (year in min(REPD$Year):max(REPD$Year)){
+  
+  
+  REPDList[[year]] <- merge(REPD[which(REPD$Year == year),], LANameLookup, all = TRUE)
+  
+  REPDList[[year]]$Year <- year
+}
+
+REPD <- rbind_list(REPDList)
+
+REPD[which(is.na(REPD$LAName)),]$LAName <- "Offshore"
+
+REPD[is.na(REPD)] <- 0
+
+
+REPD <- REPD[c(2,15,1,3:14)]
+
+REPD <- REPD[order(REPD$Year, REPD$LAName),] 
+
+REPD[which(REPD$LACode == "NA"),]$LACode <- " "
 
 write.table(REPD,
             "Output/Renewable Capacity/LARenCapTechTime.txt",
