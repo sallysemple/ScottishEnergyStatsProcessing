@@ -135,3 +135,25 @@ write.table(REPD,
             "Output/Renewable Capacity/LARenCapTechTime.txt",
             sep = "\t",
             row.names = FALSE)
+
+REPDSimplified <- REPD[1:3]
+
+REPDSimplified$`Onshore Wind` <- REPD$`Wind Onshore`
+
+REPDSimplified$`Offshore Wind` <- REPD$`Wind Offshore`
+
+REPDSimplified$Hydro <- REPD$`Small Hydro` + REPD$`Large Hydro`
+
+REPDSimplified$`Solar photovoltaics` <- REPD$`Solar Photovoltaics`
+
+REPDSimplified$`Shoreline wave / tidal` <- REPD$`Shoreline wave / tidal`
+
+REPDSimplified$`Biomass and Energy from Waste` <- REPD$`Advanced Conversion Technologies` + REPD$`Anaerobic Digestion`+REPD$`Biomass (dedicated)`+REPD$`EfW Incineration`+REPD$`Landfill Gas`
+
+REPDSimplified$`Total Renewable` <- REPD$Total
+
+write.table(REPDSimplified,
+            "Output/Renewable Capacity/LARenCapSimple.txt",
+            sep = "\t",
+            row.names = FALSE)
+
