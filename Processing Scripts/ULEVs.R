@@ -303,3 +303,105 @@ write.table(
   na = "0",
   row.names = FALSE
 )
+
+
+library(readODS)
+library(readxl)
+library(readr)
+library(dplyr)
+library(data.table)
+library(lubridate)
+library(zoo)
+
+print("ULEVs")
+
+yearstart <- 2015
+
+yearend <- format(Sys.Date(), "%Y")
+
+### Set the Working Directory for the Scripts ###
+
+ULEV <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132a", skip = 6)
+
+colnames(ULEV)[1] <- "CODE"
+
+ULEV <- subset(ULEV, substr(CODE,1,2) == "S1" | substr(CODE,1,2) == "S9")
+for (year in 2011:2014) { 
+  colnames(ULEV)[colnames(ULEV)==paste(year," Q4", sep = "")] <- paste(year)
+  
+  ULEV[colnames(ULEV)==paste(year," Q3", sep = "")] <- NULL
+  ULEV[colnames(ULEV)==paste(year," Q2", sep = "")] <- NULL
+  ULEV[colnames(ULEV)==paste(year," Q1", sep = "")] <- NULL
+}
+
+ULEV$Category <- "Total"
+
+Battery <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132b", skip = 6)
+
+colnames(Battery)[1] <- "CODE"
+
+Battery <- subset(Battery, substr(CODE,1,2) == "S1" | substr(CODE,1,2) == "S9")
+for (year in 2011:2014) { 
+  colnames(Battery)[colnames(Battery)==paste(year," Q4", sep = "")] <- paste(year)
+  
+  Battery[colnames(Battery)==paste(year," Q3", sep = "")] <- NULL
+  Battery[colnames(Battery)==paste(year," Q2", sep = "")] <- NULL
+  Battery[colnames(Battery)==paste(year," Q1", sep = "")] <- NULL
+}
+
+Battery$Category <- "Battery"
+
+ULEV <- rbind(ULEV, Battery)
+
+Hybrid <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132c", skip = 6)
+
+colnames(Hybrid)[1] <- "CODE"
+
+Hybrid <- subset(Hybrid, substr(CODE,1,2) == "S1" | substr(CODE,1,2) == "S9")
+for (year in 2011:2014) { 
+  colnames(Hybrid)[colnames(Hybrid)==paste(year," Q4", sep = "")] <- paste(year)
+  
+  Hybrid[colnames(Hybrid)==paste(year," Q3", sep = "")] <- NULL
+  Hybrid[colnames(Hybrid)==paste(year," Q2", sep = "")] <- NULL
+  Hybrid[colnames(Hybrid)==paste(year," Q1", sep = "")] <- NULL
+}
+
+Hybrid$Category <- "Hybrid"
+
+ULEV <- rbind(ULEV, Hybrid)
+
+ULEV[2] <- NULL
+
+ULEV <- melt(ULEV, id.vars = c("Category", "CODE"))
+
+names(ULEV) <- c("Category", "LACode", "Quarter", "Value")
+
+ULEV$Value <- as.numeric(ULEV$Value)
+
+source("Processing Scripts/LACodeFunction.R")
+
+ULEV <- LACodeUpdate(ULEV)
+
+LANameLookup <- read_excel("LALookup.xlsx", sheet = "Code to LA")
+
+names(LANameLookup) <- c("LACode", "LAName")
+
+ULEV <- merge(ULEV, LANameLookup)
+
+ULEV <- dcast(ULEV, Quarter + LAName + LACode ~ Category, value.var = "Value")
+
+ULEV$Other <- ULEV$Total - ULEV$Hybrid - ULEV$Battery
+
+ULEV <- melt(ULEV)
+
+ULEV <- ULEV[which(substr(ULEV$Quarter,6,6) == "Q"),]
+
+ULEV$Quarter <- as.yearqtr(ULEV$Quarter)
+
+write.table(
+  ULEV,
+  "Output/Vehicles/ULEVbyLA.txt",
+  sep = "\t",
+  na = "0",
+  row.names = FALSE
+)
