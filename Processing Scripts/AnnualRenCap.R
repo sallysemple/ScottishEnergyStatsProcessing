@@ -38,6 +38,6 @@ RenGenCap$Quarter <- substr(RenGenCap$Quarter,1,4)
 names(RenGenCap)[1] <- "Year"
 
 write.table(RenGenCap,
-            "Output/Quarter Capacity/AnnualCapacityScotland.txt",
+            "Output/Renewable Capacity/AnnualCapacityScotland.txt",
             sep = "\t",
             row.names = FALSE)
