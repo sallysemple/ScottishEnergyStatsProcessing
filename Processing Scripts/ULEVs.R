@@ -392,6 +392,10 @@ ULEV <- dcast(ULEV, Quarter + LAName + LACode ~ Category, value.var = "Value")
 
 ULEV$Other <- ULEV$Total - ULEV$Hybrid - ULEV$Battery
 
+ULEV <- ULEV[c(1:5,7,6)]
+
+names(ULEV)[4:7] <- c("Battery Electric Vehicles", "Plug-in Hybrids", "Other ULEVs", "Total ULEVs")
+
 ULEV <- melt(ULEV)
 
 ULEV <- ULEV[which(substr(ULEV$Quarter,6,6) == "Q"),]

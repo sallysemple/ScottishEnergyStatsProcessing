@@ -6,12 +6,12 @@ library(data.table)
 library(magrittr)
 
 print("DualFuel")
-ElecTariff <- read_excel("Data Sources/Ofgem/Default Tariff/model_-_default_tariff_cap_level_v1.4.xlsx", 
-                            sheet = "ElecSingle_nonSC_3100kWh", skip = 11)
+ElecTariff <- read_excel("Data Sources/Ofgem/Default Tariff/default_tariff_cap_level_v1.7.xlsx", 
+                            sheet = "ElecSingle_Other_3100kWh", skip = 11)
 
 ElecTariff <- tail(ElecTariff,-2)
 
-ElecTariff <- ElecTariff[c(-1,-5,-6, -15)]
+ElecTariff <- ElecTariff[c(-4,-5,-6, -14)]
 
 names(ElecTariff)[1:3] <- c("Category", "Specific", "Region")
 
@@ -50,12 +50,12 @@ SSElecTariff <- dcast(SSElecTariff, Dates ~ Category, value.var = "Value")
 
 SSElecTariff <- SSElecTariff[which(SSElecTariff$Total > 0),]
 
-GasTariff <- read_excel("Data Sources/Ofgem/Default Tariff/model_-_default_tariff_cap_level_v1.4.xlsx", 
-                        sheet = "Gas_nonSC_12000kWh", skip = 11)
+GasTariff <- read_excel("Data Sources/Ofgem/Default Tariff/default_tariff_cap_level_v1.7.xlsx", 
+                        sheet = "Gas_Other_12000kWh", skip = 11)
 
 GasTariff <- tail(GasTariff,-2)
 
-GasTariff <- GasTariff[c(-1,-5,-6, -15)]
+GasTariff <- GasTariff[c(-4,-5,-6, -14)]
 
 names(GasTariff)[1:3] <- c("Category", "Specific", "Region")
 
@@ -89,15 +89,15 @@ SSGasTariff <- SSGasTariff[which(SSGasTariff$Total > 0),]
 
 NSDualFuel <- NSElecTariff
 
-NSDualFuel[2:8] <- NSElecTariff[2:8] + NSGasTariff[2:8]
+NSDualFuel[2:9] <- NSElecTariff[2:9] + NSGasTariff[2:9]
 
 NSDualFuel$Total <- NSDualFuel$Total - NSDualFuel$Headroom
 
 NSDualFuel$Headroom <- NULL
 
-NSDualFuel <- NSDualFuel[c(1,7,3,5,4,2,6)]
+NSDualFuel <- NSDualFuel[c(1,8,4,6,5,3,2,7)]
 
-NSDualFuel[,(2:7)] %<>% sapply(`/`,NSDualFuel[,7])
+NSDualFuel[,(2:8)] %<>% sapply(`/`,NSDualFuel[,8])
 
 NSDualFuel<- NSDualFuel[seq(dim(NSDualFuel)[1],1),]
 
@@ -108,15 +108,15 @@ write.table(NSDualFuel,
 
 SSDualFuel <- SSElecTariff
 
-SSDualFuel[2:8] <- SSElecTariff[2:8] + SSGasTariff[2:8]
+SSDualFuel[2:9] <- SSElecTariff[2:9] + SSGasTariff[2:9]
 
 SSDualFuel$Total <- SSDualFuel$Total - SSDualFuel$Headroom
 
 SSDualFuel$Headroom <- NULL
 
-SSDualFuel <- SSDualFuel[c(1,7,3,5,4,2,6)]
+SSDualFuel <- SSDualFuel[c(1,8,4,6,5,3,2,7)]
 
-SSDualFuel[,(2:7)] %<>% sapply(`/`,SSDualFuel[,7])
+SSDualFuel[,(2:8)] %<>% sapply(`/`,SSDualFuel[,8])
 
 SSDualFuel<- SSDualFuel[seq(dim(SSDualFuel)[1],1),]
 
