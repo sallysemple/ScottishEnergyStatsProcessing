@@ -35,7 +35,7 @@ RenewableElecCapLA <- RenewableElecCapLA[which(substr(RenewableElecCapLA$LACode,
 
 RenewableElecCapLA[3:5] <- NULL
 
-RenewableElecCapLA[3:15] %<>% lapply(function(x) as.numeric(as.character(x))/1000)
+RenewableElecCapLA[3:15] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 Unallocated <- RenewableElecCapLA %>% group_by(Year) %>% 
   summarise_at(c(3:15), funs(sum))
