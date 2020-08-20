@@ -15,16 +15,16 @@ yearend <- format(Sys.Date(), "%Y")
 for (year in yearstart:yearend) {
   
   tryCatch({
-RenewableElecLA <- read_excel("Data Sources/Renewable Generation/RenewableElecLA.xlsx", 
-                               sheet = paste0("LA - Generation, ", year), skip = 1)
-
-RenewableElecLA$Year <- year
-
-RenElecLAList[[year]] <- RenewableElecLA
-
-}, error = function(e) {
-  cat("ERROR :", conditionMessage(e), "\n")
-})
+    RenewableElecLA <- read_excel("Data Sources/Renewable Generation/RenewableElecLA.xlsx", 
+                                  sheet = paste0("LA - Generation, ", year), skip = 1)
+    
+    RenewableElecLA$Year <- year
+    
+    RenElecLAList[[year]] <- RenewableElecLA
+    
+  }, error = function(e) {
+    cat("ERROR :", conditionMessage(e), "\n")
+  })
 }
 
 RenewableElecLA <- rbind_list(RenElecLAList)
