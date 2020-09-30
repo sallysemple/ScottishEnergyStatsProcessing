@@ -1,3 +1,11 @@
+
+
+
+
+### Source file formating changed, being done manually ATM ###
+
+
+
 # library(readxl)
 # library(plyr)
 # library(dplyr)
@@ -6,9 +14,9 @@
 # 
 # print("FixedTariffs")
 # 
-# ElectricityPaymentMethod <- read_excel("Data Sources/Energy Bills/ElectricityPaymentMethod.xlsx", 
-#                                        sheet = "Fixed and Online Tariffs", 
-#                                        skip = 2)
+# ElectricityPaymentMethod <- read_excel("Data Sources/Energy Bills/ElectricityPaymentMethod.xlsx",
+#                                        sheet = "Fixed and Online Tariffs",
+#                                        skip = 3)[2:10]
 # 
 # ElectricityPaymentMethod <- ElectricityPaymentMethod[complete.cases(ElectricityPaymentMethod),]
 # 
@@ -29,8 +37,8 @@
 #             sep = "\t",
 #             row.names = FALSE)
 # 
-# GasPaymentMethod <- read_excel("Data Sources/Energy Bills/GasPaymentMethod.xlsx", 
-#                                        sheet = "Fixed Tariffs by Region", 
+# GasPaymentMethod <- read_excel("Data Sources/Energy Bills/GasPaymentMethod.xlsx",
+#                                        sheet = "Fixed Tariffs by Region",
 #                                        skip = 2)
 # 
 # GasPaymentMethod <- GasPaymentMethod[complete.cases(GasPaymentMethod),]

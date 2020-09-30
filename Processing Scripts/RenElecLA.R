@@ -27,11 +27,11 @@ for (year in yearstart:yearend) {
   })
 }
 
-RenewableElecLA <- rbind_list(RenElecLAList)
+RenewableElecLA <- bind_rows(RenElecLAList)
 
 names(RenewableElecLA)[1] <- "LACode"
 
-RenewableElecLA <- RenewableElecLA[which(substr(RenewableElecLA$LACode,1,1)== "S"),]
+RenewableElecLA <- RenewableElecLA[which(substr(RenewableElecLA$LACode,1,2)== "S1"),]
 
 RenewableElecLA[3:5] <- NULL
 
