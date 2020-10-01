@@ -9,7 +9,7 @@ print("FinalConsumption")
 
 DataList <- list()
 
-yearstart <- 2013
+yearstart <- 2005
 yearend <- format(Sys.Date(), "%Y")
 
 
@@ -111,14 +111,42 @@ TotalFinalLAConsumption$`All fuels` <- NULL
 
 
 
-TotalFinalLAConsumption <- TotalFinalLAConsumption[which(substr(TotalFinalLAConsumption$`LA Code`,1,1) == "S"),]
+TotalFinalLAConsumption <- TotalFinalLAConsumption[which(substr(TotalFinalLAConsumption$`LA Code`,1,1) == "S" | substr(TotalFinalLAConsumption$`LA Code`,1,1) == "K"),]
 
-TotalFinalLAConsumption <- subset(TotalFinalLAConsumption, TotalFinalLAConsumption$Region != "SCOTLAND")
+#TotalFinalLAConsumption <- subset(TotalFinalLAConsumption, TotalFinalLAConsumption$Region != "SCOTLAND")
 
 source("Processing Scripts/LACodeFunction.R")
 
 TotalFinalLAConsumption <- LACodeUpdate(TotalFinalLAConsumption)
 
-TotalFinalLAConsumption
+
+
+GasBioenergySplit <- read_excel("Data Sources/Subnational Consumption/GasBioenergySplit.xlsx")
+
+TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, GasBioenergySplit, all = TRUE)
+
+TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$Year, -TotalFinalLAConsumption$`LA Code`),]
+
+TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(34:38)
+
+TotalFinalLAConsumption <- as_tibble(TotalFinalLAConsumption )
+
+TotalFinalLAConsumption[4:38] %<>% lapply(function(x) as.numeric(as.character(x)))
+
+TotalFinalLAConsumption[is.na(TotalFinalLAConsumption)] <- 0
+
+TotalFinalLAConsumption$`Gas - Industrial` <- TotalFinalLAConsumption$`Gas - Industrial` * TotalFinalLAConsumption$`Gas - Industrial & Commercial`
+
+TotalFinalLAConsumption$`Gas - Commercial` <- TotalFinalLAConsumption$`Gas - Commercial` * TotalFinalLAConsumption$`Gas - Industrial & Commercial`
+
+TotalFinalLAConsumption$`Gas - Industrial & Commercial` <- NULL
+
+TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` <- TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` * TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial`
+
+TotalFinalLAConsumption$`Bioenergy & Wastes - Commercial` <- TotalFinalLAConsumption$`Bioenergy & Wastes - Commercial` * TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial`
+
+TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial` <- NULL
+
+TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1:21,33,34,22:26,35,36,27:32)]
 
 write_csv(TotalFinalLAConsumption, "Output/Consumption/TotalFinalConsumption.csv")
