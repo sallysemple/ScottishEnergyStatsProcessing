@@ -128,3 +128,83 @@ write.table(SSDualFuel,
 
 
 
+NSElecTariff$Total <- NSElecTariff$Total - NSElecTariff$Headroom
+
+NSElecTariff$Headroom <- NULL
+
+NSElecTariff <- NSElecTariff[c(1,8,4,6,5,3,2,7)]
+
+NSElecTariff[,(2:8)] %<>% sapply(`/`,NSElecTariff[,8])
+
+NSElecTariff<- NSElecTariff[seq(dim(NSElecTariff)[1],1),]
+
+write.table(NSElecTariff,
+            "Output/Energy Bills/NorthScotlandElecFuelBreakdown.txt",
+            sep = "\t",
+            row.names = FALSE)
+
+SSElecFuel <- SSElecTariff
+
+SSElecFuel[2:9] <- SSElecTariff[2:9] + SSGasTariff[2:9]
+
+SSElecFuel$Total <- SSElecFuel$Total - SSElecFuel$Headroom
+
+SSElecFuel$Headroom <- NULL
+
+SSElecFuel <- SSElecFuel[c(1,8,4,6,5,3,2,7)]
+
+SSElecFuel[,(2:8)] %<>% sapply(`/`,SSElecFuel[,8])
+
+SSElecFuel<- SSElecFuel[seq(dim(SSElecFuel)[1],1),]
+
+write.table(SSElecFuel,
+            "Output/Energy Bills/SouthScotlandElecFuelBreakdown.txt",
+            sep = "\t",
+            row.names = FALSE)
+
+
+
+NSGasTariff$Total <- NSGasTariff$Total - NSGasTariff$Headroom
+
+NSGasTariff$Headroom <- NULL
+
+NSGasTariff <- NSGasTariff[c(1,8,4,6,5,3,2,7)]
+
+NSGasTariff[,(2:8)] %<>% sapply(`/`,NSGasTariff[,8])
+
+NSGasTariff<- NSGasTariff[seq(dim(NSGasTariff)[1],1),]
+
+write.table(NSGasTariff,
+            "Output/Energy Bills/NorthScotlandGasFuelBreakdown.txt",
+            sep = "\t",
+            row.names = FALSE)
+
+SSGasFuel <- SSGasTariff
+
+SSGasFuel[2:9] <- SSGasTariff[2:9] + SSGasTariff[2:9]
+
+SSGasFuel$Total <- SSGasFuel$Total - SSGasFuel$Headroom
+
+SSGasFuel$Headroom <- NULL
+
+SSGasFuel <- SSGasFuel[c(1,8,4,6,5,3,2,7)]
+
+SSGasFuel[,(2:8)] %<>% sapply(`/`,SSGasFuel[,8])
+
+SSGasFuel<- SSGasFuel[seq(dim(SSGasFuel)[1],1),]
+
+write.table(SSGasFuel,
+            "Output/Energy Bills/SouthScotlandGasFuelBreakdown.txt",
+            sep = "\t",
+            row.names = FALSE)
+
+
+
+
+
+
+
+
+
+
+

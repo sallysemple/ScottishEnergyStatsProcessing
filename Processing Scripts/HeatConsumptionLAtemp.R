@@ -30,3 +30,19 @@ HeatWorking[4:20] <- HeatWorking[4:20] * HeatEndUseMultipliers[4:20]
 HeatWorking$Total <- rowSums(HeatWorking[4:20])
 
 write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLA.csv")
+
+HeatWorking$Coal <- HeatWorking$`Coal - Industrial` + HeatWorking$`Coal - Commercial` + HeatWorking$`Coal - Domestic`+ HeatWorking$`Coal - Public Sector`
+
+HeatWorking$`Manufactured fuels` <- HeatWorking$`Manufactured fuels - Industrial` + HeatWorking$`Manufactured fuels - Domestic`
+
+HeatWorking$`Petroleum products` <- HeatWorking$`Petroleum products - Industrial`+HeatWorking$`Petroleum products - Commercial`+HeatWorking$`Petroleum products - Domestic`+HeatWorking$`Petroleum products - Domestic`+HeatWorking$`Petroleum products - Public Sector`+HeatWorking$`Petroleum products - Agriculture`
+
+HeatWorking$`Total Gas` <- HeatWorking$`Gas - Industrial`+HeatWorking$`Gas - Commercial`+HeatWorking$`Gas - Domestic`
+
+HeatWorking$`Bioenergy & Wastes` <- HeatWorking$`Bioenergy & Wastes - Industrial`+HeatWorking$`Bioenergy & Wastes - Commercial`+HeatWorking$`Bioenergy & wastes - Domestic`
+
+names(HeatWorking)[21] <- "Total - All Fuels"
+
+HeatWorking[4:20] <- NULL
+
+write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLAMap.csv")

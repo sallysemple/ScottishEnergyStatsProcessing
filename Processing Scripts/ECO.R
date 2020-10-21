@@ -3,6 +3,7 @@ library(plyr)
 library(dplyr)
 library(tidyverse)
 library(magrittr)
+library(reshape2)
 
 print("ECO")
 ECOMeasuresHouseholds <- read_excel("Data Sources/ECO/Current.xlsx", 
@@ -85,6 +86,29 @@ ECOMeasuresTotalsCumulative <- rbind(ECOMeasuresTotalsCumulative, ECOMeasuresTot
 
 write.table(ECOMeasuresTotalsCumulative,
             "Output/ECO/ECOMeasuresTotals.txt",
+            sep = "\t",
+            row.names = FALSE)
+
+
+
+ECOMeasuresLA <- read_excel("Data Sources/ECO/Current.xlsx", 
+                                    sheet = "T3.4", skip = 2)
+
+ECOMeasuresLA[1,1:4] <- list("Code", "Country", "Region", "Local Authority")
+names(ECOMeasuresLA) <- ECOMeasuresLA[1,]
+
+
+
+ECOMeasuresLA <- ECOMeasuresLA[which(substr(ECOMeasuresLA$`Code`,1,2) == "S1"),]
+
+ECOMeasuresLA[c(2:4, 9:10)] <- NULL
+
+ECOMeasuresLA <- melt(ECOMeasuresLA, id.vars = "Code")
+
+ECOMeasuresLA <- merge(ECOMeasuresLA, read_excel("LALookup.xlsx", sheet = "Code to LA"), all.x = TRUE)
+
+write.table(ECOMeasuresLA[c(1,4,2,3)],
+            "Output/ECO/ECOMeasuresLA.txt",
             sep = "\t",
             row.names = FALSE)
 
