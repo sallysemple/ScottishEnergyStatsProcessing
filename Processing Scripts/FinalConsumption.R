@@ -3,6 +3,7 @@ library(readr)
 library(magrittr)
 library(tidyr)
 library(plyr)
+library(dplyr)
 library(data.table)
 
 print("FinalConsumption")
@@ -165,6 +166,20 @@ FinalConsumptionScotStat <- separate(FinalConsumptionScotStat, 4, c("Energy Type
 
 FinalConsumptionScotStat$Measurement <- "Count"
 
-FinalConsumptiionScotStat$Units <- "GWh"
+FinalConsumptionScotStat$Units <- "GWh"
 
-FinalConcumptionScotStat$Region <- NULL
+FinalConsumptionScotStat$Region <- NULL
+
+names(FinalConsumptionScotStat) <- c("FeatureCode", "DateCode", "Energy Type", "Energy Consuming Sector", "Value", "Measurement", "Units")
+
+FinalConsumptionScotStat$`Energy Consuming Sector` <- trimws(FinalConcumptionScotStat$`Energy Consuming Sector`)
+
+FinalConsumptionScotStat$`Energy Type` <- trimws(FinalConcumptionScotStat$`Energy Type`)
+
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Consuming Sector` %in% c("Industrial","Commercial", "Industrial & Commercial", "Industry & Commercial")),]$`Energy Consuming Sector` <- "Industrial & Commercial"
+
+FinalConsumptionScotStat <- FinalConsumptionScotStat %>% group_by(FeatureCode, DateCode,Measurement, Units,`Energy Type`, `Energy Consuming Sector`) %>% summarise(Value = sum(Value))
+
+unique(FinalConsumptionScotStat$`Energy Consuming Sector`)
+
+write_csv(FinalConsumptionScotStat, "Output/Consumption/ScotStatConsumption.csv")
