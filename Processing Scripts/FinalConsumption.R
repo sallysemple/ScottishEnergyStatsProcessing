@@ -180,6 +180,8 @@ FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Consuming Sector
 
 FinalConsumptionScotStat <- FinalConsumptionScotStat %>% group_by(GeographyCode, DateCode,Measurement, Units,`Energy Type`, `Energy Consuming Sector`) %>% summarise(Value = sum(Value))
 
+FinalConsumptionScotStat <- FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` != "Consuming Sector"),]
+
 unique(FinalConsumptionScotStat$`Energy Consuming Sector`)
 
 write_csv(FinalConsumptionScotStat, "Output/Consumption/ScotStatConsumption.csv")
