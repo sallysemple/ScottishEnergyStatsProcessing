@@ -1,4 +1,4 @@
-FeatureCode,DateCode,Measurement,Units,Energy Type,Energy Consuming Sector,Value
+GeographyCode,DateCode,Measurement,Units,Energy Type,Energy Consuming Sector,Value
 S12000005,2005,Count,GWh,All fuels,Total,1567.8283465
 S12000005,2005,Count,GWh,Bioenergy & wastes,Domestic,5.1024192934
 S12000005,2005,Count,GWh,Bioenergy & wastes,Total,5.1024192934
