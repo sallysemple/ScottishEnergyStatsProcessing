@@ -150,3 +150,21 @@ TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial` <- NULL
 TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1:21,33,34,22:26,35,36,27:32)]
 
 write_csv(TotalFinalLAConsumption, "Output/Consumption/TotalFinalConsumption.csv")
+
+
+### Statistics.gov.scot
+
+FinalConsumptionScotStat <- melt(TotalFinalLAConsumption, id.vars = c("LA Code", "Year", "Region"))
+
+
+FinalConsumptionScotStat <- FinalConsumptionScotStat[which(substr(FinalConsumptionScotStat$`LA Code`,1,1) == "S"),]
+
+FinalConsumptionScotStat <- FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Region` != "SCOTLAND"),]
+
+FinalConsumptionScotStat <- separate(FinalConsumptionScotStat, 4, c("Energy Type", "Energy Consuming Sector"), sep = "-")
+
+FinalConsumptionScotStat$Measurement <- "Count"
+
+FinalConsumptiionScotStat$Units <- "GWh"
+
+FinalConcumptionScotStat$Region <- NULL
