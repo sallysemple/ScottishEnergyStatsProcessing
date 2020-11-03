@@ -8,6 +8,8 @@ FullDataset <- read_excel("Data Sources/Greenhouse Gas/FullDataset.xlsx",
 
 FullDataset$Category <- "Other"
 
+FullDataset[which(FullDataset$`CCP mapping` == "Industry"),]$Category <- "Indusrty"
+
 FullDataset[which(FullDataset$IPCC == "1A1ai_Public_Electricity&Heat_Production"),]$Category <- "Electricity"
 
 
@@ -18,6 +20,8 @@ FullDataset[which(FullDataset$`SG Source Sector` == "Business and Industrial Pro
 FullDataset[which(FullDataset$`SG Source Sector` == "Public Sector Buildings"),]$Category <- "Heat"
 FullDataset[which(FullDataset$`SG Source Sector` == "Residential" & FullDataset$SourceName == "Domestic combustion"),]$Category <- "Heat"
 
+#Take Inventory and map what we include 
+
 ElectricityDataset <- FullDataset[which(FullDataset$Category == "Electricity"),]
 TransportDataset <- FullDataset[which(FullDataset$Category == "Transport"),]
 HeatDataset <- FullDataset[which(FullDataset$Category == "Heat"),]
@@ -27,6 +31,8 @@ FullDataset <- FullDataset %>%
   summarise( `Emissions (MtCO2e)` = sum(`Emissions (MtCO2e)`))
 
 FullDataset <- dcast(FullDataset, EmissionYear ~ Category)
+
+FullDataset$Total <- rowSums(FullDataset[2:6])
 
 write.table(
   FullDataset,

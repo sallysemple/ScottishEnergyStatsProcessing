@@ -1,5 +1,8 @@
 library(readxl)
 library(readr)
+library(plyr)
+library(dplyr)
+library(reshape2)
 
 RenHeatCapOutput <- read_excel("Data Sources/MANUAL/RenHeatCapOutput.xlsx")
 
@@ -26,5 +29,14 @@ RenHeatSize <- RenHeatSize[c(8,1:7)]
 
 write.table(RenHeatSize,
             "Output/Renewable Heat/RenHeatSize.txt",
+            sep = "\t",
+            row.names = FALSE)
+
+RenHeatLA <- read_excel("Data Sources/MANUAL/RenHeatCapLA.xlsx")
+
+RenHeatLA <- melt(RenHeatLA)
+
+write.table(RenHeatLA,
+            "Output/Renewable Heat/RenHeatLA.txt",
             sep = "\t",
             row.names = FALSE)
