@@ -34,10 +34,9 @@ FullDataset <- dcast(FullDataset, EmissionYear ~ Category)
 
 FullDataset$Total <- rowSums(FullDataset[2:6])
 
-write.table(
+write.csv(
   FullDataset,
-  "Output/Greenhouse Gas/GHGElecHeatTransport.txt",
-  sep = "\t",
+  "Output/Greenhouse Gas/GHGSector.csv",
   na = "0",
   row.names = FALSE
 )
@@ -49,10 +48,9 @@ ElectricityDataset <- ElectricityDataset %>%
 
 ElectricityDataset <- dcast(ElectricityDataset, EmissionYear ~ SourceName)
 
-write.table(
+write.csv(
   ElectricityDataset,
-  "Output/Greenhouse Gas/GHGElectricityBreakdown.txt",
-  sep = "\t",
+  "Output/Greenhouse Gas/GHGElectricityBreakdown.csv",
   na = "0",
   row.names = FALSE
 )
@@ -63,10 +61,9 @@ HeatDataset <- HeatDataset %>%
 
 HeatDataset <- dcast(HeatDataset, EmissionYear ~ `SG Source Sector`)
 
-write.table(
+write.csv(
   HeatDataset,
-  "Output/Greenhouse Gas/GHGHeatBreakdown.txt",
-  sep = "\t",
+  "Output/Greenhouse Gas/GHGHeatBreakdown.csv",
   na = "0",
   row.names = FALSE
 )
@@ -77,10 +74,9 @@ TransportDataset <- TransportDataset %>%
 
 TransportDataset <- dcast(TransportDataset, EmissionYear ~ `SG Source Sector`)
 
-write.table(
+write.csv(
   TransportDataset,
-  "Output/Greenhouse Gas/GHGTransportBreakdown.txt",
-  sep = "\t",
+  "Output/Greenhouse Gas/GHGTransportBreakdown.csv",
   na = "0",
   row.names = FALSE
 )
