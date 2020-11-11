@@ -8,7 +8,7 @@ FullDataset <- read_excel("Data Sources/Greenhouse Gas/FullDataset.xlsx",
 
 FullDataset$Category <- "Other"
 
-FullDataset[which(FullDataset$`CCP mapping` == "Industry"),]$Category <- "Indusrty"
+FullDataset[which(FullDataset$`CCP mapping` == "Industry"),]$Category <- "Industry"
 
 FullDataset[which(FullDataset$IPCC == "1A1ai_Public_Electricity&Heat_Production"),]$Category <- "Electricity"
 
