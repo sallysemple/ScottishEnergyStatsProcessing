@@ -172,15 +172,19 @@ FinalConsumptionScotStat$Region <- NULL
 
 names(FinalConsumptionScotStat) <- c("GeographyCode", "DateCode", "Energy Type", "Energy Consuming Sector", "Value", "Measurement", "Units")
 
-FinalConsumptionScotStat$`Energy Consuming Sector` <- trimws(FinalConcumptionScotStat$`Energy Consuming Sector`)
+FinalConsumptionScotStat$`Energy Consuming Sector` <- trimws(FinalConsumptionScotStat$`Energy Consuming Sector`)
 
-FinalConsumptionScotStat$`Energy Type` <- trimws(FinalConcumptionScotStat$`Energy Type`)
+FinalConsumptionScotStat$`Energy Type` <- trimws(FinalConsumptionScotStat$`Energy Type`)
 
 FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Consuming Sector` %in% c("Industrial","Commercial", "Industrial & Commercial", "Industry & Commercial")),]$`Energy Consuming Sector` <- "Industrial & Commercial"
 
 FinalConsumptionScotStat <- FinalConsumptionScotStat %>% group_by(GeographyCode, DateCode,Measurement, Units,`Energy Type`, `Energy Consuming Sector`) %>% summarise(Value = sum(Value))
 
 FinalConsumptionScotStat <- FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` != "Consuming Sector"),]
+
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "All fuels"),]$`Energy Type` <- "All"
+
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Consuming Sector` == "Total"),]$`Energy Consuming Sector` <- "All"
 
 unique(FinalConsumptionScotStat$`Energy Consuming Sector`)
 
