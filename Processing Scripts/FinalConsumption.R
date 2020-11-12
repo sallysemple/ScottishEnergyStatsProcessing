@@ -180,7 +180,7 @@ FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Consuming Sector
 
 FinalConsumptionScotStat <- FinalConsumptionScotStat %>% group_by(GeographyCode, DateCode,Measurement, Units,`Energy Type`, `Energy Consuming Sector`) %>% summarise(Value = sum(Value))
 
-FinalConsumptionScotStat <- FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` != "Consuming Sector"),]
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "Consuming Sector"),]$`Energy Type` <- "All"
 
 FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "All fuels"),]$`Energy Type` <- "All"
 
