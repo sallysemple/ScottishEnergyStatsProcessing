@@ -13,13 +13,15 @@ yearend <- format(Sys.Date(), "%Y")
 setwd("J:/ENERGY BRANCH/Statistics/Energy Statistics Processing")
 
 DomesticElecCustomers <- read_excel("Data Sources/Domestic Energy Customers/CurrentElectricity.xlsx", 
-                                      sheet = "Quarterly Database", skip = 2)
+                                      sheet = "Quarterly", skip = 3)
 DomesticElecCustomers          <-
   subset(DomesticElecCustomers, nchar(DomesticElecCustomers$Quarter) != 9)
 
+names(DomesticElecCustomers)[3] <- "Region"
+
 NorthScotElec <- subset(DomesticElecCustomers, Region == "North Scotland")
 
-NorthScotElec[2] <- NULL
+NorthScotElec[c(1,3,8)] <- NULL
 
 write.table(
   NorthScotElec,
@@ -31,7 +33,7 @@ write.table(
 
 SouthScotElec <- subset(DomesticElecCustomers, Region == "South Scotland")
 
-SouthScotElec[2] <- NULL
+SouthScotElec[c(1,3,8)] <- NULL
 
 write.table(
   SouthScotElec,
@@ -43,7 +45,7 @@ write.table(
 
 GBElec <- subset(DomesticElecCustomers, Region == "Great Britain")
 
-GBElec[2] <- NULL
+GBElec[c(1,3,8)] <- NULL
 
 write.table(
   GBElec,
@@ -58,16 +60,18 @@ write.table(
 
 
 DomesticGasCustomers <- read_excel("Data Sources/Domestic Energy Customers/CurrentGas.xlsx", 
-                                    sheet = "Quarterly Database", skip = 2)
+                                    sheet = "Quarterly", skip = 3)
 
 DomesticGasCustomers          <-
   subset(DomesticGasCustomers, nchar(DomesticGasCustomers$Quarter) != 9)
 
 DomesticGasCustomers$Quarter <- substring(DomesticGasCustomers$Quarter, 1, 8)
 
-NorthScotGas <- subset(DomesticGasCustomers, `LDZ Region` == "North Scotland")
+names(DomesticGasCustomers)[3] <- "Region"
 
-NorthScotGas[2] <- NULL
+NorthScotGas <- subset(DomesticGasCustomers, `Region` == "North Scotland")
+
+NorthScotGas[c(1,3,8)] <- NULL
 
 write.table(
   NorthScotGas,
@@ -77,9 +81,9 @@ write.table(
   row.names = FALSE
 )
 
-SouthScotGas <- subset(DomesticGasCustomers, `LDZ Region` == "South Scotland")
+SouthScotGas <- subset(DomesticGasCustomers, `Region` == "South Scotland")
 
-SouthScotGas[2] <- NULL
+SouthScotGas[c(1,3,8)] <- NULL
 
 write.table(
   SouthScotGas,
@@ -89,9 +93,9 @@ write.table(
   row.names = FALSE
 )
 
-GBGas <- subset(DomesticGasCustomers, `LDZ Region` == "Great Britain")
+GBGas <- subset(DomesticGasCustomers, `Region` == "Great Britain")
 
-GBGas[2] <- NULL
+GBGas[c(1,3,8)] <- NULL
 
 write.table(
   GBGas,
