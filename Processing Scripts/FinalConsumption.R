@@ -184,8 +184,18 @@ FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "Consum
 
 FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "All fuels"),]$`Energy Type` <- "All"
 
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "Bioenergy & wastes"),]$`Energy Type` <- "Bioenergy & Wastes"
+
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "Manufactured fuels"),]$`Energy Type` <- "Manufactured Fuels"
+
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Type` == "Petroleum products"),]$`Energy Type` <- "Petroleum Products"
+
 FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Consuming Sector` == "Total"),]$`Energy Consuming Sector` <- "All"
 
+FinalConsumptionScotStat[which(FinalConsumptionScotStat$`Energy Consuming Sector` == "Road transport"),]$`Energy Consuming Sector` <- "Road Transport"
+
 unique(FinalConsumptionScotStat$`Energy Consuming Sector`)
+
+unique(FinalConsumptionScotStat$`Energy Type`)
 
 write_csv(FinalConsumptionScotStat, "Output/Consumption/ScotStatConsumption.csv")
