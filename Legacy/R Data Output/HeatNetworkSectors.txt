@@ -1,0 +1,4 @@
+"customer_type"	"Communal"	"District"	"DwellingCustomers"	"NonDomConnectedCustomers"	"capacity_kw"	"generation_kwh"	"supply"
+"Domestic"	300	327	22312	0	0.17335741574	285.09633205892	198.61300738103
+"Mixed"	76	43	7335	455	0.1811018222	359.6893698376	210.8486657451
+"Non-Domestic"	298	36	0	2416	0.4840086905385	1997.3995470197	768.22439246025

@@ -1,0 +1,13 @@
+"Table 5: Primary Heating Fuel, Households (000s) and %, for All Stock and by Sector, 2018"	"X__1"	"X__2"	"X__3"	"X__4"	"X__5"	"X__6"	"X__7"
+0	0	"All Stock"	0	"Private"	0	"Social"	0
+"Primary Heating Fuel"	0	"000s"	"%"	"000s"	"%"	"000s"	"%"
+"Mains gas"	0	"2002"	"0.81"	"1471"	"0.81"	"530"	"0.81"
+"Electricity"	0	"247"	"0.1"	"152"	"0.08"	"95"	"0.14000000000000001"
+"Oil"	0	"145"	"0.06"	"145"	"0.08"	"-"	"-"
+"Communal Heating"	0	"32"	"0.01"	"5"	"0"	"27"	"0.04"
+"LPG bulk or bottled"	0	"27"	"0.01"	"*"	"*"	"*"	"*"
+"Solid mineral fuel"	0	"8"	"0"	"*"	"*"	"*"	"*"
+"Biomass"	0	"16"	"0.01"	"16"	"0.01"	"-"	"-"
+"Sample size"	2964	0	0	"2231"	0	"733"	0
+0	0	0	0	0	0	0	0
+"“*” denotes cases where attributes appear too rarely to provide an adequate basis for reporting. “–“ denotes no sampled cases. See section 7.1.6 for table conventions."	0	0	0	0	0	0	0

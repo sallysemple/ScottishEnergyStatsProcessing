@@ -1,0 +1,6 @@
+"Year"	"Boiler"	"Cavity wall insulation"	"Loft insulation"	"Solid wall insulation"
+2011	0	-1800	-500	0
+2012	0	-1600	-400	-2300
+2013	-1600	-1600	-600	-2400
+2014	-1300	-1300	-500	-1600
+2015	-1200	-1100	-300	-1600

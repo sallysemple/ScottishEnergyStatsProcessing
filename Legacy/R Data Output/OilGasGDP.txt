@@ -1,0 +1,40 @@
+"Year"	"ScotlandGDP"	"ScotlandIncludingExtraGDP"
+"1998"	"77997.804570323002"	"85204.104841634602"
+"1999"	"78935.349840120805"	"87814.452094936903"
+"2000"	"82648.209509958004"	"97790.647675013301"
+"2001"	"86643.882702427203"	"101014.25817319901"
+"2002"	"90385.064724545606"	"103216.787715076"
+"2003"	"95856.877430922206"	"108711.141293768"
+"2004"	"101606.88615248"	"115839.962788643"
+"2005"	"108536.012975006"	"125887.72211051801"
+"2006"	"114385.758998691"	"132011.57236724001"
+"2007"	"119850.77710186499"	"138057.57845266501"
+"2008"	"123875.27572587501"	"145891.10322304399"
+"2009"	"123497.841501463"	"137694.670749966"
+"2010"	"123757.156525663"	"142583.50687788401"
+"2011"	"128233.80371059899"	"149061.96473490901"
+"2012"	"132525.949288545"	"150647.72007686799"
+"2013"	"139177.03273469899"	"156290.94975092"
+"2014"	"145824.60823922901"	"158852.93656284799"
+"2015"	"146770.652059607"	"154277.63225613299"
+"2016"	"151229.279446228"	"157945.54281814801"
+"2017"	"157402.83140362299"	"164411.59861066999"
+"2018"	"163889.16478873801"	"175524.68797400201"
+"2019"	"168142.126496449"	"177105.66437874001"
+"Annualised (sum of not seasonally adjusted quarters)"	0	0
+0	0	0
+"Latest year compared to previous year"	0	0
+"2017"	"4.0822464935370562E-2"	"4.0938513851997316E-2"
+"2018"	"4.1208492422110998E-2"	"6.7593098402066065E-2"
+"2019"	"2.5950231140620561E-2"	"9.0071455074864915E-3"
+0	0	0
+"Latest quarter compared to previous quarter"	0	0
+0	0	0
+"Latest quarter compared to the same quarter a year earlier"	0	0
+"1 Annualised results are based on quarterly non-seasonally adjusted values. These are available in Table E"	0	0
+"2 Includes a population share of overseas public administration & defence (PAD) and offshore oil and gas extraction"	0	0
+"3 Includes a pop share of overseas PAD, and a geographical share of offshore oil and gas extraction"	0	0
+"4 Extra-regio apportionment methodology is consistent with Government Expenditure & Revenue Scotland (GERS)"	0	0
+"5 Mid-year population estimates are used to represent the population in Q2 and for each year as a whole. Population estimates for Q1, Q3 & Q4 
+    are interpolated, consistent with UK National Accounts. This method means that annual GDP per capita does not equal the sum of the four
+    quarters in the year."	0	0

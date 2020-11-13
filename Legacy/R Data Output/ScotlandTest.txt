@@ -1,0 +1,327 @@
+"LA"	"TechType"	"Status"	"Lookup"	"Capacity"	"TurbineAmount"	"Sites"
+"Aberdeen City"	"Biomass (dedicated)"	"Abandoned"	"Aberdeen CityBiomass (dedicated)Abandoned"	22	0	1
+"Aberdeen City"	"EfW Incineration"	"Application Refused"	"Aberdeen CityEfW IncinerationApplication Refused"	12	0	1
+"Aberdeen City"	"EfW Incineration"	"Awaiting Construction"	"Aberdeen CityEfW IncinerationAwaiting Construction"	11.1	0	1
+"Aberdeen City"	"Landfill Gas"	"Operational"	"Aberdeen CityLandfill GasOperational"	2.2	0	1
+"Aberdeenshire"	"Battery"	"Application Submitted"	"AberdeenshireBatteryApplication Submitted"	0	0	2
+"Aberdeenshire"	"Battery"	"Awaiting Construction"	"AberdeenshireBatteryAwaiting Construction"	45	0	3
+"Aberdeenshire"	"Battery"	"Operational"	"AberdeenshireBatteryOperational"	1	0	1
+"Aberdeenshire"	"Biomass (dedicated)"	"Abandoned"	"AberdeenshireBiomass (dedicated)Abandoned"	4	0	1
+"Aberdeenshire"	"Biomass (dedicated)"	"Application Submitted"	"AberdeenshireBiomass (dedicated)Application Submitted"	3	0	1
+"Aberdeenshire"	"Biomass (dedicated)"	"Operational"	"AberdeenshireBiomass (dedicated)Operational"	1.2	0	1
+"Aberdeenshire"	"Landfill Gas"	"Operational"	"AberdeenshireLandfill GasOperational"	6.472	0	2
+"Aberdeenshire"	"Small Hydro"	"Awaiting Construction"	"AberdeenshireSmall HydroAwaiting Construction"	2	0	1
+"Aberdeenshire"	"Solar Photovoltaics"	"Awaiting Construction"	"AberdeenshireSolar PhotovoltaicsAwaiting Construction"	9.5	0	4
+"Aberdeenshire"	"Solar Photovoltaics"	"Operational"	"AberdeenshireSolar PhotovoltaicsOperational"	10.75	0	5
+"Aberdeenshire"	"Wind Onshore"	"Abandoned"	"AberdeenshireWind OnshoreAbandoned"	150	0	1
+"Aberdeenshire"	"Wind Onshore"	"Application Refused"	"AberdeenshireWind OnshoreApplication Refused"	419.85	198	46
+"Aberdeenshire"	"Wind Onshore"	"Application Submitted"	"AberdeenshireWind OnshoreApplication Submitted"	143.45	38	3
+"Aberdeenshire"	"Wind Onshore"	"Application Withdrawn"	"AberdeenshireWind OnshoreApplication Withdrawn"	193.15	130	24
+"Aberdeenshire"	"Wind Onshore"	"Awaiting Construction"	"AberdeenshireWind OnshoreAwaiting Construction"	18.8	17	7
+"Aberdeenshire"	"Wind Onshore"	"Operational"	"AberdeenshireWind OnshoreOperational"	503.9	270	63
+"Angus"	"Battery"	"Application Submitted"	"AngusBatteryApplication Submitted"	0	0	1
+"Angus"	"Landfill Gas"	"Operational"	"AngusLandfill GasOperational"	2	0	1
+"Angus"	"Solar Photovoltaics"	"Abandoned"	"AngusSolar PhotovoltaicsAbandoned"	10	0	2
+"Angus"	"Solar Photovoltaics"	"Awaiting Construction"	"AngusSolar PhotovoltaicsAwaiting Construction"	71	0	4
+"Angus"	"Solar Photovoltaics"	"Operational"	"AngusSolar PhotovoltaicsOperational"	20	0	3
+"Angus"	"Solar Photovoltaics"	"Planning Permission Expired"	"AngusSolar PhotovoltaicsPlanning Permission Expired"	31	0	1
+"Angus"	"Solar Photovoltaics"	"Under Construction"	"AngusSolar PhotovoltaicsUnder Construction"	9.99	0	2
+"Angus"	"Wind Onshore"	"Abandoned"	"AngusWind OnshoreAbandoned"	85	35	2
+"Angus"	"Wind Onshore"	"Application Refused"	"AngusWind OnshoreApplication Refused"	153	72	13
+"Angus"	"Wind Onshore"	"Application Withdrawn"	"AngusWind OnshoreApplication Withdrawn"	208.8	83	9
+"Angus"	"Wind Onshore"	"Awaiting Construction"	"AngusWind OnshoreAwaiting Construction"	4.8	6	1
+"Angus"	"Wind Onshore"	"Operational"	"AngusWind OnshoreOperational"	6.4	8	1
+"Argyll and Bute"	"Advanced Conversion Technologies"	"Awaiting Construction"	"Argyll and ButeAdvanced Conversion TechnologiesAwaiting Construction"	5.5	0	1
+"Argyll and Bute"	"Battery"	"Application Submitted"	"Argyll and ButeBatteryApplication Submitted"	30	0	1
+"Argyll and Bute"	"Battery"	"Decommissioned"	"Argyll and ButeBatteryDecommissioned"	0.1	0	1
+"Argyll and Bute"	"Large Hydro"	"Operational"	"Argyll and ButeLarge HydroOperational"	14	0	2
+"Argyll and Bute"	"Pumped Storage Hydroelectricity"	"Operational"	"Argyll and ButePumped Storage HydroelectricityOperational"	440	0	1
+"Argyll and Bute"	"Small Hydro"	"Abandoned"	"Argyll and ButeSmall HydroAbandoned"	1.5	0	1
+"Argyll and Bute"	"Small Hydro"	"Application Refused"	"Argyll and ButeSmall HydroApplication Refused"	2	0	1
+"Argyll and Bute"	"Small Hydro"	"Application Submitted"	"Argyll and ButeSmall HydroApplication Submitted"	3.15	0	3
+"Argyll and Bute"	"Small Hydro"	"Awaiting Construction"	"Argyll and ButeSmall HydroAwaiting Construction"	2	0	1
+"Argyll and Bute"	"Small Hydro"	"Operational"	"Argyll and ButeSmall HydroOperational"	18.97	0	10
+"Argyll and Bute"	"Wind Onshore"	"Application Refused"	"Argyll and ButeWind OnshoreApplication Refused"	497.937	242	18
+"Argyll and Bute"	"Wind Onshore"	"Application Submitted"	"Argyll and ButeWind OnshoreApplication Submitted"	348.8	89	6
+"Argyll and Bute"	"Wind Onshore"	"Application Withdrawn"	"Argyll and ButeWind OnshoreApplication Withdrawn"	503.833	184	13
+"Argyll and Bute"	"Wind Onshore"	"Awaiting Construction"	"Argyll and ButeWind OnshoreAwaiting Construction"	94	48	4
+"Argyll and Bute"	"Wind Onshore"	"Operational"	"Argyll and ButeWind OnshoreOperational"	359.589	280	17
+"Argyll and Bute"	"Wind Onshore"	"Planning Permission Expired"	"Argyll and ButeWind OnshorePlanning Permission Expired"	36.8	16	1
+"City of Edinburgh"	"Biomass (dedicated)"	"Application Withdrawn"	"City of EdinburghBiomass (dedicated)Application Withdrawn"	120	0	1
+"Clackmannanshire"	"Solar Photovoltaics"	"Operational"	"ClackmannanshireSolar PhotovoltaicsOperational"	4.99	0	1
+"Clackmannanshire"	"Wind Onshore"	"Application Refused"	"ClackmannanshireWind OnshoreApplication Refused"	5	2	1
+"Clackmannanshire"	"Wind Onshore"	"Application Submitted"	"ClackmannanshireWind OnshoreApplication Submitted"	10.8	3	1
+"Clackmannanshire"	"Wind Onshore"	"Operational"	"ClackmannanshireWind OnshoreOperational"	38	19	2
+"Dumfries and Galloway"	"Advanced Conversion Technologies"	"Application Withdrawn"	"Dumfries and GallowayAdvanced Conversion TechnologiesApplication Withdrawn"	15	0	1
+"Dumfries and Galloway"	"Advanced Conversion Technologies"	"Decommissioned"	"Dumfries and GallowayAdvanced Conversion TechnologiesDecommissioned"	7.2	0	1
+"Dumfries and Galloway"	"Anaerobic Digestion"	"Operational"	"Dumfries and GallowayAnaerobic DigestionOperational"	1.2	0	1
+"Dumfries and Galloway"	"Biomass (dedicated)"	"Operational"	"Dumfries and GallowayBiomass (dedicated)Operational"	50.4	0	1
+"Dumfries and Galloway"	"Pumped Storage Hydroelectricity"	"Awaiting Construction"	"Dumfries and GallowayPumped Storage HydroelectricityAwaiting Construction"	400	0	1
+"Dumfries and Galloway"	"Solar Photovoltaics"	"Planning Permission Expired"	"Dumfries and GallowaySolar PhotovoltaicsPlanning Permission Expired"	5	0	1
+"Dumfries and Galloway"	"Wind Onshore"	"Abandoned"	"Dumfries and GallowayWind OnshoreAbandoned"	74	37	2
+"Dumfries and Galloway"	"Wind Onshore"	"Application Refused"	"Dumfries and GallowayWind OnshoreApplication Refused"	550.45	207	21
+"Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	"Dumfries and GallowayWind OnshoreApplication Submitted"	604.1	169	11
+"Dumfries and Galloway"	"Wind Onshore"	"Application Withdrawn"	"Dumfries and GallowayWind OnshoreApplication Withdrawn"	542.137	149	14
+"Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	"Dumfries and GallowayWind OnshoreAwaiting Construction"	399.5	154	13
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	"Dumfries and GallowayWind OnshoreOperational"	881.82	440	24
+"Dumfries and Galloway"	"Wind Onshore"	"Under Construction"	"Dumfries and GallowayWind OnshoreUnder Construction"	4	2	1
+"Dundee City"	"Biomass (dedicated)"	"Application Withdrawn"	"Dundee CityBiomass (dedicated)Application Withdrawn"	120	0	1
+"Dundee City"	"EfW Incineration"	"Operational"	"Dundee CityEfW IncinerationOperational"	8.3	0	1
+"Dundee City"	"EfW Incineration"	"Under Construction"	"Dundee CityEfW IncinerationUnder Construction"	10	0	1
+"Dundee City"	"Solar Photovoltaics"	"Abandoned"	"Dundee CitySolar PhotovoltaicsAbandoned"	0	0	1
+"Dundee City"	"Wind Onshore"	"Operational"	"Dundee CityWind OnshoreOperational"	4	2	1
+"East Ayrshire"	"EfW Incineration"	"Awaiting Construction"	"East AyrshireEfW IncinerationAwaiting Construction"	12	0	1
+"East Ayrshire"	"Landfill Gas"	"Operational"	"East AyrshireLandfill GasOperational"	6.74	0	3
+"East Ayrshire"	"Small Hydro"	"Application Submitted"	"East AyrshireSmall HydroApplication Submitted"	0.3	0	1
+"East Ayrshire"	"Wind Onshore"	"Application Refused"	"East AyrshireWind OnshoreApplication Refused"	610.6	217	15
+"East Ayrshire"	"Wind Onshore"	"Application Submitted"	"East AyrshireWind OnshoreApplication Submitted"	136.9	42	3
+"East Ayrshire"	"Wind Onshore"	"Application Withdrawn"	"East AyrshireWind OnshoreApplication Withdrawn"	165.0338	25	6
+"East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	"East AyrshireWind OnshoreAwaiting Construction"	408.3	122	7
+"East Ayrshire"	"Wind Onshore"	"Operational"	"East AyrshireWind OnshoreOperational"	375.95	177	6
+"East Ayrshire"	"Wind Onshore"	"Under Construction"	"East AyrshireWind OnshoreUnder Construction"	30	15	1
+"East Lothian"	"Anaerobic Digestion"	"Application Refused"	"East LothianAnaerobic DigestionApplication Refused"	1	0	1
+"East Lothian"	"Anaerobic Digestion"	"Operational"	"East LothianAnaerobic DigestionOperational"	1.5	0	1
+"East Lothian"	"Battery"	"Application Submitted"	"East LothianBatteryApplication Submitted"	0	0	1
+"East Lothian"	"EfW Incineration"	"Under Construction"	"East LothianEfW IncinerationUnder Construction"	25.6	0	1
+"East Lothian"	"Landfill Gas"	"Operational"	"East LothianLandfill GasOperational"	16.2	0	2
+"East Lothian"	"Solar Photovoltaics"	"Planning Permission Expired"	"East LothianSolar PhotovoltaicsPlanning Permission Expired"	2	0	1
+"East Lothian"	"Wind Onshore"	"Application Refused"	"East LothianWind OnshoreApplication Refused"	25	10	1
+"East Lothian"	"Wind Onshore"	"Application Withdrawn"	"East LothianWind OnshoreApplication Withdrawn"	24	9	2
+"East Lothian"	"Wind Onshore"	"Operational"	"East LothianWind OnshoreOperational"	114.8	42	4
+"East Lothian"	"Wind Onshore"	"Under Construction"	"East LothianWind OnshoreUnder Construction"	9.9	12	2
+"East Renfrewshire"	"Wind Onshore"	"Abandoned"	"East RenfrewshireWind OnshoreAbandoned"	10.4	8	2
+"East Renfrewshire"	"Wind Onshore"	"Application Refused"	"East RenfrewshireWind OnshoreApplication Refused"	182.5	64	3
+"East Renfrewshire"	"Wind Onshore"	"Application Withdrawn"	"East RenfrewshireWind OnshoreApplication Withdrawn"	96	106	2
+"East Renfrewshire"	"Wind Onshore"	"Awaiting Construction"	"East RenfrewshireWind OnshoreAwaiting Construction"	2.5	1	1
+"East Renfrewshire"	"Wind Onshore"	"Operational"	"East RenfrewshireWind OnshoreOperational"	361.084	159	7
+"Edinburgh City"	"Landfill Gas"	"Operational"	"Edinburgh CityLandfill GasOperational"	2.4	0	1
+"Falkirk"	"Advanced Conversion Technologies"	"Operational"	"FalkirkAdvanced Conversion TechnologiesOperational"	2	0	1
+"Falkirk"	"Battery"	"Awaiting Construction"	"FalkirkBatteryAwaiting Construction"	39.9	0	4
+"Falkirk"	"Biomass (dedicated)"	"Awaiting Construction"	"FalkirkBiomass (dedicated)Awaiting Construction"	85	0	1
+"Falkirk"	"EfW Incineration"	"Awaiting Construction"	"FalkirkEfW IncinerationAwaiting Construction"	15	0	1
+"Falkirk"	"Wind Onshore"	"Application Refused"	"FalkirkWind OnshoreApplication Refused"	4	2	1
+"Falkirk"	"Wind Onshore"	"Application Withdrawn"	"FalkirkWind OnshoreApplication Withdrawn"	27	11	2
+"Falkirk"	"Wind Onshore"	"Operational"	"FalkirkWind OnshoreOperational"	38	17	2
+"Falkirk"	"Wind Onshore"	"Planning Permission Expired"	"FalkirkWind OnshorePlanning Permission Expired"	2	1	1
+"Fife"	"Anaerobic Digestion"	"Awaiting Construction"	"FifeAnaerobic DigestionAwaiting Construction"	2	0	1
+"Fife"	"Anaerobic Digestion"	"Operational"	"FifeAnaerobic DigestionOperational"	1.7	0	1
+"Fife"	"Battery"	"Application Submitted"	"FifeBatteryApplication Submitted"	0	0	1
+"Fife"	"Battery"	"Application Withdrawn"	"FifeBatteryApplication Withdrawn"	0	0	1
+"Fife"	"Battery"	"Awaiting Construction"	"FifeBatteryAwaiting Construction"	19.9	0	2
+"Fife"	"Biomass (dedicated)"	"Abandoned"	"FifeBiomass (dedicated)Abandoned"	25	0	1
+"Fife"	"Biomass (dedicated)"	"Awaiting Construction"	"FifeBiomass (dedicated)Awaiting Construction"	120	0	1
+"Fife"	"Biomass (dedicated)"	"Operational"	"FifeBiomass (dedicated)Operational"	89.5	0	4
+"Fife"	"EfW Incineration"	"Application Withdrawn"	"FifeEfW IncinerationApplication Withdrawn"	14.7	0	1
+"Fife"	"Landfill Gas"	"Operational"	"FifeLandfill GasOperational"	3	0	2
+"Fife"	"Solar Photovoltaics"	"Abandoned"	"FifeSolar PhotovoltaicsAbandoned"	15	0	3
+"Fife"	"Solar Photovoltaics"	"Application Submitted"	"FifeSolar PhotovoltaicsApplication Submitted"	0.25	0	1
+"Fife"	"Solar Photovoltaics"	"Application Withdrawn"	"FifeSolar PhotovoltaicsApplication Withdrawn"	5	0	1
+"Fife"	"Solar Photovoltaics"	"Awaiting Construction"	"FifeSolar PhotovoltaicsAwaiting Construction"	23.9	0	4
+"Fife"	"Solar Photovoltaics"	"Operational"	"FifeSolar PhotovoltaicsOperational"	14	0	3
+"Fife"	"Wind Onshore"	"Abandoned"	"FifeWind OnshoreAbandoned"	18.5	8	2
+"Fife"	"Wind Onshore"	"Application Refused"	"FifeWind OnshoreApplication Refused"	176.25	68	14
+"Fife"	"Wind Onshore"	"Application Withdrawn"	"FifeWind OnshoreApplication Withdrawn"	9.8	4	3
+"Fife"	"Wind Onshore"	"Awaiting Construction"	"FifeWind OnshoreAwaiting Construction"	12.3	6	1
+"Fife"	"Wind Onshore"	"Operational"	"FifeWind OnshoreOperational"	84.8	39	13
+"Glasgow City"	"Advanced Conversion Technologies"	"Application Refused"	"Glasgow CityAdvanced Conversion TechnologiesApplication Refused"	12	0	1
+"Glasgow City"	"Advanced Conversion Technologies"	"Under Construction"	"Glasgow CityAdvanced Conversion TechnologiesUnder Construction"	10	0	1
+"Glasgow City"	"Anaerobic Digestion"	"Operational"	"Glasgow CityAnaerobic DigestionOperational"	5	0	1
+"Glasgow City"	"EfW Incineration"	"Awaiting Construction"	"Glasgow CityEfW IncinerationAwaiting Construction"	20	0	1
+"Glasgow City"	"Landfill Gas"	"Operational"	"Glasgow CityLandfill GasOperational"	6.72	0	2
+"Glasgow City"	"Wind Onshore"	"Operational"	"Glasgow CityWind OnshoreOperational"	3	1	1
+"Highland"	"Anaerobic Digestion"	"Under Construction"	"HighlandAnaerobic DigestionUnder Construction"	2	0	1
+"Highland"	"Battery"	"Application Submitted"	"HighlandBatteryApplication Submitted"	1500	0	1
+"Highland"	"Battery"	"Operational"	"HighlandBatteryOperational"	0.162	0	4
+"Highland"	"Biomass (dedicated)"	"Abandoned"	"HighlandBiomass (dedicated)Abandoned"	40.7	0	4
+"Highland"	"Biomass (dedicated)"	"Application Refused"	"HighlandBiomass (dedicated)Application Refused"	5	0	1
+"Highland"	"Biomass (dedicated)"	"Operational"	"HighlandBiomass (dedicated)Operational"	8.5	0	2
+"Highland"	"EfW Incineration"	"Application Refused"	"HighlandEfW IncinerationApplication Refused"	4	0	1
+"Highland"	"Large Hydro"	"Abandoned"	"HighlandLarge HydroAbandoned"	16.5	0	2
+"Highland"	"Large Hydro"	"Application Withdrawn"	"HighlandLarge HydroApplication Withdrawn"	10.7	0	1
+"Highland"	"Large Hydro"	"Operational"	"HighlandLarge HydroOperational"	376.2	0	15
+"Highland"	"Pumped Storage Hydroelectricity"	"Application Submitted"	"HighlandPumped Storage HydroelectricityApplication Submitted"	499	0	1
+"Highland"	"Pumped Storage Hydroelectricity"	"Awaiting Construction"	"HighlandPumped Storage HydroelectricityAwaiting Construction"	600	0	1
+"Highland"	"Pumped Storage Hydroelectricity"	"Operational"	"HighlandPumped Storage HydroelectricityOperational"	300	0	1
+"Highland"	"Small Hydro"	"Abandoned"	"HighlandSmall HydroAbandoned"	1	0	1
+"Highland"	"Small Hydro"	"Application Refused"	"HighlandSmall HydroApplication Refused"	10.82	0	4
+"Highland"	"Small Hydro"	"Application Submitted"	"HighlandSmall HydroApplication Submitted"	18.245	0	12
+"Highland"	"Small Hydro"	"Application Withdrawn"	"HighlandSmall HydroApplication Withdrawn"	6.8	0	4
+"Highland"	"Small Hydro"	"Awaiting Construction"	"HighlandSmall HydroAwaiting Construction"	12.58	0	7
+"Highland"	"Small Hydro"	"Operational"	"HighlandSmall HydroOperational"	76.645	0	35
+"Highland"	"Wind Offshore"	"Application Submitted"	"HighlandWind OffshoreApplication Submitted"	750	50	1
+"Highland"	"Wind Offshore"	"Awaiting Construction"	"HighlandWind OffshoreAwaiting Construction"	10	2	1
+"Highland"	"Wind Onshore"	"Abandoned"	"HighlandWind OnshoreAbandoned"	288.35	39	7
+"Highland"	"Wind Onshore"	"Application Refused"	"HighlandWind OnshoreApplication Refused"	1574.9	596	50
+"Highland"	"Wind Onshore"	"Application Submitted"	"HighlandWind OnshoreApplication Submitted"	425	125	7
+"Highland"	"Wind Onshore"	"Application Withdrawn"	"HighlandWind OnshoreApplication Withdrawn"	581.735	190	12
+"Highland"	"Wind Onshore"	"Awaiting Construction"	"HighlandWind OnshoreAwaiting Construction"	613.3	200	14
+"Highland"	"Wind Onshore"	"Operational"	"HighlandWind OnshoreOperational"	1727.2	733	47
+"Highland"	"Wind Onshore"	"Planning Permission Expired"	"HighlandWind OnshorePlanning Permission Expired"	10	4	1
+"Highland"	"Wind Onshore"	"Under Construction"	"HighlandWind OnshoreUnder Construction"	105.55	44	4
+"Inverclyde"	"Battery"	"Application Submitted"	"InverclydeBatteryApplication Submitted"	1	0	1
+"Inverclyde"	"Battery"	"Awaiting Construction"	"InverclydeBatteryAwaiting Construction"	5	0	1
+"Inverclyde"	"Wind Onshore"	"Application Refused"	"InverclydeWind OnshoreApplication Refused"	56.8	24	2
+"Inverclyde"	"Wind Onshore"	"Application Withdrawn"	"InverclydeWind OnshoreApplication Withdrawn"	30	10	1
+"Inverclyde"	"Wind Onshore"	"Awaiting Construction"	"InverclydeWind OnshoreAwaiting Construction"	24	8	1
+"Midlothian"	"Anaerobic Digestion"	"Operational"	"MidlothianAnaerobic DigestionOperational"	1.5	0	1
+"Midlothian"	"EfW Incineration"	"Abandoned"	"MidlothianEfW IncinerationAbandoned"	7.5	0	1
+"Midlothian"	"EfW Incineration"	"Under Construction"	"MidlothianEfW IncinerationUnder Construction"	12.5	0	1
+"Midlothian"	"Landfill Gas"	"Operational"	"MidlothianLandfill GasOperational"	6.18	0	3
+"Midlothian"	"Wind Onshore"	"Application Refused"	"MidlothianWind OnshoreApplication Refused"	84.15	36	3
+"Midlothian"	"Wind Onshore"	"Application Withdrawn"	"MidlothianWind OnshoreApplication Withdrawn"	20.7	9	1
+"Midlothian"	"Wind Onshore"	"Operational"	"MidlothianWind OnshoreOperational"	48.36	50	2
+"Moray"	"Biomass (dedicated)"	"Operational"	"MorayBiomass (dedicated)Operational"	20.82	0	2
+"Moray"	"Solar Photovoltaics"	"Awaiting Construction"	"MoraySolar PhotovoltaicsAwaiting Construction"	70	0	2
+"Moray"	"Wind Onshore"	"Abandoned"	"MorayWind OnshoreAbandoned"	174.9	53	1
+"Moray"	"Wind Onshore"	"Application Refused"	"MorayWind OnshoreApplication Refused"	67.1	24	4
+"Moray"	"Wind Onshore"	"Application Submitted"	"MorayWind OnshoreApplication Submitted"	284	55	2
+"Moray"	"Wind Onshore"	"Application Withdrawn"	"MorayWind OnshoreApplication Withdrawn"	140	50	3
+"Moray"	"Wind Onshore"	"Awaiting Construction"	"MorayWind OnshoreAwaiting Construction"	87.8	35	3
+"Moray"	"Wind Onshore"	"Operational"	"MorayWind OnshoreOperational"	335.9	148	10
+"Moray"	"Wind Onshore"	"Under Construction"	"MorayWind OnshoreUnder Construction"	177	59	1
+"Na h-Eileanan an Iar/Western Isles"	"Shoreline Wave"	"Awaiting Construction"	"Na h-Eileanan an Iar/Western IslesShoreline WaveAwaiting Construction"	50	0	1
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Abandoned"	"Na h-Eileanan an Iar/Western IslesWind OnshoreAbandoned"	2.5	3	1
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Application Refused"	"Na h-Eileanan an Iar/Western IslesWind OnshoreApplication Refused"	655.6	180	3
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Application Submitted"	"Na h-Eileanan an Iar/Western IslesWind OnshoreApplication Submitted"	11.9	4	2
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Application Withdrawn"	"Na h-Eileanan an Iar/Western IslesWind OnshoreApplication Withdrawn"	94	26	1
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Awaiting Construction"	"Na h-Eileanan an Iar/Western IslesWind OnshoreAwaiting Construction"	388.2	101	5
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Operational"	"Na h-Eileanan an Iar/Western IslesWind OnshoreOperational"	37.8	21	6
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Planning Permission Expired"	"Na h-Eileanan an Iar/Western IslesWind OnshorePlanning Permission Expired"	42	14	1
+"North Ayrshire"	"Advanced Conversion Technologies"	"Planning Permission Expired"	"North AyrshireAdvanced Conversion TechnologiesPlanning Permission Expired"	8	0	1
+"North Ayrshire"	"Anaerobic Digestion"	"Operational"	"North AyrshireAnaerobic DigestionOperational"	3.2	0	2
+"North Ayrshire"	"Battery"	"Application Submitted"	"North AyrshireBatteryApplication Submitted"	19.9	0	1
+"North Ayrshire"	"Biomass (co-firing)"	"Application Withdrawn"	"North AyrshireBiomass (co-firing)Application Withdrawn"	170	0	1
+"North Ayrshire"	"Biomass (dedicated)"	"Abandoned"	"North AyrshireBiomass (dedicated)Abandoned"	2.5	0	1
+"North Ayrshire"	"Biomass (dedicated)"	"Application Withdrawn"	"North AyrshireBiomass (dedicated)Application Withdrawn"	5	0	1
+"North Ayrshire"	"Biomass (dedicated)"	"Operational"	"North AyrshireBiomass (dedicated)Operational"	26.043	0	1
+"North Ayrshire"	"Landfill Gas"	"Operational"	"North AyrshireLandfill GasOperational"	1.15	0	1
+"North Ayrshire"	"Large Hydro"	"Awaiting Construction"	"North AyrshireLarge HydroAwaiting Construction"	5	0	1
+"North Ayrshire"	"Solar Photovoltaics"	"Abandoned"	"North AyrshireSolar PhotovoltaicsAbandoned"	5	0	1
+"North Ayrshire"	"Solar Photovoltaics"	"Awaiting Construction"	"North AyrshireSolar PhotovoltaicsAwaiting Construction"	18	0	4
+"North Ayrshire"	"Solar Photovoltaics"	"Operational"	"North AyrshireSolar PhotovoltaicsOperational"	5	0	1
+"North Ayrshire"	"Wind Onshore"	"Application Refused"	"North AyrshireWind OnshoreApplication Refused"	132.2	42	6
+"North Ayrshire"	"Wind Onshore"	"Application Withdrawn"	"North AyrshireWind OnshoreApplication Withdrawn"	112.3	34	5
+"North Ayrshire"	"Wind Onshore"	"Awaiting Construction"	"North AyrshireWind OnshoreAwaiting Construction"	9	3	1
+"North Ayrshire"	"Wind Onshore"	"Operational"	"North AyrshireWind OnshoreOperational"	123.4	49	9
+"North Lanarkshire"	"Advanced Conversion Technologies"	"Under Construction"	"North LanarkshireAdvanced Conversion TechnologiesUnder Construction"	25	0	1
+"North Lanarkshire"	"Anaerobic Digestion"	"Operational"	"North LanarkshireAnaerobic DigestionOperational"	5.8	0	3
+"North Lanarkshire"	"Battery"	"Awaiting Construction"	"North LanarkshireBatteryAwaiting Construction"	0	0	1
+"North Lanarkshire"	"Biomass (dedicated)"	"Operational"	"North LanarkshireBiomass (dedicated)Operational"	17	0	1
+"North Lanarkshire"	"EfW Incineration"	"Planning Permission Expired"	"North LanarkshireEfW IncinerationPlanning Permission Expired"	21	0	1
+"North Lanarkshire"	"Landfill Gas"	"Decommissioned"	"North LanarkshireLandfill GasDecommissioned"	1	0	1
+"North Lanarkshire"	"Landfill Gas"	"Operational"	"North LanarkshireLandfill GasOperational"	18.372	0	8
+"North Lanarkshire"	"Solar Photovoltaics"	"Awaiting Construction"	"North LanarkshireSolar PhotovoltaicsAwaiting Construction"	13.9	0	3
+"North Lanarkshire"	"Wind Onshore"	"Application Refused"	"North LanarkshireWind OnshoreApplication Refused"	69.5	26	5
+"North Lanarkshire"	"Wind Onshore"	"Application Submitted"	"North LanarkshireWind OnshoreApplication Submitted"	47.9	15	4
+"North Lanarkshire"	"Wind Onshore"	"Application Withdrawn"	"North LanarkshireWind OnshoreApplication Withdrawn"	149	33	5
+"North Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	"North LanarkshireWind OnshoreAwaiting Construction"	67.2	25	4
+"North Lanarkshire"	"Wind Onshore"	"Operational"	"North LanarkshireWind OnshoreOperational"	22.7	9	5
+"Offshore"	"Shoreline Wave"	"Abandoned"	"OffshoreShoreline WaveAbandoned"	4	0	1
+"Offshore"	"Tidal Barrage and Tidal Stream"	"Application Withdrawn"	"OffshoreTidal Barrage and Tidal StreamApplication Withdrawn"	9.2	0	2
+"Offshore"	"Tidal Barrage and Tidal Stream"	"Awaiting Construction"	"OffshoreTidal Barrage and Tidal StreamAwaiting Construction"	45	0	4
+"Offshore"	"Tidal Barrage and Tidal Stream"	"Decommissioned"	"OffshoreTidal Barrage and Tidal StreamDecommissioned"	5	0	5
+"Offshore"	"Wind Offshore"	"Application Submitted"	"OffshoreWind OffshoreApplication Submitted"	450	54	1
+"Offshore"	"Wind Offshore"	"Awaiting Construction"	"OffshoreWind OffshoreAwaiting Construction"	3246	464	8
+"Offshore"	"Wind Offshore"	"Operational"	"OffshoreWind OffshoreOperational"	314.2	77	6
+"Offshore"	"Wind Offshore"	"Under Construction"	"OffshoreWind OffshoreUnder Construction"	638	92	2
+"Orkney Islands"	"Battery"	"Operational"	"Orkney IslandsBatteryOperational"	2	0	1
+"Orkney Islands"	"Shoreline Wave"	"Decommissioned"	"Orkney IslandsShoreline WaveDecommissioned"	1	0	1
+"Orkney Islands"	"Shoreline Wave"	"Operational"	"Orkney IslandsShoreline WaveOperational"	1	0	1
+"Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Application Submitted"	"Orkney IslandsTidal Barrage and Tidal StreamApplication Submitted"	200	0	1
+"Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Awaiting Construction"	"Orkney IslandsTidal Barrage and Tidal StreamAwaiting Construction"	86.5	0	4
+"Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Operational"	"Orkney IslandsTidal Barrage and Tidal StreamOperational"	8	0	2
+"Orkney Islands"	"Wind Onshore"	"Abandoned"	"Orkney IslandsWind OnshoreAbandoned"	2.55	3	1
+"Orkney Islands"	"Wind Onshore"	"Application Refused"	"Orkney IslandsWind OnshoreApplication Refused"	53.9	16	4
+"Orkney Islands"	"Wind Onshore"	"Application Withdrawn"	"Orkney IslandsWind OnshoreApplication Withdrawn"	4.2	6	2
+"Orkney Islands"	"Wind Onshore"	"Awaiting Construction"	"Orkney IslandsWind OnshoreAwaiting Construction"	4.1	3	2
+"Orkney Islands"	"Wind Onshore"	"Decommissioned"	"Orkney IslandsWind OnshoreDecommissioned"	11	4	1
+"Orkney Islands"	"Wind Onshore"	"Operational"	"Orkney IslandsWind OnshoreOperational"	39.1	30	13
+"Orkney Islands"	"Wind Onshore"	"Planning Permission Expired"	"Orkney IslandsWind OnshorePlanning Permission Expired"	2.7	3	1
+"Perth and Kinross"	"Advanced Conversion Technologies"	"Application Refused"	"Perth and KinrossAdvanced Conversion TechnologiesApplication Refused"	16	0	1
+"Perth and Kinross"	"Advanced Conversion Technologies"	"Awaiting Construction"	"Perth and KinrossAdvanced Conversion TechnologiesAwaiting Construction"	4.64	0	1
+"Perth and Kinross"	"Anaerobic Digestion"	"Operational"	"Perth and KinrossAnaerobic DigestionOperational"	1.5	0	1
+"Perth and Kinross"	"Battery"	"Awaiting Construction"	"Perth and KinrossBatteryAwaiting Construction"	19.9	0	1
+"Perth and Kinross"	"Landfill Gas"	"Operational"	"Perth and KinrossLandfill GasOperational"	1.92	0	1
+"Perth and Kinross"	"Large Hydro"	"Operational"	"Perth and KinrossLarge HydroOperational"	32.4	0	3
+"Perth and Kinross"	"Small Hydro"	"Abandoned"	"Perth and KinrossSmall HydroAbandoned"	1.2	0	1
+"Perth and Kinross"	"Small Hydro"	"Application Submitted"	"Perth and KinrossSmall HydroApplication Submitted"	1.6	0	1
+"Perth and Kinross"	"Small Hydro"	"Application Withdrawn"	"Perth and KinrossSmall HydroApplication Withdrawn"	6.5	0	3
+"Perth and Kinross"	"Small Hydro"	"Operational"	"Perth and KinrossSmall HydroOperational"	25.7	0	12
+"Perth and Kinross"	"Small Hydro"	"Planning Permission Expired"	"Perth and KinrossSmall HydroPlanning Permission Expired"	2	0	1
+"Perth and Kinross"	"Solar Photovoltaics"	"Awaiting Construction"	"Perth and KinrossSolar PhotovoltaicsAwaiting Construction"	37	0	3
+"Perth and Kinross"	"Solar Photovoltaics"	"Operational"	"Perth and KinrossSolar PhotovoltaicsOperational"	13	0	1
+"Perth and Kinross"	"Solar Photovoltaics"	"Planning Permission Expired"	"Perth and KinrossSolar PhotovoltaicsPlanning Permission Expired"	5	0	1
+"Perth and Kinross"	"Wind Onshore"	"Application Refused"	"Perth and KinrossWind OnshoreApplication Refused"	475.8174	191	19
+"Perth and Kinross"	"Wind Onshore"	"Application Submitted"	"Perth and KinrossWind OnshoreApplication Submitted"	10.85	5	2
+"Perth and Kinross"	"Wind Onshore"	"Application Withdrawn"	"Perth and KinrossWind OnshoreApplication Withdrawn"	357.088	117	10
+"Perth and Kinross"	"Wind Onshore"	"Awaiting Construction"	"Perth and KinrossWind OnshoreAwaiting Construction"	54	18	2
+"Perth and Kinross"	"Wind Onshore"	"Operational"	"Perth and KinrossWind OnshoreOperational"	289.2	125	8
+"Perth and Kinross"	"Wind Onshore"	"Planning Permission Expired"	"Perth and KinrossWind OnshorePlanning Permission Expired"	10	4	1
+"Renfrewshire"	"Battery"	"Application Submitted"	"RenfrewshireBatteryApplication Submitted"	0	0	1
+"Renfrewshire"	"Battery"	"Awaiting Construction"	"RenfrewshireBatteryAwaiting Construction"	19	0	2
+"Renfrewshire"	"Solar Photovoltaics"	"Application Refused"	"RenfrewshireSolar PhotovoltaicsApplication Refused"	9.8	0	2
+"Scottish Borders"	"Advanced Conversion Technologies"	"Abandoned"	"Scottish BordersAdvanced Conversion TechnologiesAbandoned"	2.9	0	1
+"Scottish Borders"	"Advanced Conversion Technologies"	"Under Construction"	"Scottish BordersAdvanced Conversion TechnologiesUnder Construction"	10	0	1
+"Scottish Borders"	"Wind Onshore"	"Abandoned"	"Scottish BordersWind OnshoreAbandoned"	55.2	22	1
+"Scottish Borders"	"Wind Onshore"	"Application Refused"	"Scottish BordersWind OnshoreApplication Refused"	463.194	154	20
+"Scottish Borders"	"Wind Onshore"	"Application Submitted"	"Scottish BordersWind OnshoreApplication Submitted"	149	38	3
+"Scottish Borders"	"Wind Onshore"	"Application Withdrawn"	"Scottish BordersWind OnshoreApplication Withdrawn"	359.25	141	13
+"Scottish Borders"	"Wind Onshore"	"Awaiting Construction"	"Scottish BordersWind OnshoreAwaiting Construction"	277.9	94	7
+"Scottish Borders"	"Wind Onshore"	"Operational"	"Scottish BordersWind OnshoreOperational"	679.45	343	20
+"Shetland Islands"	"Battery"	"Operational"	"Shetland IslandsBatteryOperational"	1.016	0	2
+"Shetland Islands"	"Wind Onshore"	"Abandoned"	"Shetland IslandsWind OnshoreAbandoned"	250	0	1
+"Shetland Islands"	"Wind Onshore"	"Application Submitted"	"Shetland IslandsWind OnshoreApplication Submitted"	503.8	115	2
+"Shetland Islands"	"Wind Onshore"	"Application Withdrawn"	"Shetland IslandsWind OnshoreApplication Withdrawn"	249	83	1
+"Shetland Islands"	"Wind Onshore"	"Awaiting Construction"	"Shetland IslandsWind OnshoreAwaiting Construction"	430.5	123	3
+"Shetland Islands"	"Wind Onshore"	"Operational"	"Shetland IslandsWind OnshoreOperational"	11.18	11	3
+"Shetland Islands"	"Wind Onshore"	"Planning Permission Expired"	"Shetland IslandsWind OnshorePlanning Permission Expired"	2.7	3	1
+"South Ayrshire"	"Biomass (dedicated)"	"Application Withdrawn"	"South AyrshireBiomass (dedicated)Application Withdrawn"	2.5	0	1
+"South Ayrshire"	"Biomass (dedicated)"	"Operational"	"South AyrshireBiomass (dedicated)Operational"	2.55	0	1
+"South Ayrshire"	"Wind Onshore"	"Application Refused"	"South AyrshireWind OnshoreApplication Refused"	189.85	85	8
+"South Ayrshire"	"Wind Onshore"	"Application Submitted"	"South AyrshireWind OnshoreApplication Submitted"	15	7	1
+"South Ayrshire"	"Wind Onshore"	"Application Withdrawn"	"South AyrshireWind OnshoreApplication Withdrawn"	107.5	37	2
+"South Ayrshire"	"Wind Onshore"	"Awaiting Construction"	"South AyrshireWind OnshoreAwaiting Construction"	100	29	2
+"South Ayrshire"	"Wind Onshore"	"Operational"	"South AyrshireWind OnshoreOperational"	412	181	6
+"South Ayrshire"	"Wind Onshore"	"Under Construction"	"South AyrshireWind OnshoreUnder Construction"	20	8	1
+"South Lanarkshire"	"Advanced Conversion Technologies"	"Application Refused"	"South LanarkshireAdvanced Conversion TechnologiesApplication Refused"	18	0	1
+"South Lanarkshire"	"Advanced Conversion Technologies"	"Planning Permission Expired"	"South LanarkshireAdvanced Conversion TechnologiesPlanning Permission Expired"	7	0	1
+"South Lanarkshire"	"Anaerobic Digestion"	"Application Withdrawn"	"South LanarkshireAnaerobic DigestionApplication Withdrawn"	2	0	2
+"South Lanarkshire"	"Anaerobic Digestion"	"Planning Permission Expired"	"South LanarkshireAnaerobic DigestionPlanning Permission Expired"	5	0	1
+"South Lanarkshire"	"Battery"	"Application Withdrawn"	"South LanarkshireBatteryApplication Withdrawn"	19.9	0	1
+"South Lanarkshire"	"Battery"	"Awaiting Construction"	"South LanarkshireBatteryAwaiting Construction"	4	0	1
+"South Lanarkshire"	"Fuel Cell (Hydrogen)"	"Application Refused"	"South LanarkshireFuel Cell (Hydrogen)Application Refused"	2	0	1
+"South Lanarkshire"	"Landfill Gas"	"Operational"	"South LanarkshireLandfill GasOperational"	7.39	0	1
+"South Lanarkshire"	"Solar Photovoltaics"	"Application Refused"	"South LanarkshireSolar PhotovoltaicsApplication Refused"	5	0	1
+"South Lanarkshire"	"Wind Onshore"	"Application Refused"	"South LanarkshireWind OnshoreApplication Refused"	217.8	82	11
+"South Lanarkshire"	"Wind Onshore"	"Application Submitted"	"South LanarkshireWind OnshoreApplication Submitted"	152.4	43	5
+"South Lanarkshire"	"Wind Onshore"	"Application Withdrawn"	"South LanarkshireWind OnshoreApplication Withdrawn"	304.2	137	9
+"South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	"South LanarkshireWind OnshoreAwaiting Construction"	371.7	118.058823529412	13
+"South Lanarkshire"	"Wind Onshore"	"Operational"	"South LanarkshireWind OnshoreOperational"	999.53	450	25
+"South Lanarkshire"	"Wind Onshore"	"Under Construction"	"South LanarkshireWind OnshoreUnder Construction"	141	43	3
+"Stirling"	"Battery"	"Awaiting Construction"	"StirlingBatteryAwaiting Construction"	19	0	1
+"Stirling"	"Biomass (dedicated)"	"Operational"	"StirlingBiomass (dedicated)Operational"	15	0	1
+"Stirling"	"Biomass (dedicated)"	"Under Construction"	"StirlingBiomass (dedicated)Under Construction"	5.6	0	1
+"Stirling"	"Small Hydro"	"Awaiting Construction"	"StirlingSmall HydroAwaiting Construction"	2	0	1
+"Stirling"	"Small Hydro"	"Operational"	"StirlingSmall HydroOperational"	7.85	0	5
+"Stirling"	"Solar Photovoltaics"	"Application Withdrawn"	"StirlingSolar PhotovoltaicsApplication Withdrawn"	5	0	1
+"Stirling"	"Solar Photovoltaics"	"Awaiting Construction"	"StirlingSolar PhotovoltaicsAwaiting Construction"	5	0	1
+"Stirling"	"Wind Onshore"	"Application Refused"	"StirlingWind OnshoreApplication Refused"	113	41	4
+"Stirling"	"Wind Onshore"	"Awaiting Construction"	"StirlingWind OnshoreAwaiting Construction"	21	7	1
+"Stirling"	"Wind Onshore"	"Operational"	"StirlingWind OnshoreOperational"	155.9	71	6
+"West Dunbartonshire"	"Anaerobic Digestion"	"Awaiting Construction"	"West DunbartonshireAnaerobic DigestionAwaiting Construction"	1.6	0	1
+"West Dunbartonshire"	"Anaerobic Digestion"	"Planning Permission Expired"	"West DunbartonshireAnaerobic DigestionPlanning Permission Expired"	1.6	0	1
+"West Dunbartonshire"	"Landfill Gas"	"Operational"	"West DunbartonshireLandfill GasOperational"	4.113	0	2
+"West Dunbartonshire"	"Wind Onshore"	"Application Refused"	"West DunbartonshireWind OnshoreApplication Refused"	25	10	1
+"West Dunbartonshire"	"Wind Onshore"	"Application Withdrawn"	"West DunbartonshireWind OnshoreApplication Withdrawn"	60	0	1
+"West Lothian"	"Advanced Conversion Technologies"	"Awaiting Construction"	"West LothianAdvanced Conversion TechnologiesAwaiting Construction"	22	0	2
+"West Lothian"	"Advanced Conversion Technologies"	"Operational"	"West LothianAdvanced Conversion TechnologiesOperational"	12.5	0	1
+"West Lothian"	"Battery"	"Application Submitted"	"West LothianBatteryApplication Submitted"	1	0	1
+"West Lothian"	"Battery"	"Awaiting Construction"	"West LothianBatteryAwaiting Construction"	20	0	1
+"West Lothian"	"Biomass (dedicated)"	"Abandoned"	"West LothianBiomass (dedicated)Abandoned"	6.5	0	1
+"West Lothian"	"Small Hydro"	"Application Withdrawn"	"West LothianSmall HydroApplication Withdrawn"	2	0	1
+"West Lothian"	"Solar Photovoltaics"	"Operational"	"West LothianSolar PhotovoltaicsOperational"	1.28	0	1
+"West Lothian"	"Wind Onshore"	"Application Refused"	"West LothianWind OnshoreApplication Refused"	118.5	37	3
+"West Lothian"	"Wind Onshore"	"Application Submitted"	"West LothianWind OnshoreApplication Submitted"	10	4	1
+"West Lothian"	"Wind Onshore"	"Application Withdrawn"	"West LothianWind OnshoreApplication Withdrawn"	6	2	1
+"West Lothian"	"Wind Onshore"	"Awaiting Construction"	"West LothianWind OnshoreAwaiting Construction"	21.9	7	2
+"West Lothian"	"Wind Onshore"	"Operational"	"West LothianWind OnshoreOperational"	124.15	53	5

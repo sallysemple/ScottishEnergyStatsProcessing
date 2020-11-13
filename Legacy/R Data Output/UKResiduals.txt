@@ -1,0 +1,1 @@
+"Country"	"Year"	"Total"	"Petrol - Industrial"	"Petrol - Domestic"	"Petrol - Rail"	"Petrol - Public Administration"	"Petrol - Commercial"	"Petrol - Agriculture"

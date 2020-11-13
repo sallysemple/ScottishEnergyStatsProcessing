@@ -1,0 +1,9 @@
+"X__1"	"X__2"	"X__3"	"X__4"	"X__5"	"X__6"	"X__7"
+"Low carbon and renewable energy group activity, UK and Regions, 2016"	0	0	0	0	0	0
+0	"Turnover (£ thousands)"	0	0	"Employees (full-time equivalents)"	0	0
+0	"Direct"	"Indirect"	"Total activity"	"Direct"	"Indirect"	"Total activity"
+"United Kingdom"	"42559000"	"34830500"	"77390000"	"208000"	"183500"	"391500"
+"England"	"33423000"	"26893500"	"60316500"	"165000"	"140500"	"305500"
+"Scotland"	"5761000"	"5239000"	"11000500"	"24000"	"25000"	"49000"
+"Wales"	"2433500"	"1959500"	"4393000"	"13000"	"11500"	"25000"
+"Northern Ireland"	"928000"	"722500"	"1650500"	"6000"	"6000"	"12500"

@@ -1,0 +1,10 @@
+"X__1"	"X__2"	"Fuel Poverty"	"X__3"	"Extreme Fuel Poverty"	"X__4"
+0	0	"000s"	"%"	"000s"	"%"
+"2012"	0	"691"	"0.28999999999999998"	"361"	"0.151"
+"2013"	0	"761"	"0.317"	"384"	"0.16"
+"2014"	0	"697"	"0.28799999999999998"	"368"	"0.152"
+"2015"	0	"675"	"0.27700000000000002"	"317"	"0.13"
+"2016"	0	"631"	"0.25700000000000001"	"308"	"0.126"
+"2017"	0	"583"	"0.23699999999999999"	"293"	"0.11899999999999999"
+"2018"	0	"619"	"0.25"	"279"	"0.113"
+"Note: There are some discontinuities in the underlying methods as follows: figures for 2012 allow for Warm Home Discount (WHD) adjustment only; 2013 include WHD and price source adjustment; figures from 2014 onwards include WHD and price source adjustment and an updated BREDEM model; from 2016 a further improvement is included by assigning pre-payment metered fuel prices to the relevant households."	0	0	0	0	0

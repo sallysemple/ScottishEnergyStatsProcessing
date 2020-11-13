@@ -1,0 +1,30 @@
+"X__1"	"X__2"	"X__3"	"2011"	"2012"	"2013"	"2014"	"2015"
+"Number in sample"	0	0	0	0	0	0	0
+0	"All dwellings"	0	2168730	2146920	2135280	1693340	"1674170"
+0	"1"	0	219770	216990	214930	136690	"134550"
+0	"2"	0	744490	736730	731420	582910	"580780"
+0	"3"	0	745120	739040	735430	664440	"666440"
+0	"4"	0	226740	225050	224460	195750	"202110"
+0	"5 or more"	0	105570	104370	104200	85520	"87980"
+0	"Unknown"	0	127040	124740	124840	28040	"2310"
+"Mean (kWh)"	0	0	0	0	0	0	0
+0	"All dwellings"	0	4700	4600	4500	4700	"4500"
+0	"1"	0	3800	3700	3500	3900	"4200"
+0	"2"	0	4000	3900	3800	4000	"4100"
+0	"3"	0	4700	4600	4500	4600	"4500"
+0	"4"	0	5500	5300	5300	5500	"5200"
+0	"5 or more"	0	6300	6200	6100	6700	"6100"
+0	"Unknown"	0	7800	7800	7700	13100	"6400"
+"Median (kWh)"	0	0	0	0	0	0	0
+0	"All dwellings"	0	3700	3500	3500	3600	"3400"
+0	"1"	0	2600	2500	2500	2600	"2500"
+0	"2"	0	3100	3000	2900	3000	"2900"
+0	"3"	0	3900	3700	3700	3700	"3600"
+0	"4"	0	4700	4500	4500	4500	"4300"
+0	"5 or more"	0	5200	5100	5000	5100	"4900"
+0	"Unknown"	0	6000	6000	5800	9200	"4900"
+0	0	0	0	0	0	0	"Source: NEED 2017, Experian"
+"1 Sample sizes have been rounded to the nearest 10 and consumption to the nearest 100 kWh."	0	0	0	0	0	0	0
+"2 Property attribute information based on modelled data from Experian."	0	0	0	0	0	0	0
+"3 Only households with valid electricity consumption between 100 and 25,000 kWh have been included."	0	0	0	0	0	0	0
+"4 Households with suspected estimated electricity consumption readings have been excluded."	0	0	0	0	0	0	0

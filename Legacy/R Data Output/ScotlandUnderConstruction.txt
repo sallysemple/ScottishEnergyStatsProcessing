@@ -1,0 +1,29 @@
+"TechType"	"Site"	"Address"	"Authority"	"Capacity"	"County"	"Ref"
+"Advanced Conversion Technologies"	"Glasgow Renewable Energy and Recycling Centre (ACT)"	"Polmadie Disposal Complex, 425 Polmadie Road, Glasgow"	"Glasgow City Council"	10	"Strathclyde"	928
+"EfW Incineration"	"Dunbar EfW (previously Oxwellmains EfW)"	"Oxwellmains, Dunbar, East Lothian"	"East Lothian Council"	25.6	"Lothian"	992
+"Advanced Conversion Technologies"	"Coatbridge Material Recovery and Renewable Energy Facility"	"Land At Former Shanks & McEwan Site 251, Glasgow And Edinburgh Road, Coatbridge, North Lanarkshire"	"North Lanarkshire Council"	25	"Strathclyde"	1007
+"Wind Onshore"	"Beinn an Tuirc Windfarm Phase 3"	"Beinn An Tuirc Windfarm, Land At Meall Buidhe And South, A Chruach West Of Saddell Kin, Campbeltown, Strathclyde, Scotland"	"Argyll and Bute Council"	49.9	"Strathclyde"	3387
+"Wind Onshore"	"Burnfoot East Wind Farm (further extension)"	"Site West Of Burnfoot Hill, High Street, Tillicoultry, Central"	"Clackmannanshire Council"	10.8	"Clackmannanshire"	6324
+"Wind Offshore"	"Dounreay Trì Floating Wind Demonstration"	"Development Site 9KM NW Of, Dounreay, Nuclear Research Establishment, Thurso"	"Marine Scotland"	10	"Highland"	6264
+"Wind Onshore"	"Halsary Wind Farm"	"Spittal, Caithness"	"Highland Council"	34	"Highland"	4636
+"Wind Onshore"	"Hazelside farm - resubmission"	"side Farm, Lanark, Strathclyde"	"South Lanarkshire Council"	1.6	"Strathclyde"	3633
+"Wind Onshore"	"Inverclyde Wind Farm (Corlic Hill)"	"Corlic Hill, near Greenock & Port Glasgow"	"Inverclyde Council"	24	"Strathclyde"	4200
+"Wind Offshore"	"Kincardine Offshore Windfarm"	"Kincardine Offshore Windfarm, Laurencekirk, Grampian"	"Marine Scotland"	50	"Offshore"	6136
+"Wind Offshore"	"MacColl Offshore Windfarm (Moray Firth)"	"Smith Bank, Moray Firth - 13miles off Lybster"	"Scottish Government (S36)"	317	"Offshore"	2534
+"EfW Incineration"	"CalaChem Fine Chemicals (Grangemouth)"	"Calachem Ltd, Earls Road, Grangemouth, Central"	"Falkirk Council"	21.5	"Falkirk"	5352
+"EfW Incineration"	"East Tullos"	"Scottish Gas Network, Greenbank Crescent, Aberdeen"	"Aberdeen City Council"	11.1	"Aberdeen"	5615
+"Solar Photovoltaics"	"Carsebank Farm"	"Land 950M North East Of Carsebank Farm, Carsebank, Forfar, Tayside"	"Angus Council"	5	"Angus"	5631
+"Anaerobic Digestion"	"Morayhill AD"	"Ld 320M SW Of Norbord Europe, Dalcross, Inverness"	"Highland Council"	2	"Highland"	5703
+"Solar Photovoltaics"	"Bruxiehall Farm"	"Land To The South Of Bruxiehil, St. Fergus, Peterhead"	"Aberdeenshire Council"	2	"Aberdeen"	5845
+"Solar Photovoltaics"	"Parkhill Solar Farm"	"Field 540M W Of Parkhill Farm, Letham Grange, Arbroath, Tayside, Scotland"	"Angus Council"	4.99	"Angus"	5914
+"Small Hydro"	"Glen Noe River"	"Glen Noe Estate, Loch Etive, Taynuilt, Strathclyde"	"Argyll and Bute Council"	2	"Argyll and Bute"	5962
+"Wind Onshore"	"Sneddon Law Community Wind Farm"	"Sneddon Law Off Hemphill Road Moscow East Ayrshire Near"	"East Ayrshire Council"	30	"Strathclyde"	4128
+"Wind Onshore"	"Solwaybank Wind Farm (resubmission)"	"Allfornought Hill, Langholm, Dumfries & Galloway (8 km south-west of Langholm and 12 km north of Gretna)"	"Dumfries and Galloway Council"	30	"Dumfries and Galloway"	4449
+"EfW Incineration"	"Baldovie Industrial Estate (Forties Road)"	"Land At Forties Road Baldovie Industrial Estate Dundee"	"Dundee City Council"	10	"Dundee"	6171
+"Wind Offshore"	"Stevenson Offshore Windfarm (Moray Firth)"	"Smith Bank, Moray Firth - 13miles off Lybster"	"Scottish Government (S36)"	316	"Offshore"	2537
+"Wind Offshore"	"Telford Offshore Windfarm (Moray Firth)"	"Smith Bank, Moray Firth - 13miles off Lybster"	"Scottish Government (S36)"	317	"Offshore"	2536
+"Small Hydro"	"Birkhall Estate"	"Glen Muick, Birkhall Ballater, Balmoral Estates, Ballater, Grampian"	"Cairngorms National Park Authority"	2	"Aberdeen"	6564
+"Wind Onshore"	"Torrs Hill"	"10km NW of New Galloway"	"Dumfries and Galloway Council"	4	"Dumfries and Galloway"	4529
+"Wind Onshore"	"Tralorg Wind Farm"	"2km to the east of Girvan"	"South Ayrshire Council"	20	"Strathclyde"	4073
+"Solar Photovoltaics"	"St Margarets Bay"	"Dunfermline W W T W, St Margarets Bay, North Queensferry, Rosyth, Inverkeithing, Fife"	"Fife Council"	0.23	"Fife"	7267
+"Small Hydro"	"Allt Eilidh"	"Land 6500M SE Of Birch View, Duror, Auchindarroch, Appin, Strathclyde"	"Highland Council"	0.6	"Highland"	7318

@@ -1,0 +1,501 @@
+"LA"	"TechType"	"Status"	"Sites"	"Capacity"
+"Highland"	"Biomass (dedicated)"	"Operational"	1	5
+"North Ayrshire"	"Biomass (dedicated)"	"Operational"	1	26.043
+"Stirling"	"Biomass (dedicated)"	"Operational"	1	15
+"Fife"	"Biomass (dedicated)"	"Operational"	1	12.5
+"Moray"	"Biomass (dedicated)"	"Operational"	1	8.32
+"Fife"	"Biomass (dedicated)"	"Operational"	1	65
+"Scottish Borders"	"Advanced Conversion Technologies"	"Operational"	1	10
+"Fife"	"Biomass (dedicated)"	"Operational"	1	5.5
+"Moray"	"Biomass (dedicated)"	"Operational"	1	12.5
+"Dumfries and Galloway"	"Biomass (dedicated)"	"Operational"	1	50.4
+"Aberdeenshire"	"Biomass (dedicated)"	"Operational"	1	1.2
+"North Lanarkshire"	"Anaerobic Digestion"	"Operational"	1	1
+"North Lanarkshire"	"Anaerobic Digestion"	"Operational"	1	2.4
+"North Lanarkshire"	"Anaerobic Digestion"	"Operational"	1	2.4
+"North Ayrshire"	"Anaerobic Digestion"	"Operational"	1	2.2
+"Fife"	"Anaerobic Digestion"	"Operational"	1	1.7
+"Glasgow City"	"Anaerobic Digestion"	"Operational"	1	5
+"East Lothian"	"Anaerobic Digestion"	"Operational"	1	1.5
+"North Ayrshire"	"Anaerobic Digestion"	"Operational"	1	1
+"Dumfries and Galloway"	"Anaerobic Digestion"	"Operational"	1	1.2
+"Midlothian"	"Anaerobic Digestion"	"Operational"	1	1.5
+"Highland"	"Large Hydro"	"Operational"	1	36
+"Highland"	"Large Hydro"	"Operational"	1	100
+"Highland"	"Large Hydro"	"Operational"	1	7.5
+"Highland"	"Large Hydro"	"Operational"	1	19.5
+"Perth and Kinross"	"Large Hydro"	"Operational"	1	6.4
+"Perth and Kinross"	"Large Hydro"	"Operational"	1	15
+"Argyll and Bute"	"Large Hydro"	"Operational"	1	6
+"Highland"	"Large Hydro"	"Operational"	1	5
+"Argyll and Bute"	"Large Hydro"	"Operational"	1	8
+"Highland"	"Large Hydro"	"Operational"	1	20
+"Highland"	"Large Hydro"	"Operational"	1	20
+"Highland"	"Large Hydro"	"Operational"	1	18
+"Highland"	"Large Hydro"	"Operational"	1	15
+"Highland"	"Large Hydro"	"Operational"	1	20
+"Highland"	"Large Hydro"	"Operational"	1	5.2
+"Highland"	"Large Hydro"	"Operational"	1	20
+"Highland"	"Large Hydro"	"Operational"	1	15
+"Highland"	"Large Hydro"	"Operational"	1	10
+"Perth and Kinross"	"Large Hydro"	"Operational"	1	11
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	1.9
+"Highland"	"Small Hydro"	"Operational"	1	4
+"Highland"	"Small Hydro"	"Operational"	1	3.5
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	3
+"Highland"	"Small Hydro"	"Operational"	1	2.5
+"Highland"	"Small Hydro"	"Operational"	1	3
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	1.4
+"Highland"	"Small Hydro"	"Operational"	1	3.3
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	1.97
+"Highland"	"Small Hydro"	"Operational"	1	1
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	1
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	1.9
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	2
+"Highland"	"Small Hydro"	"Operational"	1	1.35
+"Stirling"	"Small Hydro"	"Operational"	1	1.35
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	1
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	1.1
+"Highland"	"Small Hydro"	"Operational"	1	1.5
+"Highland"	"Small Hydro"	"Operational"	1	1.35
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	2
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	4
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	3
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	4
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	2.2
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	2.4
+"Highland"	"Small Hydro"	"Operational"	1	2.4
+"Highland"	"Small Hydro"	"Operational"	1	3
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Highland"	"Small Hydro"	"Operational"	1	3.5
+"Highland"	"Small Hydro"	"Operational"	1	2.5
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	1
+"Stirling"	"Small Hydro"	"Operational"	1	2.1
+"Highland"	"Small Hydro"	"Operational"	1	1.9
+"Highland"	"Small Hydro"	"Operational"	1	3
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	2
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	1.2
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	1.9
+"Highland"	"Small Hydro"	"Operational"	1	1.995
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Highland"	"Small Hydro"	"Operational"	1	1.5
+"Highland"	"Small Hydro"	"Operational"	1	4
+"Highland"	"Small Hydro"	"Operational"	1	3.5
+"Stirling"	"Small Hydro"	"Operational"	1	1.3
+"Highland"	"Small Hydro"	"Operational"	1	1.3
+"Highland"	"Small Hydro"	"Operational"	1	1.5
+"Stirling"	"Small Hydro"	"Operational"	1	2
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Highland"	"Small Hydro"	"Operational"	1	1.2
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Highland"	"Small Hydro"	"Operational"	1	1.1
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Highland"	"Small Hydro"	"Operational"	1	1.25
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	2.2
+"Perth and Kinross"	"Small Hydro"	"Operational"	1	2
+"Aberdeenshire"	"Landfill Gas"	"Operational"	1	2.2
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	4
+"East Ayrshire"	"Landfill Gas"	"Operational"	1	3.03
+"Midlothian"	"Landfill Gas"	"Operational"	1	2
+"North Ayrshire"	"Landfill Gas"	"Operational"	1	1.15
+"Fife"	"Landfill Gas"	"Operational"	1	2
+"Edinburgh City"	"Landfill Gas"	"Operational"	1	2.4
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	2.2
+"West Dunbartonshire"	"Landfill Gas"	"Operational"	1	2.113
+"Glasgow City"	"Landfill Gas"	"Operational"	1	3.94
+"East Ayrshire"	"Landfill Gas"	"Operational"	1	1.3
+"Aberdeen City"	"Landfill Gas"	"Operational"	1	2.2
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	1.96
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	1.96
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	1.89
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	1.89
+"Fife"	"Landfill Gas"	"Operational"	1	1
+"Perth and Kinross"	"Landfill Gas"	"Operational"	1	1.92
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	2.272
+"South Lanarkshire"	"Landfill Gas"	"Operational"	1	7.39
+"Glasgow City"	"Landfill Gas"	"Operational"	1	2.78
+"East Ayrshire"	"Landfill Gas"	"Operational"	1	2.41
+"Midlothian"	"Landfill Gas"	"Operational"	1	2.18
+"North Lanarkshire"	"Landfill Gas"	"Operational"	1	2.2
+"Angus"	"Landfill Gas"	"Operational"	1	2
+"West Dunbartonshire"	"Landfill Gas"	"Operational"	1	2
+"Aberdeenshire"	"Landfill Gas"	"Operational"	1	4.272
+"East Lothian"	"Landfill Gas"	"Operational"	1	14
+"East Lothian"	"Landfill Gas"	"Operational"	1	2.2
+"Midlothian"	"Landfill Gas"	"Operational"	1	2
+"Dundee City"	"EfW Incineration"	"Operational"	1	8.3
+"Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	2.4
+"Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	1.8
+"Perth and Kinross"	"Solar Photovoltaics"	"Operational"	1	13
+"Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Operational"	1	2
+"Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Operational"	1	6
+"Orkney Islands"	"Shoreline Wave"	"Operational"	1	1
+"Offshore"	"Wind Offshore"	"Operational"	1	30
+"Offshore"	"Wind Offshore"	"Operational"	1	10
+"Offshore"	"Wind Offshore"	"Operational"	1	90
+"Offshore"	"Wind Offshore"	"Operational"	1	84
+"Offshore"	"Wind Offshore"	"Operational"	1	93.2
+"Offshore"	"Wind Offshore"	"Operational"	1	588
+"Offshore"	"Wind Offshore"	"Operational"	1	7
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	2.4
+"Highland"	"Wind Onshore"	"Operational"	1	20
+"Fife"	"Wind Onshore"	"Operational"	1	1.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.3
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	4.25
+"Fife"	"Wind Onshore"	"Operational"	1	1.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.3
+"East Ayrshire"	"Wind Onshore"	"Operational"	1	13.2
+"Highland"	"Wind Onshore"	"Operational"	1	15
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.55
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	6
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	2
+"East Ayrshire"	"Wind Onshore"	"Operational"	1	109
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	1.7
+"Fife"	"Wind Onshore"	"Operational"	1	4.6
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.3
+"Highland"	"Wind Onshore"	"Operational"	1	7.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.3
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	5.2
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	7.65
+"Clackmannanshire"	"Wind Onshore"	"Operational"	1	26
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	5
+"Stirling"	"Wind Onshore"	"Operational"	1	20
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	1.6
+"Highland"	"Wind Onshore"	"Operational"	1	4.6
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.4
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	3.2
+"East Renfrewshire"	"Wind Onshore"	"Operational"	1	1.8
+"East Renfrewshire"	"Wind Onshore"	"Operational"	1	4.651
+"Highland"	"Wind Onshore"	"Operational"	1	48.3
+"South Ayrshire"	"Wind Onshore"	"Operational"	1	120
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	62.5
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	124
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	24
+"Stirling"	"Wind Onshore"	"Operational"	1	72
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	1.5
+"Highland"	"Wind Onshore"	"Operational"	1	13
+"Highland"	"Wind Onshore"	"Operational"	1	23
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	28
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	17.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	12.25
+"Stirling"	"Wind Onshore"	"Operational"	1	37.5
+"Highland"	"Wind Onshore"	"Operational"	1	47.5
+"Highland"	"Wind Onshore"	"Operational"	1	38
+"Highland"	"Wind Onshore"	"Operational"	1	3.9
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	6
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	26
+"West Lothian"	"Wind Onshore"	"Operational"	1	14
+"North Lanarkshire"	"Wind Onshore"	"Operational"	1	4
+"South Ayrshire"	"Wind Onshore"	"Operational"	1	120
+"South Ayrshire"	"Wind Onshore"	"Operational"	1	56
+"Highland"	"Wind Onshore"	"Operational"	1	6.15
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	30
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	15
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	7.837
+"Highland"	"Wind Onshore"	"Operational"	1	9
+"Highland"	"Wind Onshore"	"Operational"	1	17
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	19.3
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	30
+"Midlothian"	"Wind Onshore"	"Operational"	1	31.2
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	7.8
+"South Lanarkshire"	"Wind Onshore"	"Operational"	0	0
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Operational"	1	3.9
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	5
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	2.3
+"Highland"	"Wind Onshore"	"Operational"	1	4.9
+"Shetland Islands"	"Wind Onshore"	"Operational"	1	3.68
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	26
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	1
+"Fife"	"Wind Onshore"	"Operational"	1	1.5
+"Highland"	"Wind Onshore"	"Operational"	1	5
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	9.2
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.3
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.3
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	2.3
+"Falkirk"	"Wind Onshore"	"Operational"	1	12
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	1
+"Highland"	"Wind Onshore"	"Operational"	1	2.3
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	138
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	15
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	6
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	27.6
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	12.75
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	27
+"East Renfrewshire"	"Wind Onshore"	"Operational"	1	322
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.4
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	2.7
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.5
+"Moray"	"Wind Onshore"	"Operational"	1	50.6
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	20.7
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	22
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	12
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	15.75
+"Midlothian"	"Wind Onshore"	"Operational"	1	17.16
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	28.6
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	29.75
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	9.6
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	33.302
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	7.8
+"South Lanarkshire"	"Wind Onshore"	"Operational"	-1	0
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"Highland"	"Wind Onshore"	"Operational"	1	10
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	38
+"Highland"	"Wind Onshore"	"Operational"	1	23.8
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	36.8
+"Highland"	"Wind Onshore"	"Operational"	1	66
+"Stirling"	"Wind Onshore"	"Operational"	1	2.4
+"Highland"	"Wind Onshore"	"Operational"	1	70
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	12.5
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	2.2
+"Highland"	"Wind Onshore"	"Operational"	1	2.6
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Operational"	1	6.9
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	15
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.4
+"Fife"	"Wind Onshore"	"Operational"	1	12.5
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	28
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	18
+"Moray"	"Wind Onshore"	"Operational"	1	4.6
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	1.8
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	6.9
+"East Renfrewshire"	"Wind Onshore"	"Operational"	1	12
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.4
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	1
+"Shetland Islands"	"Wind Onshore"	"Operational"	1	4.5
+"Highland"	"Wind Onshore"	"Operational"	1	10
+"North Lanarkshire"	"Wind Onshore"	"Operational"	1	2.5
+"Highland"	"Wind Onshore"	"Operational"	1	10
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	10.8
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	20.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	1.7
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	6.9
+"Highland"	"Wind Onshore"	"Operational"	1	85
+"North Lanarkshire"	"Wind Onshore"	"Operational"	1	9
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	9.2
+"Moray"	"Wind Onshore"	"Operational"	1	1.6
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.4
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	9
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	7.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	1.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	10
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	3.2
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	7.5
+"Fife"	"Wind Onshore"	"Operational"	1	1.5
+"Highland"	"Wind Onshore"	"Operational"	1	29.9
+"East Renfrewshire"	"Wind Onshore"	"Operational"	1	4.2665
+"East Renfrewshire"	"Wind Onshore"	"Operational"	1	9.2
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	6.8
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	22.5
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	1.8
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	9.6
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	2.4
+"East Renfrewshire"	"Wind Onshore"	"Operational"	1	7.1665
+"Moray"	"Wind Onshore"	"Operational"	1	41.4
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	6.9
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.4
+"East Ayrshire"	"Wind Onshore"	"Operational"	1	108
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Operational"	1	2.7
+"Highland"	"Wind Onshore"	"Operational"	1	50
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	2.7
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	36.8
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	350
+"Highland"	"Wind Onshore"	"Operational"	1	36.8
+"Moray"	"Wind Onshore"	"Operational"	1	42
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	13.8
+"Highland"	"Wind Onshore"	"Operational"	1	52.5
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	28.6
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	5.95
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	32.2
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	156
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	15.75
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	53
+"Fife"	"Wind Onshore"	"Operational"	1	25
+"Highland"	"Wind Onshore"	"Operational"	1	24.7
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	14.3
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	144
+"Glasgow City"	"Wind Onshore"	"Operational"	1	3
+"Angus"	"Wind Onshore"	"Operational"	1	6.4
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Operational"	1	13.8
+"Moray"	"Wind Onshore"	"Operational"	1	18
+"Shetland Islands"	"Wind Onshore"	"Operational"	1	3
+"Fife"	"Wind Onshore"	"Operational"	1	6.9
+"North Lanarkshire"	"Wind Onshore"	"Operational"	1	5.7
+"Fife"	"Wind Onshore"	"Operational"	1	2
+"Fife"	"Wind Onshore"	"Operational"	1	1.5
+"Fife"	"Wind Onshore"	"Operational"	1	6.4
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	10
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	36
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	18.4
+"Highland"	"Wind Onshore"	"Operational"	1	94
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	136
+"Highland"	"Wind Onshore"	"Operational"	1	54.4
+"Highland"	"Wind Onshore"	"Operational"	1	29.9
+"Highland"	"Wind Onshore"	"Operational"	1	22.5
+"Highland"	"Wind Onshore"	"Operational"	1	51
+"Falkirk"	"Wind Onshore"	"Operational"	1	26
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	1.6
+"East Ayrshire"	"Wind Onshore"	"Operational"	1	29.75
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	6.9
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	172.8
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	29.9
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	6.9
+"West Lothian"	"Wind Onshore"	"Operational"	1	19.2
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	13.8
+"West Lothian"	"Wind Onshore"	"Operational"	1	8.5
+"Clackmannanshire"	"Wind Onshore"	"Operational"	1	12
+"West Lothian"	"Wind Onshore"	"Operational"	1	51.7
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	6.4
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	7.5
+"Moray"	"Wind Onshore"	"Operational"	1	177
+"Stirling"	"Wind Onshore"	"Operational"	1	22.5
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	48.43
+"Moray"	"Wind Onshore"	"Operational"	1	66.7
+"East Ayrshire"	"Wind Onshore"	"Operational"	1	50
+"West Lothian"	"Wind Onshore"	"Operational"	1	30.75
+"South Ayrshire"	"Wind Onshore"	"Operational"	1	69
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Operational"	1	9
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	8.25
+"Highland"	"Wind Onshore"	"Operational"	1	9.2
+"Moray"	"Wind Onshore"	"Operational"	1	18.4
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	6
+"Highland"	"Wind Onshore"	"Operational"	1	10
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	48.3
+"East Lothian"	"Wind Onshore"	"Operational"	1	60.8
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	36
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.3
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	7.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	10
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	6.9
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	29.9
+"Fife"	"Wind Onshore"	"Operational"	1	18.4
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	25
+"East Ayrshire"	"Wind Onshore"	"Operational"	1	66
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	2.5
+"Moray"	"Wind Onshore"	"Operational"	1	27.6
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	239
+"Highland"	"Wind Onshore"	"Operational"	1	18
+"Fife"	"Wind Onshore"	"Operational"	1	1.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	4.6
+"Highland"	"Wind Onshore"	"Operational"	1	39
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	10
+"Highland"	"Wind Onshore"	"Operational"	1	18.45
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	30
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	61.5
+"East Lothian"	"Wind Onshore"	"Operational"	1	5.1
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	8.12
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	25
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	51
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	32.4
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	9.1
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	4
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	35
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	2.5
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	2.4
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	15.3
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	25.3
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	22
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	6.8
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	1
+"East Lothian"	"Wind Onshore"	"Operational"	1	4.5
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	36.8
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	19.5
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	18.2
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	30
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	10
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	43.7
+"East Lothian"	"Wind Onshore"	"Operational"	1	48
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	21.6
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	6.9
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	15
+"South Ayrshire"	"Wind Onshore"	"Operational"	1	22
+"Highland"	"Wind Onshore"	"Operational"	1	228
+"Perth and Kinross"	"Wind Onshore"	"Operational"	1	14.4
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	28.7
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	5
+"Argyll and Bute"	"Wind Onshore"	"Operational"	1	46
+"Scottish Borders"	"Wind Onshore"	"Operational"	1	16
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	37
+"Highland"	"Wind Onshore"	"Operational"	1	67.65
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	18.4
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Operational"	1	1.5
+"Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	27.5
+"Highland"	"Wind Onshore"	"Operational"	1	110
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	88.4
+"South Ayrshire"	"Wind Onshore"	"Operational"	1	25
+"Highland"	"Wind Onshore"	"Operational"	1	26.65
+"Highland"	"Wind Onshore"	"Operational"	1	69.5
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	57.5
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	6
+"Highland"	"Wind Onshore"	"Operational"	1	29.75
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	16.65
+"Highland"	"Wind Onshore"	"Operational"	1	41.4
+"Highland"	"Wind Onshore"	"Operational"	1	43
+"Highland"	"Wind Onshore"	"Operational"	1	92
+"Orkney Islands"	"Wind Onshore"	"Operational"	1	1.75
+"Highland"	"Wind Onshore"	"Operational"	1	5.2
+"Dundee City"	"Wind Onshore"	"Operational"	1	4
+"Highland"	"Wind Onshore"	"Operational"	1	40
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	12.3
+"Moray"	"Wind Onshore"	"Operational"	1	65
+"North Ayrshire"	"Wind Onshore"	"Operational"	1	18
+"Highland"	"Small Hydro"	"Operational"	1	1.6
+"Fife"	"Biomass (dedicated)"	"Operational"	1	6.5
+"North Lanarkshire"	"Wind Onshore"	"Operational"	1	1.5
+"Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	1.6
+"Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	3.75
+"Stirling"	"Small Hydro"	"Operational"	1	1.1
+"Angus"	"Solar Photovoltaics"	"Operational"	1	10
+"Aberdeenshire"	"Wind Onshore"	"Operational"	1	2.4
+"Angus"	"Solar Photovoltaics"	"Operational"	1	5
+"West Lothian"	"Solar Photovoltaics"	"Operational"	1	1.28
+"West Lothian"	"Advanced Conversion Technologies"	"Operational"	1	12.5
+"Midlothian"	"EfW Incineration"	"Operational"	1	12.5
+"North Ayrshire"	"Solar Photovoltaics"	"Operational"	1	5
+"Angus"	"Solar Photovoltaics"	"Operational"	1	5
+"Fife"	"Solar Photovoltaics"	"Operational"	1	5
+"Highland"	"Small Hydro"	"Operational"	1	1.9
+"Fife"	"Solar Photovoltaics"	"Operational"	1	4
+"East Lothian"	"Wind Onshore"	"Operational"	1	4.8
+"Clackmannanshire"	"Solar Photovoltaics"	"Operational"	1	4.99
+"Fife"	"Solar Photovoltaics"	"Operational"	1	5
+"Fife"	"Anaerobic Digestion"	"Operational"	1	2
+"Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	1.2
+"Argyll and Bute"	"Small Hydro"	"Operational"	1	1.5
+"Perth and Kinross"	"Anaerobic Digestion"	"Operational"	1	1.5
+"Highland"	"Small Hydro"	"Operational"	1	2
+"Stirling"	"Biomass (dedicated)"	"Operational"	1	5.6
+"Highland"	"Biomass (dedicated)"	"Operational"	1	3.5
+"Falkirk"	"Advanced Conversion Technologies"	"Operational"	1	2
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	1.5
+"South Ayrshire"	"Biomass (dedicated)"	"Operational"	1	2.55
+"South Lanarkshire"	"Wind Onshore"	"Operational"	1	2.55
+"Stirling"	"Wind Onshore"	"Operational"	1	1.5
+"East Lothian"	"Wind Onshore"	"Operational"	1	1.5
+"Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Operational"	1	2
+"Highland"	"Large Hydro"	"Operational"	1	65
+"Highland"	"Wind Onshore"	"Operational"	1	2.6
+"Offshore"	"Tidal Barrage and Tidal Stream"	"Operational"	1	0.5
+"North Lanarkshire"	"Biomass (dedicated)"	"Operational"	1	17
+"Argyll and Bute"	"Pumped Storage Hydroelectricity"	"Operational"	1	440
+"Highland"	"Pumped Storage Hydroelectricity"	"Operational"	1	300
+"Shetland Islands"	"Battery"	"Operational"	1	0.016
+"Highland"	"Battery"	"Operational"	1	0.012
+"Highland"	"Battery"	"Operational"	1	0.06
+"Highland"	"Battery"	"Operational"	1	0.045
+"Highland"	"Battery"	"Operational"	1	0.045
+"Shetland Islands"	"Battery"	"Operational"	1	1
+"Orkney Islands"	"Battery"	"Operational"	1	2
+"Aberdeenshire"	"Battery"	"Operational"	1	1
+"West Lothian"	"Battery"	"Operational"	1	20
+"North Lanarkshire"	"Solar Photovoltaics"	"Operational"	1	0.15
+"Moray"	"Anaerobic Digestion"	"Operational"	1	1.5

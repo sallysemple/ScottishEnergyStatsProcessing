@@ -1,0 +1,3 @@
+"network_type"	"DwellingCustomers"	"NonDomConnectedCustomers"	"capacity_kw"	"generation_kwh"	"supply"
+"Communal"	9192	2375	0.3437418958385	1384.01970667661	214.11904909628
+"District"	20455	496	0.49472603264	1258.16554223961	963.5670164901

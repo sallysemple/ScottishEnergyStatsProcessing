@@ -1,0 +1,30 @@
+"X__1"	"X__2"	"X__3"	"2011"	"2012"	"2013"	"2014"	"2015"
+"Number in sample"	0	0	0	0	0	0	0
+0	"All dwellings"	0	1597040	1533190	1552660	1682540	"1630340"
+0	"1"	0	131930	127030	129430	142080	"138600"
+0	"2"	0	563740	542850	549190	597200	"593660"
+0	"3"	0	605210	579880	586630	629650	"632150"
+0	"4"	0	174100	165930	167510	182810	"185880"
+0	"5 or more"	0	60400	57470	59000	64600	"66880"
+0	"Unknown"	0	61660	60040	60900	66190	"13160"
+"Mean (kWh)"	0	0	0	0	0	0	0
+0	"All dwellings"	0	15400	15300	14700	14300	"13900"
+0	"1"	0	10100	9800	9500	9100	"8800"
+0	"2"	0	12300	12000	11600	11200	"10900"
+0	"3"	0	16100	16000	15400	15000	"14700"
+0	"4"	0	22200	22200	21600	21000	"20700"
+0	"5 or more"	0	25200	25300	24600	24200	"24100"
+0	"Unknown"	0	20100	20100	19700	19000	"14600"
+"Median (kWh)"	0	0	0	0	0	0	0
+0	"All dwellings"	0	14000	13900	13300	12900	"12600"
+0	"1"	0	8700	8500	8200	7800	"7700"
+0	"2"	0	11400	11300	10800	10400	"10400"
+0	"3"	0	15300	15100	14500	14100	"13800"
+0	"4"	0	21100	21200	20500	20000	"19600"
+0	"5 or more"	0	24700	24800	24100	23600	"23400"
+0	"Unknown"	0	17800	17800	17400	16600	"11700"
+0	0	0	0	0	0	0	"Source: NEED 2017, Experian"
+"1 Sample sizes have been rounded to the nearest 10 and consumption to the nearest 100 kWh."	0	0	0	0	0	0	0
+"2 Property attribute information based on modelled data from Experian."	0	0	0	0	0	0	0
+"3 Only households with valid gas consumption between 100 and 50,000 kWh have been included."	0	0	0	0	0	0	0
+"4 Households with suspected estimated gas consumption readings have been excluded."	0	0	0	0	0	0	0
