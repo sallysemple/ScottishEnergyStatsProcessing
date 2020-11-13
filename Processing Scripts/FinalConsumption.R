@@ -198,4 +198,6 @@ unique(FinalConsumptionScotStat$`Energy Consuming Sector`)
 
 unique(FinalConsumptionScotStat$`Energy Type`)
 
+FinalConsumptionScotStat$Value <- as.numeric(round(FinalConsumptionScotStat$Value,3))
+
 write_csv(FinalConsumptionScotStat, "Output/Consumption/ScotStatConsumption.csv")
