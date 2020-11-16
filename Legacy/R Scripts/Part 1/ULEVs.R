@@ -12,7 +12,7 @@ yearend <- format(Sys.Date(), "%Y")
 
 setwd("J:/ENERGY BRANCH/Statistics/Energy Statistics Processing")
 
-ULEV <- read_ods("Data Sources/Vehicles/CurrentULEV.ods", skip = 6)
+ULEV <- read_ods("Data Sources/Vehicles/CurrentULEV.ods", skip = 6, sheet = "VEH0132a")
 
 colnames(ULEV)[1] <- "CODE"
 
@@ -33,7 +33,7 @@ write.table(
   row.names = FALSE
 )
 
-Battery <- read_excel("Data Sources/Vehicles/CurrentBattery.xlsx", skip = 6)
+Battery <- read_ods("Data Sources/Vehicles/CurrentULEV.ods", skip = 6, sheet = "VEH0132b")
 
 colnames(Battery)[1] <- "CODE"
 

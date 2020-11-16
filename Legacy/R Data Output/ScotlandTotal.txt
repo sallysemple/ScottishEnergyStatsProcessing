@@ -127,6 +127,8 @@
 "East Lothian"	"Landfill Gas"	"Operational"	1	2.2
 "Midlothian"	"Landfill Gas"	"Operational"	1	2
 "Dundee City"	"EfW Incineration"	"Operational"	1	8.3
+"Glasgow City"	"Advanced Conversion Technologies"	"Operational"	1	10
+"East Lothian"	"EfW Incineration"	"Operational"	1	25.6
 "Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	2.4
 "Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	1.8
 "Perth and Kinross"	"Solar Photovoltaics"	"Operational"	1	13
@@ -309,7 +311,7 @@
 "Perth and Kinross"	"Wind Onshore"	"Operational"	1	36.8
 "South Lanarkshire"	"Wind Onshore"	"Operational"	1	350
 "Highland"	"Wind Onshore"	"Operational"	1	36.8
-"Moray"	"Wind Onshore"	"Operational"	1	42
+"Moray"	"Wind Onshore"	"Operational"	1	48
 "Dumfries and Galloway"	"Wind Onshore"	"Operational"	1	13.8
 "Highland"	"Wind Onshore"	"Operational"	1	52.5
 "Scottish Borders"	"Wind Onshore"	"Operational"	1	28.6
@@ -466,9 +468,11 @@
 "Highland"	"Small Hydro"	"Operational"	1	1.9
 "Fife"	"Solar Photovoltaics"	"Operational"	1	4
 "East Lothian"	"Wind Onshore"	"Operational"	1	4.8
+"Highland"	"Anaerobic Digestion"	"Operational"	1	2
 "Clackmannanshire"	"Solar Photovoltaics"	"Operational"	1	4.99
 "Fife"	"Solar Photovoltaics"	"Operational"	1	5
 "Fife"	"Anaerobic Digestion"	"Operational"	1	2
+"Angus"	"Solar Photovoltaics"	"Operational"	1	4.99
 "Aberdeenshire"	"Solar Photovoltaics"	"Operational"	1	1.2
 "Argyll and Bute"	"Small Hydro"	"Operational"	1	1.5
 "Perth and Kinross"	"Anaerobic Digestion"	"Operational"	1	1.5
@@ -497,5 +501,8 @@
 "Orkney Islands"	"Battery"	"Operational"	1	2
 "Aberdeenshire"	"Battery"	"Operational"	1	1
 "West Lothian"	"Battery"	"Operational"	1	20
+"Fife"	"Solar Photovoltaics"	"Operational"	1	0.23
+"Highland"	"Solar Photovoltaics"	"Operational"	1	0.27
+"Highland"	"Solar Photovoltaics"	"Operational"	1	0.2
 "North Lanarkshire"	"Solar Photovoltaics"	"Operational"	1	0.15
 "Moray"	"Anaerobic Digestion"	"Operational"	1	1.5

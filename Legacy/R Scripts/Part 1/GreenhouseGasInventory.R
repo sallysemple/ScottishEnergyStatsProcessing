@@ -16,13 +16,13 @@ setwd("J:/ENERGY BRANCH/Statistics/Energy Statistics Processing")
 
 ### Read Source File ###
 GasInventory <-
-  read_excel("Data Sources/Greenhouse Gas Inventory/Current.xlsm",
-             skip = 3)
+  read_excel("Data Sources/Greenhouse Gas Inventory/Current.xlsx",
+             skip = 4)
 ### Subset Necessary Row ###
 GasInventory <-
   subset(
     GasInventory,
-    GasInventory$`Row Labels` == "1A1ai_Public_Electricity&Heat_Production"
+    GasInventory$`IPCC` == "1A1ai_Public_Electricity&Heat_Production"
   )
 
 write.table(

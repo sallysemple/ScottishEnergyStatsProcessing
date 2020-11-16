@@ -12,7 +12,7 @@ print("ElectricityBills")
 ElectricityBill <-
   read_excel(
     "Data Sources/Energy Bills/CurrentElectricity.xlsx",
-    sheet = "Long Run",
+    sheet = "Table 2.2.2 (St) 3,800 kWh",
     skip = 4
   )
 

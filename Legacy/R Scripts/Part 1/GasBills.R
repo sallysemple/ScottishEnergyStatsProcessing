@@ -10,12 +10,12 @@ setwd("J:/ENERGY BRANCH/Statistics/Energy Statistics Processing")
 
 ### Read Source File ###
 GasBill <- read_excel("Data Sources/Energy Bills/CurrentGas.xlsx",
-                      sheet = "Table 2.3.2 ",
+                      sheet = "Calculations",
                       skip = 4)
 
 ### Remove Excess Columns ###
-GasBill[5] <- NULL
-GasBill[7] <- NULL
+GasBill[c(3,6,9,12,13,14,15)] <- NULL
+
 
 ### Rename Columns ###
 names(GasBill) <-
@@ -58,7 +58,7 @@ write.table(
 ### Regional Breakdown ###
 
 CurrentGasRegion <- read_excel("Data Sources/Energy Bills/CurrentGasRegion.xlsx", 
-                                sheet = "2019 Regional Dom Bill", skip = 4, n_max = 16)
+                                sheet = "Table 2.3.3", skip = 4, n_max = 16)
 
 CurrentGasRegion <- CurrentGasRegion[c(1,3,6,9,12)]
 

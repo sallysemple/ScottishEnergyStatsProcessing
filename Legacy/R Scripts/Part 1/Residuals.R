@@ -41,7 +41,7 @@ for (year in yearstart:yearend) {
         ResidualsWorking,
         X__2 == "TOTAL SCOTLAND" |
           X__2 == "Wales" |
-          X__2 == "England" | X__2 == "TOTAL UNITED KINGDOM"
+          X__2 == "England" | X__2 == "UNITED KINGDOM"
       )
     
     ### Add Current Loop year to its own column ###
@@ -76,7 +76,7 @@ for (year in yearstart:yearend) {
         ResidualsWorking,
         X__2 == "TOTAL SCOTLAND" |
           X__2 == "Wales" |
-          X__2 == "England" | X__2 == "TOTAL UNITED KINGDOM"
+          X__2 == "England" | X__2 == "UNITED KINGDOM"
       )
     
     ### Add Current Loop year to its own column ###
@@ -95,7 +95,7 @@ for (year in yearstart:yearend) {
 } # Loop End
 
 ### Remove uneeded columns ###
-Residuals[10:16] <- list(NULL)
+Residuals[10:20] <- list(NULL)
 
 ### Apply Column Names from first row ###
 names(Residuals) <- as.matrix(Residuals[1,])
@@ -107,7 +107,7 @@ Residuals <- Residuals[-1,]
 Residuals$Year <- as.numeric(as.character(Residuals$Year))
 
 ### Convert to kWh ###
-Residuals[3:10] %<>% lapply(function(x) as.numeric(as.character(x))*11.63)
+Residuals[3:9] %<>% lapply(function(x) as.numeric(as.character(x))*11.63)
 
 
 ### Create Scottish Subset ###
@@ -150,7 +150,7 @@ write.table(
 
 ### UK subset ###
 UKResiduals <-
-  subset(Residuals, Country == "TOTAL UNITED KINGDOM")
+  subset(Residuals, Country == "UNITED KINGDOM")
 
 ### Export ###
 write.table(

@@ -14,8 +14,8 @@ print("GasBillsPaymentMethods")
 GasBillPaymentMethods <-
   read_excel(
     "Data Sources/Energy Bills Payment Methods/CurrentGas.xlsx",
-    sheet = "Quarterly Database Main Table",
-    skip = 2
+    sheet = "Quarterly",
+    skip = 3
   ) %>% subset(`Region` == "Scotland")
 
 GasBillPaymentMethods$Quarter <- as.Date(as.numeric(GasBillPaymentMethods$Quarter), origin = "1899-12-30")
@@ -27,7 +27,7 @@ GasBillPaymentMethods <- GasBillPaymentMethods[!duplicated(GasBillPaymentMethods
 
 ### Export to CSV ###
 write.table(
-  GasBillPaymentMethods,
+  GasBillPaymentMethods[2:6],
   "R Data Output/GasBillPaymentMethods.txt",
   sep = "\t",
   na = " ",

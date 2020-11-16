@@ -1,5 +1,4 @@
 "Time Period"	"Motor Spirit - Ultra low Sulphur Petrol"	"Motor Spirit - Sulphur Free Petrol"	"Motor Spirit - Unleaded Petrol"	"Motor Spirit - Super Unleaded Petrol/ LRP"	"Motor Spirit - Leaded Petrol"	"Motor Spirit - Bioethanol"	"Motor Spirit - Total Petrol"	"Diesel - Ultra low Sulphur Diesel"	"Diesel - Sulphur Free Diesel"	"Diesel - Diesel"	"Diesel - Biodiesel and Bioblended"	"Diesel - Total Diesel"	"Fuel Oil"	"Gas Oil"	"Total"	"Road Fuel Gases (Natural Gas/LPG)"	"NA"
-"2019"	0	0	16099	0	0	753	16851	0	0	28437	1597	30034	199	5069	52340	54	 
 "2018"	0	0	15840	0	0	761	16601	0	0	29372	1139	30512	135	5234	52595	67	 
 "2017"	0	0	16020	0	0	752	16772	0	0	29712	697	30410	243	5196	52715	62	 
 "2016"	0	0	16341	0	0	758	17100	0	0	29393	707	30100	156	5226	52709	71	 

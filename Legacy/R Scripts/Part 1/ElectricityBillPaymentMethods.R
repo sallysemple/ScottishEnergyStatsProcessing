@@ -13,16 +13,16 @@ print("ElectricityBillsPaymentMethods")
 ElectricityBillPaymentMethods <-
   read_excel(
     "Data Sources/Energy Bills Payment Methods/CurrentElectricity.xlsx",
-    sheet = "Quarterly Database Main Table",
-    skip = 2
-  ) %>% subset(`PES region` == "Scotland")
+    sheet = "Quarterly",
+    skip = 3
+  ) %>% subset(`Region` == "Scotland")
 
 ElectricityBillPaymentMethods$Quarter <- as.yearqtr(ElectricityBillPaymentMethods$Quarter, "%Y-%m-%d")
 
 
 ### Export to CSV ###
 write.table(
-  ElectricityBillPaymentMethods,
+  ElectricityBillPaymentMethods[2:6],
   "R Data Output/ElectricityBillPaymentMethods.txt",
   sep = "\t",
   na = " ",

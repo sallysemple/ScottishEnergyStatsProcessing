@@ -1,4 +1,4 @@
-"Quarter"	"PES region"	"Credit"	"Direct Debit"	"Prepayment"
+"Quarter"	"Region"	"Credit"	"Direct Debit"	"Prepayment"
 2005 Q3	"Scotland"	36	44	20
 2005 Q4	"Scotland"	36	44	20
 2006 Q1	"Scotland"	36	45	19
@@ -58,3 +58,4 @@
 2019 Q3	"Scotland"	19	63	18
 2019 Q4	"Scotland"	19	64	18
 2020 Q1	"Scotland"	18	64	18
+2020 Q2	"Scotland"	18	64	18

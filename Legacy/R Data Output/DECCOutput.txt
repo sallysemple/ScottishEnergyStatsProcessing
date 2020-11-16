@@ -1,969 +1,398 @@
-"RenewableArea"	"ProjectName"	"SiteName"	"Country"	"Capacity"	"change in capacity Q1"	"change in capacity Q2"	"change in capacity Q3"	"change in capacity Q4"	"RESTATS Ref"	"ROC Ref"	"Survey"	"Capacity Q1"	"Capacity Q2"	"Capacity Q3"	"Capacity Q4"	"Operational Month (0=previous years)"	"CAPACITY END of last year"
-"Anaerobic Digestion"	"Scottish Executive New Farm Digester"	"Scottish Executive New Farm Digester (Waste AD)"	"Scotland"	0.015	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Bio Gask - A, B, C, E (Gask Farm)"	"Bio Gask - A, B, C, E (Farm AD)"	"Scotland"	1.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Creed Park"	"Creed Park - A, C, D (2/4/2007) (Waste AD)"	"Scotland"	0.237	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"GIRVAN DISTILLERY-ANAEROBIC REACTOR"	"GIRVAN DISTILLERY-ANAEROBIC REACTOR  (Waste AD)"	"Scotland"	7.357	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Deerdykes Composting and Organics Recycling Facility"	"Deerdykes Composting and Organics Recycling Facility (Waste AD)"	"Scotland"	1.236	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"FIT-AD S"	"FIT-AD S"	"Scotland"	17.95	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Cumbernauld BioPlant (AD) - energen biogas"	"Cumbernauld BioPlant (AD) - energen biogas (Waste AD)"	"Scotland"	5.822	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Barkip Anaerobic Digestor (AD)"	"Barkip Anaerobic Digestor (Waste AD)"	"Scotland"	2.126	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Perth AD Plant - ROC"	"Perth AD Plant - ROC (Waste AD)"	"Scotland"	2.36	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Cameron Bridge Distillery (Diageo) (Industrial (CHP))"	"Cameron Bridge Distillery (Diageo) - CHP (Waste AD)"	"Scotland"	5.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Messrs GE Booth & Son"	"Savock Farm (Farm AD)"	"Scotland"	0.46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Camieston Biogas"	"Camieston Biogas (Farm AD)"	"Scotland"	0.499	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Tornagrain Gas Mill"	"Tornagrain Gas Mill (Unknown)"	"Scotland"	0.46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Inchdairnie Renewable Energy"	"Inchdairnie Renewable Energy (Farm AD)"	"Scotland"	0.46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Stracathro Renewable Energy"	"Stracathro Renewable Energy (Unknown)"	"Scotland"	0.46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Glasgow Renewable Energy and Recycling Centre (Waste AD)"	"Glasgow Renewable Energy and Recycling Centre (Waste AD)"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Hatton Farm AD"	"Hatton Farm AD/Grissan Carnside Limited (Farm AD)"	"Scotland"	0.993	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Anaerobic Digestion"	"Portgordon Maltings"	"Portgordon Maltings/Grissan Portside Limited (Farm AD)"	"Scotland"	1.013	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"FIT-PV S"	"FIT-PV S"	"Scotland"	293.593268629192	3.99112862919162	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Scottish & Southern Energy plc"	"Edinburgh College"	"Scotland"	0.62725	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"MCS-PV S"	"MCS-PV S"	"Scotland"	14.2820843544499	14.2820843544499	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"ROOFIT-PV S"	"ROOFIT-PV S"	"Scotland"	0.52385005598549	0.52385005598549	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Bonnymans"	"Bonnymans"	"Scotland"	0.097	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Cubico Sustainable Investments Ltd"	"New Mains of Guynd (Scotland)"	"Scotland"	4.98784	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Cairnhill Farm solar park"	"Cairnhill Farm solar park"	"Scotland"	3.0906	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Cairnmore Solar Park"	"Cairnmore Solar Park"	"Scotland"	4.32432	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Cubico Sustainable Investments Ltd"	"West Mains of Kinblethmont"	"Scotland"	4.99928	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Brechin WWTW PV"	"Brechin WWTW PV"	"Scotland"	0.2496	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Armadale WWTW PV"	"Armadale WWTW PV"	"Scotland"	0.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"IOM Solar PV1"	"IOM Solar PV1"	"Scotland"	0.064	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Greencoat Solar I LLP"	"Errol"	"Scotland"	12.99942	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Wormit Photovoltaic_Project"	"Wormit Photovoltaic_Project"	"Scotland"	4.961	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Octopus Investments Ltd"	"Site To North East Of, Lochcraigs Farm"	"Scotland"	4.992	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Lightsource Renewable Energy Ltd"	"Middle Balbeggie PV"	"Scotland"	4.997475	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Aldi Bathgate RDC"	"Aldi Bathgate RDC"	"Scotland"	0.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Greencoat Solar I LLP"	"West Strathore Solar Limited"	"Scotland"	4.9773	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Photovoltaics"	"Lightsource Renewable Energy Ltd"	"Pressock Solar Farm"	"Scotland"	4.249	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glendevon"	"Glendevon"	"Scotland"	1.389	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Garbhaig Hydro"	"Garbhaig Hydro"	"Scotland"	2.972	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Forrest Estate"	"Forrest Estate"	"Scotland"	3.611	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Loch Turret"	"Loch Turret"	"Scotland"	1.826	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish Power (Galloway)"	"Drumjohn"	"Scotland"	1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Allt-na-Lairige"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Loch Gair"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Gaur (excl 0.4MWe Comp Set)"	"Scotland"	7.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish Power (Lanark)"	"Stonebyres"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Striven"	"Scotland"	8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish Power (Lanark)"	"Bonnington"	"Scotland"	11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Cassley"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Cashlie"	"Scotland"	11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish Power (Galloway)"	"Carsfad"	"Scotland"	12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish Power (Galloway)"	"Earlstoun"	"Scotland"	14	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Torr Achilty"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Livishie"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Pitlochry"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Nant"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Orrin"	"Scotland"	18	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Aigas"	"Scotland"	20	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Kilmorack"	"Scotland"	20	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Ceannacroc Power Station - A, E"	"Scotland"	16.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Invergarry"	"Scotland"	19.975	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish Power (Galloway)"	"Kendoon"	"Scotland"	24	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"St Fillans"	"Scotland"	16.83	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Gisla (Lewis)"	"Scotland"	0.72	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Morar"	"Scotland"	0.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"ELIOCK HOUSE PRIVATE HYDRO"	"ELIOCK HOUSE PRIVATE HYDRO"	"Scotland"	0.56	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Rio Tinto Alcan"	"Kinlochleven"	"Scotland"	19.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Ormsary Fish Farm"	"Ormsary Fish Farm"	"Scotland"	0.785	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Ashfield House Hydro"	"Ashfield House Hydro"	"Scotland"	0.21	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Chliostair (Harris)"	"Scotland"	1.32	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Loch Dubh (Ullapool)"	"Scotland"	1.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Nostie Bridge (Lochalsh)"	"Scotland"	1.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Kilmelford"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Mullardoch Tunnel"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Achanalt"	"Scotland"	3.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Cuaich Power Station"	"Scotland"	2.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Storr Lochs (Skye)"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Lednock"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Dalchonzie"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Foyers Falls"	"Scotland"	5.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Sron Mor"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Hearthstanes Est"	"Hearthstanes Est"	"Scotland"	0.122	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glenlyon Est"	"Glenlyon Est"	"Scotland"	0.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Silverhills House"	"Silverhills House"	"Scotland"	0.278	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"West Cromwell Park"	"West Cromwell Park"	"Scotland"	0.11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lude Est"	"Lude Est"	"Scotland"	0.333	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Acharn Burn"	"Acharn Burn"	"Scotland"	0.38	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lintrathen Water Works"	"Lintrathen Water Works"	"Scotland"	0.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Cauldron Linn"	"Cauldron Linn"	"Scotland"	0.436	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"New Lanark Mills"	"New Lanark Mills"	"Scotland"	0.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glenfinglass"	"Glenfinglass"	"Scotland"	1.278	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Blarghour"	"Blarghour"	"Scotland"	0.475	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Quoich"	"Scotland"	18.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish Power (Galloway)"	"Glenlee"	"Scotland"	24	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Shin"	"Scotland"	18.62	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Grudie Bridge"	"Scotland"	18.66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Mossford"	"Scotland"	18.66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Culligran"	"Scotland"	17.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Inverawe"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Finlarig"	"Scotland"	16.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish Power (Galloway)"	"Tongland"	"Scotland"	33	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Luichart"	"Scotland"	34	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Tummel"	"Scotland"	34	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Glenmoriston"	"Scotland"	37	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Deanie"	"Scotland"	38	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Clachan"	"Scotland"	40	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Lochay"	"Scotland"	46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Rannoch"	"Scotland"	45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Clunie"	"Scotland"	61.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Fasnakyle"	"Scotland"	69	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Errochty"	"Scotland"	75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Sloy"	"Scotland"	152.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Novar Estate"	"Novar Estate"	"Scotland"	2.556	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Duror Hydro Scheme"	"Duror Hydro Scheme"	"Scotland"	0.71	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Trinafour"	"Scotland"	0.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Beochlich Hydro Scheme"	"Beochlich Hydro Scheme"	"Scotland"	0.998	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Monzie"	"Monzie"	"Scotland"	0.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Glen Tarbert (SRO)"	"Scotland"	0.85	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Little Wyvis"	"Little Wyvis"	"Scotland"	0.68	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Auchtertyre Hydro Scheme (SRO)"	"Scotland"	0.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Loch Poll Hydro Project"	"Loch Poll Hydro Project"	"Scotland"	0.225	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Cluanie Dam"	"Scotland"	0.32	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Dundreggan Dam"	"Scotland"	0.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Meig Dam"	"Scotland"	0.076	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Ardverikie"	"Ardverikie"	"Scotland"	1.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Balgonie Hydro Power Station"	"Balgonie Hydro Power Station"	"Scotland"	0.65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Bridge of Tilt"	"Bridge of Tilt"	"Scotland"	0.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Burnhead Power Station"	"Burnhead Power Station"	"Scotland"	1.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Clachbreck"	"Clachbreck"	"Scotland"	0.132	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Clatto Treatment Works"	"Clatto Treatment Works"	"Scotland"	0.171	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Deanston HES"	"Deanston HES"	"Scotland"	0.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Drimsynie Estate Power Station"	"Drimsynie Estate Power Station"	"Scotland"	0.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Fettykil Mills"	"Fettykil Mills"	"Scotland"	0.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Forebush Power Station"	"Forebush Power Station"	"Scotland"	0.65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glenglass Hydro"	"Glenglass Hydro"	"Scotland"	0.916	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glenmore Power Station"	"Glenmore Power Station"	"Scotland"	0.12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Knoydart Hydro"	"Knoydart Hydro"	"Scotland"	0.28	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Mannoch Power Station"	"Mannoch Power Station"	"Scotland"	0.257	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"MRC Energy"	"MRC Energy"	"Scotland"	0.45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Stormontfield Hydro Station"	"Stormontfield Hydro Station"	"Scotland"	0.11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Twin Loch Hydro"	"Twin Loch Hydro"	"Scotland"	0.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Victoria Falls Station"	"Victoria Falls Station"	"Scotland"	1.12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Garry Gualach Hydro Scheme (SRO)"	"Scotland"	0.78	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Stanley Mills (SRO)"	"Stanley Mills (SRO)"	"Scotland"	0.84	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Cuileig Hydro Scheme"	"Scotland"	3.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Camserney Hydron Scheme"	"Camserney Hydron Scheme"	"Scotland"	0.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Rio Tinto Alcan"	"Fort William"	"Scotland"	90	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Clunie Dam"	"Scotland"	0.175	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Invergarry Dam"	"Scotland"	0.24	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Luichart Dam"	"Scotland"	0.085	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Orrin Dam"	"Scotland"	0.256	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Quoich Dam"	"Scotland"	0.32	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Shin Diversion Dam"	"Scotland"	0.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Tobermory Power Station"	"Scotland"	0.28	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Lussa Power Station"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Blantyre Mills"	"Scotland"	0.57	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Awe Barrage - A"	"Scotland"	0.886	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Kilmelford Compset"	"Scotland"	0.082	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Loch Ericht Power Station"	"Scotland"	2.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Pitlochry Compensation Generation"	"Scotland"	0.059	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Ashfield Mill"	"Ashfield Mill"	"Scotland"	0.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Kerry Falls"	"Scotland"	1.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Lubreoch Power Station"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glen Kinglas Hydro Ltd"	"Glen Kinglas Hydro Ltd"	"Scotland"	0.96	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Kingairloch Power Station"	"Scotland"	3.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Misgeach Power Station"	"Scotland"	0.35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Loyne Tunnel"	"Scotland"	0.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Duchally Power Station"	"Scotland"	0.45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Stronuich Power Station"	"Scotland"	0.18	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Claddoch Power Station"	"Scotland"	0.22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Tralaig Power Station"	"Scotland"	0.084	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Garrogie Hydro Scheme"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Vaich Power Station"	"Scotland"	0.32	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Lochay Compensation Generator"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Lairg Power Station"	"Scotland"	3.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Culligran Comp Set"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Tombuie Hydro"	"Tombuie Hydro"	"Scotland"	0.35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glenborrodale Hydro"	"Glenborrodale Hydro"	"Scotland"	0.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Braevallich Hydroelectric Scheme"	"Scotland"	2.274	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Lochay Fish Pass Generator"	"Scotland"	0.054	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Beannachran Dam"	"Scotland"	0.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Cleghorn Bridge Hydro"	"Cleghorn Bridge Hydro"	"Scotland"	0.32	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Fasnakyle Compensation Set"	"Scotland"	7.701	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Kildermorie Estate"	"Kildermorie Estate"	"Scotland"	0.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Loch Braden WTW"	"Loch Braden WTW"	"Scotland"	0.45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Inverbain Hydroelectric Scheme"	"Scotland"	0.95	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Stoneywood Mill"	"Stoneywood Mill"	"Scotland"	0.62	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Mucomir"	"Scotland"	1.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Mucomir comp"	"Scotland"	0.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Loch Calder  (WTW)"	"Loch Calder  (WTW)"	"Scotland"	0.11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"River E Hydro Electric Generating Station"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Fairburn House"	"Fairburn House"	"Scotland"	0.11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Gaur comp"	"Scotland"	0.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Inverfarigaig"	"Inverfarigaig"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Strathdon Hydro"	"Strathdon Hydro"	"Scotland"	0.075	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Ashfield Generator B"	"Ashfield Generator B"	"Scotland"	0.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Douglas Water"	"Scotland"	2.969	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Scottish & Southern Energy plc"	"Glendoe Hydro Power Station"	"Scotland"	100	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Rottal Hydro Ltd"	"Rottal Hydro Ltd"	"Scotland"	0.45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Alladale"	"Alladale"	"Scotland"	0.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Kinnaird"	"Kinnaird"	"Scotland"	0.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"The Coignafearn Estate"	"The Coignafearn Estate"	"Scotland"	0.13	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Faichemard Farm Hydro"	"Faichemard Farm Hydro"	"Scotland"	0.165	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Laig Hydro Station"	"Laig Hydro Station"	"Scotland"	0.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Roshven"	"Roshven"	"Scotland"	0.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Esregan"	"Esregan"	"Scotland"	0.955	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Conaglen House"	"Conaglen House"	"Scotland"	0.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Carnoch Hydro Electric Generating Station"	"Scotland"	1.35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Callop & Guesachan"	"Callop & Guesachan"	"Scotland"	1.445	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Inverlael"	"Scotland"	2.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glen Finglas Turbine"	"Glen Finglas Turbine"	"Scotland"	0.46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"FIT-Hydro S"	"FIT-Hydro S"	"Scotland"	188.54762	17.3899999999999	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Scottish & Southern Energy plc"	"Ceannacroc Compensation Generator"	"Scotland"	3.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Black Rock"	"Scotland"	3.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Maldie"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Cia Aig Hydro"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Temporis Capital Ltd"	"Derrydarroch"	"Scotland"	1.995	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"RWE Npower Plc"	"Grudie"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Temporis Capital Ltd"	"Allt Fionn Hydro Scheme"	"Scotland"	1.995	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Temporis Capital Ltd"	"Upper Falloch Hydro"	"Scotland"	0.896	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Saline ROC"	"Saline ROC"	"Scotland"	0.09	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"ISLAND OF FOULA TURBINE"	"ISLAND OF FOULA"	"Scotland"	0.06	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"SHETLAND TURBINE"	"SUSETTER HILL,"	"Scotland"	0.075	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"FAIR ISLE WIND TURBINE(1)"	"FAIR ISLE WIND TURBINE"	"Scotland"	0.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"INGANESS BAY WIND TURBINE"	"INGANESS BAY WIND TURBINE"	"Scotland"	0.075	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"BERRIEDALE"	"BERRIEDALE"	"Scotland"	0.03225	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"ELLON TURBINE"	"ELLON"	"Scotland"	0.015	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WHITERASHES"	"WHITERASHES AB21 0QU"	"Scotland"	0.06	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"ROTHIEN"	"ROTHIEN"	"Scotland"	0.06	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Bendealt (Novar)"	"Scotland"	9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"DUNMAGLASS ESTATE WIND TURBINE"	"DUNMAGLASS ESTATE WIND TURBINE"	"Scotland"	0.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Teeny Turbs, Scotland"	"11,996 turbines across UK See also RESTATS Refs 60082, 60083, 60084 (100watt each) from Marlec, Ampair, Aerogen/LVM"	"Scotland"	1.19	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Meall an Tuirc (Novar)"	"Scotland"	8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scalloway, Shetland"	"Scalloway, Shetland"	"Scotland"	0.02365	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Hagshaw Hill 1"	"Scotland"	15.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Hagshaw Hill 2"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Westertown"	"Westertown"	"Scotland"	0.06	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Gallow Rig Windfarm (Windy Standard aka Brockloch Rig 1)"	"Scotland"	10.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Polwhat Rig Windfarm (Windy Standard aka Brockloch Rig 1)"	"Scotland"	10.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Beinn Ghlas Windfarm"	"Scotland"	8.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Lanakshire"	"Lanakshire"	"Scotland"	0.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Triodos Renewables Ltd"	"Burgar Hill Sigurd wind turbine (Hainsford Energy)"	"Scotland"	1.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Hare Hill (scotland)"	"Scotland"	13.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Beinn An Tuirc 1"	"Scotland"	14.85	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Beinn An Tuirc 1 (Cnoc Donn Arnicle)"	"Scotland"	14.85	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Renewables UK Ltd"	"Deucheran Hill"	"Scotland"	15.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Burradale Wind Farm"	"Burradale Wind Farm"	"Scotland"	1.98	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Dun Law 1"	"Scotland"	17.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Renewables UK Ltd"	"Emly Bank (Bowbeat)"	"Scotland"	15.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Renewables UK Ltd"	"Roughside Hill (Bowbeat)"	"Scotland"	15.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ecotricity Ltd"	"East Kilbride Wind Turbine"	"Scotland"	0.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Moya (Findhorn Wind Park)"	"Moya (Findhorn Wind Park)"	"Scotland"	0.675	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Thorfinn Wind 'A' Ltd"	"Burgar Hill NM1500 Thorfinn Wind Energy Project"	"Scotland"	1.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Tangy Wind Farm (incl extension)"	"Scotland"	18.7	0.18	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Ardrossan Windfarm (Scotland) Ltd - A"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Cruach Mhor Windfarm"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Crystal Rig Windfarm"	"Scotland"	62.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Forss/Hill of Lybster Wind Farm (SRO)"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Berriedale Farm"	"Berriedale Farm"	"Scotland"	0.022	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Discover Carmichael Visitor Centre"	"Carmichael Village"	"Scotland"	0.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Myres Hill"	"Myres Hill"	"Scotland"	1.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Burradale Wind Farm 2"	"Burradale Wind Farm 2"	"Scotland"	1.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Causeymire Wind Farm"	"Scotland"	48.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Thorfinn Wind 'A' Ltd"	"Burgar Hill NM2000 Thorfinn Wind Energy Project"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Gigha Windmills"	"Gigha Windmills"	"Scotland"	0.675	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Rothes Wind Ltd"	"Scotland"	50.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Mackies Hill of Easterton Wind Turbine"	"Mackies Hill of Easterton Wind Turbine"	"Scotland"	2.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Black Law Windfarm - A,C"	"Scotland"	124.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Artfield Fell Windfarm - A,C"	"Scotland"	28.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"REG Windpower Ltd"	"Glens of Foudland Wind Farm"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Beinn Tharsuin Wind Farm"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Farr Wind farm"	"Scotland"	92	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Paul's Hill Wind Farm"	"Scotland"	64.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Northfield Wind Energy Project (Burray, Orkney)"	"Northfield Wind Energy Project Burray"	"Scotland"	0.85	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"National Sports Centre Wind Project"	"National Sports Centre Wind Project"	"Scotland"	0.018	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Abernethy Trust"	"Abernethy Trust"	"Scotland"	0.012	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Kilmory Primary School"	"Kilmory Primary School"	"Scotland"	0.006	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fife Council"	"Fife Council"	"Scotland"	0.0075	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"An Talla"	"An Talla"	"Scotland"	0.006	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Westray Development Trsut"	"Westray Development Trsut"	"Scotland"	0.0025	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Westray Kirk Wind Turbine"	"Westray Kirk Wind Turbine"	"Scotland"	0.006	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"North Highland College, Thurso"	"North Highland College, Thurso"	"Scotland"	0.0025	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Baird Memorial Primary School"	"Baird Memorial Primary School"	"Scotland"	0.006	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Earthship Fife"	"Earthship Fife"	"Scotland"	6e-04	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"The Bays of Harris Charitable Trust (BoHCT)"	"The Bays of Harris Charitable Trust (BoHCT)"	"Scotland"	0.006	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Port Charlotte Community Centre Renewables"	"Port Charlotte Community Centre Renewables"	"Scotland"	0.006	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Gatehouse Development Initiative Ltd"	"Gatehouse Development Initiative Ltd"	"Scotland"	0.03	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"SCHRI Household turbines"	"SCHRI Household turbines"	"Scotland"	0.0899	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Cumbernauld Primary School"	"Cumbernauld Primary School"	"Scotland"	0.006	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"St John Bosco Primary School"	"St John Bosco Primary School"	"Scotland"	0.0025	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ness Sports and Recreation Association"	"Ness Sports and Recreation Association"	"Scotland"	0.012	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ecotricity Ltd"	"Dundee Merchant Wind Park Limited"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Boulfruich Wind Farm - A,C"	"Boulfruich Wind Farm - A,C"	"Scotland"	12.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Boyndie"	"Scotland"	14	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Hadyard Hill Windfarm"	"Scotland"	119.6	-0.200000000000003	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Wardlaw Wood"	"Wardlaw Wood"	"Scotland"	18	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Arnish Moor Windfarm"	"Scotland"	3.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Black Hill Wind Ltd"	"Black Hill Wind Farm"	"Scotland"	28.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Braes of Doune Windfarm (Scotland) Ltd"	"Scotland"	72	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Npower Renewables Ltd"	"Burgar Hill Wind Farm"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Dummuies Windfarm"	"Scotland"	12.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Earlsburn Wind Farm"	"Scotland"	37.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Wether Hill Wind Farm"	"Scotland"	18.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Forss Wind Farm Phase 2"	"Scotland"	5.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Green Dykeside Windfarm"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Hill of Balquhindachy Wind Turbine"	"Hill of Balquhindachy Wind Turbine"	"Scotland"	2.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Ben Aketil Wind Farm"	"Scotland"	27.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Craig Wind Farm"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Drumderg Windfarm"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Green Knowes Windfarm"	"Scotland"	27	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Kilbraur Wind Farm"	"Scotland"	67.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Whitelee Windfarm"	"Scotland"	322	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Npower Renewables Ltd"	"Bilbster Wind Farm"	"Scotland"	3.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Millennium Wind Farm"	"Scotland"	65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Minsca Windfarm (Scotland) Limited"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Dalswinton Windfarm (Scotland) Limted"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"BRAIDENHILL"	"BRAIDENHILL"	"Scotland"	0.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Liniclate B"	"Liniclate B"	"Scotland"	0.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Redbog"	"Redbog"	"Scotland"	1.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Aikengall Windfarm"	"Aikengall Windfarm"	"Scotland"	48	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Wind Energy (North Rhins) Limited"	"Scotland"	22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Balnamoon"	"Balnamoon"	"Scotland"	0.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Clachan Flats"	"Scotland"	15.03	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Burgar Hill Renewables Ltd"	"Burgar Hill Renewables 1"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Beinn nan Oighrean Windfarm"	"Beinn nan Oighrean Windfarm"	"Scotland"	4.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Cairnhill Windfarm"	"Cairnhill Windfarm"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"St John's Wells Wind Farm"	"St John's Wells Wind Farm"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Lochhead Wind Farm"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Strath of Brydock"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Cypex Ltd"	"Cypex Ltd"	"Scotland"	0.08	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Achairn Energy"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Longpark Wind Farm"	"Scotland"	38	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Fairburn Windfarm"	"Scotland"	40	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Kentish Flats Ltd"	"Edinbane Wind Farm"	"Scotland"	41.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Skelmonae Windfarm Ltd"	"Skelmonae Windfarm Ltd"	"Scotland"	3.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Dun Law 2"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Cairnmore"	"Cairnmore"	"Scotland"	2.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Crystal Rig II Wind Farm"	"Scotland"	138	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Hill of Fiddes Wind Farm"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scotia Wind (Craigengelt) Ltd"	"Craigengelt (Scotia Wind Farm)"	"Scotland"	20	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Toddleburn Windfarm"	"Scotland"	27.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Pates Hill"	"Pates Hill"	"Scotland"	14	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Boyndie Airfield Extension"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Flotta Wind Farm"	"Flotta Wind Farm"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Hammars Hill"	"Hammars Hill"	"Scotland"	4.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Carcant Windfarm"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Achany Windfarm"	"Scotland"	38	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Eneco Wind UK Ltd"	"Tullo Wind Farm Limited"	"Scotland"	17.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Burnfoot"	"Scotland"	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"House o'Hill"	"House o'Hill"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Npower Renewables Ltd"	"An Suidhe"	"Scotland"	19.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Arecleoch"	"Scotland"	120	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ardgrain Wind Cluster"	"Ardgrain Wind Cluster"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"FIT-Wind S"	"FIT-Wind S"	"Scotland"	309.94182	3.79999999999995	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Gairnieston Wind Cluster"	"Gairnieston Wind Cluster"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Mark Hill Windfarm"	"Scotland"	56	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Methil Docks Wind Turbine"	"Methil Docks Wind Turbine"	"Scotland"	0.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Muirhall Wind Farm Limited"	"Scotland"	12.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Denhill"	"Denhill Wind Turbine"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Haddo"	"Haddo"	"Scotland"	4.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Npower Renewables Ltd"	"Lochelbank Wind Farm II"	"Scotland"	9.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"FMC Technologies"	"Scotland"	1.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Courtstone Wind Turbine"	"Courtstone Wind Turbine"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Clyde Windfarm (South)"	"Scotland"	128.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Griffin Wind Farm"	"Scotland"	188.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"West Knock Wind Cluster"	"West Knock Wind Cluster"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Glenkerie Wind Farm"	"Scotland"	22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Gordonbush"	"Scotland"	70	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Hill of Towie (Drummuir)"	"Scotland"	48.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Kelburn"	"Scotland"	28	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Lairg Wind Farm"	"Scotland"	7.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Millour Hill Community Windfarm (Re-submission)"	"Millour Hill Community Windfarm (Re-submission)"	"Scotland"	24	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Npower Renewables Ltd"	"Novar II Wind Farm"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Whitelee Windfarm Extension phase 2"	"Scotland"	217.02	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Drone Hill"	"Scotland"	28.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greenhill Wind Turbine"	"Greenhill Wind Turbine"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Clear Skies-S"	"Clear Skies-S"	"Scotland"	11.44613	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd (TRIG)"	"Little Raith Farm"	"Scotland"	24.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Clyde Windfarm (Central)"	"Scotland"	195.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Clochnahill Wind Farm"	"Clochnahill Wind Farm"	"Scotland"	5.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Allt Dearg Wind Farmers LLP"	"Allt Dearg Wind Farmers LLP"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Clyde Windfarm (North)"	"Scotland"	197.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Methlick Farmers Wind Energy Project"	"Methlick Farmers Wind Energy Project"	"Scotland"	12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Spurness Windfarm (Repower)"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Beinn an Tuirc 2"	"Scotland"	43.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"St Fergus Moss Wind Farm"	"St Fergus Moss Wind Farm"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Windsave installations - Scotland"	"Windsave installations - Scotland"	"Scotland"	0.0897706031246425	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Swift turbines installations - Scotland"	"Swift turbines installations - Scotland"	"Scotland"	0.0570575867317643	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ark Hill"	"Ark Hill"	"Scotland"	6.48	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Statkraft Wind UK Ltd"	"Baillie Wind Farm"	"Scotland"	53	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Bankend Rig"	"Bankend Rig"	"Scotland"	14.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Fallago Rig"	"Scotland"	144	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Glenurquhart and Strathglass Wind Farm project"	"Corrimony Wind Farm"	"Scotland"	9.95	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"BayWa R.E Ltd"	"Hillhead of Auquhirie, Resubmission"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Lochcarnan Community Wind Farm"	"Lochcarnan Community Wind Farm"	"Scotland"	6.93	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Renewables UK Ltd"	"Rosehall Hill Forest Windfarm"	"Scotland"	24.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Renewables UK Ltd"	"Camster Wind Farm"	"Scotland"	50	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Cathkin Braes Wind Farm (Castlemilk)"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Gordonstown Wind Farm"	"Scotland"	12.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Kildrummy Windfarm"	"Scotland"	18.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Neilston Community Wind Farm"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Wind Prospect"	"Pentland Road Wind Farm"	"Scotland"	13.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Newton of Fortrie"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Wathegar wind farm"	"Wathegar wind farm"	"Scotland"	10.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Westfield"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Rothes2 Wind Farm"	"Scotland"	41.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"St John Hill"	"St John Hill Windfarm"	"Scotland"	7.65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Meikle Carewe Wind Farm"	"Scotland"	10.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"The Carraig Gheal Wind Farm"	"The Carraig Gheal Wind Farm"	"Scotland"	46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"GlaxoSmithKline Wind Project"	"Irvine GSK Wind Turbines"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Middleton Windfarm"	"Scotland"	12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scotia Wind (Craigengelt) Ltd"	"Barlockhart Moor Wind Energy Limited"	"Scotland"	8.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Harestanes Windfarm"	"Scotland"	136	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Nutberry Wind Farm"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"GWEL Operating Company Ltd"	"Land at Overside and Greenwellheads Farms"	"Scotland"	9.24	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Mid Hill, Fetteresso"	"Scotland"	75.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scotia Wind (Craigengelt) Ltd"	"Blantyre Muir Wind Energy Ltd"	"Scotland"	12.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Betty Hill - Phase 1"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"St. Johns Hill"	"St. Johns Hill"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Torrance Farm"	"Torrance Farm"	"Scotland"	9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Barns of Ayre"	"Barns of Ayre"	"Scotland"	2.73	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Calder Water Windfarm"	"Calder Water Community Wind Farm"	"Scotland"	32.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"MCS-Wind S"	"MCS-Wind S"	"Scotland"	0.961848573525776	0.961848573525776	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"ROOFIT-Wind S"	"ROOFIT-Wind S"	"Scotland"	1.44731377630102	1.44731377630102	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Statkraft Wind UK Ltd"	"Berry Burn Wind Farm"	"Scotland"	67	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"John Laing Environmental Assets Group"	"Carscreugh Renewable Energy Park"	"Scotland"	15.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"National Offshore Wind Turbine Test Facility (NOWTTF)"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"West Browncastle Wind Farm"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Muirhall Extension"	"Muirhall Extension"	"Scotland"	6.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Eneco Wind UK Ltd"	"Lochluichart Windfarm"	"Scotland"	69	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Eneco Wind UK Ltd"	"Easter Tulloch Wind Farm (Tullo Twinshiels Extension)"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat Solar I LLP"	"Bogenlea Farm"	"Scotland"	2.31	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Earlseat Wind Farm, Kirkcaldy"	"Scotland"	16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Jacksbank Wind Farm (Glenbervie)"	"Jacksbank Wind Farm (Glenbervie)"	"Scotland"	6.93	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"AOE Windfarm"	"Scotland"	11.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Kentish Flats Ltd"	"Clashindarroch Wind Farm"	"Scotland"	36.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falkirk Tod Hill Wind Farm"	"Tod Hill Farm Wind Turbines"	"Scotland"	11.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Hill of Skilmafilly Cloffrickford (Denmore) Wind Farm"	"Hill of Skilmafilly Cloffrickford (Denmore) Wind Farm"	"Scotland"	6.93	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Torrance Farm Wind Park Extension"	"Torrance Farm Wind Park Extension"	"Scotland"	5.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Langhope Rig Wind Farm"	"Scotland"	16.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Eneco Wind UK Ltd"	"Burn of Whilk"	"Scotland"	22.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Harthill Wind Farm"	"Harthill Wind Farm"	"Scotland"	5.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"John Laing Environmental Assets Group"	"Dungavel"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Beinn Ghrideag wind farm"	"Beinn Ghrideag wind farm"	"Scotland"	9.06	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Stroupster1"	"Scotland"	29.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Strathy North"	"Scotland"	67.6	1.59999999999999	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Mossmorran Wind Farm"	"Scotland"	4.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Gremista Wind Farm (Luggies Knowe)"	"Gremista Wind Farm (Luggies Knowe)"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Srondoire Community Wind Farm"	"Srondoire Community Wind Farm"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Milton of Fisherie Wind Cluster"	"Milton of Fisherie Wind Cluster"	"Scotland"	4.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Burnhead Moss"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Rhodders"	"Scotland"	12.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Eneco Wind UK Ltd"	"Moy Wind Farm"	"Scotland"	66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"A'Cruach"	"Scotland"	42.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Black Law II (Black Law Extension - 1a and 1b)"	"Scotland"	63.43	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Kingsburn Wind Farm"	"Scotland"	22.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Muirhall WF Extension 1 LTD"	"Muirhall WF Extension 1 LTD"	"Scotland"	9.69	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Woodlands Farm Wind Turbines"	"Woodlands Farm Wind Turbines"	"Scotland"	1.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Hunterston (currently combined with 72507)"	"Hunterston (currently combined with 72507)"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Glenchamber - GP"	"Scotland"	25.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Penmanshiel-GP"	"Scotland"	28.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"KELLAS WIND FARM"	"KELLAS WIND FARM"	"Scotland"	18.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Ewe Hill"	"Scotland"	13.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Edintore Wind Farm"	"Edintore Wind Farm (Operational Q4)"	"Scotland"	14.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Assel Valley Wind Farm (Operational Q4)"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Dersalloch"	"Scotland"	69	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Hare Hill 2 (Scotland)"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Crystal Rig III Windfarm"	"Scotland"	13.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Gevens"	"Gevens"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Clentrie Wind Farm (Gevens)"	"Clentrie Wind Farm (Gevens)"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Middle Balbeggie Wind Turbines"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Statkraft Wind UK Ltd"	"Andershaw"	"Scotland"	35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Ventient Energy Services Ltd"	"Galawhistle"	"Scotland"	66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Kilgallioch"	"Scotland"	239	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Dunmaglass Wind Farm"	"Scotland"	94.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"BayWa R.E. Limited"	"Beinneun"	"Scotland"	108.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"BROWNIELEYS - 3 WIND TURBINES"	"BROWNIELEYS - 3 WIND TURBINES"	"Scotland"	7.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scotia Wind (Craigengelt) Ltd"	"Cairnborrow - resubmission"	"Scotland"	10.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"BayWa R.E. Limited"	"Cour Wind Farm"	"Scotland"	20.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Hill of Tillymorgan (Kirkton Farm) Wind turbines (resubmission)"	"Hill of Tillymorgan (Kirkton Farm) Wind turbines (resubmission)"	"Scotland"	9.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Pearie Law Wind Farm"	"Scotland"	19.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Harburnhead Wind Farm"	"Harburnhead Wind Farm"	"Scotland"	51.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Hill of Glaschyle Wind Farm"	"Hill of Glaschyle Wind Farm"	"Scotland"	27.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Corriegarth"	"Scotland"	69.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Quixwood Moor"	"Quixwood Moor"	"Scotland"	29.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Corriemoillie"	"Scotland"	48.45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Ewe Hill II"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish Power Renewables UK Ltd"	"Glenapp"	"Scotland"	22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Craig Wind Farm 2"	"Scotland"	4.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Freasdail Wind Farm"	"Scotland"	22.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Renewable Energy Systems Ltd"	"Minnygap Wind Farm"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Kinegar Quarry (resubmission)"	"Kinegar Quarry (resubmission)"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"WPO UK Services Ltd"	"Airies"	"Scotland"	39.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Falck Renewables Wind Ltd"	"Auchrobert Wind Farm"	"Scotland"	38.76	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Bhlaraidh Wind Farm"	"Scotland"	110.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Lochend Wind Farm"	"Lochend Wind Farm"	"Scotland"	9.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Brotherton (formerly Paul Matthew Hill wind turbines)"	"Brotherton Wind Farm"	"Scotland"	4.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Hoprigshiels Community Wind Farm"	"Hoprigshiels Community Wind Farm"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Glen App"	"Glen App"	"Scotland"	22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"REG Windpower Ltd"	"Tormywheel Wind Farm Limited"	"Scotland"	30.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Fred Olsen Renewables Ltd"	"Brockloch Rig (Windy Standard 3)"	"Scotland"	61.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Drumduff Wind Farm"	"Drumduff Wind Farm"	"Scotland"	8.53	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Welton Of Creuchies"	"Welton Of Creuchies"	"Scotland"	9.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Aikengall II, Wester Dod Community Wind Farm"	"Aikengall II Windfarm"	"Scotland"	60.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Wathegar 2 Wind Farm"	"Wathegar 2 Wind Farm"	"Scotland"	18.45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Deuchries"	"Deuchries"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Sanquhar Community Windfarm"	"Sanquhar Community Windfarm"	"Scotland"	31	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Emly Bank RO"	"Emly Bank RO"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Blackcraig"	"Scotland"	52.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Whiteside Hill"	"Whiteside Hill"	"Scotland"	25.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Temporis Capital Ltd"	"Tullymurdoch Wind Farm"	"Scotland"	14.179	-0.221	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Scottish & Southern Energy plc"	"Stronelairg Wind Farm"	"Scotland"	227.8	0.100000000000023	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Afton Wind Farm"	"Afton Wind Farm"	"Scotland"	50	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Keith Hill (resubmission)"	"Keith Hill (resubmission)"	"Scotland"	4.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Auchadaduie Wind Farm"	"Auchadaduie Wind Farm"	"Scotland"	7.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"RWE Npower Renewables Ltd"	"Bad a Cheo"	"Scotland"	26.65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"EDF Energy Renewables Ltd"	"Dorenell Wind Farm (Previously Site A and B Scaut Hill)"	"Scotland"	177	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Banks Renewables Ltd"	"Middle Muir Wind Farm"	"Scotland"	51	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Banks Renewables Ltd"	"Kype Muir Wind Farm"	"Scotland"	88.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Greencoat UK Wind Plc"	"Tom Nan Clach"	"Scotland"	39.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Achlachan"	"Achlachan"	"Scotland"	10.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Coire Na Cloiche"	"Coire Na Cloiche"	"Scotland"	29.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Pitkinnie Wind Turbine (Forsyth)"	"Pitkinnie Wind Turbine (Forsyth)"	"Scotland"	0.225	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Binn Eco Park"	"Binn Eco Park"	"Scotland"	9.2	9.2	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Onshore"	"Locheport Community Windfarm (Resubmission)"	"Locheport Community Windfarm (Resubmission)"	"Scotland"	1.8	1.8	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"RWE Renewables UK Ltd"	"Robin Rigg Offshore Wind Farm (West)"	"Scotland"	90	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"RWE Renewables UK Ltd"	"Robin Rigg Offshore Wind Farm (East)"	"Scotland"	84	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"Methil Wind Turbine Demonstration Project"	"FEPODWT"	"Scotland"	7.35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"Scira Offshore Energy Ltd"	"Hywind Scotland Pilot Park (Hywind 2) Demonstrator"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"Hywind Scotland Pilot Park"	"Hywind Scotland Pilot Park"	"Scotland"	29	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"Levenmouth demonstration turbine (Fife Energy Park)"	"Levenmouth demonstration turbine (Fife Energy Park)"	"Scotland"	7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"Kentish Flats Ltd"	"Aberdeen Offshore Windfarm - Demonstration"	"Scotland"	96.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"Scottish & Southern Energy plc"	"Beatrice Offshore windfarm"	"Scotland"	588	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Wind Offshore"	"Kincardine Offshore Windfarm"	"Kincardine Offshore Windfarm"	"Scotland"	48.6325	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Greengairs Phase I"	"Greengairs Phase I"	"Scotland"	3.95	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Greengairs Phase II"	"Greengairs Phase II"	"Scotland"	3.952	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Summerston Landfill"	"Somerston Landfill"	"Scotland"	2.85	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Greengairs Phase 4"	"Greengairs Phase 4"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Greengairs Phase 3"	"Greengairs Phase 3"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Bonnyrigg Power (Melville)"	"Bonnyrigg Power"	"Scotland"	1.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Greenoakhill Landfill Site"	"Greenoakhill Landfill Site"	"Scotland"	4.012	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Craignaught Landfill Site (Dunlop Power)"	"Craignaught Landfill Site (Dunlop Power)"	"Scotland"	0.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Garlaff Landfill Gas Project"	"Garlaff Landfill Gas Project"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Greengairs V"	"Greengairs V"	"Scotland"	2.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Kaimes - SRO 3"	"Kaimes - SRO 3"	"Scotland"	2.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Lochhead"	"Lochhead"	"Scotland"	1.136	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Shewalton Landfill Site"	"Shewalton Landfill Site"	"Scotland"	1.836	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"SRO Wellbank Gas to Energy"	"SRO Wellbank Gas to Energy"	"Scotland"	1.003	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Summerston 2 Landfill Site"	"Summerston 2 Landfill Site"	"Scotland"	2.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Wellbank Gas to Energy"	"Wellbank Gas to Energy"	"Scotland"	0.93	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Auchencarrock Landfill"	"Auchencarrock Landfill"	"Scotland"	1.976	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Auchinlea"	"Auchinlea"	"Scotland"	2.272	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Avondale Power Station"	"Avondale Power Station"	"Scotland"	11.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Greengairs VI"	"Greengairs VI"	"Scotland"	4.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Binn Landfill"	"Binn Landfill"	"Scotland"	3.408	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Tarbothill"	"Tarbothill"	"Scotland"	1.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Auchencarroch #2 Landfill Site"	"Auchencarroch #2 Landfill Site"	"Scotland"	3.178	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Barkip Landfill Site Electricity Generating Station"	"Barkip Landfill Site Electricity Generating Station"	"Scotland"	1.06	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Stoneyhill RO Generation"	"Stoneyhill RO Generation"	"Scotland"	5.325	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Cathkin RO Generation"	"Cathkin RO Generation"	"Scotland"	8.461	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Dunbar Power Plant"	"Dunbar Power Plant"	"Scotland"	7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Wester Hatton"	"Wester Hatton"	"Scotland"	0.33	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Straid Farm"	"Straid Farm"	"Scotland"	0.625	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill gas"	"Lochead Melville - A, C"	"Lochead Melville - A, C"	"Scotland"	1.511	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill gas"	"Drummond Moor Generation"	"Drummond Moor Generation"	"Scotland"	1.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill gas"	"Lochhead Fife Power"	"Lochhead Fife Power"	"Scotland"	2.272	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill gas"	"Oatslie Generation"	"Oatslie Generation"	"Scotland"	2.63	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill gas"	"Patersons Quarries Generating Station"	"Patersons Quarries Generating Station"	"Scotland"	4.252	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Locharmoss Landfill Site"	"Locharmoss Landfill Site"	"Scotland"	0.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Nether Dallachy Renewable Energy"	"Nether Dallachy Renewable Energy"	"Scotland"	1.064	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Easter Langlee"	"Easter Langlee"	"Scotland"	0.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Levenseat Renewable Energy"	"Levenseat Renewable Energy"	"Scotland"	1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Hill of Tramaud Generating Station"	"Hill of Tramaud Generating Station"	"Scotland"	1.395	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Lower Polmaise Landfill Gas"	"Lower Polmaise Landfill Gas"	"Scotland"	0.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Rigmuir"	"Rigmuir"	"Scotland"	2.126	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Restenneth"	"Restenneth"	"Scotland"	1.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Riggend"	"Riggend"	"Scotland"	0.95	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"West Carron Landfill Site"	"West Carron Landfill Site"	"Scotland"	0.48	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Lower Melville Wood"	"Lower Melville Wood"	"Scotland"	1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Lingerton Microgeneration Project"	"Lingerton Microgeneration Project"	"Scotland"	0.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Longman Microgeneration"	"Longman Microgeneration"	"Scotland"	0.065	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Seater Microgeneration"	"Seater Microgeneration"	"Scotland"	0.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Landfill Gas"	"Crow's Nest Microgeneration Project"	"Crow's Nest Microgeneration Project"	"Scotland"	0.065	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"NEWBRIDGE PIGS"	"NEWBRIDGE PIGS"	"Scotland"	0.06	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"Nigg Bay WWTW"	"Nigg Bay WWTW"	"Scotland"	1.84	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"Seafield"	"Seafield"	"Scotland"	3.759	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"Newbridge STW"	"Newbridge STW"	"Scotland"	0.344	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"Cumnock Waste Water Treatment Works*"	"Cumnock Waste Water Treatment Works*"	"Scotland"	0.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"Hatton CHP"	"Hatton CHP"	"Scotland"	0.501	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"Allan Fearn CHP"	"Allan Fearn CHP"	"Scotland"	0.46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Sewage Sludge Digestion"	"Galashiels WWTW CHP"	"Galashiels WWTW CHP"	"Scotland"	0.124	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Dowhill Farm"	"Dowhill Farm"	"Scotland"	0.12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Stevens Croft"	"Stevens Croft"	"Scotland"	46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Caledonian CHP1"	"Caledonian CHP1"	"Scotland"	26.043	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Balcas Biomass CHP Power Station"	"Balcas Biomass CHP Power Station"	"Scotland"	9.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Invergordon Pellet Mill"	"Invergordon Pellet Mill"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Dumfries Peel Centre 5969"	"TESCO - DUMFRIES 5969"	"Scotland"	0.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"PROJECT & ENERGY MANAGEMENT"	"GIRVAN SITE, LAND ENERGY (GIRVAN) LTD"	"Scotland"	2.544	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"CoRDE"	"Rothes Bio-Plant"	"Scotland"	8.614	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Annan Hospital Biomass"	"Annan Hospital Biomass"	"Scotland"	0.199	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Castle Douglas Hospital Biomass"	"Castle Douglas Hospital Biomass"	"Scotland"	0.199	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"KIRKCUDBRIGHT COTTAGE HOSPITAL Biomass"	"KIRKCUDBRIGHT COTTAGE HOSPITAL Biomass"	"Scotland"	0.199	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"LOCHMABEN HOSPITAL Biomass Boiler"	"LOCHMABEN HOSPITAL Biomass Boiler"	"Scotland"	0.199	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Moffat Hospital Biomass"	"Moffat Hospital Biomass"	"Scotland"	0.199	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Newton Stewart Hospital Biomass"	"Newton Stewart Hospital Biomass"	"Scotland"	0.199	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Thornhill Hospital Biomass"	"Thornhill Hospital Biomass"	"Scotland"	0.199	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Tullis Russell Paper Mill (Markinch)"	"Tullis Russell Paper Mill (Markinch)"	"Scotland"	65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Diageo Biomass Energy Project"	"Diageo Biomass Energy Project"	"Scotland"	5.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Balring"	"Balring"	"Scotland"	0.125	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Highland Powerhouse1"	"Highland Powerhouse1"	"Scotland"	0.08	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Roxan FDBL Generator"	"Roxan FDBL Generator"	"Scotland"	0.08	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Pulteney Distillery"	"Pulteney Distillery"	"Scotland"	3.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Castleton Fruit Ltd"	"Castleton Fruit Ltd"	"Scotland"	0.147	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Scotston CHP Gasifier"	"Scotston CHP Gasifier"	"Scotland"	0.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Speyside CHP"	"Speyside CHP"	"Scotland"	14.99	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"RAH Heliex steam turbine"	"RAH Heliex steam turbine"	"Scotland"	0.11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Burkhardt 1"	"Burkhardt 1"	"Scotland"	0.197	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Duke of Gordon CHP 1"	"Duke of Gordon CHP 1"	"Scotland"	0.094	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Keilburn Farm CHP"	"Keilburn Farm CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Sustainable Power and Research Campus"	"Sustainable Power and Research Campus"	"Scotland"	6.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Arisaig CHP"	"Arisaig CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Hevac Biogas"	"Hevac Biogas"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Outertown Farm"	"Outertown Farm"	"Scotland"	0.04	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Parkview CHP"	"Parkview CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"We Hae Meat CHP"	"We Hae Meat CHP"	"Scotland"	0.08	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"East Reston Farm CHP"	"East Reston Farm CHP"	"Scotland"	0.076	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Ignis Wick CHP"	"Ignis Wick CHP"	"Scotland"	0.197	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Glenborrodale Biomass CHP"	"Glenborrodale Biomass CHP"	"Scotland"	0.225	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Mains of Fortrie CHP"	"Mains of Fortrie CHP"	"Scotland"	0.076	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Old Ballikinrain"	"Old Ballikinrain"	"Scotland"	0.076	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Auchencheyne CHP"	"Auchencheyne CHP"	"Scotland"	0.133	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Balmachie Farm CHP"	"Balmachie Farm CHP"	"Scotland"	0.086	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Forthar Farm CHP"	"Forthar Farm CHP"	"Scotland"	0.1275	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Robston House Farm CHP"	"Robston House Farm CHP"	"Scotland"	0.1275	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Adam Wilson & Sons 1"	"Adam Wilson & Sons 1"	"Scotland"	2.464	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Dronley Farm CHP"	"Dronley Farm CHP"	"Scotland"	0.0623	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Kelloe Mains ORC Generator"	"Kelloe Mains ORC Generator"	"Scotland"	0.0645	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Lemington Farm CHP"	"Lemington Farm CHP"	"Scotland"	0.164	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Arnhall Farm CHP"	"Arnhall Farm CHP"	"Scotland"	0.047	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Glenskinno CHP"	"Glenskinno CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Loanhead Farm CHP"	"Loanhead Farm CHP"	"Scotland"	0.04	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Piperdam Golf Club CHP"	"Piperdam Golf Club CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Raehills Estate CHP"	"Raehills Estate CHP"	"Scotland"	0.04	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Harbour Road"	"Harbour Road"	"Scotland"	2.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"DMTN Ltd ORC"	"DMTN Ltd ORC"	"Scotland"	0.175	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Tayside Forestry CHP"	"Tayside Forestry CHP"	"Scotland"	0.0523	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"South Cassochie Farm ORC"	"South Cassochie Farm ORC"	"Scotland"	0.1488	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Mein Farming Ltd - Gas Engine Systems 1 & 2"	"Mein Farming Ltd - Gas Engine Systems 1 & 2"	"Scotland"	0.088	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Liberty Steel Lochaber"	"Liberty Steel Lochaber"	"Scotland"	17.32	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Angus Hotel CHP"	"Angus Hotel CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Cowley CHP"	"Cowley CHP"	"Scotland"	0.045	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Levenseat EfW"	"Levenseat EfW"	"Scotland"	12.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Blackstoun Home Farm CHP"	"Blackstoun Home Farm CHP"	"Scotland"	0.088	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Border Biofuels"	"Border Biofuels"	"Scotland"	0.076	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Border Biofuels 2 ltd"	"Border Biofuels 2 ltd"	"Scotland"	0.224	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Dalquhandy CHP"	"Dalquhandy CHP"	"Scotland"	1.02	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Liberty Steel Dalzell"	"Liberty Steel Dalzell"	"Scotland"	17.43	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Myreton of Claverhouse Farm CHP"	"Myreton of Claverhouse Farm CHP"	"Scotland"	0.092	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Towngate CHP"	"Towngate CHP"	"Scotland"	0.0523	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Broombank Farm CHP"	"Broombank Farm CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Gartmore CHP"	"Gartmore CHP"	"Scotland"	0.049	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"MMM Resources Gasifier"	"MMM Resources Gasifier"	"Scotland"	0.135	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Acharn Forest Killin Biomass Plant"	"Acharn Forest Killin Biomass Plant"	"Scotland"	5.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Campbell Fuel CHP"	"Campbell Fuel CHP"	"Scotland"	0.094	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Biomass"	"Cardryne CHP"	"Cardryne CHP"	"Scotland"	0.1246	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Poultry Litter"	"Westfield Biomass Plant"	"Westfield Biomass Plant"	"Scotland"	12.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Municipal Solid Waste Combustion"	"Baldovie Incineration Plant"	"Baldovie Incineration Plant"	"Scotland"	10.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Municipal Solid Waste Combustion"	"Dargavel (ACT- gasification)"	"Dargavel (ACT- gasification)"	"Scotland"	7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Municipal Solid Waste Combustion"	"Glasgow Renewable Energy and Recycling Centre"	"Glasgow Renewable Energy and Recycling Centre"	"Scotland"	15.057	15.057	0	0	0	0	0	0	0	0	0	0	0	0
-"Municipal Solid Waste Combustion"	"Viridor"	"Dunbar"	"Scotland"	36.78	36.78	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"Islay Wave Energy Plant"	"Islay Wave Energy Plant"	"Scotland"	0.169	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"The Fall of Warness Tidal Scheme, (EMEC)"	"Eday Birth 2"	"Scotland"	1.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"Vagr Atferth"	"Vagr Atferth"	"Scotland"	0.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"Oyster Demonstration Project"	"Oyster Demonstration Project"	"Scotland"	0.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"The Penguin (EMEC)"	"The Penguin (EMEC)"	"Scotland"	0.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"Seatricity Turbine (EMEC)"	"Seatricity Turbine (EMEC)"	"Scotland"	1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"Hammerfest (EMEC)"	"Eday Berth 1"	"Scotland"	1.138	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"Scottish Power EMEC Test Site"	"Orcadian Wave"	"Scotland"	0.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"Eday Berth 4"	"Eday Berth 4"	"Scotland"	0.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"Billia Croo Berth 6"	"Billia Croo Berth 6"	"Scotland"	0.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"Ness of Quoys"	"Inner Sound Phase 1A (MeyGen) Ness of Quoys"	"Scotland"	5.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"EMEC Berth 5"	"EMEC Berth 5"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"Tocardo EMEC Array"	"Tocardo EMEC Array"	"Scotland"	1.451	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"S G E Tidal Array"	"S G E Tidal Array"	"Scotland"	0.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Shoreline Wave"	"Billia Croo berth 5"	"Billia Croo berth 5"	"Scotland"	0.96	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"Floating Energy Generation Platform - ATIR"	"Floating Energy Generation Platform - ATIR"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Tidal"	"Magallanes (FoW - EMEC)"	"Magallanes (FoW - EMEC)"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"BWE (7) Ltd - Kinblethmont"	"BWE (7) Ltd - Kinblethmont"	"Scotland"	4.99928	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"BWE (5) Ltd - Guynd"	"BWE (5) Ltd - Guynd"	"Scotland"	4.98784	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"Errol"	"Errol"	"Scotland"	13	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"West Strathore"	"West Strathore"	"Scotland"	4.977	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"Lochcraigs Farm"	"Lochcraigs Farm"	"Scotland"	4.992	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"Middle Balbeggie"	"Middle Balbeggie"	"Scotland"	4.997475	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"Pressock"	"Pressock"	"Scotland"	4.249	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Solar"	"Edinburgh College"	"Edinburgh College"	"Scotland"	0.62725	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Glens of Foudland"	"Glens of Foudland"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Burnfoot"	"Burnfoot"	"Scotland"	30.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Burnhead Moss"	"Burnhead Moss"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Corriemoillie"	"Corriemoillie"	"Scotland"	48.45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dorenell"	"Dorenell"	"Scotland"	177	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Fallago Rig"	"Fallago Rig"	"Scotland"	144	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Longpark"	"Longpark"	"Scotland"	38	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Pearie Law"	"Pearie Law"	"Scotland"	19.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Rhodders"	"Rhodders"	"Scotland"	12.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dundee"	"Dundee"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"East Kilbride"	"East Kilbride"	"Scotland"	0.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Burn of Whilk"	"Burn of Whilk"	"Scotland"	22.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Lochluichart"	"Lochluichart"	"Scotland"	69	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Moy"	"Moy"	"Scotland"	66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Tullo"	"Tullo"	"Scotland"	17.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Twinshiels"	"Twinshiels"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Assel Valley"	"Assel Valley"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Auchrobert"	"Auchrobert"	"Scotland"	38.76	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Ben Aketil"	"Ben Aketil"	"Scotland"	27.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Boyndie"	"Boyndie"	"Scotland"	16.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Earlsburn"	"Earlsburn"	"Scotland"	37.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Kilbraur"	"Kilbraur"	"Scotland"	67.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Kingsburn"	"Kingsburn"	"Scotland"	22.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Millennium"	"Millennium"	"Scotland"	65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Nutberry"	"Nutberry"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"West Browncastle"	"West Browncastle"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Brockloch Rig"	"Brockloch Rig"	"Scotland"	61.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Brockloch Rig 1"	"Brockloch Rig 1"	"Scotland"	21.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Crystal Rig"	"Crystal Rig"	"Scotland"	62.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Crystal Rig II"	"Crystal Rig II"	"Scotland"	138	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Crystal Rig III"	"Crystal Rig III"	"Scotland"	13.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Mid Hill"	"Mid Hill"	"Scotland"	75.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Pauls Hill"	"Pauls Hill"	"Scotland"	64.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Rothes"	"Rothes"	"Scotland"	50.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Rothes II"	"Rothes II"	"Scotland"	41.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Bogenlea"	"Bogenlea"	"Scotland"	2.31	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Braes of Doune Wind Farm"	"Braes of Doune Wind Farm"	"Scotland"	72	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Carcant Wind Farm"	"Carcant Wind Farm"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Drone Hill"	"Drone Hill"	"Scotland"	28.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Kildrummy"	"Kildrummy"	"Scotland"	18.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Langhope Rig"	"Langhope Rig"	"Scotland"	16.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"North Rhins"	"North Rhins"	"Scotland"	22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Stroupster"	"Stroupster"	"Scotland"	29.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Ardrossan"	"Ardrossan"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"A'Chruach"	"A'Chruach"	"Scotland"	42.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Beinn ghlas"	"Beinn ghlas"	"Scotland"	8.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Causeymire"	"Causeymire"	"Scotland"	48.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dalswinton"	"Dalswinton"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Farr"	"Farr"	"Scotland"	92	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Galawhistle"	"Galawhistle"	"Scotland"	66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Glenkerie"	"Glenkerie"	"Scotland"	22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Gordonstown Hill"	"Gordonstown Hill"	"Scotland"	12.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Hill of Fiddes"	"Hill of Fiddes"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Minsca"	"Minsca"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Novar"	"Novar"	"Scotland"	17	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Westfield"	"Westfield"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"offshore"	"Aberdeen"	"Aberdeen"	"Scotland"	96.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Clashindarroch"	"Clashindarroch"	"Scotland"	36.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Edinbane"	"Edinbane"	"Scotland"	41.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Minnygap (GB)"	"Minnygap (GB)"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Glenchamber Wind Farm (GB)"	"Glenchamber Wind Farm (GB)"	"Scotland"	25.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Earlseat Wind Farm (GB)"	"Earlseat Wind Farm (GB)"	"Scotland"	16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Forss Extension Wind Farm (GB)"	"Forss Extension Wind Farm (GB)"	"Scotland"	5.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Forss Wind Farm (GB)"	"Forss Wind Farm (GB)"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Freasdail (GB)"	"Freasdail (GB)"	"Scotland"	22.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Hill of Towie Wind Farm (GB)"	"Hill of Towie Wind Farm (GB)"	"Scotland"	48.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Kelburn Wind Farm (GB)"	"Kelburn Wind Farm (GB)"	"Scotland"	28	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Meikle Carewe Wind Farm (GB)"	"Meikle Carewe Wind Farm (GB)"	"Scotland"	10.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Neilston (GB)"	"Neilston (GB)"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Penmanshiel Wind Farm (GB)"	"Penmanshiel Wind Farm (GB)"	"Scotland"	28.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"An Suidhe"	"An Suidhe"	"Scotland"	19.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Bad a Cheo"	"Bad a Cheo"	"Scotland"	26.65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Bilbster"	"Bilbster"	"Scotland"	3.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Burgar Hill"	"Burgar Hill"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Lochelbank"	"Lochelbank"	"Scotland"	9.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Novar 2"	"Novar 2"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Barlockhart Moor Wind Energy Ltd"	"Barlockhart Moor Wind Energy Ltd"	"Scotland"	8.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Blantyre Muir Wind Energy Ltd"	"Blantyre Muir Wind Energy Ltd"	"Scotland"	12.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Cairnborrow Wind Energy Ltd"	"Cairnborrow Wind Energy Ltd"	"Scotland"	10.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Scotia wind (Craigengelt) Ltd"	"Scotia wind (Craigengelt) Ltd"	"Scotland"	20	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Arecleoch"	"Arecleoch"	"Scotland"	120	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Beinn an Tuirc I"	"Beinn an Tuirc I"	"Scotland"	29.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Beinn an Tuirc II"	"Beinn an Tuirc II"	"Scotland"	43.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Beinn Tharsuinn"	"Beinn Tharsuinn"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Black Law"	"Black Law"	"Scotland"	124.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Black Law II"	"Black Law II"	"Scotland"	63.43	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Clachan Flats"	"Clachan Flats"	"Scotland"	15.03	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Cruach Mhor"	"Cruach Mhor"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dersalloch"	"Dersalloch"	"Scotland"	69	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dun Law I"	"Dun Law I"	"Scotland"	17.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dun Law II"	"Dun Law II"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Ewe Hill I"	"Ewe Hill I"	"Scotland"	13.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Ewe Hill II"	"Ewe Hill II"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Glenapp"	"Glenapp"	"Scotland"	22	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Green Knowes"	"Green Knowes"	"Scotland"	27	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Hagshaw Hill I"	"Hagshaw Hill I"	"Scotland"	15.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Hagshaw Hill II"	"Hagshaw Hill II"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Hare Hill"	"Hare Hill"	"Scotland"	13.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Hare Hill II"	"Hare Hill II"	"Scotland"	29.75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Harestanes"	"Harestanes"	"Scotland"	136	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Kilgallioch"	"Kilgallioch"	"Scotland"	239	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Mark Hill"	"Mark Hill"	"Scotland"	56	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Middleton"	"Middleton"	"Scotland"	12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Wether Hill"	"Wether Hill"	"Scotland"	18.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Whitelee"	"Whitelee"	"Scotland"	322	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Whitelee II"	"Whitelee II"	"Scotland"	217.02	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Achany Windfarm"	"Achany Windfarm"	"Scotland"	38	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Artfield Fell Windfarm - A,C"	"Artfield Fell Windfarm - A,C"	"Scotland"	28.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"offshore"	"Beatrice Offshore windfarm"	"Beatrice Offshore windfarm"	"Scotland"	588	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Bhlaraidh Wind Farm"	"Bhlaraidh Wind Farm"	"Scotland"	110.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Cathkin Braes Wind Farm"	"Cathkin Braes Wind Farm"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Clyde Windfarm (Central)"	"Clyde Windfarm (Central)"	"Scotland"	195.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Clyde Windfarm (North)"	"Clyde Windfarm (North)"	"Scotland"	197.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Clyde Windfarm (South)"	"Clyde Windfarm (South)"	"Scotland"	128.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Drumderg Windfarm"	"Drumderg Windfarm"	"Scotland"	36.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dunmaglass Wind Farm"	"Dunmaglass Wind Farm"	"Scotland"	94.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Fairburn Windfarm"	"Fairburn Windfarm"	"Scotland"	40	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Gordonbush Wind Farm"	"Gordonbush Wind Farm"	"Scotland"	70	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Griffin Wind Farm"	"Griffin Wind Farm"	"Scotland"	188.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Hadyard Hill Windfarm - A,C"	"Hadyard Hill Windfarm - A,C"	"Scotland"	119.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Spurness Wind Farm II"	"Spurness Wind Farm II"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Strathy North"	"Strathy North"	"Scotland"	66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Stronelairg Wind Farm"	"Stronelairg Wind Farm"	"Scotland"	227.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Tangy Wind Farm - A"	"Tangy Wind Farm - A"	"Scotland"	18.52	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Toddleburn Windfarm"	"Toddleburn Windfarm"	"Scotland"	27.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Andershaw"	"Andershaw"	"Scotland"	35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Baillie"	"Baillie"	"Scotland"	53	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Berry Burn"	"Berry Burn"	"Scotland"	67	0	0	0	0	0	0	0	0	0	0	0	0	0
-"offshore"	"Hywind BMU 1"	"Hywind BMU 1"	"Scotland"	30	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Airies"	"Airies"	"Scotland"	39.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"AOE"	"AOE"	"Scotland"	11.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Arnish Moor"	"Arnish Moor"	"Scotland"	3.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Betty Hill"	"Betty Hill"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"FMC Dunfermline"	"FMC Dunfermline"	"Scotland"	1.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Lairg"	"Lairg"	"Scotland"	7.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Mossmorran"	"Mossmorran"	"Scotland"	4.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Newton of Fortrie"	"Newton of Fortrie"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Strath of Brydock"	"Strath of Brydock"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Black Hill Wind Farm"	"Black Hill Wind Farm"	"Scotland"	28.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Achairn Wind Farm"	"Achairn Wind Farm"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Blackcraig Windfarm"	"Blackcraig Windfarm"	"Scotland"	52.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Craig Wind Farm"	"Craig Wind Farm"	"Scotland"	10	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Craig Wind Farm Extension"	"Craig Wind Farm Extension"	"Scotland"	4.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Greendykeside Wind Farm"	"Greendykeside Wind Farm"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Lochhead Wind Farm"	"Lochhead Wind Farm"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Muirhall Wind Farm"	"Muirhall Wind Farm"	"Scotland"	12.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Tullymurdoch Windfarm"	"Tullymurdoch Windfarm"	"Scotland"	14.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Auquhirie Land Company Ltd"	"Auquhirie Land Company Ltd"	"Scotland"	6.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Beinneun Wind Farm Limited"	"Beinneun Wind Farm Limited"	"Scotland"	108.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Cour Wind Farm (Scotland) Limited"	"Cour Wind Farm (Scotland) Limited"	"Scotland"	20.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Carscreugh"	"Carscreugh"	"Scotland"	15.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Dungavel"	"Dungavel"	"Scotland"	26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Middle Muir Wind Farm"	"Middle Muir Wind Farm"	"Scotland"	51	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Kype Muir Wind Farm"	"Kype Muir Wind Farm"	"Scotland"	88.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Tom Nan Clach"	"Tom Nan Clach"	"Scotland"	39.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"onshore"	"Corriegarth"	"Corriegarth"	"Scotland"	69.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Onshore"	"Bowbeat (Emly Bank) - RO"	"Bowbeat (Emly Bank) - RO"	"Scotland"	15.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Onshore"	"Bowbeat (Roughside) - RO"	"Bowbeat (Roughside) - RO"	"Scotland"	15.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Onshore"	"Camster"	"Camster"	"Scotland"	50	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Onshore"	"Deucheran Hill (RO)"	"Deucheran Hill (RO)"	"Scotland"	15.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Offshore"	"Robin Rigg East"	"Robin Rigg East"	"Scotland"	84	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Offshore"	"Robin Rigg West"	"Robin Rigg West"	"Scotland"	90	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Onshore"	"Rosehall"	"Rosehall"	"Scotland"	24.7	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Maldie"	"Maldie"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Auchtertyre"	"Auchtertyre"	"Scotland"	0.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Glen Tarbert"	"Glen Tarbert"	"Scotland"	0.85	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Garry Gualach"	"Garry Gualach"	"Scotland"	0.78	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Stanley Mill"	"Stanley Mill"	"Scotland"	0.84	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Inverbain"	"Inverbain"	"Scotland"	0.95	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Garrogie"	"Garrogie"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Braevallich"	"Braevallich"	"Scotland"	2.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Douglas Water"	"Douglas Water"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"River E"	"River E"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Inverlael"	"Inverlael"	"Scotland"	2.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Carnoch"	"Carnoch"	"Scotland"	1.35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Black Rock"	"Black Rock"	"Scotland"	3.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Cia Aig"	"Cia Aig"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Grudie"	"Grudie"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Achanalt Power Station - A"	"Achanalt Power Station - A"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Aigas Power Station - A,E"	"Aigas Power Station - A,E"	"Scotland"	20	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Allt Na Lairige Power Station"	"Allt Na Lairige Power Station"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Awe Barrage - A"	"Awe Barrage - A"	"Scotland"	0.86	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Beannachran Dam - A"	"Beannachran Dam - A"	"Scotland"	0.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Cashlie Power Station - A,C"	"Cashlie Power Station - A,C"	"Scotland"	11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Cassley Power Station - A,C,E"	"Cassley Power Station - A,C,E"	"Scotland"	9.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Ceannacroc Compensation Generator"	"Ceannacroc Compensation Generator"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Ceannacroc Power Station - A, E"	"Ceannacroc Power Station - A, E"	"Scotland"	16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Chliostair Power Station - A,C"	"Chliostair Power Station - A,C"	"Scotland"	1.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Clachan"	"Clachan"	"Scotland"	40	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Cladach Dam"	"Cladach Dam"	"Scotland"	0.21	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Cluanie Dam  - A"	"Cluanie Dam  - A"	"Scotland"	0.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Clunie"	"Clunie"	"Scotland"	61.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Clunie Dam - A"	"Clunie Dam - A"	"Scotland"	0.15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Cuaich Power Station - A,C"	"Cuaich Power Station - A,C"	"Scotland"	2.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"River Cuileig"	"River Cuileig"	"Scotland"	3.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Culligran Comp Set - A,C,E"	"Culligran Comp Set - A,C,E"	"Scotland"	2.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Culligran Power Station Unit 2 - A"	"Culligran Power Station Unit 2 - A"	"Scotland"	17	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Dalchonize Power Station-A,C"	"Dalchonize Power Station-A,C"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Deanie"	"Deanie"	"Scotland"	38	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Duchally Power Station - A,C,E"	"Duchally Power Station - A,C,E"	"Scotland"	0.44	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Dundreggan Dam A"	"Dundreggan Dam A"	"Scotland"	0.16	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Errochty"	"Errochty"	"Scotland"	75	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Fasnakyle"	"Fasnakyle"	"Scotland"	69	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Fasnakyle Compensation Generator - A, C"	"Fasnakyle Compensation Generator - A, C"	"Scotland"	7.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Finlarig Power Station - A,G"	"Finlarig Power Station - A,G"	"Scotland"	16.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Foyers Falls Power Station"	"Foyers Falls Power Station"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-0	"Gaur Power Station - A"	"Gaur Power Station - A"	"Scotland"	7.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Gisla Power Station - A"	"Gisla Power Station - A"	"Scotland"	0.65	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Glendoe Hydro Power Station"	"Glendoe Hydro Power Station"	"Scotland"	99.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Glenmoriston"	"Glenmoriston"	"Scotland"	37	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Grudie Bridge Power Station - A, G"	"Grudie Bridge Power Station - A, G"	"Scotland"	18.66	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Inverawe"	"Inverawe"	"Scotland"	25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Invergarry Dam - A, E"	"Invergarry Dam - A, E"	"Scotland"	0.3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Invergarry Power Station - A,E"	"Invergarry Power Station - A,E"	"Scotland"	20	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Kerry Falls Power Station"	"Kerry Falls Power Station"	"Scotland"	1.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Kilmelford Compset  A,C"	"Kilmelford Compset  A,C"	"Scotland"	0.08	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Kilmelford Power Station - A, C,"	"Kilmelford Power Station - A, C,"	"Scotland"	2.08	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Kilmorack Power Station -A,E"	"Kilmorack Power Station -A,E"	"Scotland"	20	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Kingairloch Power Station - A,C"	"Kingairloch Power Station - A,C"	"Scotland"	3.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lairg Power Station"	"Lairg Power Station"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lednock Power Station - A"	"Lednock Power Station - A"	"Scotland"	3	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Livishie Power Station - A"	"Livishie Power Station - A"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Loch Dubh"	"Loch Dubh"	"Scotland"	1.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Loch Ericht Power Station - A"	"Loch Ericht Power Station - A"	"Scotland"	2.2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Loch Gair Power Station - A,C"	"Loch Gair Power Station - A,C"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Lochay"	"Lochay"	"Scotland"	46	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lochay Compensation Generator"	"Lochay Compensation Generator"	"Scotland"	2	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lochay Fish Pass Generator  -  C"	"Lochay Fish Pass Generator  -  C"	"Scotland"	0.04	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Loyne Power Station - A,C"	"Loyne Power Station - A,C"	"Scotland"	0.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lubreoch Power Station - A"	"Lubreoch Power Station - A"	"Scotland"	4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Luichart Dam - A"	"Luichart Dam - A"	"Scotland"	0.085	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Luichart"	"Luichart"	"Scotland"	34	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Lussa Power Station - A"	"Lussa Power Station - A"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Meig Dam"	"Meig Dam"	"Scotland"	0.076	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Misgeach Power Station - A"	"Misgeach Power Station - A"	"Scotland"	0.35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Morar Power Station - A,C"	"Morar Power Station - A,C"	"Scotland"	0.8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Mossford Power Station - A,G"	"Mossford Power Station - A,G"	"Scotland"	18.66	0	0	0	0	0	0	0	0	0	0	0	0	0
-0	"Mucomir Power Station"	"Mucomir Power Station"	"Scotland"	1.95	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Mullardoch Power Station - A,C"	"Mullardoch Power Station - A,C"	"Scotland"	2.4	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Nant Power Station - A,E"	"Nant Power Station - A,E"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Nostie Bridge Power Station - A"	"Nostie Bridge Power Station - A"	"Scotland"	1.25	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Orrin Dam - A"	"Orrin Dam - A"	"Scotland"	0.26	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Orrin Power Station- A"	"Orrin Power Station- A"	"Scotland"	18	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Pitlochry Compensation Generation - A"	"Pitlochry Compensation Generation - A"	"Scotland"	0.05	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Pitlochry Power Station - A"	"Pitlochry Power Station - A"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Quoich Dam - A"	"Quoich Dam - A"	"Scotland"	0.35	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Quoich Power Station - A, E, G"	"Quoich Power Station - A, E, G"	"Scotland"	18.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Rannoch"	"Rannoch"	"Scotland"	45	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Shin Diversion Dam - A"	"Shin Diversion Dam - A"	"Scotland"	0.1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Shin Power Station-A,G"	"Shin Power Station-A,G"	"Scotland"	18.6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Sloy"	"Sloy"	"Scotland"	152.5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Sron Mor Power Station - A,C"	"Sron Mor Power Station - A,C"	"Scotland"	5	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"St Fillans Power Station - A, G"	"St Fillans Power Station - A, G"	"Scotland"	16.83	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Storr Lochs Power Station - A"	"Storr Lochs Power Station - A"	"Scotland"	1.9	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Striven Power Station - A"	"Striven Power Station - A"	"Scotland"	8	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Stronuich Power Station - A"	"Stronuich Power Station - A"	"Scotland"	0.18	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Tobermory Power Station - A,E"	"Tobermory Power Station - A,E"	"Scotland"	0.28	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Torr Achilty Power Station - A,E"	"Torr Achilty Power Station - A,E"	"Scotland"	15	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Tralaig Power Station"	"Tralaig Power Station"	"Scotland"	0.084	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Trinafour Power Station - A"	"Trinafour Power Station - A"	"Scotland"	0.55	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Tummel"	"Tummel"	"Scotland"	34	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Vaich Power Station"	"Vaich Power Station"	"Scotland"	0.32	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Bonnington"	"Bonnington"	"Scotland"	11	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Stonebyres"	"Stonebyres"	"Scotland"	6	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Drumjohn"	"Drumjohn"	"Scotland"	1	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Kendoon"	"Kendoon"	"Scotland"	24	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Carsfad"	"Carsfad"	"Scotland"	12	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Earlstoun"	"Earlstoun"	"Scotland"	14	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Glenlee"	"Glenlee"	"Scotland"	24	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Large Hydro"	"Tongland"	"Tongland"	"Scotland"	33	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Osspower"	"Osspower"	"Scotland"	1.999	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Derrydarroch"	"Derrydarroch"	"Scotland"	1.995	0	0	0	0	0	0	0	0	0	0	0	0	0
-"Small Hydro"	"Upper Falloch"	"Upper Falloch"	"Scotland"	0.9	0	0	0	0	0	0	0	0	0	0	0	0	0
+"RenewableArea"	"ProjectName"	"SiteName"	"Country"	"Capacity"	"change in capacity Q1"	"change in capacity Q2"	"change in capacity Q3"	"change in capacity Q4"
+"Anaerobic Digestion"	"Scottish Executive New Farm Digester"	"Scottish Executive New Farm Digester (Waste AD)"	"Scotland"	0.015	0	0	0	0
+"Anaerobic Digestion"	"Bio Gask - A, B, C, E (Gask Farm)"	"Bio Gask - A, B, C, E (Farm AD)"	"Scotland"	1.2	0	0	0	0
+"Anaerobic Digestion"	"Creed Park"	"Creed Park - A, C, D (2/4/2007) (Waste AD)"	"Scotland"	0.237	0	0	0	0
+"Anaerobic Digestion"	"GIRVAN DISTILLERY-ANAEROBIC REACTOR"	"GIRVAN DISTILLERY-ANAEROBIC REACTOR  (Waste AD)"	"Scotland"	7.357	0	0	0	0
+"Anaerobic Digestion"	"Deerdykes Composting and Organics Recycling Facility"	"Deerdykes Composting and Organics Recycling Facility (Waste AD)"	"Scotland"	1.236	0	0	0	0
+"Anaerobic Digestion"	"FIT-AD S (Ignore)"	"FIT-AD S"	"Scotland"	17.95	0	0	0	0
+"Anaerobic Digestion"	"Cumbernauld BioPlant (AD) - energen biogas"	"Cumbernauld BioPlant (AD) - energen biogas (Waste AD)"	"Scotland"	5.822	0	0	0	0
+"Anaerobic Digestion"	"Perth AD Plant - ROC"	"Perth AD Plant - ROC (Waste AD)"	"Scotland"	2.36	0	0	0	0
+"Anaerobic Digestion"	"Cameron Bridge Distillery (Diageo) (Industrial (CHP))"	"Cameron Bridge Distillery (Diageo) - CHP (Waste AD)"	"Scotland"	5.5	0	0	0	0
+"Anaerobic Digestion"	"Messrs GE Booth & Son"	"Savock Farm (Farm AD)"	"Scotland"	0.46	0	0	0	0
+"Anaerobic Digestion"	"Camieston Biogas"	"Camieston Biogas (Farm AD)"	"Scotland"	0.499	0.014	0	0	0
+"Anaerobic Digestion"	"Tornagrain Gas Mill"	"Tornagrain Gas Mill (Unknown)"	"Scotland"	0.46	0	0	0	0
+"Anaerobic Digestion"	"Inchdairnie Renewable Energy"	"Inchdairnie Renewable Energy (Farm AD)"	"Scotland"	0.46	0	0	0	0
+"Anaerobic Digestion"	"Stracathro Renewable Energy"	"Stracathro Renewable Energy (Unknown)"	"Scotland"	0.46	0	0	0	0
+"Anaerobic Digestion"	"Glasgow Renewable Energy and Recycling Centre (Waste AD)"	"Glasgow Renewable Energy and Recycling Centre (Waste AD)"	"Scotland"	5	5	0	0	0
+"Anaerobic Digestion"	"Hatton Farm AD"	"Hatton Farm AD/Grissan Carnside Limited (Farm AD)"	"Scotland"	0.993	0.993	0	0	0
+"Anaerobic Digestion"	"Portgordon Maltings"	"Portgordon Maltings/Grissan Portside Limited (Waste AD)"	"Scotland"	1.013	1.013	0	0	0
+"Photovoltaics"	"FIT-PV S"	"FIT-PV S"	"Scotland"	293.593268629192	17.7020086291917	0	0	0
+"Photovoltaics"	"MCS-PV S"	"MCS-PV S"	"Scotland"	18.4704973840659	14.2820843544499	1.00643349009828	1.47175180886352	1.7102277306541
+"Photovoltaics"	"ROOFIT-PV S"	"ROOFIT-PV S"	"Scotland"	0.52385005598549	0.52385005598549	0	0	0
+"Photovoltaics"	"Bonnymans"	"Bonnymans"	"Scotland"	0.097	0	0	0	0
+"Photovoltaics"	"Cairnhill Farm solar park"	"Cairnhill Farm solar park"	"Scotland"	3.0906	0	0	0	0
+"Photovoltaics"	"Cairnmore Solar Park"	"Cairnmore Solar Park"	"Scotland"	4.32432	0	0	0	0
+"Photovoltaics"	"Brechin WWTW PV"	"Brechin WWTW PV"	"Scotland"	0.2496	0	0	0	0
+"Photovoltaics"	"Armadale WWTW PV"	"Armadale WWTW PV"	"Scotland"	0.15	0	0	0	0
+"Photovoltaics"	"IOM Solar PV1"	"IOM Solar PV1"	"Scotland"	0.064	0	0	0	0
+"Photovoltaics"	"Wormit Photovoltaic_Project"	"Wormit Photovoltaic_Project"	"Scotland"	4.961	0	0	0	0
+"Photovoltaics"	"Lightsource Renewable Energy Ltd"	"Middle Balbeggie PV"	"Scotland"	4.997475	1.247475	0	0	0
+"Photovoltaics"	"Aldi Bathgate RDC"	"Aldi Bathgate RDC"	"Scotland"	0.8	0	0	0	0
+"Small Hydro"	"Glendevon"	"Glendevon"	"Scotland"	1.389	0	0	0	0
+"Small Hydro"	"Garbhaig Hydro"	"Garbhaig Hydro"	"Scotland"	2.972	0	0	0	0
+"Small Hydro"	"Forrest Estate"	"Forrest Estate"	"Scotland"	3.611	0	0	0	0
+"Small Hydro"	"Loch Turret"	"Loch Turret"	"Scotland"	1.826	0	0	0	0
+"Small Hydro"	"ELIOCK HOUSE PRIVATE HYDRO"	"ELIOCK HOUSE PRIVATE HYDRO"	"Scotland"	0.56	0	0	0	0
+"Large Hydro"	"Rio Tinto Alcan"	"Kinlochleven"	"Scotland"	19.5	0	0	0	0
+"Small Hydro"	"Ormsary Fish Farm"	"Ormsary Fish Farm"	"Scotland"	0.785	0	0	0	0
+"Small Hydro"	"Ashfield House Hydro"	"Ashfield House Hydro"	"Scotland"	0.21	0	0	0	0
+"Small Hydro"	"Hearthstanes Est"	"Hearthstanes Est"	"Scotland"	0.122	0	0	0	0
+"Small Hydro"	"Glenlyon Est"	"Glenlyon Est"	"Scotland"	0.9	0	0	0	0
+"Small Hydro"	"Silverhills House"	"Silverhills House"	"Scotland"	0.278	0	0	0	0
+"Small Hydro"	"West Cromwell Park"	"West Cromwell Park"	"Scotland"	0.11	0	0	0	0
+"Small Hydro"	"Lude Est"	"Lude Est"	"Scotland"	0.333	0	0	0	0
+"Small Hydro"	"Acharn Burn"	"Acharn Burn"	"Scotland"	0.38	0	0	0	0
+"Small Hydro"	"Lintrathen Water Works"	"Lintrathen Water Works"	"Scotland"	0.3	0	0	0	0
+"Small Hydro"	"Cauldron Linn"	"Cauldron Linn"	"Scotland"	0.436	0	0	0	0
+"Small Hydro"	"New Lanark Mills"	"New Lanark Mills"	"Scotland"	0.5	0	0	0	0
+"Small Hydro"	"Glenfinglass"	"Glenfinglass"	"Scotland"	1.278	0	0	0	0
+"Small Hydro"	"Blarghour"	"Blarghour"	"Scotland"	0.475	0	0	0	0
+"Small Hydro"	"Novar Estate"	"Novar Estate"	"Scotland"	2.556	0	0	0	0
+"Small Hydro"	"Duror Hydro Scheme"	"Duror Hydro Scheme"	"Scotland"	0.71	0	0	0	0
+"Small Hydro"	"Beochlich Hydro Scheme"	"Beochlich Hydro Scheme"	"Scotland"	0.998	0	0	0	0
+"Small Hydro"	"Monzie"	"Monzie"	"Scotland"	0.2	0	0	0	0
+"Small Hydro"	"Little Wyvis"	"Little Wyvis"	"Scotland"	0.68	0	0	0	0
+"Small Hydro"	"Loch Poll Hydro Project"	"Loch Poll Hydro Project"	"Scotland"	0.225	0	0	0	0
+"Small Hydro"	"Ardverikie"	"Ardverikie"	"Scotland"	1.1	0	0	0	0
+"Small Hydro"	"Balgonie Hydro Power Station"	"Balgonie Hydro Power Station"	"Scotland"	0.65	0	0	0	0
+"Small Hydro"	"Bridge of Tilt"	"Bridge of Tilt"	"Scotland"	0.15	0	0	0	0
+"Small Hydro"	"Burnhead Power Station"	"Burnhead Power Station"	"Scotland"	1.3	0	0	0	0
+"Small Hydro"	"Clachbreck"	"Clachbreck"	"Scotland"	0.132	0	0	0	0
+"Small Hydro"	"Clatto Treatment Works"	"Clatto Treatment Works"	"Scotland"	0.171	0	0	0	0
+"Small Hydro"	"Deanston HES"	"Deanston HES"	"Scotland"	0.4	0	0	0	0
+"Small Hydro"	"Drimsynie Estate Power Station"	"Drimsynie Estate Power Station"	"Scotland"	0.4	0	0	0	0
+"Small Hydro"	"Fettykil Mills"	"Fettykil Mills"	"Scotland"	0.4	0	0	0	0
+"Small Hydro"	"Forebush Power Station"	"Forebush Power Station"	"Scotland"	0.65	0	0	0	0
+"Small Hydro"	"Glenglass Hydro"	"Glenglass Hydro"	"Scotland"	0.916	0	0	0	0
+"Small Hydro"	"Glenmore Power Station"	"Glenmore Power Station"	"Scotland"	0.12	0	0	0	0
+"Small Hydro"	"Knoydart Hydro"	"Knoydart Hydro"	"Scotland"	0.28	0	0	0	0
+"Small Hydro"	"Mannoch Power Station"	"Mannoch Power Station"	"Scotland"	0.257	0	0	0	0
+"Small Hydro"	"MRC Energy"	"MRC Energy"	"Scotland"	0.45	0	0	0	0
+"Small Hydro"	"Stormontfield Hydro Station"	"Stormontfield Hydro Station"	"Scotland"	0.11	0	0	0	0
+"Small Hydro"	"Twin Loch Hydro"	"Twin Loch Hydro"	"Scotland"	0.5	0	0	0	0
+"Small Hydro"	"Victoria Falls Station"	"Victoria Falls Station"	"Scotland"	1.12	0	0	0	0
+"Small Hydro"	"Camserney Hydron Scheme"	"Camserney Hydron Scheme"	"Scotland"	0.9	0	0	0	0
+"Large Hydro"	"Rio Tinto Alcan"	"Fort William"	"Scotland"	90	0	0	0	0
+"Small Hydro"	"Ashfield Mill"	"Ashfield Mill"	"Scotland"	0.15	0	0	0	0
+"Small Hydro"	"Glen Kinglas Hydro Ltd"	"Glen Kinglas Hydro Ltd"	"Scotland"	0.96	0	0	0	0
+"Small Hydro"	"Tombuie Hydro"	"Tombuie Hydro"	"Scotland"	0.35	0	0	0	0
+"Small Hydro"	"Glenborrodale Hydro"	"Glenborrodale Hydro"	"Scotland"	0.15	0	0	0	0
+"Small Hydro"	"Cleghorn Bridge Hydro"	"Cleghorn Bridge Hydro"	"Scotland"	0.32	0	0	0	0
+"Small Hydro"	"Kildermorie Estate"	"Kildermorie Estate"	"Scotland"	0.1	0	0	0	0
+"Small Hydro"	"Loch Braden WTW"	"Loch Braden WTW"	"Scotland"	0.45	0	0	0	0
+"Small Hydro"	"Stoneywood Mill"	"Stoneywood Mill"	"Scotland"	0.62	0	0	0	0
+"Small Hydro"	"Loch Calder  (WTW)"	"Loch Calder  (WTW)"	"Scotland"	0.11	0	0	0	0
+"Small Hydro"	"Fairburn House"	"Fairburn House"	"Scotland"	0.11	0	0	0	0
+"Small Hydro"	"Inverfarigaig"	"Inverfarigaig"	"Scotland"	4	0	0	0	0
+"Small Hydro"	"Strathdon Hydro"	"Strathdon Hydro"	"Scotland"	0.075	0	0	0	0
+"Small Hydro"	"Ashfield Generator B"	"Ashfield Generator B"	"Scotland"	0.5	0	0	0	0
+"Small Hydro"	"Rottal Hydro Ltd"	"Rottal Hydro Ltd"	"Scotland"	0.45	0	0	0	0
+"Small Hydro"	"Alladale"	"Alladale"	"Scotland"	0.15	0	0	0	0
+"Small Hydro"	"Kinnaird"	"Kinnaird"	"Scotland"	0.25	0	0	0	0
+"Small Hydro"	"The Coignafearn Estate"	"The Coignafearn Estate"	"Scotland"	0.13	0	0	0	0
+"Small Hydro"	"Faichemard Farm Hydro"	"Faichemard Farm Hydro"	"Scotland"	0.165	0	0	0	0
+"Small Hydro"	"Laig Hydro Station"	"Laig Hydro Station"	"Scotland"	0.1	0	0	0	0
+"Small Hydro"	"Roshven"	"Roshven"	"Scotland"	0.5	0	0	0	0
+"Small Hydro"	"Esregan"	"Esregan"	"Scotland"	0.955	0	0	0	0
+"Small Hydro"	"Conaglen House"	"Conaglen House"	"Scotland"	0.25	0	0	0	0
+"Small Hydro"	"Callop & Guesachan"	"Callop & Guesachan"	"Scotland"	1.445	0	0	0	0
+"Small Hydro"	"Glen Finglas Turbine"	"Glen Finglas Turbine"	"Scotland"	0.46	0	0	0	0
+"Small Hydro"	"FIT-Hydro S"	"FIT-Hydro S"	"Scotland"	188.54762	18.2298999999999	0	0	0
+0	0	0	"England"	1.518	0	0	0	0
+0	0	0	"Northern Ireland"	1.518	0	0	0	0
+0	0	0	"Scotland"	1.518	0	0	0	0
+0	0	0	"Wales"	1.518	0	0	0	0
+0	0	0	"Total"	6.072	0	0	0	0
+"Wind Onshore"	"ISLAND OF FOULA TURBINE"	"ISLAND OF FOULA"	"Scotland"	0.06	0	0	0	0
+"Wind Onshore"	"SHETLAND TURBINE"	"SUSETTER HILL,"	"Scotland"	0.075	0	0	0	0
+"Wind Onshore"	"FAIR ISLE WIND TURBINE(1)"	"FAIR ISLE WIND TURBINE"	"Scotland"	0.16	0	0	0	0
+"Wind Onshore"	"INGANESS BAY WIND TURBINE"	"INGANESS BAY WIND TURBINE"	"Scotland"	0.075	0	0	0	0
+"Wind Onshore"	"BERRIEDALE"	"BERRIEDALE"	"Scotland"	0.03225	0	0	0	0
+"Wind Onshore"	"ELLON TURBINE"	"ELLON"	"Scotland"	0.015	0	0	0	0
+"Wind Onshore"	"WHITERASHES"	"WHITERASHES AB21 0QU"	"Scotland"	0.06	0	0	0	0
+"Wind Onshore"	"ROTHIEN"	"ROTHIEN"	"Scotland"	0.06	0	0	0	0
+"Wind Onshore"	"DUNMAGLASS ESTATE WIND TURBINE"	"DUNMAGLASS ESTATE WIND TURBINE"	"Scotland"	0.6	0	0	0	0
+"Wind Onshore"	"Teeny Turbs, Scotland"	"11,996 turbines across UK See also RESTATS Refs 60082, 60083, 60084 (100watt each) from Marlec, Ampair, Aerogen/LVM"	"Scotland"	1.19	0	0	0	0
+"Wind Onshore"	"Scalloway, Shetland"	"Scalloway, Shetland"	"Scotland"	0.02365	0	0	0	0
+"Wind Onshore"	"Westertown"	"Westertown"	"Scotland"	0.06	0	0	0	0
+"Wind Onshore"	"Lanakshire"	"Lanakshire"	"Scotland"	0.05	0	0	0	0
+"Wind Onshore"	"Triodos Renewables Ltd"	"Burgar Hill Sigurd wind turbine (Hainsford Energy)"	"Scotland"	1.3	0	0	0	0
+"Wind Onshore"	"Burradale Wind Farm"	"Burradale Wind Farm"	"Scotland"	1.98	0	0	0	0
+"Wind Onshore"	"Moya (Findhorn Wind Park)"	"Moya (Findhorn Wind Park)"	"Scotland"	0.675	0	0	0	0
+"Wind Onshore"	"Thorfinn Wind 'A' Ltd"	"Burgar Hill NM1500 Thorfinn Wind Energy Project"	"Scotland"	1.5	0	0	0	0
+"Wind Onshore"	"Berriedale Farm"	"Berriedale Farm"	"Scotland"	0.022	0	0	0	0
+"Wind Onshore"	"Discover Carmichael Visitor Centre"	"Carmichael Village"	"Scotland"	0.05	0	0	0	0
+"Wind Onshore"	"Myres Hill"	"Myres Hill"	"Scotland"	1.9	0	0	0	0
+"Wind Onshore"	"Burradale Wind Farm 2"	"Burradale Wind Farm 2"	"Scotland"	1.7	0	0	0	0
+"Wind Onshore"	"Thorfinn Wind 'A' Ltd"	"Burgar Hill NM2000 Thorfinn Wind Energy Project"	"Scotland"	2.3	0	0	0	0
+"Wind Onshore"	"Gigha Windmills"	"Gigha Windmills"	"Scotland"	0.675	0	0	0	0
+"Wind Onshore"	"Mackies Hill of Easterton Wind Turbine"	"Mackies Hill of Easterton Wind Turbine"	"Scotland"	2.55	0	0	0	0
+"Wind Onshore"	"Northfield Wind Energy Project (Burray, Orkney)"	"Northfield Wind Energy Project Burray"	"Scotland"	0.85	0	0	0	0
+"Wind Onshore"	"National Sports Centre Wind Project"	"National Sports Centre Wind Project"	"Scotland"	0.018	0	0	0	0
+"Wind Onshore"	"Abernethy Trust"	"Abernethy Trust"	"Scotland"	0.012	0	0	0	0
+"Wind Onshore"	"Kilmory Primary School"	"Kilmory Primary School"	"Scotland"	0.006	0	0	0	0
+"Wind Onshore"	"Fife Council"	"Fife Council"	"Scotland"	0.0075	0	0	0	0
+"Wind Onshore"	"An Talla"	"An Talla"	"Scotland"	0.006	0	0	0	0
+"Wind Onshore"	"Westray Development Trsut"	"Westray Development Trsut"	"Scotland"	0.0025	0	0	0	0
+"Wind Onshore"	"Westray Kirk Wind Turbine"	"Westray Kirk Wind Turbine"	"Scotland"	0.006	0	0	0	0
+"Wind Onshore"	"North Highland College, Thurso"	"North Highland College, Thurso"	"Scotland"	0.0025	0	0	0	0
+"Wind Onshore"	"Baird Memorial Primary School"	"Baird Memorial Primary School"	"Scotland"	0.006	0	0	0	0
+"Wind Onshore"	"Earthship Fife"	"Earthship Fife"	"Scotland"	6e-04	0	0	0	0
+"Wind Onshore"	"The Bays of Harris Charitable Trust (BoHCT)"	"The Bays of Harris Charitable Trust (BoHCT)"	"Scotland"	0.006	0	0	0	0
+"Wind Onshore"	"Port Charlotte Community Centre Renewables"	"Port Charlotte Community Centre Renewables"	"Scotland"	0.006	0	0	0	0
+"Wind Onshore"	"Gatehouse Development Initiative Ltd"	"Gatehouse Development Initiative Ltd"	"Scotland"	0.03	0	0	0	0
+"Wind Onshore"	"SCHRI Household turbines"	"SCHRI Household turbines"	"Scotland"	0.0899	0	0	0	0
+"Wind Onshore"	"Cumbernauld Primary School"	"Cumbernauld Primary School"	"Scotland"	0.006	0	0	0	0
+"Wind Onshore"	"St John Bosco Primary School"	"St John Bosco Primary School"	"Scotland"	0.0025	0	0	0	0
+"Wind Onshore"	"Ness Sports and Recreation Association"	"Ness Sports and Recreation Association"	"Scotland"	0.012	0	0	0	0
+"Wind Onshore"	"Boulfruich Wind Farm - A,C"	"Boulfruich Wind Farm - A,C"	"Scotland"	12.75	0	0	0	0
+"Wind Onshore"	"Wardlaw Wood"	"Wardlaw Wood"	"Scotland"	18	0	0	0	0
+"Wind Onshore"	"Dummuies Windfarm"	"Dummuies Windfarm"	"Scotland"	12.25	0	0	0	0
+"Wind Onshore"	"Hill of Balquhindachy Wind Turbine"	"Hill of Balquhindachy Wind Turbine"	"Scotland"	2.55	0	0	0	0
+"Wind Onshore"	"BRAIDENHILL"	"BRAIDENHILL"	"Scotland"	0.8	0	0	0	0
+"Wind Onshore"	"Liniclate B"	"Liniclate B"	"Scotland"	0.9	0	0	0	0
+"Wind Onshore"	"Redbog"	"Redbog"	"Scotland"	1.6	0	0	0	0
+"Wind Onshore"	"Aikengall Windfarm"	"Aikengall Windfarm"	"Scotland"	48	0	0	0	0
+"Wind Onshore"	"Balnamoon"	"Balnamoon"	"Scotland"	0.9	0	0	0	0
+"Wind Onshore"	"Burgar Hill Renewables Ltd"	"Burgar Hill Renewables 1"	"Scotland"	2.3	0	0	0	0
+"Wind Onshore"	"Beinn nan Oighrean Windfarm"	"Beinn nan Oighrean Windfarm"	"Scotland"	4.6	0	0	0	0
+"Wind Onshore"	"Cairnhill Windfarm"	"Cairnhill Windfarm"	"Scotland"	2.4	0	0	0	0
+"Wind Onshore"	"St John's Wells Wind Farm"	"St John's Wells Wind Farm"	"Scotland"	2.4	0	0	0	0
+"Wind Onshore"	"Cypex Ltd"	"Cypex Ltd"	"Scotland"	0.08	0	0	0	0
+"Wind Onshore"	"Skelmonae Windfarm Ltd"	"Skelmonae Windfarm Ltd"	"Scotland"	3.2	0	0	0	0
+"Wind Onshore"	"Cairnmore"	"Cairnmore"	"Scotland"	2.55	0	0	0	0
+"Wind Onshore"	"Pates Hill"	"Pates Hill"	"Scotland"	14	0	0	0	0
+"Wind Onshore"	"Flotta Wind Farm"	"Flotta Wind Farm"	"Scotland"	2	0	0	0	0
+"Wind Onshore"	"Hammars Hill"	"Hammars Hill"	"Scotland"	4.5	0	0	0	0
+"Wind Onshore"	"House o'Hill"	"House o'Hill"	"Scotland"	2.4	0	0	0	0
+"Wind Onshore"	"Ardgrain Wind Cluster"	"Ardgrain Wind Cluster"	"Scotland"	2.4	0	0	0	0
+"Wind Onshore"	"FIT-Wind S"	"FIT-Wind S"	"Scotland"	309.94182	9.86779999999993	0	0	0
+"Wind Onshore"	"Gairnieston Wind Cluster"	"Gairnieston Wind Cluster"	"Scotland"	2.3	0	0	0	0
+"Wind Onshore"	"Methil Docks Wind Turbine"	"Methil Docks Wind Turbine"	"Scotland"	0.75	0	0	0	0
+"Wind Onshore"	"Denhill"	"Denhill Wind Turbine"	"Scotland"	2.3	0	0	0	0
+"Wind Onshore"	"Haddo"	"Haddo"	"Scotland"	4.6	0	0	0	0
+"Wind Onshore"	"Courtstone Wind Turbine"	"Courtstone Wind Turbine"	"Scotland"	2.3	0	0	0	0
+"Wind Onshore"	"West Knock Wind Cluster"	"West Knock Wind Cluster"	"Scotland"	2.4	0	0	0	0
+"Wind Onshore"	"Millour Hill Community Windfarm (Re-submission)"	"Millour Hill Community Windfarm (Re-submission)"	"Scotland"	24	0	0	0	0
+"Wind Onshore"	"Greenhill Wind Turbine"	"Greenhill Wind Turbine"	"Scotland"	2.3	0	0	0	0
+"Wind Onshore"	"Clear Skies-S"	"Clear Skies-S"	"Scotland"	11.44613	0	0	0	0
+"Wind Onshore"	"Little Raith Farm"	"Little Raith Farm"	"Scotland"	24.75	0	0	0	0
+"Wind Onshore"	"Clochnahill Wind Farm"	"Clochnahill Wind Farm"	"Scotland"	5.2	0	0	0	0
+"Wind Onshore"	"Allt Dearg Wind Farmers LLP"	"Allt Dearg Wind Farmers LLP"	"Scotland"	10	0	0	0	0
+"Wind Onshore"	"Methlick Farmers Wind Energy Project"	"Methlick Farmers Wind Energy Project"	"Scotland"	12	0	0	0	0
+"Wind Onshore"	"St Fergus Moss Wind Farm"	"St Fergus Moss Wind Farm"	"Scotland"	6	0	0	0	0
+"Wind Onshore"	"Windsave installations - Scotland"	"Windsave installations - Scotland"	"Scotland"	0.0897706031246425	0	0	0	0
+"Wind Onshore"	"Swift turbines installations - Scotland"	"Swift turbines installations - Scotland"	"Scotland"	0.0570575867317643	0	0	0	0
+"Wind Onshore"	"Ark Hill"	"Ark Hill"	"Scotland"	6.48	0	0	0	0
+"Wind Onshore"	"Bankend Rig"	"Bankend Rig"	"Scotland"	14.3	0	0	0	0
+"Wind Onshore"	"Glenurquhart and Strathglass Wind Farm project"	"Corrimony Wind Farm"	"Scotland"	9.95	0	0	0	0
+"Wind Onshore"	"Lochcarnan Community Wind Farm"	"Lochcarnan Community Wind Farm"	"Scotland"	6.93	0	0	0	0
+"Wind Onshore"	"Wind Prospect"	"Pentland Road Wind Farm"	"Scotland"	13.8	0	0	0	0
+"Wind Onshore"	"Wathegar wind farm"	"Wathegar wind farm"	"Scotland"	10.25	0	0	0	0
+"Wind Onshore"	"St John Hill"	"St John Hill Windfarm"	"Scotland"	7.65	0	0	0	0
+"Wind Onshore"	"The Carraig Gheal Wind Farm"	"The Carraig Gheal Wind Farm"	"Scotland"	46	0	0	0	0
+"Wind Onshore"	"GlaxoSmithKline Wind Project"	"Irvine GSK Wind Turbines"	"Scotland"	5	0	0	0	0
+"Wind Onshore"	"GWEL Operating Company Ltd"	"Land at Overside and Greenwellheads Farms"	"Scotland"	9.24	0	0	0	0
+"Wind Onshore"	"St. Johns Hill"	"St. Johns Hill"	"Scotland"	25	0	0	0	0
+"Wind Onshore"	"Torrance Farm"	"Torrance Farm"	"Scotland"	9	0	0	0	0
+"Wind Onshore"	"Barns of Ayre"	"Barns of Ayre"	"Scotland"	2.73	0	0	0	0
+"Wind Onshore"	"Calder Water Windfarm"	"Calder Water Community Wind Farm"	"Scotland"	32.2	0	0	0	0
+"Wind Onshore"	"MCS-Wind S"	"MCS-Wind S"	"Scotland"	0.961848573525776	0.961848573525776	0	0	0
+"Wind Onshore"	"Muirhall Extension"	"Muirhall Extension"	"Scotland"	6.4	0	0	0	0
+"Wind Onshore"	"Jacksbank Wind Farm (Glenbervie)"	"Jacksbank Wind Farm (Glenbervie)"	"Scotland"	6.93	0	0	0	0
+"Wind Onshore"	"Falkirk Tod Hill Wind Farm"	"Tod Hill Farm Wind Turbines"	"Scotland"	11.4	0	0	0	0
+"Wind Onshore"	"Hill of Skilmafilly Cloffrickford (Denmore) Wind Farm"	"Hill of Skilmafilly Cloffrickford (Denmore) Wind Farm"	"Scotland"	6.93	0	0	0	0
+"Wind Onshore"	"Torrance Farm Wind Park Extension"	"Torrance Farm Wind Park Extension"	"Scotland"	5.7	0	0	0	0
+"Wind Onshore"	"Harthill Wind Farm"	"Harthill Wind Farm"	"Scotland"	5.7	0	0	0	0
+"Wind Onshore"	"Beinn Ghrideag wind farm"	"Beinn Ghrideag wind farm"	"Scotland"	9.06	0	0	0	0
+"Wind Onshore"	"Gremista Wind Farm (Luggies Knowe)"	"Gremista Wind Farm (Luggies Knowe)"	"Scotland"	3	0	0	0	0
+"Wind Onshore"	"Srondoire Community Wind Farm"	"Srondoire Community Wind Farm"	"Scotland"	6	0	0	0	0
+"Wind Onshore"	"Milton of Fisherie Wind Cluster"	"Milton of Fisherie Wind Cluster"	"Scotland"	4.6	0	0	0	0
+"Wind Onshore"	"Muirhall WF Extension 1 LTD"	"Muirhall WF Extension 1 LTD"	"Scotland"	9.69	0	0	0	0
+"Wind Onshore"	"Woodlands Farm Wind Turbines"	"Woodlands Farm Wind Turbines"	"Scotland"	1.4	0	0	0	0
+"Wind Onshore"	"Hunterston (currently combined with 72507)"	"Hunterston (currently combined with 72507)"	"Scotland"	6	0	0	0	0
+"Wind Onshore"	"KELLAS WIND FARM"	"KELLAS WIND FARM"	"Scotland"	18.4	0	0	0	0
+"Wind Onshore"	"Edintore Wind Farm"	"Edintore Wind Farm (Operational Q4)"	"Scotland"	14.1	0	0	0	0
+"Wind Onshore"	"Gevens"	"Gevens"	"Scotland"	6.9	0	0	0	0
+"Wind Onshore"	"Clentrie Wind Farm (Gevens)"	"Clentrie Wind Farm (Gevens)"	"Scotland"	6.9	0	0	0	0
+"Wind Onshore"	"BROWNIELEYS - 3 WIND TURBINES"	"BROWNIELEYS - 3 WIND TURBINES"	"Scotland"	7.5	0	0	0	0
+"Wind Onshore"	"Hill of Tillymorgan (Kirkton Farm) Wind turbines (resubmission)"	"Hill of Tillymorgan (Kirkton Farm) Wind turbines (resubmission)"	"Scotland"	9.6	0	0	0	0
+"Wind Onshore"	"Harburnhead Wind Farm"	"Harburnhead Wind Farm"	"Scotland"	51.7	0	0	0	0
+"Wind Onshore"	"Hill of Glaschyle Wind Farm"	"Hill of Glaschyle Wind Farm"	"Scotland"	27.6	0	0	0	0
+"Wind Onshore"	"Quixwood Moor"	"Quixwood Moor"	"Scotland"	29.9	0	0	0	0
+"Wind Onshore"	"Kinegar Quarry (resubmission)"	"Kinegar Quarry (resubmission)"	"Scotland"	5	0	0	0	0
+"Wind Onshore"	"Lochend Wind Farm"	"Lochend Wind Farm"	"Scotland"	9.2	0	0	0	0
+"Wind Onshore"	"Brotherton (formerly Paul Matthew Hill wind turbines)"	"Brotherton Wind Farm"	"Scotland"	4.6	0	0	0	0
+"Wind Onshore"	"Hoprigshiels Community Wind Farm"	"Hoprigshiels Community Wind Farm"	"Scotland"	6.9	0	0	0	0
+"Wind Onshore"	"Glen App"	"Glen App"	"Scotland"	22	0	0	0	0
+"Wind Onshore"	"Drumduff Wind Farm"	"Drumduff Wind Farm"	"Scotland"	8.53	0	0	0	0
+"Wind Onshore"	"Welton Of Creuchies"	"Welton Of Creuchies"	"Scotland"	9.2	0	0	0	0
+"Wind Onshore"	"Aikengall II, Wester Dod Community Wind Farm"	"Aikengall II Windfarm"	"Scotland"	60.8	0	0	0	0
+"Wind Onshore"	"Wathegar 2 Wind Farm"	"Wathegar 2 Wind Farm"	"Scotland"	18.45	0	0	0	0
+"Wind Onshore"	"Deuchries"	"Deuchries"	"Scotland"	6.9	0	0	0	0
+"Wind Onshore"	"Sanquhar Community Windfarm"	"Sanquhar Community Windfarm"	"Scotland"	31	0	0	0	0
+"Wind Onshore"	"Emly Bank RO"	"Emly Bank RO"	"Scotland"	15	0	0	0	0
+"Wind Onshore"	"Whiteside Hill"	"Whiteside Hill"	"Scotland"	25.3	0	0	0	0
+"Wind Onshore"	"Temporis Capital Ltd"	"Tullymurdoch Wind Farm"	"Scotland"	14.4	0	0	0	0
+"Wind Onshore"	"Afton Wind Farm"	"Afton Wind Farm"	"Scotland"	50	0	0	0	0
+"Wind Onshore"	"Keith Hill (resubmission)"	"Keith Hill (resubmission)"	"Scotland"	4.5	0	0	0	0
+"Wind Onshore"	"Auchadaduie Wind Farm"	"Auchadaduie Wind Farm"	"Scotland"	7.05	0.149999999999999	0	0	0
+"Wind Onshore"	"Achlachan"	"Achlachan"	"Scotland"	10.25	0	10.25	0	0
+"Wind Onshore"	"Coire Na Cloiche"	"Coire Na Cloiche"	"Scotland"	29.9	0	29.9	0	0
+"Wind Onshore"	"Pitkinnie Wind Turbine (Forsyth)"	"Pitkinnie Wind Turbine (Forsyth)"	"Scotland"	0.225	0	0	0	0.225
+"Wind Offshore"	"Methil Wind Turbine Demonstration Project"	"FEPODWT"	"Scotland"	7.35	0	0	0	0
+"Wind Offshore"	"Hywind Scotland Pilot Park"	"Hywind Scotland Pilot Park"	"Scotland"	29	0	0	0	0
+"Wind Offshore"	"Levenmouth demonstration turbine (Fife Energy Park)"	"Levenmouth demonstration turbine (Fife Energy Park)"	"Scotland"	7	0	0	0	0
+"Wind Offshore"	"Kincardine Offshore Windfarm"	"Kincardine Offshore Windfarm"	"Scotland"	48.6325	48.6325	0	0	0
+"Landfill Gas"	"Greengairs Phase I"	"Greengairs Phase I"	"Scotland"	3.95	0	0	0	0
+"Landfill Gas"	"Greengairs Phase II"	"Greengairs Phase II"	"Scotland"	3.952	0	0	0	0
+"Landfill Gas"	"Summerston Landfill"	"Somerston Landfill"	"Scotland"	2.85	0	0	0	0
+"Landfill Gas"	"Greengairs Phase 4"	"Greengairs Phase 4"	"Scotland"	4	0	0	0	0
+"Landfill Gas"	"Greengairs Phase 3"	"Greengairs Phase 3"	"Scotland"	4	0	0	0	0
+"Landfill Gas"	"Bonnyrigg Power (Melville)"	"Bonnyrigg Power"	"Scotland"	1.15	0	0	0	0
+"Landfill Gas"	"Greenoakhill Landfill Site"	"Greenoakhill Landfill Site"	"Scotland"	4.012	0	0	0	0
+"Landfill Gas"	"Craignaught Landfill Site (Dunlop Power)"	"Craignaught Landfill Site (Dunlop Power)"	"Scotland"	0.7	0	0	0	0
+"Landfill Gas"	"Garlaff Landfill Gas Project"	"Garlaff Landfill Gas Project"	"Scotland"	5	0	0	0	0
+"Landfill Gas"	"Greengairs V"	"Greengairs V"	"Scotland"	2.3	0	0	0	0
+"Landfill Gas"	"Kaimes - SRO 3"	"Kaimes - SRO 3"	"Scotland"	2.6	0	0	0	0
+"Landfill Gas"	"Lochhead"	"Lochhead"	"Scotland"	1.136	0	0	0	0
+"Landfill Gas"	"Shewalton Landfill Site"	"Shewalton Landfill Site"	"Scotland"	1.836	0	0	0	0
+"Landfill Gas"	"SRO Wellbank Gas to Energy"	"SRO Wellbank Gas to Energy"	"Scotland"	1.003	0	0	0	0
+"Landfill Gas"	"Summerston 2 Landfill Site"	"Summerston 2 Landfill Site"	"Scotland"	2.1	0	0	0	0
+"Landfill Gas"	"Wellbank Gas to Energy"	"Wellbank Gas to Energy"	"Scotland"	0.93	0	0	0	0
+"Landfill Gas"	"Auchencarrock Landfill"	"Auchencarrock Landfill"	"Scotland"	1.976	0	0	0	0
+"Landfill Gas"	"Auchinlea"	"Auchinlea"	"Scotland"	2.272	0	0	0	0
+"Landfill Gas"	"Avondale Power Station"	"Avondale Power Station"	"Scotland"	11.6	0	0	0	0
+"Landfill Gas"	"Greengairs VI"	"Greengairs VI"	"Scotland"	4.6	0	0	0	0
+"Landfill Gas"	"Binn Landfill"	"Binn Landfill"	"Scotland"	3.408	0	0	0	0
+"Landfill Gas"	"Tarbothill"	"Tarbothill"	"Scotland"	1.15	0	0	0	0
+"Landfill Gas"	"Auchencarroch #2 Landfill Site"	"Auchencarroch #2 Landfill Site"	"Scotland"	3.178	0	0	0	0
+"Landfill Gas"	"Barkip Landfill Site Electricity Generating Station"	"Barkip Landfill Site Electricity Generating Station"	"Scotland"	1.06	0	0	0	0
+"Landfill Gas"	"Stoneyhill RO Generation"	"Stoneyhill RO Generation"	"Scotland"	5.325	0	0	0	0
+"Landfill Gas"	"Cathkin RO Generation"	"Cathkin RO Generation"	"Scotland"	8.461	0	0	0	0
+"Landfill Gas"	"Dunbar Power Plant"	"Dunbar Power Plant"	"Scotland"	7	0	0	0	0
+"Landfill Gas"	"Wester Hatton"	"Wester Hatton"	"Scotland"	0.33	0	0	0	0
+"Landfill Gas"	"Straid Farm"	"Straid Farm"	"Scotland"	0.625	0	0	0	0
+"Landfill gas"	"Lochead Melville - A, C"	"Lochead Melville - A, C"	"Scotland"	1.511	0	0	0	0
+"Landfill gas"	"Drummond Moor Generation"	"Drummond Moor Generation"	"Scotland"	1.15	0	0	0	0
+"Landfill gas"	"Lochhead Fife Power"	"Lochhead Fife Power"	"Scotland"	2.272	0	0	0	0
+"Landfill gas"	"Oatslie Generation"	"Oatslie Generation"	"Scotland"	2.63	0	0	0	0
+"Landfill gas"	"Patersons Quarries Generating Station"	"Patersons Quarries Generating Station"	"Scotland"	4.252	0	0	0	0
+"Landfill Gas"	"Locharmoss Landfill Site"	"Locharmoss Landfill Site"	"Scotland"	0.8	0	0	0	0
+"Landfill Gas"	"Nether Dallachy Renewable Energy"	"Nether Dallachy Renewable Energy"	"Scotland"	1.064	0	0	0	0
+"Landfill Gas"	"Easter Langlee"	"Easter Langlee"	"Scotland"	0.8	0	0	0	0
+"Landfill Gas"	"Levenseat Renewable Energy"	"Levenseat Renewable Energy"	"Scotland"	1	0	0	0	0
+"Landfill Gas"	"Hill of Tramaud Generating Station"	"Hill of Tramaud Generating Station"	"Scotland"	1.395	0	0	0	0
+"Landfill Gas"	"Lower Polmaise Landfill Gas"	"Lower Polmaise Landfill Gas"	"Scotland"	0.6	0	0	0	0
+"Landfill Gas"	"Rigmuir"	"Rigmuir"	"Scotland"	2.126	0	0	0	0
+"Landfill Gas"	"Restenneth"	"Restenneth"	"Scotland"	1.1	0	0	0	0
+"Landfill Gas"	"Riggend"	"Riggend"	"Scotland"	0.95	0	0	0	0
+"Landfill Gas"	"West Carron Landfill Site"	"West Carron Landfill Site"	"Scotland"	0.48	0	0	0	0
+"Landfill Gas"	"Lower Melville Wood"	"Lower Melville Wood"	"Scotland"	1	0	0	0	0
+"Landfill Gas"	"Lingerton Microgeneration Project"	"Lingerton Microgeneration Project"	"Scotland"	0.05	0	0	0	0
+"Landfill Gas"	"Longman Microgeneration"	"Longman Microgeneration"	"Scotland"	0.065	0	0	0	0
+"Landfill Gas"	"Seater Microgeneration"	"Seater Microgeneration"	"Scotland"	0.05	0	0	0	0
+"Landfill Gas"	"Crow's Nest Microgeneration Project"	"Crow's Nest Microgeneration Project"	"Scotland"	0.065	0	0	0	0
+"Sewage Sludge Digestion"	"NEWBRIDGE PIGS"	"NEWBRIDGE PIGS"	"Scotland"	0.06	0	0	0	0
+"Sewage Sludge Digestion"	"Nigg Bay WWTW"	"Nigg Bay WWTW"	"Scotland"	1.84	0	0	0	0
+"Sewage Sludge Digestion"	"Seafield"	"Seafield"	"Scotland"	3.759	0	0	0	0
+"Sewage Sludge Digestion"	"Newbridge STW"	"Newbridge STW"	"Scotland"	0.344	0	0	0	0
+"Sewage Sludge Digestion"	"Cumnock Waste Water Treatment Works*"	"Cumnock Waste Water Treatment Works*"	"Scotland"	0.16	0	0	0	0
+"Sewage Sludge Digestion"	"Hatton CHP"	"Hatton CHP"	"Scotland"	0.501	0	0	0	0
+"Sewage Sludge Digestion"	"Allan Fearn CHP"	"Allan Fearn CHP"	"Scotland"	0.46	0	0	0	0
+"Sewage Sludge Digestion"	"Galashiels WWTW CHP"	"Galashiels WWTW CHP"	"Scotland"	0.124	0	0	0	0
+"Biomass"	"Dowhill Farm"	"Dowhill Farm"	"Scotland"	0.12	0	0	0	0
+"Biomass"	"Caledonian CHP1"	"Caledonian CHP1"	"Scotland"	26.043	0	0	0	0
+"Biomass"	"Balcas Biomass CHP Power Station"	"Balcas Biomass CHP Power Station"	"Scotland"	9.6	0	0	0	0
+"Biomass"	"Invergordon Pellet Mill"	"Invergordon Pellet Mill"	"Scotland"	5	0	0	0	0
+"Biomass"	"Dumfries Peel Centre 5969"	"TESCO - DUMFRIES 5969"	"Scotland"	0.15	0	0	0	0
+"Biomass"	"PROJECT & ENERGY MANAGEMENT"	"GIRVAN SITE, LAND ENERGY (GIRVAN) LTD"	"Scotland"	2.544	0	0	0	0
+"Biomass"	"CoRDE"	"Rothes Bio-Plant"	"Scotland"	8.614	0	0	0	0
+"Biomass"	"Annan Hospital Biomass"	"Annan Hospital Biomass"	"Scotland"	0.199	0	0	0	0
+"Biomass"	"Castle Douglas Hospital Biomass"	"Castle Douglas Hospital Biomass"	"Scotland"	0.199	0	0	0	0
+"Biomass"	"KIRKCUDBRIGHT COTTAGE HOSPITAL Biomass"	"KIRKCUDBRIGHT COTTAGE HOSPITAL Biomass"	"Scotland"	0.199	0	0	0	0
+"Biomass"	"LOCHMABEN HOSPITAL Biomass Boiler"	"LOCHMABEN HOSPITAL Biomass Boiler"	"Scotland"	0.199	0	0	0	0
+"Biomass"	"Moffat Hospital Biomass"	"Moffat Hospital Biomass"	"Scotland"	0.199	0	0	0	0
+"Biomass"	"Newton Stewart Hospital Biomass"	"Newton Stewart Hospital Biomass"	"Scotland"	0.199	0	0	0	0
+"Biomass"	"Thornhill Hospital Biomass"	"Thornhill Hospital Biomass"	"Scotland"	0.199	0	0	0	0
+"Biomass"	"Diageo Biomass Energy Project"	"Diageo Biomass Energy Project"	"Scotland"	5.5	0	0	0	0
+"Biomass"	"Balring"	"Balring"	"Scotland"	0.125	0	0	0	0
+"Biomass"	"Highland Powerhouse1"	"Highland Powerhouse1"	"Scotland"	0.08	0	0	0	0
+"Biomass"	"Roxan FDBL Generator"	"Roxan FDBL Generator"	"Scotland"	0.08	0	0	0	0
+"Biomass"	"Pulteney Distillery"	"Pulteney Distillery"	"Scotland"	3.5	0	0	0	0
+"Biomass"	"Castleton Fruit Ltd"	"Castleton Fruit Ltd"	"Scotland"	0.147	0	0	0	0
+"Biomass"	"Scotston CHP Gasifier"	"Scotston CHP Gasifier"	"Scotland"	0.05	0	0	0	0
+"Biomass"	"Speyside CHP"	"Speyside CHP"	"Scotland"	14.99	0	0	0	0
+"Biomass"	"RAH Heliex steam turbine"	"RAH Heliex steam turbine"	"Scotland"	0.11	0	0	0	0
+"Biomass"	"Burkhardt 1"	"Burkhardt 1"	"Scotland"	0.197	0	0	0	0
+"Biomass"	"Duke of Gordon CHP 1"	"Duke of Gordon CHP 1"	"Scotland"	0.094	0	0	0	0
+"Biomass"	"Keilburn Farm CHP"	"Keilburn Farm CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"Sustainable Power and Research Campus"	"Sustainable Power and Research Campus"	"Scotland"	6.5	0	0	0	0
+"Biomass"	"Arisaig CHP"	"Arisaig CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"Hevac Biogas"	"Hevac Biogas"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"Outertown Farm"	"Outertown Farm"	"Scotland"	0.04	0	0	0	0
+"Biomass"	"Parkview CHP"	"Parkview CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"We Hae Meat CHP"	"We Hae Meat CHP"	"Scotland"	0.08	0	0	0	0
+"Biomass"	"East Reston Farm CHP"	"East Reston Farm CHP"	"Scotland"	0.076	0	0	0	0
+"Biomass"	"Ignis Wick CHP"	"Ignis Wick CHP"	"Scotland"	0.197	0	0	0	0
+"Biomass"	"Glenborrodale Biomass CHP"	"Glenborrodale Biomass CHP"	"Scotland"	0.225	0	0	0	0
+"Biomass"	"Mains of Fortrie CHP"	"Mains of Fortrie CHP"	"Scotland"	0.076	0	0	0	0
+"Biomass"	"Old Ballikinrain"	"Old Ballikinrain"	"Scotland"	0.076	0	0	0	0
+"Biomass"	"Auchencheyne CHP"	"Auchencheyne CHP"	"Scotland"	0.133	0	0	0	0
+"Biomass"	"Balmachie Farm CHP"	"Balmachie Farm CHP"	"Scotland"	0.086	0	0	0	0
+"Biomass"	"Forthar Farm CHP"	"Forthar Farm CHP"	"Scotland"	0.1275	0	0	0	0
+"Biomass"	"Robston House Farm CHP"	"Robston House Farm CHP"	"Scotland"	0.1275	0	0	0	0
+"Biomass"	"Adam Wilson & Sons 1"	"Adam Wilson & Sons 1"	"Scotland"	2.464	0	0	0	0
+"Biomass"	"Dronley Farm CHP"	"Dronley Farm CHP"	"Scotland"	0.0623	0	0	0	0
+"Biomass"	"Kelloe Mains ORC Generator"	"Kelloe Mains ORC Generator"	"Scotland"	0.0645	0	0	0	0
+"Biomass"	"Lemington Farm CHP"	"Lemington Farm CHP"	"Scotland"	0.164	0	0	0	0
+"Biomass"	"Arnhall Farm CHP"	"Arnhall Farm CHP"	"Scotland"	0.047	0	0	0	0
+"Biomass"	"Glenskinno CHP"	"Glenskinno CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"Loanhead Farm CHP"	"Loanhead Farm CHP"	"Scotland"	0.04	0	0	0	0
+"Biomass"	"Piperdam Golf Club CHP"	"Piperdam Golf Club CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"Raehills Estate CHP"	"Raehills Estate CHP"	"Scotland"	0.04	0	0	0	0
+"Biomass"	"Harbour Road"	"Harbour Road"	"Scotland"	2.55	0	0	0	0
+"Biomass"	"DMTN Ltd ORC"	"DMTN Ltd ORC"	"Scotland"	0.175	0	0	0	0
+"Biomass"	"Tayside Forestry CHP"	"Tayside Forestry CHP"	"Scotland"	0.0523	0	0	0	0
+"Biomass"	"South Cassochie Farm ORC"	"South Cassochie Farm ORC"	"Scotland"	0.1488	0	0	0	0
+"Biomass"	"Mein Farming Ltd - Gas Engine Systems 1 & 2"	"Mein Farming Ltd - Gas Engine Systems 1 & 2"	"Scotland"	0.088	0	0	0	0
+"Biomass"	"Liberty Steel Lochaber"	"Liberty Steel Lochaber"	"Scotland"	17.32	0	0	0	0
+"Biomass"	"Angus Hotel CHP"	"Angus Hotel CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"Cowley CHP"	"Cowley CHP"	"Scotland"	0.045	0	0	0	0
+"Biomass"	"Levenseat EfW"	"Levenseat EfW"	"Scotland"	12.5	0	0	0	0
+"Biomass"	"Blackstoun Home Farm CHP"	"Blackstoun Home Farm CHP"	"Scotland"	0.088	0	0	0	0
+"Biomass"	"Border Biofuels"	"Border Biofuels"	"Scotland"	0.076	0	0	0	0
+"Biomass"	"Border Biofuels 2 ltd"	"Border Biofuels 2 ltd"	"Scotland"	0.224	0	0	0	0
+"Biomass"	"Dalquhandy CHP"	"Dalquhandy CHP"	"Scotland"	1.02	0	0	0	0
+"Biomass"	"Liberty Steel Dalzell"	"Liberty Steel Dalzell"	"Scotland"	17.43	0	0	0	0
+"Biomass"	"Myreton of Claverhouse Farm CHP"	"Myreton of Claverhouse Farm CHP"	"Scotland"	0.092	0	0	0	0
+"Biomass"	"Towngate CHP"	"Towngate CHP"	"Scotland"	0.0523	0	0	0	0
+"Biomass"	"Broombank Farm CHP"	"Broombank Farm CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"Gartmore CHP"	"Gartmore CHP"	"Scotland"	0.049	0	0	0	0
+"Biomass"	"MMM Resources Gasifier"	"MMM Resources Gasifier"	"Scotland"	0.135	0	0	0	0
+"Biomass"	"Acharn Forest Killin Biomass Plant"	"Acharn Forest Killin Biomass Plant"	"Scotland"	5.6	0	0	0	0
+"Biomass"	"Campbell Fuel CHP"	"Campbell Fuel CHP"	"Scotland"	0.094	0.094	0	0	0
+"Biomass"	"Cardryne CHP"	"Cardryne CHP"	"Scotland"	0.1246	0.1246	0	0	0
+"Biomass"	"Stevens Croft"	"Stevens Croft"	"Scotland"	46	0	0	0	0
+"Biomass"	"Tullis Russell Paper Mill (Markinch)"	"Tullis Russell Paper Mill (Markinch)"	"Scotland"	65	0	0	0	0
+"Poultry Litter"	"Westfield Biomass Plant"	"Westfield Biomass Plant"	"Scotland"	12.5	0	0	0	0
+"Municipal Solid Waste Combustion"	"Baldovie Incineration Plant"	"Baldovie Incineration Plant"	"Scotland"	10.5	0	0	0	0
+"Municipal Solid Waste Combustion"	"Dargavel (ACT- gasification)"	"Dargavel (ACT- gasification)"	"Scotland"	7	0	0	0	0
+"Municipal Solid Waste Combustion"	"Glasgow Renewable Energy and Recycling Centre"	"Glasgow Renewable Energy and Recycling Centre"	"Scotland"	22	22	0	0	0
+"Shoreline Wave"	"Islay Wave Energy Plant"	"Islay Wave Energy Plant"	"Scotland"	0.169	0	0	0	0
+"Tidal"	"The Fall of Warness Tidal Scheme, (EMEC)"	"Eday Birth 2"	"Scotland"	1.2	0	0	0	0
+"Shoreline Wave"	"Vagr Atferth"	"Vagr Atferth"	"Scotland"	0.75	0	0	0	0
+"Shoreline Wave"	"Oyster Demonstration Project"	"Oyster Demonstration Project"	"Scotland"	0.8	0	0	0	0
+"Shoreline Wave"	"The Penguin (EMEC)"	"The Penguin (EMEC)"	"Scotland"	0.5	0	0	0	0
+"Shoreline Wave"	"Seatricity Turbine (EMEC)"	"Seatricity Turbine (EMEC)"	"Scotland"	1	0	0	0	0
+"Tidal"	"Hammerfest (EMEC)"	"Eday Berth 1"	"Scotland"	1.138	0	0	0	0
+"Shoreline Wave"	"Scottish Power EMEC Test Site"	"Orcadian Wave"	"Scotland"	0.75	0	0	0	0
+"Tidal"	"Eday Berth 4"	"Eday Berth 4"	"Scotland"	0.2	0	0	0	0
+"Shoreline Wave"	"Billia Croo Berth 6"	"Billia Croo Berth 6"	"Scotland"	0.8	0	0	0	0
+"Tidal"	"Ness of Quoys"	"Inner Sound Phase 1A (MeyGen) Ness of Quoys"	"Scotland"	5.7	0	0	0	0
+"Tidal"	"EMEC Berth 5"	"EMEC Berth 5"	"Scotland"	2	0	0	0	0
+"Tidal"	"Tocardo EMEC Array"	"Tocardo EMEC Array"	"Scotland"	1.451	0	0	0	0
+"Tidal"	"S G E Tidal Array"	"S G E Tidal Array"	"Scotland"	0.5	0	0	0	0
+"Shoreline Wave"	"Billia Croo berth 5"	"Billia Croo berth 5"	"Scotland"	0.96	0	0	0	0
+"Tidal"	"Floating Energy Generation Platform - ATIR"	"Floating Energy Generation Platform - ATIR"	"Scotland"	2	0	0	0	0
+"Tidal"	"Magallanes (FoW - EMEC)"	"Magallanes (FoW - EMEC)"	"Scotland"	2	2	0	0	0

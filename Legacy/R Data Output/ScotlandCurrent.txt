@@ -1,21 +1,18 @@
 "LA"	"TechType"	"Status"	"Sites"	"Capacity"
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	1.95
 "Perth and Kinross"	"Advanced Conversion Technologies"	"Awaiting Construction"	1	4.64
-"Glasgow City"	"Advanced Conversion Technologies"	"Under Construction"	1	10
 "West Lothian"	"Advanced Conversion Technologies"	"Awaiting Construction"	1	5
-"East Lothian"	"EfW Incineration"	"Under Construction"	1	25.6
 "North Lanarkshire"	"Advanced Conversion Technologies"	"Under Construction"	1	25
 "Glasgow City"	"EfW Incineration"	"Awaiting Construction"	1	20
-"Angus"	"Solar Photovoltaics"	"Awaiting Construction"	1	19
 "Offshore"	"Tidal Barrage and Tidal Stream"	"Awaiting Construction"	1	10
 "Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Application Submitted"	1	200
 "Offshore"	"Tidal Barrage and Tidal Stream"	"Awaiting Construction"	1	3
 "Offshore"	"Tidal Barrage and Tidal Stream"	"Awaiting Construction"	1	30
 "Offshore"	"Wind Offshore"	"Awaiting Construction"	1	784
 "Offshore"	"Wind Offshore"	"Awaiting Construction"	1	525
-"Offshore"	"Wind Offshore"	"Under Construction"	1	317
-"Offshore"	"Wind Offshore"	"Under Construction"	1	317
-"Offshore"	"Wind Offshore"	"Under Construction"	1	316
+"Offshore"	"Wind Offshore"	"Under Construction"	1	313.5
+"Offshore"	"Wind Offshore"	"Under Construction"	1	313.5
+"Offshore"	"Wind Offshore"	"Under Construction"	1	323
 "Offshore"	"Wind Offshore"	"Awaiting Construction"	1	525
 "South Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	76
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	20.7
@@ -28,7 +25,7 @@
 "Argyll and Bute"	"Wind Onshore"	"Under Construction"	1	49.9
 "Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	1	78.6
 "South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	57.8
-"Highland"	"Wind Onshore"	"Awaiting Construction"	1	38
+"Highland"	"Wind Onshore"	"Under Construction"	1	47
 "Highland"	"Wind Onshore"	"Awaiting Construction"	1	2.4
 "East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	54.4
 "East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	84
@@ -47,12 +44,12 @@
 "South Ayrshire"	"Wind Onshore"	"Under Construction"	1	20
 "South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	27
 "North Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	17.5
-"East Ayrshire"	"Wind Onshore"	"Under Construction"	1	30
-"South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	39
+"East Ayrshire"	"Wind Onshore"	"Under Construction"	1	45
+"South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	45
 "West Lothian"	"Wind Onshore"	"Awaiting Construction"	1	20.4
 "Inverclyde"	"Wind Onshore"	"Under Construction"	1	24
 "North Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	24
-"Moray"	"Wind Onshore"	"Awaiting Construction"	1	26
+"Moray"	"Wind Onshore"	"Awaiting Construction"	1	29
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	72
 "Highland"	"Wind Onshore"	"Awaiting Construction"	1	54
 "Highland"	"Wind Onshore"	"Awaiting Construction"	1	72.6
@@ -65,7 +62,7 @@
 "South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	11.4
 "Highland"	"Wind Onshore"	"Awaiting Construction"	1	42
 "Highland"	"Wind Onshore"	"Awaiting Construction"	1	49.9
-"South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	80
+"South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	95
 "East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	4
 "South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	11.4
 "Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Awaiting Construction"	1	180
@@ -73,7 +70,7 @@
 "Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Awaiting Construction"	1	21.6
 "Dumfries and Galloway"	"Wind Onshore"	"Under Construction"	1	30
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	5
-"Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	33
+"Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	24
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	8.2
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	25.6
 "Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Awaiting Construction"	1	118.8
@@ -81,22 +78,20 @@
 "Scottish Borders"	"Wind Onshore"	"Awaiting Construction"	1	27
 "Scottish Borders"	"Wind Onshore"	"Awaiting Construction"	1	15
 "Highland"	"Wind Onshore"	"Application Submitted"	1	59.4
-"East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	170
+"East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	240
 "Highland"	"Wind Onshore"	"Awaiting Construction"	1	35
 "Moray"	"Wind Onshore"	"Awaiting Construction"	1	48
 "Scottish Borders"	"Wind Onshore"	"Awaiting Construction"	1	75.5
-"East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	88
-"Argyll and Bute"	"Wind Onshore"	"Awaiting Construction"	1	28
+"Argyll and Bute"	"Wind Onshore"	"Under Construction"	1	35
 "East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	22.5
 "Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	1	67.5
-"South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	75
+"South Lanarkshire"	"Wind Onshore"	"Under Construction"	1	75
 "Scottish Borders"	"Wind Onshore"	"Application Submitted"	1	48
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	25.6
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	48
 "Highland"	"Wind Onshore"	"Under Construction"	1	34
 "West Lothian"	"Wind Onshore"	"Awaiting Construction"	1	1.5
 "Argyll and Bute"	"Wind Onshore"	"Awaiting Construction"	1	4
-"Scottish Borders"	"Wind Onshore"	"Application Submitted"	1	41
 "Orkney Islands"	"Tidal Barrage and Tidal Stream"	"Awaiting Construction"	1	86
 "Aberdeenshire"	"Wind Onshore"	"Awaiting Construction"	1	3.6
 "South Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	24
@@ -117,7 +112,6 @@
 "South Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	10.2
 "North Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	13.2
 "South Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	48
-"Angus"	"Solar Photovoltaics"	"Awaiting Construction"	1	5
 "East Ayrshire"	"EfW Incineration"	"Awaiting Construction"	1	12
 "Aberdeenshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	1.5
 "Perth and Kinross"	"Solar Photovoltaics"	"Awaiting Construction"	1	10
@@ -125,7 +119,6 @@
 "Aberdeen City"	"EfW Incineration"	"Under Construction"	1	11.1
 "Angus"	"Solar Photovoltaics"	"Under Construction"	1	5
 "Angus"	"Solar Photovoltaics"	"Awaiting Construction"	1	5
-"Highland"	"Anaerobic Digestion"	"Under Construction"	1	2
 "North Ayrshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	5
 "Aberdeenshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	5
 "Fife"	"Solar Photovoltaics"	"Awaiting Construction"	1	12
@@ -136,7 +129,6 @@
 "North Lanarkshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	4.8
 "North Lanarkshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	4.1
 "North Lanarkshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	5
-"Angus"	"Solar Photovoltaics"	"Under Construction"	1	4.99
 "Aberdeenshire"	"Wind Onshore"	"Awaiting Construction"	1	2.3
 "Shetland Islands"	"Wind Onshore"	"Awaiting Construction"	1	2.7
 "Argyll and Bute"	"Small Hydro"	"Under Construction"	1	2
@@ -155,7 +147,7 @@
 "Highland"	"Wind Offshore"	"Awaiting Construction"	1	850
 "Highland"	"Wind Onshore"	"Awaiting Construction"	1	1
 "Dundee City"	"EfW Incineration"	"Under Construction"	1	10
-"East Ayrshire"	"Wind Onshore"	"Application Submitted"	1	33
+"East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	33
 "Highland"	"Wind Onshore"	"Application Submitted"	1	35
 "Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Awaiting Construction"	1	5
 "Scottish Borders"	"Wind Onshore"	"Awaiting Construction"	1	21
@@ -168,9 +160,9 @@
 "Highland"	"Wind Onshore"	"Application Submitted"	1	64.6
 "Moray"	"Wind Onshore"	"Application Submitted"	1	150
 "North Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	21
-"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Application Submitted"	1	5
+"Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Awaiting Construction"	1	5
 "Clackmannanshire"	"Wind Onshore"	"Under Construction"	1	10.8
-"West Lothian"	"Wind Onshore"	"Application Submitted"	1	36
+"West Lothian"	"Wind Onshore"	"Awaiting Construction"	1	36
 "Moray"	"Solar Photovoltaics"	"Awaiting Construction"	1	50
 "South Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	22.4
 "Moray"	"Wind Onshore"	"Application Submitted"	1	256
@@ -183,13 +175,13 @@
 "Moray"	"Solar Photovoltaics"	"Awaiting Construction"	1	20
 "Offshore"	"Wind Offshore"	"Awaiting Construction"	1	450
 "Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	1	67.2
-"Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	1	36
+"Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	36
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	36
 "Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	1	315
 "Argyll and Bute"	"Wind Onshore"	"Awaiting Construction"	1	58.8
 "Highland"	"Wind Onshore"	"Application Submitted"	1	168
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	4
-"Highland"	"Small Hydro"	"Awaiting Construction"	1	1.08
+"Highland"	"Small Hydro"	"Under Construction"	1	1.08
 "Aberdeenshire"	"Small Hydro"	"Under Construction"	1	2
 "Aberdeenshire"	"Wind Onshore"	"Application Submitted"	1	40
 "Aberdeenshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	1
@@ -207,18 +199,18 @@
 "Na h-Eileanan an Iar/Western Isles"	"Wind Onshore"	"Application Submitted"	1	49.9
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	1.36
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	0.885
-"Argyll and Bute"	"Small Hydro"	"Awaiting Construction"	1	1
-"Highland"	"Small Hydro"	"Application Submitted"	1	1
+"Argyll and Bute"	"Small Hydro"	"Under Construction"	1	1
 "Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	1	81.6
 "South Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	40
 "Argyll and Bute"	"Small Hydro"	"Awaiting Construction"	1	2
 "Fife"	"Solar Photovoltaics"	"Awaiting Construction"	1	1.9
-"Highland"	"Wind Onshore"	"Application Submitted"	1	48.3
+"Highland"	"Wind Onshore"	"Awaiting Construction"	1	34.5
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	0.8
+"Highland"	"Wind Onshore"	"Application Submitted"	1	150
 "Argyll and Bute"	"Wind Onshore"	"Awaiting Construction"	1	80
 "Aberdeenshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	36.6
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	0.35
-"Fife"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.25
+"Fife"	"Solar Photovoltaics"	"Under Construction"	1	0.25
 "Argyll and Bute"	"Small Hydro"	"Awaiting Construction"	1	0.15
 "North Ayrshire"	"EfW Incineration"	"Awaiting Construction"	1	15
 "Highland"	"Wind Onshore"	"Application Submitted"	1	4.3
@@ -226,13 +218,15 @@
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	1.1
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	2
 "Highland"	"Wind Onshore"	"Application Submitted"	1	36
+"East Ayrshire"	"Wind Onshore"	"Application Submitted"	1	67.2
+"South Ayrshire"	"Wind Onshore"	"Application Submitted"	1	73
 "East Ayrshire"	"Small Hydro"	"Awaiting Construction"	1	0.3
 "North Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	8.4
 "Highland"	"Wind Onshore"	"Application Submitted"	1	28
 "South Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	78
 "East Ayrshire"	"Wind Onshore"	"Application Submitted"	0	-88
-"East Ayrshire"	"Wind Onshore"	"Application Submitted"	1	105.5
-"Shetland Islands"	"Wind Onshore"	"Awaiting Construction"	1	457
+"East Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	105.5
+"Shetland Islands"	"Wind Onshore"	"Awaiting Construction"	1	443
 "Highland"	"Small Hydro"	"Awaiting Construction"	1	2
 "Highland"	"Pumped Storage Hydroelectricity"	"Awaiting Construction"	1	600
 "Dumfries and Galloway"	"Pumped Storage Hydroelectricity"	"Awaiting Construction"	1	210
@@ -253,35 +247,33 @@
 "Renfrewshire"	"Battery"	"Awaiting Construction"	1	29.9
 "Falkirk"	"Battery"	"Awaiting Construction"	1	0
 "Aberdeenshire"	"Battery"	"Awaiting Construction"	1	0
+"East Ayrshire"	"Battery"	"Application Submitted"	1	10
 "Inverclyde"	"Battery"	"Application Submitted"	1	1
 "Argyll and Bute"	"Battery"	"Awaiting Construction"	1	29.9
 "Renfrewshire"	"Battery"	"Awaiting Construction"	1	50
 "Dumfries and Galloway"	"Battery"	"Application Submitted"	1	6
+"South Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	40
 "South Ayrshire"	"Wind Onshore"	"Application Submitted"	1	100
 "Perth and Kinross"	"Battery"	"Awaiting Construction"	1	45
+"Midlothian"	"Solar Photovoltaics"	"Under Construction"	1	3
 "Highland"	"Battery"	"Awaiting Construction"	1	20
 "North Ayrshire"	"Solar Photovoltaics"	"Awaiting Construction"	1	19.9
-"Aberdeenshire"	"Battery"	"Awaiting Construction"	1	20
 "West Lothian"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.25
 "East Ayrshire"	"Wind Onshore"	"Application Submitted"	1	36
-"Aberdeenshire"	"Wind Onshore"	"Application Submitted"	1	1
 "Shetland Islands"	"Wind Onshore"	"Awaiting Construction"	1	0.9
-"Fife"	"Solar Photovoltaics"	"Under Construction"	1	0.23
-"Highland"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.5
-"Highland"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.27
+"Highland"	"Solar Photovoltaics"	"Under Construction"	1	0.5
 "North Ayrshire"	"Small Hydro"	"Awaiting Construction"	1	1
 "Perth and Kinross"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.42
 "Aberdeenshire"	"Wind Onshore"	"Awaiting Construction"	1	2
 "Argyll and Bute"	"Small Hydro"	"Awaiting Construction"	1	0.4
-"Highland"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.2
-"Argyll and Bute"	"Small Hydro"	"Awaiting Construction"	1	0.42
+"Argyll and Bute"	"Small Hydro"	"Under Construction"	1	0.42
 "Perth and Kinross"	"Battery"	"Awaiting Construction"	1	19
 "Highland"	"Small Hydro"	"Under Construction"	1	0.6
-"Highland"	"Small Hydro"	"Awaiting Construction"	1	0.45
+"Highland"	"Small Hydro"	"Under Construction"	1	0.45
 "Dumfries and Galloway"	"Battery"	"Application Submitted"	1	20
 "Argyll and Bute"	"Wind Onshore"	"Application Submitted"	1	114
 "Dumfries and Galloway"	"Wind Onshore"	"Application Submitted"	1	62
-"Argyll and Bute"	"Wind Onshore"	"Application Submitted"	1	65
+"Argyll and Bute"	"Wind Onshore"	"Awaiting Construction"	1	65
 "Perth and Kinross"	"Solar Photovoltaics"	"Awaiting Construction"	1	1.8
 "North Lanarkshire"	"Wind Onshore"	"Awaiting Construction"	1	4.2
 "North Ayrshire"	"Wind Onshore"	"Awaiting Construction"	1	3
@@ -294,9 +286,11 @@
 "South Lanarkshire"	"Battery"	"Application Submitted"	1	20
 "Shetland Islands"	"Tidal Barrage and Tidal Stream"	"Awaiting Construction"	1	1.4
 "Argyll and Bute"	"Wind Onshore"	"Application Submitted"	1	95.2
+"Highland"	"Wind Onshore"	"Application Submitted"	1	44.8
+"North Ayrshire"	"Wind Onshore"	"Application Submitted"	1	42
 "Moray"	"Anaerobic Digestion"	"Awaiting Construction"	1	2
 "Aberdeen City"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.25
-"Fife"	"Solar Photovoltaics"	"Application Submitted"	1	1
+"Fife"	"Solar Photovoltaics"	"Awaiting Construction"	1	1
 "Dumfries and Galloway"	"Wind Onshore"	"Awaiting Construction"	1	48
 "Orkney Islands"	"Shoreline Wave"	"Application Submitted"	1	20
 "South Lanarkshire"	"Battery"	"Awaiting Construction"	1	20
@@ -306,7 +300,7 @@
 "South Lanarkshire"	"Battery"	"Awaiting Construction"	1	5
 "Argyll and Bute"	"Solar Photovoltaics"	"Application Submitted"	1	20
 "Argyll and Bute"	"Battery"	"Application Submitted"	1	38
-"Dundee City"	"Battery"	"Application Submitted"	1	49.9
+"Dundee City"	"Battery"	"Awaiting Construction"	1	49.9
 "Aberdeenshire"	"Wind Onshore"	"Application Submitted"	1	3
 "Aberdeenshire"	"Solar Photovoltaics"	"Application Submitted"	1	5
 "Aberdeenshire"	"Battery"	"Application Submitted"	1	0
@@ -318,18 +312,28 @@
 "Angus"	"Battery"	"Application Submitted"	1	10
 "South Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	4.2
 "Highland"	"Wind Onshore"	"Application Submitted"	1	35
-"Highland"	"Solar Photovoltaics"	"Application Submitted"	1	0.28
-"East Lothian"	"Solar Photovoltaics"	"Application Submitted"	1	0.186
+"East Renfrewshire"	"Wind Onshore"	"Application Submitted"	1	15
+"Highland"	"Wind Onshore"	"Application Submitted"	1	21
+"Highland"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.28
+"East Lothian"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.186
 "Dumfries and Galloway"	"Battery"	"Application Submitted"	1	0
-"Glasgow City"	"Solar Photovoltaics"	"Application Submitted"	1	0.175
-"Aberdeenshire"	"Wind Onshore"	"Application Submitted"	1	0.9
-"Edinburgh City"	"Solar Photovoltaics"	"Application Submitted"	1	0.2
-"Aberdeenshire"	"Battery"	"Application Submitted"	1	29.9
-"Stirling"	"Solar Photovoltaics"	"Application Submitted"	1	15
+"Glasgow City"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.175
+"Aberdeenshire"	"Wind Onshore"	"Awaiting Construction"	1	0.9
+"Edinburgh City"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.2
+"Aberdeenshire"	"Battery"	"Awaiting Construction"	1	29.9
+"Stirling"	"Solar Photovoltaics"	"Awaiting Construction"	1	15
 "Dumfries and Galloway"	"Battery"	"Application Submitted"	1	25
-"Fife"	"Wind Onshore"	"Application Submitted"	1	0.15
-"Perth and Kinross"	"EfW Incineration"	"Application Submitted"	1	8.6
+"Fife"	"Solar Photovoltaics"	"Awaiting Construction"	1	0.15
 "Highland"	"Battery"	"Application Submitted"	1	20
 "South Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	3
 "Dumfries and Galloway"	"Battery"	"Application Submitted"	1	0
 "Dumfries and Galloway"	"Solar Photovoltaics"	"Application Submitted"	1	20
+"South Ayrshire"	"Battery"	"Application Submitted"	1	20
+"Perth and Kinross"	"Solar Photovoltaics"	"Application Submitted"	1	0.3
+"Perth and Kinross"	"Battery"	"Application Submitted"	1	0
+"Edinburgh City"	"Solar Photovoltaics"	"Application Submitted"	1	0.16
+"Dundee City"	"Battery"	"Application Submitted"	1	49.9
+"Argyll and Bute"	"Wind Onshore"	"Application Submitted"	1	0.225
+"Orkney Islands"	"Wind Onshore"	"Application Submitted"	1	8.4
+"Fife"	"Battery"	"Awaiting Construction"	1	30
+"North Lanarkshire"	"Wind Onshore"	"Application Submitted"	1	8.4

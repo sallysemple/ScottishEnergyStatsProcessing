@@ -33,7 +33,7 @@ write.table(
   row.names = FALSE
 )
 
-Battery <- read_excel("Data Sources/Vehicles/CurrentBattery.xlsx", skip = 6)
+Battery <- read_ods("Data Sources/Vehicles/CurrentULEV.ods", skip = 6, sheet = "VEH0132b")
 
 colnames(Battery)[1] <- "CODE"
 
