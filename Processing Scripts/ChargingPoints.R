@@ -1,23 +1,26 @@
+library(readODS)
 library(readxl)
+library(readr)
+library(dplyr)
+library(data.table)
+library(stringr)
 
 print("ChargingPoints")
 
-ChargingPoints <- read_excel("Data Sources/Scotland Transport/Environment.xlsx", 
-                          sheet = "T13.11", skip = 2)
+ChargingPoints <- read_ods("Data Sources/ULEV Chargers/ChargePoints.ods", sheet = "EVCD_01", skip = 6)
 
-LALookup <- read_excel("LALookup.xlsx")
+names(ChargingPoints) <- c("LACode", "Local Authority", "All Chargers", "Rapid Chargers", "All Chargers per 100,000 population", "Rapid Chargers per 100,000 population")
 
-names(ChargingPoints)[1] <- "LA"
+ChargingPoints <- ChargingPoints[which(substr(ChargingPoints$LACode, 1, 1) == "S"),]
 
-ChargingPoints <- merge(ChargingPoints, LALookup, all.x = TRUE)
+ChargingPointsYear <- names(read_ods("Data Sources/ULEV Chargers/ChargePoints.ods"))[1]
 
-ChargingPoints <- ChargingPoints[order(substr(ChargingPoints$Code,1,2)),]
+ChargingPointsYear <- substr(ChargingPointsYear, 46,str_length(ChargingPointsYear))
 
-ChargingPoints <- ChargingPoints[c(1, ncol(ChargingPoints),2:(ncol(ChargingPoints)-1))]
+ChargingPoints$Year <- ChargingPointsYear
 
-write.table(ChargingPoints,
-            "Output/Charging Points/Points.txt",
-            sep = "\t",
+write.csv(ChargingPoints,
+            "Output/Charging Points/Points.csv",
             row.names = FALSE)
 
 
