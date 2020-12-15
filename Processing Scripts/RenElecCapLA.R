@@ -46,9 +46,9 @@ Unallocated$`Local Authority Name` <- "Unallocated"
 RenewableElecCapLA <- rbind(RenewableElecCapLA, Unallocated)
 
 
-RenewableElecCapLA$`Biomass and Energy from Waste` <- RenewableElecCapLA$`Anaerobic Digestion` + RenewableElecCapLA$`Sewage Gas` + RenewableElecCapLA$`Landfill Gas` + RenewableElecCapLA$`Municipal Solid Waste` + RenewableElecCapLA$`Animal Biomass` + RenewableElecCapLA$`Plant Biomass` + RenewableElecCapLA$Cofiring
+RenewableElecCapLA$`Bioenergy and Waste` <- RenewableElecCapLA$`Anaerobic Digestion` + RenewableElecCapLA$`Sewage Gas` + RenewableElecCapLA$`Landfill Gas` + RenewableElecCapLA$`Municipal Solid Waste` + RenewableElecCapLA$`Animal Biomass` + RenewableElecCapLA$`Plant Biomass` + RenewableElecCapLA$Cofiring
 
-names(RenewableElecCapLA) <- c("LACode", "LAName", "Solar photovoltaics", "Onshore Wind", "Hydro", "AD", "Offshore Wind", "Shoreline wave / tidal", "SG", "LG", "MSW", "AB", "PB", "Cofiring", "Total", "Year", "Biomass and Energy from Waste")
+names(RenewableElecCapLA) <- c("LACode", "LAName", "Solar photovoltaics", "Onshore Wind", "Hydro", "AD", "Offshore Wind", "Shoreline wave / tidal", "SG", "LG", "MSW", "AB", "PB", "Cofiring", "Total", "Year", "Bioenergy and Waste")
 
 
 
@@ -64,7 +64,7 @@ QTRCapacityScotland <- QTRCapacityScotland %>% group_by(Year) %>%
 
 QTRCapacityScotland <- QTRCapacityScotland[which(QTRCapacityScotland$Year %in% RenewableElecCapLA$Year),]
 
-QTRCapacityScotland$`Biomass and Energy from Waste` <- QTRCapacityScotland$`Landfill gas` +
+QTRCapacityScotland$`Bioenergy and Waste` <- QTRCapacityScotland$`Landfill gas` +
   QTRCapacityScotland$`Sewage sludge digestion`+
   QTRCapacityScotland$`Energy from waste` +
   QTRCapacityScotland$`Animal Biomass (non-AD)` +
