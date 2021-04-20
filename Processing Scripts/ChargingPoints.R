@@ -7,11 +7,24 @@ library(stringr)
 
 print("ChargingPoints")
 
-ChargingPoints <- read_ods("Data Sources/ULEV Chargers/ChargePoints.ods", sheet = "EVCD_01", skip = 6)
+ChargingPoints <- read_ods("Data Sources/ULEV Chargers/ChargePoints.ods", sheet = "EVCD_01a", skip = 6)
 
-names(ChargingPoints) <- c("LACode", "Local Authority", "All Chargers", "Rapid Chargers", "All Chargers per 100,000 population", "Rapid Chargers per 100,000 population")
+names(ChargingPoints) <- c("LACode", "Local Authority", "All Chargers", "All Chargers per 100,000 population")
 
 ChargingPoints <- ChargingPoints[which(substr(ChargingPoints$LACode, 1, 1) == "S"),]
+
+ChargingPoints <- ChargingPoints[1:3]
+
+ChargingPointsRapid <- read_ods("Data Sources/ULEV Chargers/ChargePoints.ods", sheet = "EVCD_01b", skip = 6)
+
+names(ChargingPointsRapid) <- c("LACode", "Local Authority", "Rapid Chargers", "Rapid Chargers per 100,000 population")
+
+ChargingPointsRapid <- ChargingPointsRapid[which(substr(ChargingPointsRapid$LACode, 1, 1) == "S"),]
+
+
+ChargingPointsRapid <- ChargingPointsRapid[1:3]
+
+ChargingPoints <- merge(ChargingPoints,ChargingPointsRapid)
 
 ChargingPointsYear <- names(read_ods("Data Sources/ULEV Chargers/ChargePoints.ods"))[1]
 
@@ -30,6 +43,8 @@ ChargingEvents <- read_excel("Data Sources/Scotland Transport/Environment.xlsx",
                              sheet = "T13.13", skip = 2)
 
 names(ChargingEvents)[1] <- "LA"
+
+LALookup <- read_excel("LALookup.xlsx", sheet = "LA to Code")
 
 ChargingEvents <- merge(ChargingEvents, LALookup, all.x = TRUE)
 
@@ -82,3 +97,4 @@ write.table(ChargingAmountCharged,
             "Output/Charging Points/AmountCharged.txt",
             sep = "\t",
             row.names = FALSE)
+

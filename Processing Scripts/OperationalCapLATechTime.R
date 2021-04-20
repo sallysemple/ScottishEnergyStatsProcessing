@@ -118,7 +118,7 @@ for (year in min(REPD$Year):max(REPD$Year)){
   REPDList[[year]]$Year <- year
 }
 
-REPD <- rbind_list(REPDList)
+REPD <- bind_rows(REPDList)
 
 REPD[which(is.na(REPD$LAName)),]$LAName <- "Offshore"
 

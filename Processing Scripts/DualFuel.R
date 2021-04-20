@@ -6,7 +6,7 @@ library(data.table)
 library(magrittr)
 
 print("DualFuel")
-ElecTariff <- read_excel("Data Sources/Ofgem/Default Tariff/default_tariff_cap_level_v1.7.xlsx", 
+ElecTariff <- read_excel("Data Sources/Ofgem/Default Tariff/default_tariff.xlsx", 
                             sheet = "ElecSingle_Other_3100kWh", skip = 11)
 
 ElecTariff <- tail(ElecTariff,-2)
@@ -50,7 +50,7 @@ SSElecTariff <- dcast(SSElecTariff, Dates ~ Category, value.var = "Value")
 
 SSElecTariff <- SSElecTariff[which(SSElecTariff$Total > 0),]
 
-GasTariff <- read_excel("Data Sources/Ofgem/Default Tariff/default_tariff_cap_level_v1.7.xlsx", 
+GasTariff <- read_excel("Data Sources/Ofgem/Default Tariff/default_tariff.xlsx", 
                         sheet = "Gas_Other_12000kWh", skip = 11)
 
 GasTariff <- tail(GasTariff,-2)

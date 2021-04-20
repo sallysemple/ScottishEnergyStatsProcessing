@@ -29,7 +29,7 @@ DECCsheets <- DECCsheets %>%
   mutate(`RenewableArea` = replace(`RenewableArea`, `RenewableArea` == "Shoreline Wave", "Shoreline wave / tidal")) %>% 
   mutate(`RenewableArea` = replace(`RenewableArea`, `RenewableArea` == "Tidal", "Shoreline wave / tidal")) 
 
-DECCsheets <- DECCsheets[1:4]
+DECCsheets <- DECCsheets[1:5]
 
 DECCsheets$CapacityBand <- "50MW +"
 

@@ -86,72 +86,90 @@ REPD <- REPD[which(REPD$`Technology Type` != "Pumped Storage Hydroelectricity"),
 REPD <- REPD %>%  group_by(`Ref ID`,`Development Status (short)`) %>% 
   summarise(`Site Name` = first(`Site Name`), `Technology Type` = first (`Technology Type`), `Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`), LA = first(LA), LACode = first(LACode))
 
-write.csv(REPD, "Output/REPD (Operational Corrections)/DataTable.csv", row.names = FALSE)
+REPD[which(is.na(REPD$LACode)),]$LACode <- " "
 
+names(REPD) <- c("REPD Ref ID", "Status", "Site Name", "Technology", "Capacity (MW)", "Local Authority", "LA Code")
 
-REPDSummary <- REPD %>% group_by(`Technology Type`, `Development Status (short)`) %>% 
-  summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`))
+write.csv(REPD, "Output/REPD (Operational Corrections)/PipelineDataTable.csv", row.names = FALSE)
 
-REPDSummary <- dcast(REPDSummary, `Technology Type` ~ `Development Status (short)`)
-
-write.csv(REPDSummary, "Output/REPD (Operational Corrections)/DataTableSummary.csv", row.names = FALSE)
-
-
-# RESTATS <- read_excel("Offline Data Sources/Restats/Restats.xlsx", 
-#               sheet = "Query13 Links")
 # 
+# REPDSummary <- REPD %>% group_by(`Technology Type`, `Development Status (short)`) %>% 
+#   summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`))
 # 
-# if ("Q4" %in% colnames(RESTATS)) # Checks if there is a Q4 column in the data
-# {
-#   if (sum(as.numeric(RESTATS$`Q4`), na.rm = TRUE) > 0) # Checks if the sum of that column is more than 0
-#   {
-#     RESTATS$Capacity <- RESTATS$`Q4` # Uses Q4 as the Capacity Column
-#     RESTATS$'Q4' <- NULL # Removes other Columns
-#     RESTATS$'Q3' <- NULL
-#     RESTATS$'Q2' <- NULL
-#     RESTATS$'Q1' <- NULL
-#     
-#   } else {
-#     RESTATS$'Q4' <- NULL # If Column exists but is 0, then removes column and checks Column 3.
-#   }
-# }
+# REPDSummary <- dcast(REPDSummary, `Technology Type` ~ `Development Status (short)`)
 # 
-# if ("Q3" %in% colnames(RESTATS))
-# {
-#   if (sum(as.numeric(RESTATS$`Q3`), na.rm = TRUE) > 0)
-#   {
-#     RESTATS$Capacity <- RESTATS$`Q3`
-#     RESTATS$'Q3' <- NULL
-#     RESTATS$'Q2' <- NULL
-#     RESTATS$'Q1' <- NULL
-#     
-#   } else {
-#     RESTATS$'Q3' <- NULL
-#   }
-# }
-# 
-# if ("Q2" %in% colnames(RESTATS))
-# {
-#   if (sum(as.numeric(RESTATS$`Q2`), na.rm = TRUE) > 0)
-#   {
-#     RESTATS$Capacity <- RESTATS$`Q2`
-#     RESTATS$'Q2' <- NULL
-#     RESTATS$'Q1' <- NULL
-#     
-#   } else {
-#     RESTATS$'Q2' <- NULL
-#   }
-# }
-# 
-# if ("Q1" %in% colnames(RESTATS))
-# {
-#   if (sum(as.numeric(RESTATS$`Q1`), na.rm = TRUE) > 0)
-#   {
-#     RESTATS$Capacity <- RESTATS$`Q1`
-#     
-#     RESTATS$'Q1' <- NULL
-#     
-#   } else {
-#     RESTATS$'Q1' <- NULL
-#   }
-# }
+# write.csv(REPDSummary, "Output/REPD (Operational Corrections)/DataTableSummary.csv", row.names = FALSE)
+
+
+RESTATS <- read_excel("Offline Data Sources/Restats/Restats.xlsx",
+              sheet = "Query13 Links")
+
+
+if ("Q4" %in% colnames(RESTATS)) # Checks if there is a Q4 column in the data
+{
+  if (sum(as.numeric(RESTATS$`Q4`), na.rm = TRUE) > 0) # Checks if the sum of that column is more than 0
+  {
+    RESTATS$Capacity <- RESTATS$`Q4` # Uses Q4 as the Capacity Column
+    RESTATS$'Q4' <- NULL # Removes other Columns
+    RESTATS$'Q3' <- NULL
+    RESTATS$'Q2' <- NULL
+    RESTATS$'Q1' <- NULL
+
+  } else {
+    RESTATS$'Q4' <- NULL # If Column exists but is 0, then removes column and checks Column 3.
+  }
+}
+
+if ("Q3" %in% colnames(RESTATS))
+{
+  if (sum(as.numeric(RESTATS$`Q3`), na.rm = TRUE) > 0)
+  {
+    RESTATS$Capacity <- RESTATS$`Q3`
+    RESTATS$'Q3' <- NULL
+    RESTATS$'Q2' <- NULL
+    RESTATS$'Q1' <- NULL
+
+  } else {
+    RESTATS$'Q3' <- NULL
+  }
+}
+
+if ("Q2" %in% colnames(RESTATS))
+{
+  if (sum(as.numeric(RESTATS$`Q2`), na.rm = TRUE) > 0)
+  {
+    RESTATS$Capacity <- RESTATS$`Q2`
+    RESTATS$'Q2' <- NULL
+    RESTATS$'Q1' <- NULL
+
+  } else {
+    RESTATS$'Q2' <- NULL
+  }
+}
+
+if ("Q1" %in% colnames(RESTATS))
+{
+  if (sum(as.numeric(RESTATS$`Q1`), na.rm = TRUE) > 0)
+  {
+    RESTATS$Capacity <- RESTATS$`Q1`
+
+    RESTATS$'Q1' <- NULL
+
+  } else {
+    RESTATS$'Q1' <- NULL
+  }
+}
+
+RESTATS <- RESTATS[which(RESTATS$Country == "Scotland"),]
+
+RESTATS <- RESTATS[c(2,5,6,49)]
+
+RESTATS <- RESTATS[which(RESTATS$Capacity > 0),]
+
+sum(RESTATS$Capacity)
+
+RESTATS <- RESTATS[order(RESTATS$RenewableArea, RESTATS$ProjectName, RESTATS$SiteName),]
+
+names(RESTATS) <- c("Technology", "Project Name", "Site Name", "Operational Capacity (MW)")
+
+write.csv(RESTATS, "Output/REPD (Operational Corrections)/OperationalDataTable.csv", row.names = FALSE)

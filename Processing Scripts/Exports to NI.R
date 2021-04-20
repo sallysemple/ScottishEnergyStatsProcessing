@@ -38,7 +38,7 @@ ElecDemand <- ElecDemand[!duplicated(ElecDemand),]
 
 ElecDemand$Month <- format(ymd(ElecDemand$SETTLEMENT_DATE), format = "%b %Y")
 
-ElecDemand <- ElecDemand[c(1,2,17,25)]
+ElecDemand <- ElecDemand[c(1,2,17,27)]
 
 ElecDemand$MOYLE_FLOW <- ifelse(ElecDemand$MOYLE_FLOW < 0, ElecDemand$MOYLE_FLOW/-2000, 0)
 

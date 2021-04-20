@@ -22,6 +22,8 @@ for(i in myFiles) {
 
 FullData <- do.call(bind_rows, DatasetList)
 
+names(FullData) <- c("LAName", "LACode", "MSOAName", "MSOACode", "LSOAName", "LSOACode", "METERS", "KWH", "MEAN", "MEDIAN", "Year")
+
 FullData$Year <- as.numeric(substr(FullData$Year, 43,46))
 
 FullData <- FullData[which(substr(FullData$LACode,1,1)=="S"),]
