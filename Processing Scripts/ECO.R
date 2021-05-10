@@ -7,9 +7,9 @@ library(reshape2)
 
 print("ECO")
 ECOMeasuresHouseholds <- read_excel("Data Sources/ECO/Current.xlsx", 
-                                    sheet = "T4.1", skip = 2)
+                                    sheet = "T4.1", skip = 0)
 
-ECOMeasuresHouseholds[1,] <- names(ECOMeasuresHouseholds)
+names(ECOMeasuresHouseholds) <- ECOMeasuresHouseholds[2,]
 
 ECOMeasuresHouseholds <- ECOMeasuresHouseholds[which(ECOMeasuresHouseholds$`Area Codes` == "S92000003" | ECOMeasuresHouseholds$`Area Codes` == "Area Codes"),]
 
@@ -46,9 +46,9 @@ write.table(ECOMeasuresTotals,
             row.names = FALSE)
 
 ECOMeasuresTotals <- read_excel("Data Sources/ECO/Current.xlsx", 
-                                    sheet = "T3.3", skip = 2)
+                                    sheet = "T3.3", skip = 0)
 
-ECOMeasuresTotals[1,] <- names(ECOMeasuresTotals)
+names(ECOMeasuresTotals) <- ECOMeasuresTotals[2,]
 
 ECOMeasuresTotals <- fill(ECOMeasuresTotals, Obligation, .direction = "down")
 

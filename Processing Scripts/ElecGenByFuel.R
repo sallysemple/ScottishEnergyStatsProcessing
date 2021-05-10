@@ -5,9 +5,9 @@ print("Fuel")
 
 ### Load Regional generation Data
 Fuel <- read_excel(
-  "Data Sources/Regional Generation/Regional Generation.xls",
+  "Data Sources/Regional Generation/Regional Generation.xlsx",
   col_names = FALSE,
-  sheet = "Fuel Used"
+  sheet = "Electricity generation by fuel"
 )
 
 Fuel[1:2] <- NULL

@@ -13,16 +13,16 @@ print("TurbineAnalysis")
 ## If using csv file directly from the website, include the skip argument to remove excess lines at the top. ##
 
 CurrentData <- read_excel("Data Sources/REPD (Turbines)/Source/Current.xlsx",
-                          sheet = "Database",
-                          skip = 5)
+                          sheet = "REPD")
+
+
 
 ### Add in site count of 1 for each site, for aggregation later ###
 
 CurrentData$Sites <- 1
 
 CurrentCorrections <- read_excel("Data Sources/REPD (Turbines)/Corrections/CurrentCorrections.xlsx",
-                                 sheet = "Database",
-                                 skip = 5)
+                                 sheet = "Database")
 
 #CurrentCorrections$Sites <- 0
 

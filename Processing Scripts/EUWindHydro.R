@@ -39,6 +39,7 @@ if(is.na(EUWind[1,ncol(EUWind)])){
   EUWind[ncol(EUWind)] <- NULL
 }
 
+EUWind$`2019` <- NULL
 
 EUWind <- EUWind[complete.cases(EUWind[1], EUWind[ncol(EUWind)]),]
 
@@ -89,6 +90,7 @@ if(is.na(EUHydro[1,ncol(EUHydro)])){
   EUHydro[ncol(EUHydro)] <- NULL
 }
 
+EUHydro$`2019` <- NULL
 
 EUHydro <- EUHydro[complete.cases(EUHydro[1], EUHydro[ncol(EUHydro)]),]
 
