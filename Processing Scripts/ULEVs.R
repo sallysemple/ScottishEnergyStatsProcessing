@@ -12,7 +12,7 @@ yearend <- format(Sys.Date(), "%Y")
 
 ### Set the Working Directory for the Scripts ###
 
-ULEV <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132a", skip = 6)
+ULEV <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132a_All", skip = 6)
 
 colnames(ULEV)[1] <- "CODE"
 
@@ -27,7 +27,7 @@ ULEV[colnames(ULEV)==paste(year," Q1", sep = "")] <- NULL
 
 ULEV$Category <- "Total"
 
-Battery <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132b", skip = 6)
+Battery <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132b_BEV", skip = 6)
 
 colnames(Battery)[1] <- "CODE"
 
@@ -44,7 +44,7 @@ Battery$Category <- "Battery"
 
 ULEV <- rbind(ULEV, Battery)
 
-Hybrid <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132c", skip = 6)
+Hybrid <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132c_PHEV", skip = 6)
 
 colnames(Hybrid)[1] <- "CODE"
 
@@ -321,7 +321,7 @@ yearend <- format(Sys.Date(), "%Y")
 
 ### Set the Working Directory for the Scripts ###
 
-ULEV <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132a", skip = 6)
+ULEV <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132a_All", skip = 6)
 
 colnames(ULEV)[1] <- "CODE"
 
@@ -336,7 +336,7 @@ for (year in 2011:2014) {
 
 ULEV$Category <- "Total"
 
-Battery <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132b", skip = 6)
+Battery <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132b_BEV", skip = 6)
 
 colnames(Battery)[1] <- "CODE"
 
@@ -353,7 +353,7 @@ Battery$Category <- "Battery"
 
 ULEV <- rbind(ULEV, Battery)
 
-Hybrid <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132c", skip = 6)
+Hybrid <- read_ods("Data Sources/Vehicles/veh0132.ods", sheet = "VEH0132c_PHEV", skip = 6)
 
 colnames(Hybrid)[1] <- "CODE"
 
