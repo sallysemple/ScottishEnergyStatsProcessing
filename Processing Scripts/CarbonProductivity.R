@@ -10,7 +10,14 @@ library(readxl)
 
 print("Carbon productivity")
 
-GreenhouseGas<-ods_dataset("greenhouse-gas")[c(2,4)]
+#GreenhouseGas<-ods_dataset("greenhouse-gas")[c(2,4)]
+
+GreenhouseGas <- read_delim("C:/Users/ische/GitHub/Scottish-Energy-Statistics-Hub/Processed Data/Output/Greenhouse Gas/GHGCCP.txt", 
+                     "\t", escape_double = FALSE, trim_ws = TRUE)
+
+GreenhouseGas$Total <- GreenhouseGas$Agriculture + GreenhouseGas$`Electricity Generation` + GreenhouseGas$Industry + GreenhouseGas$`Land use, land use change and forestry`+ GreenhouseGas$Residential + GreenhouseGas$Services + GreenhouseGas$Transport + GreenhouseGas$`Waste Management`
+
+GreenhouseGas <- GreenhouseGas[c(1,10)]
 
 names(GreenhouseGas) <- c("Year", "Emissions")
 
