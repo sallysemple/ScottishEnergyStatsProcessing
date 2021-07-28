@@ -1,12 +1,13 @@
 library(readxl)
 library(plyr)
+library(dplyr)
 library(readr)
 library("writexl")
 library(lubridate)
 library(reshape2)
 
 
-print("TurbineAnalysis")
+print("StorageCapacity")
 ### Open Excel File and Extract Relevant Data ###
 
 ## read_excel reads .xlsx files, read_csv reads .csv files. ##
@@ -57,8 +58,10 @@ ScotlandCurrent <- ScotlandCurrent[which(ScotlandCurrent$TechType %in% c("Batter
 
 ScotlandCurrent <- ScotlandCurrent[which(ScotlandCurrent$Status %in% c("Awaiting Construction", "Operational", "Application Submitted","Under Construction")),]
 
-ScotlandCurrent <- ScotlandCurrent %>% group_by(TechType, Status) %>% summarise(Capacity = sum(Capacity)) %>% dcast(TechType ~ Status)
 
+
+ScotlandCurrent <- ScotlandCurrent %>% group_by(TechType, Status) %>% summarise(Capacity = sum(Capacity)) %>% dcast(TechType ~ Status)
+ScotlandCurrent[is.na(ScotlandCurrent)] <- 0
 ScotlandCurrent$Pipeline <- rowSums(ScotlandCurrent[2:ncol(ScotlandCurrent)]) - ScotlandCurrent$Operational
 
 ScotlandCurrent <- rbind(ScotlandCurrent, c("Total", colSums(ScotlandCurrent[2:ncol(ScotlandCurrent)])))
