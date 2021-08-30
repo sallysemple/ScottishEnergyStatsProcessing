@@ -1,57 +1,50 @@
+library(readr)
+library(readxl)
+library(plyr)
+library(dplyr)
 library(magrittr)
 library(tidyverse)
-library(readxl)
 
 
-yearstart <- 2003
+RenElecLAList <- list()
 
+yearstart <- 2013
 
 yearend <- format(Sys.Date(), "%Y")
 
-RenewableList <- list()
-
 for (year in yearstart:yearend) {
-
   
   tryCatch({
-
+    RenewableElecSitesLA <- read_excel("Data Sources/Renewable Generation/RenewableElecLA.xlsx", 
+                                     sheet = paste0("LA - Sites ", year), skip = 1)
     
-    Renewable_Sites <- read_excel("Data Sources/Renewable Generation/Renewable Sites.xls", 
-                                  sheet = paste0("# ", year), skip = 2)
+    RenewableElecSitesLA$Year <- year
     
-    names(Renewable_Sites)[1] <- "Region"
+    RenElecLAList[[year]] <- RenewableElecSitesLA
     
-    Renewable_Sites <- Renewable_Sites[which(Renewable_Sites$Region == "Scotland"),] 
-    
-    Renewable_Sites %<>% lapply(function(x) as.numeric(as.character(x)))
-
-    Renewable_Sites$Year <- year
-    
-    RenewableList[[year]] <- Renewable_Sites
-
   }, error = function(e) {
     cat("ERROR :", conditionMessage(e), "\n")
   })
-  
 }
 
-Renewable_Sites <- bind_rows(RenewableList)
+RenewableElecSitesLA <-bind_rows(RenElecLAList)
 
-Renewable_Sites$Region <- NULL
+names(RenewableElecSitesLA)[1] <- "LACode"
 
-Renewable_Sites[is.na(Renewable_Sites)] <- 0
+RenewableElecSitesLA <- RenewableElecSitesLA[which(substr(RenewableElecSitesLA$LACode,1,2)== "S1"),]
 
-Renewable_Sites$Wind <- Renewable_Sites$Wind2 
+RenewableElecSitesLA[3:5] <- NULL
 
-Renewable_Sites$`Other Bioenergy` <-  Renewable_Sites$`Other bioenergy3` + Renewable_Sites$AD + Renewable_Sites$`Biomass and waste3`
+RenewableElecSitesLA[3:15] %<>% lapply(function(x) as.numeric(as.character(x)))
 
-Renewable_Sites <- select(Renewable_Sites, "Year", "Wind", "Offshore Wind", "Hydro","Solar PV", "Landfill gas", "Wave and tidal", "Sewage gas", "Other Bioenergy", "Total" )
+Scotland <- RenewableElecSitesLA[3:16] %>% group_by(Year) %>% summarise_all(sum)
 
-names(Renewable_Sites)[2] <- "Onshore Wind"
+Scotland$LACode <- "S92000003"
 
-Renewable_Sites$`Onshore Wind` <- Renewable_Sites$`Onshore Wind` - Renewable_Sites$`Offshore Wind`
-
-write.table(Renewable_Sites,
-            "Output/Renewable Generation/RenewableSites.txt",
+Scotland$`Local Authority Name` <- "Scotland"
+  
+RenewableElecSitesLA <- rbind(RenewableElecSitesLA, Scotland)
+write.table(RenewableElecSitesLA,
+            "Output/Renewable Sites/LAOperationalRenSites.txt",
             sep = "\t",
             row.names = FALSE)
