@@ -9,7 +9,7 @@ print("ECO")
 ECOMeasuresHouseholds <- read_excel("Data Sources/ECO/Current.xlsx", 
                                     sheet = "T4.1", skip = 0)
 
-names(ECOMeasuresHouseholds) <- ECOMeasuresHouseholds[2,]
+names(ECOMeasuresHouseholds) <- ECOMeasuresHouseholds[6,]
 
 ECOMeasuresHouseholds <- ECOMeasuresHouseholds[which(ECOMeasuresHouseholds$`Area Codes` == "S92000003" | ECOMeasuresHouseholds$`Area Codes` == "Area Codes"),]
 
@@ -33,7 +33,7 @@ write.table(ECOMeasuresHouseholdsCumulative,
             row.names = FALSE)
 
 ECOMeasuresTotals <- read_excel("Data Sources/ECO/Current.xlsx", 
-                                sheet = "T3.3", skip = 2)
+                                sheet = "T3.3", skip = 6)
 
 
 ECOMeasuresTotals <- fill(ECOMeasuresTotals, Obligation, .direction = "down")
@@ -48,7 +48,7 @@ write.table(ECOMeasuresTotals,
 ECOMeasuresTotals <- read_excel("Data Sources/ECO/Current.xlsx", 
                                     sheet = "T3.3", skip = 0)
 
-names(ECOMeasuresTotals) <- ECOMeasuresTotals[2,]
+names(ECOMeasuresTotals) <- ECOMeasuresTotals[6,]
 
 ECOMeasuresTotals <- fill(ECOMeasuresTotals, Obligation, .direction = "down")
 
@@ -92,7 +92,7 @@ write.table(ECOMeasuresTotalsCumulative,
 
 
 ECOMeasuresLA <- read_excel("Data Sources/ECO/Current.xlsx", 
-                                    sheet = "T3.4", skip = 2)
+                                    sheet = "T3.4", skip = 6)
 
 ECOMeasuresLA[1,1:4] <- list("Code", "Country", "Region", "Local Authority")
 names(ECOMeasuresLA) <- ECOMeasuresLA[1,]
