@@ -36,3 +36,33 @@ write.csv(
   End_Use_Table,
   "Output/ECUK/EndUseTable.csv"
 )
+
+GasSplit <- End_Use_Table[which(End_Use_Table$variable == "Gas" & End_Use_Table$Sector %in% c("Industry", "Service") & End_Use_Table$`End use` %in% c("Overall total")),]
+
+GasSplit <- dcast(GasSplit, Year ~ Sector)
+
+GasSplit$Industry <- GasSplit$Industry / (GasSplit$Industry+GasSplit$Service)
+
+GasSplit$Service <- 1-GasSplit$Industry
+
+names(GasSplit) <- c("Year", "Gas - Industrial", "Gas - Commercial")
+
+BioenergySplit <- End_Use_Table[which(End_Use_Table$variable == "Bioenergy & Waste" & End_Use_Table$Sector %in% c("Industry", "Service") & End_Use_Table$`End use` %in% c("Overall total")),]
+
+BioenergySplit <- dcast(BioenergySplit, Year ~ Sector)
+
+BioenergySplit$Industry <- BioenergySplit$Industry / (BioenergySplit$Industry+BioenergySplit$Service)
+
+BioenergySplit$Service <- 1-BioenergySplit$Industry
+
+names(BioenergySplit) <- c("Year", "Bioenergy & Wastes - Industrial", "Bioenergy & Wastes - Commercial")
+
+GasBioenergySplit <- merge(GasSplit, BioenergySplit)
+
+OldGasBioenergySplit <- read_excel("Data Sources/Subnational Consumption/GasBioenergySplit.xlsx")
+
+GasBioenergySplit <- bind_rows(OldGasBioenergySplit, GasBioenergySplit)
+
+GasBioenergySplit <- fill(GasBioenergySplit, `LA Code`, .direction = c("down"))
+
+write_csv(GasBioenergySplit, "Output/Consumption/GasBioenergySplit.csv")

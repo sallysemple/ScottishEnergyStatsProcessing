@@ -25,7 +25,7 @@ for (year in yearstart:yearend) {
       TotalFinalLAConsumption <-
         read_excel(
           "Data Sources/Subnational Consumption/TotalFinal.xlsx",
-          sheet = paste(year, "r", " GWh", sep = ""),
+          sheet = paste(year, "r", sep = ""),
           col_names = FALSE
         )
       TotalFinalLAConsumption$Year <- year
@@ -40,7 +40,7 @@ for (year in yearstart:yearend) {
       TotalFinalLAConsumption <-
         read_excel(
           "Data Sources/Subnational Consumption/TotalFinal.xlsx",
-          sheet = paste(year, "GWh"),
+          sheet = paste(year),
           col_names = FALSE
         )
       
@@ -61,6 +61,12 @@ TotalFinalLAConsumption <- rbindlist(DataList)
 
 names(TotalFinalLAConsumption) <- c('LA Code',
                              'Region',
+                             'Local Authority',
+                             'Notes',
+                             'Consuming Sector - Domestic',
+                             'Consuming Sector - Transport',
+                             'Consuming Sector - Industry & Commercial',
+                             'All fuels - Total',
                              'Coal - Industrial',
                              'Coal - Commercial',
                              'Coal - Domestic',
@@ -68,11 +74,9 @@ names(TotalFinalLAConsumption) <- c('LA Code',
                              'Coal - Public Sector',
                              'Coal - Agriculture',
                              'Coal - Total',
-                             'Coal',
                              'Manufactured fuels - Industrial',
                              'Manufactured fuels - Domestic',
                              'Manufactured fuels - Total',
-                             'Manufactured fuels',
                              'Petroleum products - Industrial',
                              'Petroleum products - Commercial',
                              'Petroleum products - Domestic',
@@ -81,37 +85,22 @@ names(TotalFinalLAConsumption) <- c('LA Code',
                              'Petroleum products - Public Sector',
                              'Petroleum products - Agriculture',
                              'Petroleum products - Total',
-                             'Petroleum products',
-                             'Gas - Industrial & Commercial',
                              'Gas - Domestic',
+                             'Gas - Industrial & Commercial',
                              'Gas - Total',
-                             'Gas',
-                             'Electricity - Industrial & Commercial',
                              'Electricity - Domestic',
+                             'Electricity - Industrial & Commercial',
                              'Electricity - Total',
-                             'Electricity',
-                             'Bioenergy & wastes - Industrial & Commercial',
                              'Bioenergy & wastes - Domestic',
+                             'Bioenergy & wastes - Road transport',
+                             'Bioenergy & wastes - Industrial & Commercial',
                              'Bioenergy & wastes - Total',
-                             'Bioenergy & wastes',
-                             'All fuels - Total',
-                             'All fuels',
-                             'Consuming Sector - Industry & Commercial',
-                             'Consuming Sector - Domestic',
-                             'Consuming Sector - Transport',
                              'Year'
                               )
 
-TotalFinalLAConsumption$Coal <- NULL
-TotalFinalLAConsumption$`Manufactured fuels` <- NULL
-TotalFinalLAConsumption$`Petroleum products` <- NULL
-TotalFinalLAConsumption$Gas <- NULL
-TotalFinalLAConsumption$Electricity <- NULL
-TotalFinalLAConsumption$`Bioenergy & wastes` <- NULL
-TotalFinalLAConsumption$`All fuels` <- NULL
 
 
-
+TotalFinalLAConsumption <- TotalFinalLAConsumption[which(TotalFinalLAConsumption$`All fuels - Total` > 0),]
 TotalFinalLAConsumption <- TotalFinalLAConsumption[which(substr(TotalFinalLAConsumption$`LA Code`,1,1) == "S" | substr(TotalFinalLAConsumption$`LA Code`,1,1) == "K"),]
 
 #TotalFinalLAConsumption <- subset(TotalFinalLAConsumption, TotalFinalLAConsumption$Region != "SCOTLAND")
@@ -120,21 +109,19 @@ source("Processing Scripts/LACodeFunction.R")
 
 TotalFinalLAConsumption <- LACodeUpdate(TotalFinalLAConsumption)
 
+source("Processing Scripts/ECUKEndUse.R")
 
-
-GasBioenergySplit <- read_excel("Data Sources/Subnational Consumption/GasBioenergySplit.xlsx")
+GasBioenergySplit  <- read_csv("Output/Consumption/GasBioenergySplit.csv")
 
 TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, GasBioenergySplit, all = TRUE)
 
 TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$Year, -TotalFinalLAConsumption$`LA Code`),]
 
-TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(34:38)
+TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41)
 
 TotalFinalLAConsumption <- as_tibble(TotalFinalLAConsumption )
 
-TotalFinalLAConsumption[4:38] %<>% lapply(function(x) as.numeric(as.character(x)))
-
-TotalFinalLAConsumption[is.na(TotalFinalLAConsumption)] <- 0
+TotalFinalLAConsumption[6:37] %<>% lapply(function(x) as.numeric(as.character(x))*11.63)
 
 TotalFinalLAConsumption$`Gas - Industrial` <- TotalFinalLAConsumption$`Gas - Industrial` * TotalFinalLAConsumption$`Gas - Industrial & Commercial`
 
@@ -148,7 +135,9 @@ TotalFinalLAConsumption$`Bioenergy & Wastes - Commercial` <- TotalFinalLAConsump
 
 TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial` <- NULL
 
-TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1:21,33,34,22:26,35,36,27:32)]
+TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1,2,4, 10:27, 36,37,28:32, 38, 39, 33,34,35, 9, 6,7,8  )]
+
+names(TotalFinalLAConsumption)[3] <- "Region"
 
 write_csv(TotalFinalLAConsumption, "Output/Consumption/TotalFinalConsumption.csv")
 

@@ -1,39 +1,49 @@
-# library(readr)
-# library(plyr)
-# library(dplyr)
-# library(readxl)
-# library(tidyverse)
-# 
-# print("HeatConsumptionLA")
-# 
-# TotalFinalConsumption <- read_csv("Output/Consumption/TotalFinalConsumption.csv")
-# ElectricityConsumption <- read_csv("Output/Consumption/ElectricityConsumption.csv")
-# GasConsumption <- read_csv("Output/Consumption/GasConsumption.csv")
-# 
-# LAUpdatedConsumption <- merge(TotalFinalConsumption, ElectricityConsumption, by = c("LA Code", "Year"))
-# 
-# LAUpdatedConsumption <- merge(LAUpdatedConsumption, GasConsumption, by = c("LA Code", "Year"))
-# 
-# HeatWorking <- LAUpdatedConsumption %>%  select("LA Code", Year, "Coal - Industrial & Commercial", "Coal - Domestic", "Coal - Industrial & Commercial", "Coal - Domestic", "Manufactured fuels - Industrial", "Manufactured fuels - Domestic", "Petroleum products - Industrial & Commercial", "Petroleum products - Domestic", "Petroleum products - Public Sector", "Petroleum products - Agriculture", "Sales (GWh) - Non-domestic consumption", "Sales (GWh) - Domestic consumption", "Bioenergy & wastes - Total")
-# 
-# HeatWorking$`Bioenergy NonDom Split` <- 1
-# HeatWorking$`Bioenergy Domestic Split` <- 1
-# 
-# HeatEndUseMultipliers <- read_excel("Data Sources/Subnational Consumption/HeatEndUseMultipliers.xlsx")
-# 
-# HeatEndUseMultipliers <- merge(HeatEndUseMultipliers, HeatWorking[1:2], all = TRUE)
-# 
-# HeatEndUseMultipliers <- HeatEndUseMultipliers[order(HeatEndUseMultipliers$Year, rev(HeatEndUseMultipliers$`LA Code`)),]
-# 
-# HeatEndUseMultipliers <- fill(HeatEndUseMultipliers, 2:15,.direction = "down")
-# 
-# HeatWorking <- HeatWorking[order(HeatWorking$Year, rev(HeatWorking$`LA Code`)),]
-# 
-# HeatWorking[3:15] <- HeatWorking[3:15] * HeatEndUseMultipliers[3:15]
-# 
-# HeatWorking$`Bioenergy NonDom Split` <- HeatWorking$`Bioenergy NonDom Split`* HeatWorking$`Bioenergy & wastes - Total`
-# HeatWorking$`Bioenergy Domestic Split` <- HeatWorking$`Bioenergy Domestic Split`* HeatWorking$`Bioenergy & wastes - Total`
-# 
-# HeatWorking <- HeatWorking %>% mutate(Total = select(.,3:13) %>% rowSums(na.rm = TRUE))
-# 
-# write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLA.csv")
+library(readr)
+library(plyr)
+library(dplyr)
+library(readxl)
+library(tidyverse)
+
+print("HeatConsumptionLA")
+
+source("Processing Scripts/HeatEndUse.R")
+
+HeatWorking <- TotalFinalLAConsumption
+
+HeatWorking <- HeatWorking[which(substr(HeatWorking$`LA Code`,1,1)== "S"),]
+
+HeatWorking <- HeatWorking %>%  select(names(HeatEndUseMultipliers))
+
+HeatEndUseMultipliers <- merge(HeatEndUseMultipliers, HeatWorking[1:2], all = TRUE)
+
+
+HeatEndUseMultipliers$Year <- as.numeric(as.character(HeatEndUseMultipliers$Year))
+
+HeatEndUseMultipliers <- HeatEndUseMultipliers[order(HeatEndUseMultipliers$Year, HeatEndUseMultipliers$`Region`),]
+
+
+HeatEndUseMultipliers <- HeatEndUseMultipliers %>%  fill(4:20)
+
+HeatWorking <- HeatWorking[order(HeatWorking$Year, HeatWorking$`Region`),]
+
+HeatWorking[4:20] <- HeatWorking[4:20] * HeatEndUseMultipliers[4:20]
+
+HeatWorking$Total <- rowSums(HeatWorking[4:20])
+
+write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLA.csv")
+
+HeatWorking$Coal <- HeatWorking$`Coal - Industrial` + HeatWorking$`Coal - Commercial` + HeatWorking$`Coal - Domestic`+ HeatWorking$`Coal - Public Sector`
+
+HeatWorking$`Manufactured fuels` <- HeatWorking$`Manufactured fuels - Industrial` + HeatWorking$`Manufactured fuels - Domestic`
+
+HeatWorking$`Petroleum products` <- HeatWorking$`Petroleum products - Industrial`+HeatWorking$`Petroleum products - Commercial`+HeatWorking$`Petroleum products - Domestic`+HeatWorking$`Petroleum products - Domestic`+HeatWorking$`Petroleum products - Public Sector`+HeatWorking$`Petroleum products - Agriculture`
+
+HeatWorking$`Total Gas` <- HeatWorking$`Gas - Industrial`+HeatWorking$`Gas - Commercial`+HeatWorking$`Gas - Domestic`
+
+HeatWorking$`Bioenergy & Wastes` <- HeatWorking$`Bioenergy & Wastes - Industrial`+HeatWorking$`Bioenergy & Wastes - Commercial`+HeatWorking$`Bioenergy & wastes - Domestic`
+
+names(HeatWorking)[21] <- "Total - All Fuels"
+
+HeatWorking[4:20] <- NULL
+
+write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLAMap.csv")
