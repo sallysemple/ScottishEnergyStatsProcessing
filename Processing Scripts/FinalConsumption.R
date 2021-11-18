@@ -8,34 +8,45 @@ library(data.table)
 
 print("FinalConsumption")
 
+### This Script processes Sub-National Consumption from and outputs a data frame with a row for each local authority in each year where data is available. It also includes a calculation of the split between Industrial and Commercial consumption for Gas and Bioenergy. Also produces a version for the format required by Statistics.gov.scot ###
+
+#Create list for Data Storage
 DataList <- list()
 
+#First Year of Data
 yearstart <- 2005
+
+#Sets current year as the final year for upcoming loop
 yearend <- format(Sys.Date(), "%Y")
 
 
 for (year in yearstart:yearend) {
+  # Loop for each year between start year and current year
   # TryCatch allows the code to continue when there is an error.
-  # This is used when there is no data for the corresponding year in the loop.
+  # This is used when there is no data for the corresponding year (and suffix) in the loop.
   
   
-  ### tryCatch allows the code to still run if an error is encountered, such as a sheet not existing for any given year ###
   tryCatch({
     tryCatch({
+      # Load subnational consumption for selected year in the loop, with the suffix r
       TotalFinalLAConsumption <-
         read_excel(
           "Data Sources/Subnational Consumption/TotalFinal.xlsx",
           sheet = paste(year, "r", sep = ""),
           col_names = FALSE
         )
+      
+      #Add column with selected year
       TotalFinalLAConsumption$Year <- year
       
+      #Add Data to the list
       DataList[[year]] <- TotalFinalLAConsumption
       
     }, error = function(e) {
       cat("ERROR :", conditionMessage(e), "\n")
     })
     
+    # Repeat above without the suffix
     tryCatch({
       TotalFinalLAConsumption <-
         read_excel(
@@ -57,8 +68,10 @@ for (year in yearstart:yearend) {
   })
 } # Loop End
 
+#Combine list together into one data frame
 TotalFinalLAConsumption <- rbindlist(DataList)
 
+#Rename columns
 names(TotalFinalLAConsumption) <- c('LA Code',
                              'Region',
                              'Local Authority',
@@ -99,47 +112,67 @@ names(TotalFinalLAConsumption) <- c('LA Code',
                               )
 
 
-
+# Remove rows without data
 TotalFinalLAConsumption <- TotalFinalLAConsumption[which(TotalFinalLAConsumption$`All fuels - Total` > 0),]
+
+# Keep only rows with a Scottish LA Code
 TotalFinalLAConsumption <- TotalFinalLAConsumption[which(substr(TotalFinalLAConsumption$`LA Code`,1,1) == "S" | substr(TotalFinalLAConsumption$`LA Code`,1,1) == "K"),]
 
-#TotalFinalLAConsumption <- subset(TotalFinalLAConsumption, TotalFinalLAConsumption$Region != "SCOTLAND")
 
+# Load and run the function that updates LA Codes to the latest standard
 source("Processing Scripts/LACodeFunction.R")
-
 TotalFinalLAConsumption <- LACodeUpdate(TotalFinalLAConsumption)
 
+# Source and run the script that calculates the end use proportion of fuels within sectors 
 source("Processing Scripts/ECUKEndUse.R")
 
+# Load the Industrial and Commercial split for Gas and Bioenergy. Output of the above script. 
 GasBioenergySplit  <- read_csv("Output/Consumption/GasBioenergySplit.csv")
 
+# Merge the Consumption and Split data frames together
 TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, GasBioenergySplit, all = TRUE)
 
+# Order data frame by year and LACode
 TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$Year, -TotalFinalLAConsumption$`LA Code`),]
 
+# Fill down the Split values for each LA within a year.
 TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41)
 
+# Convert to Tibble
 TotalFinalLAConsumption <- as_tibble(TotalFinalLAConsumption )
 
+# Convert Columns to GWh
 TotalFinalLAConsumption[6:37] %<>% lapply(function(x) as.numeric(as.character(x))*11.63)
 
+# Multiply the Gas - Industrial & Commercial by the split factors, to create new columns for each, then remove the old column 
 TotalFinalLAConsumption$`Gas - Industrial` <- TotalFinalLAConsumption$`Gas - Industrial` * TotalFinalLAConsumption$`Gas - Industrial & Commercial`
-
 TotalFinalLAConsumption$`Gas - Commercial` <- TotalFinalLAConsumption$`Gas - Commercial` * TotalFinalLAConsumption$`Gas - Industrial & Commercial`
-
 TotalFinalLAConsumption$`Gas - Industrial & Commercial` <- NULL
 
+
+# Repeat for Bioenergy & Wastes
 TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` <- TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` * TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial`
-
 TotalFinalLAConsumption$`Bioenergy & Wastes - Commercial` <- TotalFinalLAConsumption$`Bioenergy & Wastes - Commercial` * TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial`
-
 TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial` <- NULL
 
+# Reorganise Data Frame
 TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1,2,4, 10:27, 36,37,28:32, 38, 39, 33,34,35, 9, 6,7,8  )]
 
+# Rename Local Authority column to region
 names(TotalFinalLAConsumption)[3] <- "Region"
 
+# Write Output
 write_csv(TotalFinalLAConsumption, "Output/Consumption/TotalFinalConsumption.csv")
+
+
+
+
+
+
+
+
+
+
 
 
 ### Statistics.gov.scot
