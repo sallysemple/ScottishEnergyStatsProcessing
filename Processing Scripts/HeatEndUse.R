@@ -5,8 +5,13 @@ library(dplyr)
 library(reshape2)
 library(stringr)
 
+### This script calculates the heat end use for each sector and fuel, for each year there is data###
+
+
+# Load Script
 source("Processing Scripts/FinalConsumption.R")
 
+# Start Dataframe using years from the End Use Table
 HeatEndUseMultipliers <- data.frame(Year = rev(unique(End_Use_Table$Year)))
 
 End_Use_Table <- End_Use_Table[which(End_Use_Table$`End use` %in% c("Heat total", "Overall total")),]
