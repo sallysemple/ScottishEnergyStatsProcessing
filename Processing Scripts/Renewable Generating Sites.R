@@ -42,9 +42,12 @@ Scotland <- RenewableElecSitesLA[3:16] %>% group_by(Year) %>% summarise_all(sum)
 Scotland$LACode <- "S92000003"
 
 Scotland$`Local Authority Name` <- "Scotland"
+
+RenewableElecSitesLA$`0` <- NULL
   
 RenewableElecSitesLA <- rbind(RenewableElecSitesLA, Scotland)
 write.table(RenewableElecSitesLA,
             "Output/Renewable Sites/LAOperationalRenSites.txt",
             sep = "\t",
             row.names = FALSE)
+
