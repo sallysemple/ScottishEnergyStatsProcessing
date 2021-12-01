@@ -52,8 +52,9 @@ names(RenewableElecLA) <- c("LACode", "LAName", "Solar photovoltaics", "Onshore 
 
 
 
-QTRGenScotland <- read_delim("Output/Renewable Generation/QTRGenScotland.txt", 
-                             "\t", escape_double = FALSE, trim_ws = TRUE)
+QTRGenScotland <- read_csv("Output/Renewable Generation/QTRGenScotland.csv")
+
+
 
 QTRGenScotland$Year <- substr(QTRGenScotland$Quarter,1,4)
 

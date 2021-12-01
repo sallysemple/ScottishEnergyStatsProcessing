@@ -6,11 +6,11 @@ library(magrittr)
 
 print("Renewable Generation")
 
-Renewable_Generation <- read_excel("Data Sources/Renewable Generation/Renewable Generation.xls", 
-                                   sheet = "Generation & Supply", col_names = FALSE)
+Renewable_Generation <- read_excel("Data Sources/Regional Generation/Regional Generation.xlsx", 
+                                   sheet = "Generation and supply", col_names = FALSE)
 
 Renewable_Generation  <- as.data.frame(t(Renewable_Generation))
-Renewable_Generation  <- Renewable_Generation [c(2,3,4,5,6,8,9,10,11,13,14,15,17,18,19,21,22,23,25,27)]
+Renewable_Generation  <- Renewable_Generation [c(3:22)]
 
 names(Renewable_Generation ) <- c("Year", 
               "Country", 
@@ -34,6 +34,12 @@ names(Renewable_Generation ) <- c("Year",
               "Statistical difference"
               )
 
+for(i in 2:nrow(Renewable_Generation)){
+  print(i)
+  Renewable_Generation[i,1] <- Renewable_Generation[i+2,1]
+  }
+
+
 Renewable_Generation <- fill(Renewable_Generation, Year, .direction = "down")
 
 Renewable_Generation <- Renewable_Generation[complete.cases(Renewable_Generation),]
@@ -44,8 +50,7 @@ Renewable_Generation[c(1,3:20)] %<>% lapply(function(x) as.numeric(as.character(
 
 Renewable_Generation <- as.data.frame(Renewable_Generation)
 
-write.table(Renewable_Generation,
-            "Output/Renewable Generation/GenSupplyReadable.txt",
-            sep = "\t",
+write.csv(Renewable_Generation,
+            "Output/Renewable Generation/GenSupplyReadable.csv",
             row.names = FALSE)
 

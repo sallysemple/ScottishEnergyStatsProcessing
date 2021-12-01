@@ -89,181 +89,52 @@ write.table(
 )
 
 
-AllVehicles <- read_excel("Data Sources/Vehicles/Header.xlsx")
 
-for (year in yearstart:yearend) {
-  # TryCatch allows the code to continue when there is an error.
-  # This is used when there is no data for the corresponding year in the loop.
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q1", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q1", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q2", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q2", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q3", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q3", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q4", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q4", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q1_(r)", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q1", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q2_(r)", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q2", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q3_(r)", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q3", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-  tryCatch({
-    AllWorking <-
-      read_ods(
-        "Data Sources/Vehicles/veh0104.ods",
-        sheet = paste(year, "_Q4_(r)", sep = ""),
-        skip = 7
-      )
-    AllWorking$Time <- paste(year, " Q4", sep = "")
-    
-    AllWorking <- head(AllWorking, n = 21)
-    
-    names(AllWorking) <- names(AllVehicles)
-    
-    AllWorking <- subset(AllWorking, Region == "Scotland")
-    
-    AllVehicles <- merge(AllVehicles, AllWorking, all = TRUE)
-    
-  }, error = function(e) {
-    cat("ERROR :", conditionMessage(e), "\n")
-  })
-  
-}
+AllVehicles <- read_ods("Data Sources/Vehicles/veh0104.ods", sheet = "VEH0104a_All", skip = 6)[c(1,13)]
+AllVehicles <- AllVehicles[complete.cases(AllVehicles),]
+names(AllVehicles)<- c("Time", "Total")
+
+
+
+AllVehicles_Cars <- read_ods("Data Sources/Vehicles/veh0104.ods", sheet = "VEH0104b_Cars", skip = 6)[c(1,13)]
+AllVehicles_Cars <- AllVehicles_Cars[complete.cases(AllVehicles_Cars),]
+AllVehicles$Cars <- AllVehicles_Cars$Scotland
+
+
+
+AllVehicles_MotorCycles <- read_ods("Data Sources/Vehicles/veh0104.ods", sheet = "VEH0104c_Motorcycles", skip = 6)[c(1,13)]
+AllVehicles_MotorCycles <- AllVehicles_MotorCycles[complete.cases(AllVehicles_MotorCycles),]
+AllVehicles$`Motor cycles` <- AllVehicles_MotorCycles$Scotland
+
+
+
+AllVehicles_LightGoods <- read_ods("Data Sources/Vehicles/veh0104.ods", sheet = "VEH0104d_LGVs", skip = 6)[c(1,13)]
+AllVehicles_LightGoods <- AllVehicles_LightGoods[complete.cases(AllVehicles_LightGoods),]
+AllVehicles$`Light goods` <- AllVehicles_LightGoods$Scotland
+
+
+
+AllVehicles_HeavyGoods <- read_ods("Data Sources/Vehicles/veh0104.ods", sheet = "VEH0104e_HGVs", skip = 6)[c(1,13)]
+AllVehicles_HeavyGoods <- AllVehicles_HeavyGoods[complete.cases(AllVehicles_HeavyGoods),]
+AllVehicles$`Heavy goods` <- AllVehicles_HeavyGoods$Scotland
+
+
+
+AllVehicles_BusesCoaches <- read_ods("Data Sources/Vehicles/veh0104.ods", sheet = "VEH0104f_Buses_&_coaches", skip = 6)[c(1,13)]
+AllVehicles_BusesCoaches <- AllVehicles_BusesCoaches[complete.cases(AllVehicles_BusesCoaches),]
+AllVehicles$`Buses and coaches` <- AllVehicles_BusesCoaches$Scotland
+
+
+
+AllVehicles_OtherVehicles <- read_ods("Data Sources/Vehicles/veh0104.ods", sheet = "VEH0104g_Other_vehicles", skip = 6)[c(1,13)]
+AllVehicles_OtherVehicles <- AllVehicles_OtherVehicles[complete.cases(AllVehicles_OtherVehicles),]
+AllVehicles$`Other vehicles` <- AllVehicles_OtherVehicles$Scotland
+
+
+AllVehicles$Region <- "Scotland"
+AllVehicles <- AllVehicles[c(1,9,3:8,2)]
+
+
 
 AllVehicles <- select(AllVehicles, Time, everything())
 
