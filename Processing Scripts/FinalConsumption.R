@@ -10,6 +10,16 @@ print("FinalConsumption")
 
 ### This Script processes Sub-National Consumption from and outputs a data frame with a row for each local authority in each year where data is available. It also includes a calculation of the split between Industrial and Commercial consumption for Gas and Bioenergy. Also produces a version for the format required by Statistics.gov.scot ###
 
+
+### Is Sub-National individual fuel Source more recent than Sub-National Final Consumption? ###
+
+SubNationalElec <- FALSE
+SubNationalGas <- FALSE
+#SubNationalTransport <- TRUE Code needs written
+
+
+
+
 #Create list for Data Storage
 DataList <- list()
 
@@ -115,13 +125,185 @@ names(TotalFinalLAConsumption) <- c('LA Code',
 # Remove rows without data
 TotalFinalLAConsumption <- TotalFinalLAConsumption[which(TotalFinalLAConsumption$`All fuels - Total` > 0),]
 
-# Keep only rows with a Scottish LA Code
+# Keep only rows with a Scottish or UK-wide LA Code
 TotalFinalLAConsumption <- TotalFinalLAConsumption[which(substr(TotalFinalLAConsumption$`LA Code`,1,1) == "S" | substr(TotalFinalLAConsumption$`LA Code`,1,1) == "K"),]
 
+# Convert to Tibble, makes next instruction function properly
+TotalFinalLAConsumption <- as_tibble(TotalFinalLAConsumption)
+
+# Convert Columns to GWh
+TotalFinalLAConsumption[5:36] %<>% lapply(function(x) as.numeric(as.character(x))*11.63)
 
 # Load and run the function that updates LA Codes to the latest standard
 source("Processing Scripts/LACodeFunction.R")
 TotalFinalLAConsumption <- LACodeUpdate(TotalFinalLAConsumption)
+
+
+#Run Code if Sub National Gas is more recent 
+if (SubNationalGas == TRUE){
+  #Run Gas Consumption Script
+  source("Processing Scripts/GasConsumption.R")
+
+  
+  #Keep only data after the first year of sub-national data
+  GasLAConsumption <- GasLAConsumption[which(GasLAConsumption$Year >= min(TotalFinalLAConsumption$Year)),]
+  
+  #Keep only rows with Data
+  GasLAConsumption <- GasLAConsumption[which(GasLAConsumption$`Sales (GWh) - Domestic consumption` > 0),]
+  
+  #Keep only rows with Scotland or UK Wide LA code
+  GasLAConsumption <- GasLAConsumption[which(substr(GasLAConsumption$`LA Code`,1,1) == "S" | substr(GasLAConsumption$`LA Code`,1,1) == "K"),]
+  
+  GasLAConsumption <- GasLAConsumption[which(substr(GasLAConsumption$`LA Code`,2,2)!= "c"),]
+  
+  #Select only relevant columns
+  GasLAConsumption <- select(GasLAConsumption, c(
+    `LA Code`,
+    Year,
+    `Sales (GWh) - Domestic consumption`,
+    `Sales (GWh) - Non-domestic consumption`,
+    `Sales (GWh) - Total consumption`
+    
+  ))
+  #Merge Data Frames
+  TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, GasLAConsumption, all = TRUE)
+ 
+  #Replace Gas - Domestic in years where it is possible to do so
+  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Domestic consumption` > 0),]$`Gas - Domestic` <-  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Domestic consumption` > 0),]$`Sales (GWh) - Domestic consumption`
+  
+  #Replace Gas - Non-Domestic in years where it is possible to do so
+  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Non-domestic consumption` > 0),]$`Gas - Industrial & Commercial` <-  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Non-domestic consumption` > 0),]$`Sales (GWh) - Non-domestic consumption`
+  
+  #Replace Gas - Total in years where it is possible to do so
+  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Total consumption` > 0),]$`Gas - Total` <-  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Total consumption` > 0),]$`Sales (GWh) - Total consumption`
+  
+  #Remove Extra Columns
+  TotalFinalLAConsumption$`Sales (GWh) - Domestic consumption` <- NULL
+  TotalFinalLAConsumption$`Sales (GWh) - Non-domestic consumption` <- NULL
+  TotalFinalLAConsumption$`Sales (GWh) - Total consumption` <- NULL
+  
+  #Reoder Data
+  TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$`LA Code`, TotalFinalLAConsumption$Year),]
+  
+  #Fill for Provisional Years
+  TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(1:37)
+  
+  #RecalculateTotals
+  TotalFinalLAConsumption$`All fuels - Total` <-
+    TotalFinalLAConsumption$`Coal - Total` +
+    TotalFinalLAConsumption$`Manufactured fuels - Total` +
+    TotalFinalLAConsumption$`Petroleum products - Total` +
+    TotalFinalLAConsumption$`Gas - Total` +
+    TotalFinalLAConsumption$`Electricity - Total`+
+    TotalFinalLAConsumption$`Bioenergy & wastes - Total`
+  
+  TotalFinalLAConsumption$`Consuming Sector - Domestic` <- 
+    TotalFinalLAConsumption$`Coal - Domestic` +
+    TotalFinalLAConsumption$`Manufactured fuels - Domestic` + 
+    TotalFinalLAConsumption$`Petroleum products - Domestic` +
+    TotalFinalLAConsumption$`Gas - Domestic` +
+    TotalFinalLAConsumption$`Electricity - Domestic` +
+    TotalFinalLAConsumption$`Bioenergy & wastes - Domestic`
+
+  
+  TotalFinalLAConsumption$`Consuming Sector - Transport` <-
+    TotalFinalLAConsumption$`Coal - Rail` +
+    TotalFinalLAConsumption$`Petroleum products - Road transport` +
+    TotalFinalLAConsumption$`Petroleum products - Rail` +
+    TotalFinalLAConsumption$`Bioenergy & wastes - Road transport`
+  
+  TotalFinalLAConsumption$`Consuming Sector - Industry & Commercial` <-
+    TotalFinalLAConsumption$`All fuels - Total` - 
+    TotalFinalLAConsumption$`Consuming Sector - Domestic`-
+    TotalFinalLAConsumption$`Consuming Sector - Transport`
+
+  
+}
+
+#Run Code if Sub National Electricity is more recent 
+if (SubNationalElec == TRUE){
+  #Run Elec Consumption Script
+  source("Processing Scripts/ElectricityConsumption.R")
+  
+  
+  #Keep only data after the first year of sub-national data
+  ElecLAConsumption <- ElecLAConsumption[which(ElecLAConsumption$Year >= min(TotalFinalLAConsumption$Year)),]
+  
+  #Keep only rows with Data
+  ElecLAConsumption <- ElecLAConsumption[which(ElecLAConsumption$`Sales (GWh) - Domestic consumers - All domestic` > 0),]
+  
+  #Keep only rows with Scotland or UK Wide LA code
+  ElecLAConsumption <- ElecLAConsumption[which(substr(ElecLAConsumption$`LA Code`,1,1) == "S" | substr(ElecLAConsumption$`LA Code`,1,1) == "K"),]
+  
+  ElecLAConsumption <- ElecLAConsumption[which(substr(ElecLAConsumption$`LA Code`,2,2)!= "c"),]
+  
+  #Select only relevant columns
+  ElecLAConsumption <- select(ElecLAConsumption, c(
+    `LA Code`,
+    Year,
+    `Sales (GWh) - Domestic consumers - All domestic`,
+    `Sales (GWh) - Non-domestic consumers - All non-domestic`,
+    `Sales (GWh) - All - Total consumption`
+    
+  ))
+  #Merge Data Frames
+  TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, ElecLAConsumption, all = TRUE)
+  
+  
+  
+  #Replace Elec - Domestic in years where it is possible to do so
+  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Domestic consumers - All domestic` > 0),]$`Electricity - Domestic` <-  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Domestic consumers - All domestic` > 0),]$`Sales (GWh) - Domestic consumers - All domestic`
+  
+  #Replace Elec - Non-Domestic in years where it is possible to do so
+  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Non-domestic consumers - All non-domestic` > 0),]$`Electricity - Industrial & Commercial` <-  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - Non-domestic consumers - All non-domestic` > 0),]$`Sales (GWh) - Non-domestic consumers - All non-domestic`
+  
+  #Replace Elec - Total in years where it is possible to do so
+  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - All - Total consumption` > 0),]$`Electricity - Total` <-  TotalFinalLAConsumption[which(TotalFinalLAConsumption$`Sales (GWh) - All - Total consumption` > 0),]$`Sales (GWh) - All - Total consumption`
+  
+  #Remove Extra Columns
+  TotalFinalLAConsumption$`Sales (GWh) - Domestic consumers - All domestic` <- NULL
+  TotalFinalLAConsumption$`Sales (GWh) - Non-domestic consumers - All non-domestic` <- NULL
+  TotalFinalLAConsumption$`Sales (GWh) - Total consumption` <- NULL
+  
+  #Reoder Data
+  TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$`LA Code`, TotalFinalLAConsumption$Year),]
+  
+  #Fill for Provisional Years
+  TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(1:37)
+  
+  #RecalculateTotals
+  TotalFinalLAConsumption$`All fuels - Total` <-
+    TotalFinalLAConsumption$`Coal - Total` +
+    TotalFinalLAConsumption$`Manufactured fuels - Total` +
+    TotalFinalLAConsumption$`Petroleum products - Total` +
+    TotalFinalLAConsumption$`Gas - Total` +
+    TotalFinalLAConsumption$`Electricity - Total`+
+    TotalFinalLAConsumption$`Bioenergy & wastes - Total`
+  
+  TotalFinalLAConsumption$`Consuming Sector - Domestic` <- 
+    TotalFinalLAConsumption$`Coal - Domestic` +
+    TotalFinalLAConsumption$`Manufactured fuels - Domestic` + 
+    TotalFinalLAConsumption$`Petroleum products - Domestic` +
+    TotalFinalLAConsumption$`Gas - Domestic` +
+    TotalFinalLAConsumption$`Electricity - Domestic` +
+    TotalFinalLAConsumption$`Bioenergy & wastes - Domestic`
+  
+  
+  TotalFinalLAConsumption$`Consuming Sector - Transport` <-
+    TotalFinalLAConsumption$`Coal - Rail` +
+    TotalFinalLAConsumption$`Petroleum products - Road transport` +
+    TotalFinalLAConsumption$`Petroleum products - Rail` +
+    TotalFinalLAConsumption$`Bioenergy & wastes - Road transport`
+  
+  TotalFinalLAConsumption$`Consuming Sector - Industry & Commercial` <-
+    TotalFinalLAConsumption$`All fuels - Total` - 
+    TotalFinalLAConsumption$`Consuming Sector - Domestic`-
+    TotalFinalLAConsumption$`Consuming Sector - Transport`
+  
+  
+}
+
+
 
 # Source and run the script that calculates the end use proportion of fuels within sectors 
 source("Processing Scripts/ECUKEndUse.R")
@@ -133,16 +315,14 @@ GasBioenergySplit  <- read_csv("Output/Consumption/GasBioenergySplit.csv")
 TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, GasBioenergySplit, all = TRUE)
 
 # Order data frame by year and LACode
-TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$Year, -TotalFinalLAConsumption$`LA Code`),]
+TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$Year, TotalFinalLAConsumption$`LA Code`),]
+
 
 # Fill down the Split values for each LA within a year.
-TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41)
+TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41, .direction = "up")
 
 # Convert to Tibble
 TotalFinalLAConsumption <- as_tibble(TotalFinalLAConsumption )
-
-# Convert Columns to GWh
-TotalFinalLAConsumption[6:37] %<>% lapply(function(x) as.numeric(as.character(x))*11.63)
 
 # Multiply the Gas - Industrial & Commercial by the split factors, to create new columns for each, then remove the old column 
 TotalFinalLAConsumption$`Gas - Industrial` <- TotalFinalLAConsumption$`Gas - Industrial` * TotalFinalLAConsumption$`Gas - Industrial & Commercial`

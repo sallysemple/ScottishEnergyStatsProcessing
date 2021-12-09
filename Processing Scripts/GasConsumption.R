@@ -56,7 +56,7 @@ for (year in yearstart:yearend) {
   })
 } # Loop End
 
-GasLAConsumption <- rbindlist(DataList)
+GasLAConsumption <- rbindlist(DataList, fill = TRUE)
 
 names(GasLAConsumption) <- c('Region',
                               'Local Authority',
@@ -75,10 +75,13 @@ names(GasLAConsumption) <- c('Region',
                               'Averages - Non-domestic - Median consumption',
                               'Averages - All - Mean consumption',
                               'Averages - All - Median consumption',
-                              'Year'
+                              'Year',
+                              "Number of Non-Consuming MPRN's (thousands)"
                               )
 
 GasLAConsumption$` ` <- NULL
+GasLAConsumption$`Number of Non-Consuming MPRN's (thousands)` <- NULL
+
 
 #GasLAConsumption <- GasLAConsumption[which(substr(GasLAConsumption$`LA Code`,1,1) == "S"),]
 
