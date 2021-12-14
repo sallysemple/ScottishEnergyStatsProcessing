@@ -23,9 +23,6 @@ RenHeatTgt <- RenHeatTgt %>% fill(4)
 # Calculate Target
 RenHeatTgt$Target <- RenHeatTgt$`Renewable Heat` / RenHeatTgt$`Total - All Fuels`
 
-# Remove 2009 Data (since it will be filled in the above state and not valid)
-RenHeatTgt[2,2:5] <- NA
-
 # Reorder Columns
 RenHeatTgt <- RenHeatTgt[c(1,2,4,5,3)]
 

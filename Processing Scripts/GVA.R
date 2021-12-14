@@ -26,10 +26,8 @@ GDP <- head(GDP[c(1,3,9)],-10)
 names(GDP) <- c("Year", "GVA", "GDP at Market Prices")
 
 ### Export to CSV ###
-write.table(
+write.csv(
   GDP,
-  "Output/GVA/GVA.txt",
-  sep = "\t",
-  na = "0",
+  "Output/GVA/GVA.csv",
   row.names = FALSE
 )

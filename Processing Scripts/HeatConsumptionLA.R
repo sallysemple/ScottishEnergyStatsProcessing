@@ -44,6 +44,8 @@ HeatWorking$`Bioenergy & Wastes` <- HeatWorking$`Bioenergy & Wastes - Industrial
 
 names(HeatWorking)[21] <- "Total - All Fuels"
 
+HeatDetailed <- HeatWorking
+
 HeatWorking[4:20] <- NULL
 
 write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLAMap.csv")
