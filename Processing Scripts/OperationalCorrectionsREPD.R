@@ -1,9 +1,11 @@
 library(readxl)
 library(plyr)
+library(dplyr)
 library(readr)
 library("writexl")
 library(lubridate)
 library(reshape2)
+library(tidyverse)
 
 print("OperationalCorrectionsREPD")
 
@@ -13,16 +15,14 @@ print("OperationalCorrectionsREPD")
 ## If using csv file directly from the website, include the skip argument to remove excess lines at the top. ##
 
 CurrentData <- read_excel("Data Sources/REPD (Operational Corrections)/Source/Current.xlsx",
-                          sheet = "Database",
-                          skip = 5)
+                          sheet = "REPD")
 
 ### Add in site count of 1 for each site, for aggregation later ###
 
 CurrentData$Sites <- 1
 
 CurrentCorrections <- read_excel("Data Sources/REPD (Operational Corrections)/Corrections/Corrections.xlsx",
-                                 sheet = "Database",
-                                 skip = 5)
+                                 sheet = "REPD")
 
 #CurrentCorrections$Sites <- 0
 
@@ -34,8 +34,55 @@ CurrentData <- rbind(CurrentData,CurrentCorrections)
 ### Create Scottish Subset ###
 ScotlandCurrent <- subset(CurrentData, Country == "Scotland")
 
+REPD <- ScotlandCurrent[c(2,5,6,9,19,27,21,23,47)]
 
-write.table(ScotlandCurrent,
-            "Output/REPD (Operational Corrections)/REPD.txt",
-            sep = "\t",
-            row.names = FALSE)
+REPD <- subset(REPD, `Technology Type` %in% c("Biomass (co-firing)", "EfW Incineration" ,"Biomass (dedicated)", "Advanced Conversion Technologies", "Anaerobic Digestion", "Large Hydro", "Small Hydro","Landfill Gas", "Solar Photovoltaics", "Sewage Sludge Digestion", "Tidal Barrage and Tidal Stream", "Shoreline Wave", "Wind Offshore", "Wind Onshore", "Hot Dry Rocks (HDR)"))
+
+REPD <- REPD %>% 
+  mutate(`Technology Type` = replace(`Technology Type`, `Technology Type` == "Tidal Barrage and Tidal Stream", "Shoreline wave / tidal")) %>% 
+  mutate(`Technology Type` = replace(`Technology Type`, `Technology Type` == "Shoreline Wave", "Shoreline wave / tidal"))
+
+REPD <- REPD[which(REPD$`Development Status (short)` %in% c("Operational", "Awaiting Construction", "Under Construction", "Application Submitted")),]
+
+REPD <- REPD %>%  group_by(`Ref`,`Planning Authority`, `Technology Type`, `County`, `Development Status (short)`, `Operational`) %>% 
+  summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`, na.rm = TRUE))
+
+
+PlanningAuthorityLookup <- read_excel("Data Sources/REPD (Operational Corrections)/PlanningAuthorityLookup.xlsx")
+
+REPD <- merge(REPD, PlanningAuthorityLookup, all.x = TRUE)
+
+CountyLookup <- read_excel("Data Sources/REPD (Operational Corrections)/CountyLookup.xlsx")
+
+
+REPDCounty <-  REPD[which(is.na(REPD$LACode)),]
+
+REPDCounty$LA <- NULL
+
+REPDCounty$LACode <- NULL
+
+REPDCounty <- merge(REPDCounty, CountyLookup, all.x = TRUE)
+
+REPD <- rbind(REPDCounty, REPD)
+
+REPD = REPD[!duplicated(REPD$`Ref`),]
+
+
+RefIDLookup <- read_excel("Data Sources/REPD (Operational Corrections)/RefIDLALookup.xlsx")
+
+
+REPDIDLookup <-  REPD[which(is.na(REPD$LACode)),]
+
+REPDIDLookup$LA <- NULL
+
+REPDIDLookup$LACode <- NULL
+
+REPDIDLookup <- merge(REPDIDLookup, RefIDLookup, all.x = TRUE)
+
+REPD <- rbind(REPDIDLookup, REPD)
+
+REPD[which(is.na(REPD$LACode)),]$LA <- "Offshore"
+
+REPD = REPD[!duplicated(REPD$`Ref`),]
+
+write.csv(REPD, "Output/REPD (Operational Corrections)/REPD.csv")

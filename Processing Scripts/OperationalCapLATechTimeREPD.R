@@ -28,7 +28,7 @@ REPD <- REPD %>%
 
 REPD <- REPD[which(REPD$`Development Status (short)` %in% c("Operational", "Awaiting Construction", "Under Construction", "Application Submitted")),]
 
-REPD <- REPD %>%  group_by(`Ref ID`,`Planning Authority`, `Technology Type`, `County`, `Development Status (short)`, `Operational`) %>% 
+REPD <- REPD %>%  group_by(`Ref`,`Planning Authority`, `Technology Type`, `County`, `Development Status (short)`, `Operational`) %>% 
   summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`, na.rm = TRUE))
 
 
@@ -49,7 +49,7 @@ REPDCounty <- merge(REPDCounty, CountyLookup, all.x = TRUE)
 
 REPD <- rbind(REPDCounty, REPD)
 
-REPD = REPD[!duplicated(REPD$`Ref ID`),]
+REPD = REPD[!duplicated(REPD$`Ref`),]
 
 
 RefIDLookup <- read_excel("Data Sources/REPD (Operational Corrections)/RefIDLALookup.xlsx")
@@ -65,7 +65,7 @@ REPDIDLookup <- merge(REPDIDLookup, RefIDLookup, all.x = TRUE)
 
 REPD <- rbind(REPDIDLookup, REPD)
 
-REPD = REPD[!duplicated(REPD$`Ref ID`),]
+REPD = REPD[!duplicated(REPD$`Ref`),]
 
 REPD <- REPD %>%  group_by(`LA`, `LACode`, `Development Status (short)`, `Technology Type`, `Operational`) %>% 
   summarise(`Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`, na.rm = TRUE))
