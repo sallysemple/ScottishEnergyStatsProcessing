@@ -1,36 +1,47 @@
 library(tidyverse)
-library(readxl)
 library(plyr)
 library(dplyr)
 library(magrittr)
 library(lubridate)
 library(zoo)
+library(readxl)
 
-print("QTRRenCap")
+print("QTRRenElecCap")
 
-RenGenCap <- read_excel("Data Sources/Energy Trends/RenGenCap.xls", 
-                        sheet = "Scotland - Qtr", col_names = FALSE, 
-                        skip = 4, n_max = 16)
 
-RenGenCap <- as.data.frame(t(RenGenCap))
+#Read Source Data
+RenElecCap <- read_excel("Data Sources/Energy Trends/RenGenCap.xlsx", 
+                         sheet = "Scotland - Qtr", col_names = FALSE, 
+                         skip = 6, n_max = 27)
+#Transpose Data Frame
+RenElecCap <- as.data.frame(t(RenElecCap))
 
-names(RenGenCap) <- unlist(RenGenCap[1,])
+#Name Columns based on first row
+names(RenElecCap) <- unlist(RenElecCap[1,])
 
-names(RenGenCap)[1:2] <- c("Y", "Q")
+#Name First COlumn Y
+names(RenElecCap)[1] <- c("Y")
 
-RenGenCap$Quarter <- paste0(RenGenCap$Y, " Q", substr(RenGenCap$Q,1,1))
+#Extract Year and Quarter into own column (source data has invisible symbols in the first column)
+RenElecCap$Quarter <- paste0(substr(RenElecCap$Y,1,4), " Q", substr(RenElecCap$Y,8,8))
 
-RenGenCap[4:16] %<>% lapply(function(x) as.numeric(as.character(x)))
+#Convert all but the first and last columns to numeric
+RenElecCap[2:27] %<>% lapply(function(x) as.numeric(as.character(x)))
 
-RenGenCap <- as_tibble(RenGenCap[c(17,4:16)])
+#Convert Data Frame to Tibble, keeping only important columns
+RenElecCap <- as_tibble(RenElecCap[c(28,2:14)])
 
-RenGenCap <- RenGenCap[complete.cases(RenGenCap),]
+#Drop Rows without Data
+RenElecCap <- RenElecCap[complete.cases(RenElecCap),]
 
-RenGenCap$Quarter <- as.yearqtr(RenGenCap$Quarter)
+#Convert Quartr Column to time format
+RenElecCap$Quarter <- as.yearqtr(RenElecCap$Quarter)
 
-names(RenGenCap) <- c("Quarter", "Onshore Wind", "Offshore Wind", "Shoreline wave / tidal", "Solar photovoltaics", "Small scale Hydro", "Large scale Hydro", "Landfill gas", "Sewage sludge digestion", "Energy from waste", "Animal Biomass (non-AD)", "Anaerobic Digestion", "Plant Biomass", "Total")
+#Give Columns final names
+names(RenElecCap) <- c("Quarter", "Onshore Wind", "Offshore Wind", "Shoreline wave / tidal", "Solar photovoltaics", "Small scale Hydro", "Large scale Hydro", "Landfill gas", "Sewage sludge digestion", "Energy from Waste", "Animal Biomass", "Anaerobic Digestion", "Plant Biomass", "Total")
 
-write.table(RenGenCap,
+
+write.table(RenElecCap,
             "Output/Quarter Capacity/QTRCapacityScotland.txt",
             sep = "\t",
             row.names = FALSE)

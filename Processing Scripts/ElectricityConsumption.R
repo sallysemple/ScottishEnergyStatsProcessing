@@ -96,6 +96,8 @@ source("Processing Scripts/LACodeFunction.R")
 
 ElecLAConsumption <- LACodeUpdate(ElecLAConsumption)
 
-ElecLAConsumption
+ElecLAConsumption <- as_tibble(ElecLAConsumption)
+
+ElecLAConsumption[5:26] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 write_csv(ElecLAConsumption, "Output/Consumption/ElectricityConsumption.csv")

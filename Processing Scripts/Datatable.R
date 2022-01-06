@@ -16,16 +16,14 @@ print("OperationalCorrectionsREPD")
 ## If using csv file directly from the website, include the skip argument to remove excess lines at the top. ##
 
 CurrentData <- read_excel("Data Sources/REPD (Operational Corrections)/Source/Current.xlsx",
-                          sheet = "Database",
-                          skip = 5)
+                          sheet = "REPD")
 
 ### Add in site count of 1 for each site, for aggregation later ###
 
 CurrentData$Sites <- 1
 
 CurrentCorrections <- read_excel("Data Sources/REPD (Operational Corrections)/Corrections/Corrections.xlsx",
-                                 sheet = "Database",
-                                 skip = 5)
+                                 sheet = "REPD")
 
 #CurrentCorrections$Sites <- 0
 
@@ -73,7 +71,7 @@ source("Processing Scripts/LACodeFunction.R")
 
 REPD$LACode <- LACodeUpdate(REPD$LACode)
 
-REPD <- REPD[c(1,7,8,11,21,49,50)]
+REPD <- REPD[c(1,7,8,11,21,50,51)]
 
 REPD <- REPD[-which(is.na(REPD$LA)),]
 
@@ -83,12 +81,12 @@ REPD <- REPD[which(REPD$`Technology Type` != "Battery"),]
 
 REPD <- REPD[which(REPD$`Technology Type` != "Pumped Storage Hydroelectricity"),]
 
-REPD <- REPD %>%  group_by(`Ref ID`,`Development Status (short)`) %>% 
+REPD <- REPD %>%  group_by(`Ref`,`Development Status (short)`) %>% 
   summarise(`Site Name` = first(`Site Name`), `Technology Type` = first (`Technology Type`), `Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`), LA = first(LA), LACode = first(LACode))
 
 REPD[which(is.na(REPD$LACode)),]$LACode <- " "
 
-names(REPD) <- c("REPD Ref ID", "Status", "Site Name", "Technology", "Capacity (MW)", "Local Authority", "LA Code")
+names(REPD) <- c("REPD Ref", "Status", "Site Name", "Technology", "Capacity (MW)", "Local Authority", "LA Code")
 
 write.csv(REPD, "Output/REPD (Operational Corrections)/PipelineDataTable.csv", row.names = FALSE)
 
@@ -102,7 +100,7 @@ write.csv(REPD, "Output/REPD (Operational Corrections)/PipelineDataTable.csv", r
 
 
 RESTATS <- read_excel("Offline Data Sources/Restats/Restats.xlsx",
-              sheet = "Query13 Links")
+              sheet = "Query13")
 
 
 if ("Q4" %in% colnames(RESTATS)) # Checks if there is a Q4 column in the data
@@ -162,7 +160,7 @@ if ("Q1" %in% colnames(RESTATS))
 
 RESTATS <- RESTATS[which(RESTATS$Country == "Scotland"),]
 
-RESTATS <- RESTATS[c(2,5,6,49)]
+RESTATS <- RESTATS[c(2,5,6,61)]
 
 RESTATS <- RESTATS[which(RESTATS$Capacity > 0),]
 

@@ -1,3 +1,5 @@
+library(plyr)
+library(dplyr)
 library(readr)
 library(readxl)
 library(tidyverse)
@@ -7,13 +9,15 @@ library(lubridate)
 library(zoo)
 library("writexl")
 
+
 print("OperationalCapBySize")
 
-DECCsheets <- read_delim("Data Sources/RESTATS/DECCOutput.txt", 
-              "\t", escape_double = FALSE, trim_ws = TRUE)
+source("Processing Scripts/Datatable.R")
 
 
-DECCsheets <- DECCsheets %>% 
+names(RESTATS) <- c("RenewableArea", "Project Name", "Site Name", "Capacity")
+
+DECCsheets <- RESTATS %>% 
   mutate(`RenewableArea` = replace(`RenewableArea`, `RenewableArea` == "Anaerobic Digestion", "Biomass and Waste")) %>% 
   mutate(`RenewableArea` = replace(`RenewableArea`, `RenewableArea` == "Photovoltaics", "Solar Photovoltaics")) %>% 
   mutate(`RenewableArea` = replace(`RenewableArea`, `RenewableArea` == "Small Hydro", "Hydro")) %>% 
@@ -29,7 +33,6 @@ DECCsheets <- DECCsheets %>%
   mutate(`RenewableArea` = replace(`RenewableArea`, `RenewableArea` == "Shoreline Wave", "Shoreline wave / tidal")) %>% 
   mutate(`RenewableArea` = replace(`RenewableArea`, `RenewableArea` == "Tidal", "Shoreline wave / tidal")) 
 
-DECCsheets <- DECCsheets[1:5]
 
 DECCsheets$CapacityBand <- "50MW +"
 
@@ -37,7 +40,7 @@ DECCsheets[which(DECCsheets$`Capacity` < 50),]$CapacityBand <- "10-50MW"
 DECCsheets[which(DECCsheets$`Capacity` < 10),]$CapacityBand <- "5 - 10MW"
 DECCsheets[which(DECCsheets$`Capacity` < 5),]$CapacityBand <- "<5MW"
 
-DECCsheets[which(substr(DECCsheets$ProjectName,1,4) == "FIT-"),]$CapacityBand <- "<5MW"
+DECCsheets[which(substr(DECCsheets$`Project Name`,1,4) == "FIT-"),]$CapacityBand <- "<5MW"
 
 DECCsheets <- DECCsheets %>%  group_by(`RenewableArea`,   CapacityBand) %>% 
   summarise(`Capacity` = sum(`Capacity`, na.rm = TRUE))
@@ -69,8 +72,8 @@ Table[which(Table$`Technology Type` == "Solar Photovoltaics"),]$Total <- QTRCapa
 Table[which(Table$`Technology Type` == "Biomass and Waste"),]$Total <-  QTRCapacityScotland$`Anaerobic Digestion` + 
                                                                         QTRCapacityScotland$`Landfill gas` + 
                                                                         QTRCapacityScotland$`Sewage sludge digestion` + 
-                                                                        QTRCapacityScotland$`Energy from waste` + 
-                                                                        QTRCapacityScotland$`Animal Biomass (non-AD)`  + 
+                                                                        QTRCapacityScotland$`Energy from Waste` + 
+                                                                        QTRCapacityScotland$`Animal Biomass`  + 
                                                                         QTRCapacityScotland$`Plant Biomass`
 Table[which(Table$`Technology Type` == "Shoreline wave / tidal"),]$Total <- QTRCapacityScotland$`Shoreline wave / tidal`
 

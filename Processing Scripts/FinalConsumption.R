@@ -13,8 +13,8 @@ print("FinalConsumption")
 
 ### Is Sub-National individual fuel Source more recent than Sub-National Final Consumption? ###
 
-SubNationalElec <- FALSE
-SubNationalGas <- FALSE
+SubNationalElec <- TRUE
+SubNationalGas <- TRUE
 #SubNationalTransport <- TRUE Code needs written
 
 
@@ -263,7 +263,7 @@ if (SubNationalElec == TRUE){
   #Remove Extra Columns
   TotalFinalLAConsumption$`Sales (GWh) - Domestic consumers - All domestic` <- NULL
   TotalFinalLAConsumption$`Sales (GWh) - Non-domestic consumers - All non-domestic` <- NULL
-  TotalFinalLAConsumption$`Sales (GWh) - Total consumption` <- NULL
+  TotalFinalLAConsumption$`Sales (GWh) - All - Total consumption` <- NULL
   
   #Reoder Data
   TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$`LA Code`, TotalFinalLAConsumption$Year),]
@@ -320,7 +320,7 @@ TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption
 
 # Fill down the Split values for each LA within a year.
 TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41, .direction = "up")
-
+TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41, .direction = "down")
 # Convert to Tibble
 TotalFinalLAConsumption <- as_tibble(TotalFinalLAConsumption )
 
