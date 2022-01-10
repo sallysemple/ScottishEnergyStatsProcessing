@@ -308,19 +308,18 @@ if (SubNationalElec == TRUE){
 # Source and run the script that calculates the end use proportion of fuels within sectors 
 source("Processing Scripts/ECUKEndUse.R")
 
-# Load the Industrial and Commercial split for Gas and Bioenergy. Output of the above script. 
-GasBioenergySplit  <- read_csv("Output/Consumption/GasBioenergySplit.csv")
 
 # Merge the Consumption and Split data frames together
 TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, GasBioenergySplit, all = TRUE)
+TotalFinalLAConsumption <- merge(TotalFinalLAConsumption, ElectricitySplit, all = TRUE)
 
 # Order data frame by year and LACode
 TotalFinalLAConsumption <- TotalFinalLAConsumption[order(TotalFinalLAConsumption$Year, TotalFinalLAConsumption$`LA Code`),]
 
 
 # Fill down the Split values for each LA within a year.
-TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41, .direction = "up")
-TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:41, .direction = "down")
+TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:43, .direction = "up")
+TotalFinalLAConsumption <- TotalFinalLAConsumption %>% fill(38:43, .direction = "down")
 # Convert to Tibble
 TotalFinalLAConsumption <- as_tibble(TotalFinalLAConsumption )
 
@@ -329,6 +328,10 @@ TotalFinalLAConsumption$`Gas - Industrial` <- TotalFinalLAConsumption$`Gas - Ind
 TotalFinalLAConsumption$`Gas - Commercial` <- TotalFinalLAConsumption$`Gas - Commercial` * TotalFinalLAConsumption$`Gas - Industrial & Commercial`
 TotalFinalLAConsumption$`Gas - Industrial & Commercial` <- NULL
 
+# Repeat for Electricity
+TotalFinalLAConsumption$`Electricity - Industrial` <- TotalFinalLAConsumption$`Electricity - Industrial` * TotalFinalLAConsumption$`Electricity - Industrial & Commercial`
+TotalFinalLAConsumption$`Electricity - Commercial` <- TotalFinalLAConsumption$`Electricity - Commercial` * TotalFinalLAConsumption$`Electricity - Industrial & Commercial`
+TotalFinalLAConsumption$`Electricity - Industrial & Commercial` <- NULL
 
 # Repeat for Bioenergy & Wastes
 TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` <- TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` * TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial`
@@ -336,7 +339,7 @@ TotalFinalLAConsumption$`Bioenergy & Wastes - Commercial` <- TotalFinalLAConsump
 TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial` <- NULL
 
 # Reorganise Data Frame
-TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1,2,4, 10:27, 36,37,28:32, 38, 39, 33,34,35, 9, 6,7,8  )]
+TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1,2,4, 10:27, 35,36,28:29,39,40,30,31, 37, 38, 32,33,34, 9, 6,7,8  )]
 
 # Rename Local Authority column to region
 names(TotalFinalLAConsumption)[3] <- "Region"

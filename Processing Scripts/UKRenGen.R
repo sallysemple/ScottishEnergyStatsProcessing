@@ -44,3 +44,31 @@ names(UKRenElecGen) <- c("Quarter", "Onshore Wind", "Offshore Wind", "Shoreline 
 write.csv(UKRenElecGen,
           "Output/Renewable Generation/QTRGenUK.csv",
           row.names = FALSE)
+
+###Scotland Proportion
+
+source("Processing Scripts/QtrRenGen.R")
+
+RenElecGen$Wind <- RenElecGen$`Onshore Wind` + RenElecGen$`Offshore Wind`
+
+UKRenElecGen$Year <- substr(UKRenElecGen$Quarter,1,4)
+
+UKRenElecGen$Quarter <- NULL
+
+UKRenElecGen$`Other Biomass` <- UKRenElecGen$`Energy from Waste`+UKRenElecGen$`Co-firing with fossil fuels`+UKRenElecGen$`Animal Biomass`+UKRenElecGen$`Anaerobic Digestion`+UKRenElecGen$`Plant Biomass`
+
+UKRenElecGen$Wind <- UKRenElecGen$`Onshore Wind` + UKRenElecGen$`Offshore Wind`
+
+UKRenElecGen <- select(UKRenElecGen, names(RenElecGen))
+
+UKRenElecGen <- UKRenElecGen %>% group_by(Year) %>%  summarise_all(sum)
+
+UKRenElecGen <- UKRenElecGen[which(UKRenElecGen$Year %in% RenElecGen$Year),]
+
+
+ScottishRenPropofUK <- RenElecGen
+
+ScottishRenPropofUK[2:11] <- ScottishRenPropofUK[2:11] / UKRenElecGen[2:11]
+
+
+write_csv(ScottishRenPropofUK, "Output/Renewable Generation/ScotPropofUKRenGen.csv")
