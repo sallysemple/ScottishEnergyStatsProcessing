@@ -51,6 +51,7 @@ RenewableElecCapLA$`Bioenergy and Waste` <- RenewableElecCapLA$`Anaerobic Digest
 names(RenewableElecCapLA) <- c("LACode", "LAName", "Solar photovoltaics", "Onshore Wind", "Hydro", "AD", "Offshore Wind", "Shoreline wave / tidal", "SG", "LG", "MSW", "AB", "PB", "Cofiring", "Total", "Year", "Bioenergy and Waste")
 
 
+source("Processing Scripts/QtrRenCap.R")
 
 QTRCapacityScotland <- read_delim("Output/Quarter Capacity/QTRCapacityScotland.txt", 
                              "\t", escape_double = FALSE, trim_ws = TRUE)
@@ -66,8 +67,8 @@ QTRCapacityScotland <- QTRCapacityScotland[which(QTRCapacityScotland$Year %in% R
 
 QTRCapacityScotland$`Bioenergy and Waste` <- QTRCapacityScotland$`Landfill gas` +
   QTRCapacityScotland$`Sewage sludge digestion`+
-  QTRCapacityScotland$`Energy from waste` +
-  QTRCapacityScotland$`Animal Biomass (non-AD)` +
+  QTRCapacityScotland$`Energy from Waste` +
+  QTRCapacityScotland$`Animal Biomass` +
   QTRCapacityScotland$`Anaerobic Digestion`  +  
   QTRCapacityScotland$`Plant Biomass`
 

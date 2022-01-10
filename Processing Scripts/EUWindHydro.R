@@ -24,22 +24,30 @@ EUWind[40, 1] <- "Kosovo"
 
 EUWind[2:ncol(EUWind)] %<>% lapply(function(x) as.numeric(as.character(x)))
 
-AnnualRenGenScot <- read_delim("Output/Renewable Generation/Annual.txt", 
-                     "\t", escape_double = FALSE, trim_ws = TRUE)
+source("Processing Scripts/AnnualRenGen.R")
 
-AnnualRenGenScot <- AnnualRenGenScot[which(AnnualRenGenScot$Fuel == "Wind"),]
+RenGen[is.na(RenGen)] <- 0
 
-AnnualRenGenScot[1,1] <- "SCOTLAND"
+RenGen$Wind <- RenGen$`Onshore Wind` +RenGen$`Offshore Wind`
 
-names(AnnualRenGenScot)[1] <- names(EUWind)[1]
+RenGen <- select(RenGen,
+                 Year,
+                 Wind)
 
-EUWind <- bind_rows(EUWind, AnnualRenGenScot)
+RenGen$`GEO/TIME` <- "SCOTLAND"
+
+EUYearMax <-  max(as.numeric(names(EUWind)), na.rm = TRUE)
+
+RenGen <- RenGen[which(RenGen$Year <= EUYearMax),]
+
+EUWindScotland <- dcast(RenGen, `GEO/TIME` ~ Year, value.var = 'Wind')
+EUWind <- bind_rows(EUWind, EUWindScotland)
 
 if(is.na(EUWind[1,ncol(EUWind)])){
   EUWind[ncol(EUWind)] <- NULL
 }
 
-EUWind$`2019` <- NULL
+#EUWind$`2019` <- NULL
 
 EUWind <- EUWind[complete.cases(EUWind[1], EUWind[ncol(EUWind)]),]
 
@@ -75,16 +83,22 @@ EUHydro[40, 1] <- "Kosovo"
 
 EUHydro[2:ncol(EUHydro)] %<>% lapply(function(x) as.numeric(as.character(x)))
 
-AnnualRenGenScot <- read_delim("Output/Renewable Generation/Annual.txt", 
-                               "\t", escape_double = FALSE, trim_ws = TRUE)
+source("Processing Scripts/AnnualRenGen.R")
 
-AnnualRenGenScot <- AnnualRenGenScot[which(AnnualRenGenScot$Fuel == "Hydro"),]
+RenGen[is.na(RenGen)] <- 0
 
-AnnualRenGenScot[1,1] <- "SCOTLAND"
+RenGen <- select(RenGen,
+                 Year,
+                 Hydro)
 
-names(AnnualRenGenScot)[1] <- names(EUHydro)[1]
+RenGen$`GEO/TIME` <- "SCOTLAND"
 
-EUHydro <- bind_rows(EUHydro, AnnualRenGenScot)
+EUYearMax <-  max(as.numeric(names(EUWind)), na.rm = TRUE)
+
+RenGen <- RenGen[which(RenGen$Year <= EUYearMax),]
+
+EUHydroScotland <- dcast(RenGen, `GEO/TIME` ~ Year, value.var = 'Hydro')
+EUHydro <- bind_rows(EUHydro, EUHydroScotland)
 
 if(is.na(EUHydro[1,ncol(EUHydro)])){
   EUHydro[ncol(EUHydro)] <- NULL

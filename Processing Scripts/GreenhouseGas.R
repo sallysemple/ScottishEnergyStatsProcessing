@@ -20,7 +20,5 @@ GreenhouseGasSector[3:9] <- NULL
 
 GreenhouseGasSector <- dcast(GreenhouseGasSector, refPeriod  ~ nationalCommunicationCategories, value.var = "Total")
 
-write.table(GreenhouseGasSector,
-            "Output/Greenhouse Gas/SectorTimeSeries.csv",
-            sep = "\t",
-            row.names = FALSE)
+write_csv(GreenhouseGasSector,
+            "Output/Greenhouse Gas/SectorTimeSeries.csv")

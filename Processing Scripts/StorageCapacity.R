@@ -22,13 +22,6 @@ CurrentData <- read_excel("Data Sources/REPD (Turbines)/Source/Current.xlsx",
 
 CurrentData$Sites <- 1
 
-CurrentCorrections <- read_excel("Data Sources/REPD (Turbines)/Corrections/CurrentCorrections.xlsx",
-                                 sheet = "Database")
-
-#CurrentCorrections$Sites <- 0
-
-CurrentData <- rbind(CurrentData,CurrentCorrections)
-
 ### Read Source Data ###
 #CurrentData <- read_csv("Data Sources/REPD/Current.csv", skip = 6)
 

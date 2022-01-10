@@ -10,40 +10,17 @@ library(readxl)
 
 print("Carbon productivity")
 
-#GreenhouseGas<-ods_dataset("greenhouse-gas")[c(2,4)]
+source("Processing Scripts/GreenhouseGas.R")
 
-GreenhouseGas <- read_delim("C:/Users/ische/GitHub/Scottish-Energy-Statistics-Hub/Processed Data/Output/Greenhouse Gas/GHGCCP.txt", 
-                     "\t", escape_double = FALSE, trim_ws = TRUE)
+GreenhouseGasSector$Total <- rowSums(GreenhouseGasSector[2:11])
 
-GreenhouseGas$Total <- GreenhouseGas$Agriculture + GreenhouseGas$`Electricity Generation` + GreenhouseGas$Industry + GreenhouseGas$`Land use, land use change and forestry`+ GreenhouseGas$Residential + GreenhouseGas$Services + GreenhouseGas$Transport + GreenhouseGas$`Waste Management`
+GreenhouseGasSector <- GreenhouseGasSector[c(1,12)]
 
-GreenhouseGas <- GreenhouseGas[c(1,10)]
+names(GreenhouseGasSector) <- c("Year", "Emissions")
 
-names(GreenhouseGas) <- c("Year", "Emissions")
+source("Processing Scripts/GVA.R")
 
-
-GDP <-
-  read_excel(
-    "Data Sources/QNAS/QNAS.xlsx",
-    sheet = "Table A",
-    skip = 4
-  )
-### Create Subset with only relevant data ###
-# is.na(GDP$Quarter2) means that only the rows where there is nothing in that column are extracted.
-# This corresponds to GDP in Calendar years.
-GDP <-
-  subset(
-    GDP,
-    is.na(GDP$Quarter)
-  )
-
-### Remove excess rows from the bottom ###
-GDP <- head(GDP[c(1,3,9)],-10)
-
-
-names(GDP) <- c("Year", "GVA", "GDP at Market Prices")
-
-CarbonProductivity <- merge(GDP, GreenhouseGas)
+CarbonProductivity <- merge(GDP, GreenhouseGasSector)
 
 CarbonProductivity  %<>% lapply(function(x) as.numeric(as.character(x)))
 

@@ -41,6 +41,8 @@ Renewables$Asset <- as.numeric(Renewables$Asset)/1000
 
 Renewables <- Renewables[complete.cases(Renewables),]
 
+Renewables <- Renewables[which(Renewables$Annual != 0),]
+
 write.table(Renewables,
             "Output/Services and assets/Renewables.txt",
             sep = "\t",

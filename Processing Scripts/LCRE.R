@@ -31,11 +31,11 @@ newdata <- as_tibble(newdata[complete.cases(newdata),])
 
 newdata <- newdata[c(7,1:6)]
 
-newdata[which(newdata$Category == "Turnover (£ thousand)"),]$Category <- "Turnover"
-newdata[which(newdata$Category == "Exports (£ thousand)"),]$Category <- "Exports"
-newdata[which(newdata$Category == "Imports (£ thousand)"),]$Category <- "Imports"
-newdata[which(newdata$Category == "Acquisitions (£ thousand)"),]$Category <- "Aquisitions"
-newdata[which(newdata$Category == "Disposals (£ thousand)"),]$Category <- "Disposals"
+newdata[which(substr(newdata$Category,1,4) == "Turn"),]$Category <- "Turnover"
+newdata[which(substr(newdata$Category,1,4) == "Expo"),]$Category <- "Exports"
+newdata[which(substr(newdata$Category,1,4) == "Impo"),]$Category <- "Imports"
+newdata[which(substr(newdata$Category,1,4) == "Acqu"),]$Category <- "Aquisitions"
+newdata[which(substr(newdata$Category,1,4) == "Disp"),]$Category <- "Disposals"
 
 
 write.csv(newdata, "Output/LCRE/LCRE.csv", row.names = FALSE)
@@ -72,11 +72,11 @@ newdata <- as_tibble(newdata[complete.cases(newdata),])
 
 newdata <- newdata[c(8,1:7)]
 
-newdata[which(newdata$Category == "Turnover (£ thousand)"),]$Category <- "Turnover"
-newdata[which(newdata$Category == "Exports (£ thousand)"),]$Category <- "Exports"
-newdata[which(newdata$Category == "Imports (£ thousand)"),]$Category <- "Imports"
-newdata[which(newdata$Category == "Acquisitions (£ thousand)"),]$Category <- "Aquisitions"
-newdata[which(newdata$Category == "Disposals (£ thousand)"),]$Category <- "Disposals"
+newdata[which(substr(newdata$Category,1,4) == "Turn"),]$Category <- "Turnover"
+newdata[which(substr(newdata$Category,1,4) == "Expo"),]$Category <- "Exports"
+newdata[which(substr(newdata$Category,1,4) == "Impo"),]$Category <- "Imports"
+newdata[which(substr(newdata$Category,1,4) == "Acqu"),]$Category <- "Aquisitions"
+newdata[which(substr(newdata$Category,1,4) == "Disp"),]$Category <- "Disposals"
 
 newdata$Estimate <- as.numeric(newdata$Estimate)
 

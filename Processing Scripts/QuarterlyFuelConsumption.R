@@ -5,7 +5,7 @@ library(plyr)
 library(dplyr)
 library(timeDate)
 
-print("QuarterlyFuelConmeanption")
+print("QuarterlyFuelConsumption")
 
 AllScotland <- read_csv("Data Sources/National Grid API/AllScotland.csv")
 
