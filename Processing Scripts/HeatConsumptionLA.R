@@ -10,8 +10,6 @@ source("Processing Scripts/HeatEndUse.R")
 
 HeatWorking <- TotalFinalLAConsumption
 
-HeatWorking <- HeatWorking[which(substr(HeatWorking$`LA Code`,1,1)== "S"),]
-
 HeatWorking <- HeatWorking %>%  select(names(HeatEndUseMultipliers))
 
 HeatEndUseMultipliers <- merge(HeatEndUseMultipliers, HeatWorking[1:2], all = TRUE)
@@ -30,13 +28,18 @@ HeatWorking[4:20] <- HeatWorking[4:20] * HeatEndUseMultipliers[4:20]
 
 HeatWorking$Total <- rowSums(HeatWorking[4:20])
 
-write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLA.csv")
+write_csv(HeatWorking[which(substr(HeatWorking$`LA Code`,1,1)== "S"),], "Output/Consumption/HeatConsumptionbyLA.csv")
 
 HeatWorking$Coal <- HeatWorking$`Coal - Industrial` + HeatWorking$`Coal - Commercial` + HeatWorking$`Coal - Domestic`+ HeatWorking$`Coal - Public Sector`
 
 HeatWorking$`Manufactured fuels` <- HeatWorking$`Manufactured fuels - Industrial` + HeatWorking$`Manufactured fuels - Domestic`
 
-HeatWorking$`Petroleum products` <- HeatWorking$`Petroleum products - Industrial`+HeatWorking$`Petroleum products - Commercial`+HeatWorking$`Petroleum products - Domestic`+HeatWorking$`Petroleum products - Domestic`+HeatWorking$`Petroleum products - Public Sector`+HeatWorking$`Petroleum products - Agriculture`
+HeatWorking$`Petroleum products` <- HeatWorking$`Petroleum products - Industrial` +
+                                    HeatWorking$`Petroleum products - Commercial` +
+                                    HeatWorking$`Petroleum products - Domestic` +
+                                    HeatWorking$`Petroleum products - Public Sector` +
+                                    HeatWorking$`Petroleum products - Agriculture`
+  
 
 HeatWorking$`Total Gas` <- HeatWorking$`Gas - Industrial`+HeatWorking$`Gas - Commercial`+HeatWorking$`Gas - Domestic`
 
@@ -48,4 +51,4 @@ HeatDetailed <- HeatWorking
 
 HeatWorking[4:20] <- NULL
 
-write_csv(HeatWorking, "Output/Consumption/HeatConsumptionbyLAMap.csv")
+write_csv(HeatWorking[which(substr(HeatWorking$`LA Code`,1,1)== "S"),], "Output/Consumption/HeatConsumptionbyLAMap.csv")
