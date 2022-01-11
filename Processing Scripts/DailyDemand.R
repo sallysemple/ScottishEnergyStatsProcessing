@@ -56,11 +56,13 @@ TransportDemand <-
              sheet = "Month",
              skip = 2)
 
+#Name important columns
 names(TransportDemand)[c(1, 6, 7, 9)] <- c("YEAR", "Motor Spirit", "Aviation turbine fuel", "DERV fuel")
 
-
+#Seperate month and year into seperate columns
 TransportDemand <- separate(TransportDemand, YEAR, into = c("MONTH", "YEAR"), sep = " (?=[^ ]+$)")
 
+#Make all columns but first numerical
 TransportDemand[2:14]  %<>% lapply(function(x) as.numeric(as.character(x)))
 
 ### Convert Units ###
@@ -78,6 +80,7 @@ TransportDemand$Total <- TransportDemand$Total * 1000
 TransportDemand$Total <-
   TransportDemand$Total * (1000000000 / 3600000)
 
+#Scotland assumed to be 10%
 TransportDemand$Total <- TransportDemand$Total * 0.1
 
 ### Combine columns to create Date Column ###
@@ -108,21 +111,27 @@ TransportDemand <-
 source("Processing Scripts/QtrRenGen.R")
 source("Processing Scripts/UKRenGen.R")
 
-names(UKRenElecGen) <- paste0("UK", names(UKRenElecGen))
-names(UKRenElecGen)[1] <- "Quarter"
+#Give GB Data unique names
+names(GBRenElecGen) <- paste0("GB", names(GBRenElecGen))
 
-QTRElecGen <- merge(RenElecGenQTR, UKRenElecGen)
+#Rename first column back to quarter, so dataframes can be merged
+names(GBRenElecGen)[1] <- "Quarter"
 
+#Merge Scottish and GB data
+QTRElecGen <- merge(RenElecGenQTR, GBRenElecGen)
+
+#Ensure there is an all wind column
 QTRElecGen$ScotlandWind <- QTRElecGen$`Onshore Wind` + QTRElecGen$`Offshore Wind`
-QTRElecGen$UKWind <- QTRElecGen$`UKOnshore Wind` + QTRElecGen$`UKOffshore Wind`
+QTRElecGen$GBWind <- QTRElecGen$`GBOnshore Wind` + QTRElecGen$`GBOffshore Wind`
 
-QTRElecGen$WindProportion <- QTRElecGen$ScotlandWind / QTRElecGen$UKWind
+#Calculate Scottish proportion of GB
+QTRElecGen$WindProportion <- QTRElecGen$ScotlandWind / QTRElecGen$GBWind
+QTRElecGen$SolarProportion <- QTRElecGen$`Solar photovoltaics` / QTRElecGen$`GBSolar photovoltaics`
 
-QTRElecGen$SolarProportion <- QTRElecGen$`Solar photovoltaics` / QTRElecGen$`UKSolar photovoltaics`
-
-
+#Keep only useful columns
 QTRElecGen <- select(QTRElecGen, Quarter, WindProportion, SolarProportion)
 
+#Convert Date column
 QTRElecGen$SETTLEMENT_DATE <-  as.Date(as.yearqtr(QTRElecGen$Quarter, format="%Y-%m-%d"))
 
 
