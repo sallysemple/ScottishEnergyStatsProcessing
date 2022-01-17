@@ -1,5 +1,7 @@
 library(readxl)
 
+###SOURCE DATA NEEDS TO BE UPDATED MANUALLY
+
 EnergyComplaintsDistrict <- read_excel("Data Sources/MANUAL/EnergyComplaints.xlsx", sheet = "District")
 
 write.table(EnergyComplaintsDistrict,
