@@ -20,7 +20,7 @@ GasPaymentMethod <- select(GasPaymentMethod,
                            "All payment types (%)"
                            )
 
-names(GasPaymentMethod) <- c(Quarter, Region, "Fixed Tariff Proportion")
+names(GasPaymentMethod) <- c("Quarter", "Region", "Fixed Tariff Proportion")
 
 GasPaymentMethod <- dcast(GasPaymentMethod, Quarter ~ Region)
 
