@@ -331,7 +331,7 @@ TotalFinalLAConsumption$`Gas - Industrial & Commercial` <- NULL
 # Repeat for Electricity
 TotalFinalLAConsumption$`Electricity - Industrial` <- TotalFinalLAConsumption$`Electricity - Industrial` * TotalFinalLAConsumption$`Electricity - Industrial & Commercial`
 TotalFinalLAConsumption$`Electricity - Commercial` <- TotalFinalLAConsumption$`Electricity - Commercial` * TotalFinalLAConsumption$`Electricity - Industrial & Commercial`
-TotalFinalLAConsumption$`Electricity - Industrial & Commercial` <- NULL
+
 
 # Repeat for Bioenergy & Wastes
 TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` <- TotalFinalLAConsumption$`Bioenergy & Wastes - Industrial` * TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial`
@@ -339,7 +339,7 @@ TotalFinalLAConsumption$`Bioenergy & Wastes - Commercial` <- TotalFinalLAConsump
 TotalFinalLAConsumption$`Bioenergy & wastes - Industrial & Commercial` <- NULL
 
 # Reorganise Data Frame
-TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1,2,4, 10:27, 35,36,28:29,39,40,30,31, 37, 38, 32,33,34, 9, 6,7,8  )]
+TotalFinalLAConsumption <- TotalFinalLAConsumption[c(1,2,4, 10:27, 35,36,28:29,39,40,30, 40, 41, 31, 37, 38, 32,33,34, 9, 6,7,8  )]
 
 # Rename Local Authority column to region
 names(TotalFinalLAConsumption)[3] <- "Region"

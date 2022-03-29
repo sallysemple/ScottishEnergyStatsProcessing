@@ -736,546 +736,546 @@
 "735",2017,"Total","Overall total","Electricity","2017TotalOverall totalElectricity",31261.9513504073
 "736",2017,"Total","Overall total excluding transport","Electricity","2017TotalOverall total excluding transportElectricity",30846.3649913678
 "737",2020,"Domestic","Space heating","Heat sold","2020DomesticSpace heatingHeat sold",269.462407362872
-"740",2020,"Domestic","Heat total","Heat sold","2020DomesticHeat totalHeat sold",269.462407362872
-"741",2020,"Domestic","Lighting and appliances","Heat sold","2020DomesticLighting and appliancesHeat sold",0
-"742",2020,"Domestic","Overall total","Heat sold","2020DomesticOverall totalHeat sold",269.462407362872
-"743",2020,"Service","Space heating","Heat sold","2020ServiceSpace heatingHeat sold",246.252066196825
-"744",2020,"Service","Water heating","Heat sold","2020ServiceWater heatingHeat sold",16.271308007129
-"745",2020,"Service","Cooking/catering","Heat sold","2020ServiceCooking/cateringHeat sold",0
-"746",2020,"Service","Heat total","Heat sold","2020ServiceHeat totalHeat sold",262.523374203954
-"747",2020,"Service","Computing","Heat sold","2020ServiceComputingHeat sold",0
-"748",2020,"Service","Cooling and ventilation","Heat sold","2020ServiceCooling and ventilationHeat sold",0.0478636250034596
-"749",2020,"Service","Lighting","Heat sold","2020ServiceLightingHeat sold",0
-"750",2020,"Service","Other","Heat sold","2020ServiceOtherHeat sold",0
-"751",2020,"Service","Overall total","Heat sold","2020ServiceOverall totalHeat sold",262.571237828957
-"752",2020,"Industry","Space heating","Heat sold","2020IndustrySpace heatingHeat sold",0
-"753",2020,"Industry","High temperature process","Heat sold","2020IndustryHigh temperature processHeat sold",0
-"754",2020,"Industry","Low temperature process","Heat sold","2020IndustryLow temperature processHeat sold",0
-"755",2020,"Industry","Drying/separation","Heat sold","2020IndustryDrying/separationHeat sold",0
-"756",2020,"Industry","Unkown (heat)","Heat sold","2020IndustryUnkown (heat)Heat sold",681.757453574296
-"757",2020,"Industry","Heat total","Heat sold","2020IndustryHeat totalHeat sold",681.757453574296
-"758",2020,"Industry","Motors","Heat sold","2020IndustryMotorsHeat sold",0
-"759",2020,"Industry","Compressed air","Heat sold","2020IndustryCompressed airHeat sold",0
-"760",2020,"Industry","Lighting","Heat sold","2020IndustryLightingHeat sold",0
-"761",2020,"Industry","Refrigeration","Heat sold","2020IndustryRefrigerationHeat sold",0
-"762",2020,"Industry","Other","Heat sold","2020IndustryOtherHeat sold",0
-"763",2020,"Industry","Overall total","Heat sold","2020IndustryOverall totalHeat sold",681.757453574296
-"764",2020,"Transport","Non-heat purposes","Heat sold","2020TransportNon-heat purposesHeat sold",0
-"765",2020,"Total","Space heating","Heat sold","2020TotalSpace heatingHeat sold",515.714473559697
-"766",2020,"Total","Water heating","Heat sold","2020TotalWater heatingHeat sold",16.271308007129
-"767",2020,"Total","Cooking/catering","Heat sold","2020TotalCooking/cateringHeat sold",0
-"768",2020,"Total","Process use","Heat sold","2020TotalProcess useHeat sold",0
-"769",2020,"Total","Drying/separation","Heat sold","2020TotalDrying/separationHeat sold",0
-"770",2020,"Total","Unkown (heat)","Heat sold","2020TotalUnkown (heat)Heat sold",681.757453574296
-"771",2020,"Total","Heat total","Heat sold","2020TotalHeat totalHeat sold",1213.74323514112
-"772",2020,"Total","Computing","Heat sold","2020TotalComputingHeat sold",0
-"773",2020,"Total","Cooling and ventilation","Heat sold","2020TotalCooling and ventilationHeat sold",0.0478636250034596
-"774",2020,"Total","Lighting and appliances","Heat sold","2020TotalLighting and appliancesHeat sold",0
-"775",2020,"Total","Motors","Heat sold","2020TotalMotorsHeat sold",0
-"776",2020,"Total","Compressed air","Heat sold","2020TotalCompressed airHeat sold",0
-"777",2020,"Total","Refrigeration","Heat sold","2020TotalRefrigerationHeat sold",0
-"778",2020,"Total","Other","Heat sold","2020TotalOtherHeat sold",0
-"779",2020,"Total","Transport","Heat sold","2020TotalTransportHeat sold",0
-"780",2020,"Total","Non-heat total","Heat sold","2020TotalNon-heat totalHeat sold",0.0478636250034596
-"781",2020,"Total","Overall total","Heat sold","2020TotalOverall totalHeat sold",1213.79109876613
-"782",2020,"Total","Overall total excluding transport","Heat sold","2020TotalOverall total excluding transportHeat sold",1213.79109876613
-"783",2019,"Domestic","Space heating","Heat sold","2019DomesticSpace heatingHeat sold",269.495403211161
-"786",2019,"Domestic","Heat total","Heat sold","2019DomesticHeat totalHeat sold",269.495403211161
-"787",2019,"Domestic","Lighting and appliances","Heat sold","2019DomesticLighting and appliancesHeat sold",0
-"788",2019,"Domestic","Overall total","Heat sold","2019DomesticOverall totalHeat sold",269.495403211161
-"789",2019,"Service","Space heating","Heat sold","2019ServiceSpace heatingHeat sold",245.003764910784
-"790",2019,"Service","Water heating","Heat sold","2019ServiceWater heatingHeat sold",16.1888254719587
-"791",2019,"Service","Cooking/catering","Heat sold","2019ServiceCooking/cateringHeat sold",0.391699610645484
-"792",2019,"Service","Heat total","Heat sold","2019ServiceHeat totalHeat sold",261.584289993389
-"793",2019,"Service","Computing","Heat sold","2019ServiceComputingHeat sold",0
-"794",2019,"Service","Cooling and ventilation","Heat sold","2019ServiceCooling and ventilationHeat sold",0.0476209946549345
-"795",2019,"Service","Lighting","Heat sold","2019ServiceLightingHeat sold",0
-"796",2019,"Service","Other","Heat sold","2019ServiceOtherHeat sold",37.089788622602
-"797",2019,"Service","Overall total","Heat sold","2019ServiceOverall totalHeat sold",298.721699610645
-"798",2019,"Industry","Space heating","Heat sold","2019IndustrySpace heatingHeat sold",0
-"799",2019,"Industry","High temperature process","Heat sold","2019IndustryHigh temperature processHeat sold",0
-"800",2019,"Industry","Low temperature process","Heat sold","2019IndustryLow temperature processHeat sold",0
-"801",2019,"Industry","Drying/separation","Heat sold","2019IndustryDrying/separationHeat sold",0
-"802",2019,"Industry","Unkown (heat)","Heat sold","2019IndustryUnkown (heat)Heat sold",681.757453574296
-"803",2019,"Industry","Heat total","Heat sold","2019IndustryHeat totalHeat sold",681.757453574296
-"804",2019,"Industry","Motors","Heat sold","2019IndustryMotorsHeat sold",0
-"805",2019,"Industry","Compressed air","Heat sold","2019IndustryCompressed airHeat sold",0
-"806",2019,"Industry","Lighting","Heat sold","2019IndustryLightingHeat sold",0
-"807",2019,"Industry","Refrigeration","Heat sold","2019IndustryRefrigerationHeat sold",0
-"808",2019,"Industry","Other","Heat sold","2019IndustryOtherHeat sold",0
-"809",2019,"Industry","Overall total","Heat sold","2019IndustryOverall totalHeat sold",681.757453574296
-"810",2019,"Transport","Non-heat purposes","Heat sold","2019TransportNon-heat purposesHeat sold",0
-"811",2019,"Total","Space heating","Heat sold","2019TotalSpace heatingHeat sold",514.499168121946
-"812",2019,"Total","Water heating","Heat sold","2019TotalWater heatingHeat sold",16.1888254719587
-"813",2019,"Total","Cooking/catering","Heat sold","2019TotalCooking/cateringHeat sold",0.391699610645484
-"814",2019,"Total","Process use","Heat sold","2019TotalProcess useHeat sold",0
-"815",2019,"Total","Drying/separation","Heat sold","2019TotalDrying/separationHeat sold",0
-"816",2019,"Total","Unkown (heat)","Heat sold","2019TotalUnkown (heat)Heat sold",681.757453574296
-"817",2019,"Total","Heat total","Heat sold","2019TotalHeat totalHeat sold",1212.83714677885
-"818",2019,"Total","Computing","Heat sold","2019TotalComputingHeat sold",0
-"819",2019,"Total","Cooling and ventilation","Heat sold","2019TotalCooling and ventilationHeat sold",0.0476209946549345
-"820",2019,"Total","Lighting and appliances","Heat sold","2019TotalLighting and appliancesHeat sold",0
-"821",2019,"Total","Motors","Heat sold","2019TotalMotorsHeat sold",0
-"822",2019,"Total","Compressed air","Heat sold","2019TotalCompressed airHeat sold",0
-"823",2019,"Total","Refrigeration","Heat sold","2019TotalRefrigerationHeat sold",0
-"824",2019,"Total","Other","Heat sold","2019TotalOtherHeat sold",37.089788622602
-"825",2019,"Total","Transport","Heat sold","2019TotalTransportHeat sold",0
-"826",2019,"Total","Non-heat total","Heat sold","2019TotalNon-heat totalHeat sold",37.1374096172569
-"827",2019,"Total","Overall total","Heat sold","2019TotalOverall totalHeat sold",1249.9745563961
-"828",2019,"Total","Overall total excluding transport","Heat sold","2019TotalOverall total excluding transportHeat sold",1249.9745563961
-"829",2018,"Domestic","Space heating","Heat sold","2018DomesticSpace heatingHeat sold",269.859581233747
-"832",2018,"Domestic","Heat total","Heat sold","2018DomesticHeat totalHeat sold",269.859581233747
-"833",2018,"Domestic","Lighting and appliances","Heat sold","2018DomesticLighting and appliancesHeat sold",0
-"834",2018,"Domestic","Overall total","Heat sold","2018DomesticOverall totalHeat sold",269.859581233747
-"835",2018,"Service","Space heating","Heat sold","2018ServiceSpace heatingHeat sold",249.906632461877
-"836",2018,"Service","Water heating","Heat sold","2018ServiceWater heatingHeat sold",16.5127864818055
-"837",2018,"Service","Cooking/catering","Heat sold","2018ServiceCooking/cateringHeat sold",0.391699610645484
-"838",2018,"Service","Heat total","Heat sold","2018ServiceHeat totalHeat sold",266.811118554328
-"839",2018,"Service","Computing","Heat sold","2018ServiceComputingHeat sold",0
-"840",2018,"Service","Cooling and ventilation","Heat sold","2018ServiceCooling and ventilationHeat sold",0.0485739572738128
-"841",2018,"Service","Lighting","Heat sold","2018ServiceLightingHeat sold",0
-"842",2018,"Service","Other","Heat sold","2018ServiceOtherHeat sold",37.832007099044
-"843",2018,"Service","Overall total","Heat sold","2018ServiceOverall totalHeat sold",304.691699610645
-"844",2018,"Industry","Space heating","Heat sold","2018IndustrySpace heatingHeat sold",0
-"845",2018,"Industry","High temperature process","Heat sold","2018IndustryHigh temperature processHeat sold",0
-"846",2018,"Industry","Low temperature process","Heat sold","2018IndustryLow temperature processHeat sold",0
-"847",2018,"Industry","Drying/separation","Heat sold","2018IndustryDrying/separationHeat sold",0
-"848",2018,"Industry","Unkown (heat)","Heat sold","2018IndustryUnkown (heat)Heat sold",681.757453574296
-"849",2018,"Industry","Heat total","Heat sold","2018IndustryHeat totalHeat sold",681.757453574296
-"850",2018,"Industry","Motors","Heat sold","2018IndustryMotorsHeat sold",0
-"851",2018,"Industry","Compressed air","Heat sold","2018IndustryCompressed airHeat sold",0
-"852",2018,"Industry","Lighting","Heat sold","2018IndustryLightingHeat sold",0
-"853",2018,"Industry","Refrigeration","Heat sold","2018IndustryRefrigerationHeat sold",0
-"854",2018,"Industry","Other","Heat sold","2018IndustryOtherHeat sold",0
-"855",2018,"Industry","Overall total","Heat sold","2018IndustryOverall totalHeat sold",681.757453574296
-"856",2018,"Transport","Non-heat purposes","Heat sold","2018TransportNon-heat purposesHeat sold",0
-"857",2018,"Total","Space heating","Heat sold","2018TotalSpace heatingHeat sold",519.766213695623
-"858",2018,"Total","Water heating","Heat sold","2018TotalWater heatingHeat sold",16.5127864818055
-"859",2018,"Total","Cooking/catering","Heat sold","2018TotalCooking/cateringHeat sold",0.391699610645484
-"860",2018,"Total","Process use","Heat sold","2018TotalProcess useHeat sold",0
-"861",2018,"Total","Drying/separation","Heat sold","2018TotalDrying/separationHeat sold",0
-"862",2018,"Total","Unkown (heat)","Heat sold","2018TotalUnkown (heat)Heat sold",681.757453574296
-"863",2018,"Total","Heat total","Heat sold","2018TotalHeat totalHeat sold",1218.42815336237
-"864",2018,"Total","Computing","Heat sold","2018TotalComputingHeat sold",0
-"865",2018,"Total","Cooling and ventilation","Heat sold","2018TotalCooling and ventilationHeat sold",0.0485739572738128
-"866",2018,"Total","Lighting and appliances","Heat sold","2018TotalLighting and appliancesHeat sold",0
-"867",2018,"Total","Motors","Heat sold","2018TotalMotorsHeat sold",0
-"868",2018,"Total","Compressed air","Heat sold","2018TotalCompressed airHeat sold",0
-"869",2018,"Total","Refrigeration","Heat sold","2018TotalRefrigerationHeat sold",0
-"870",2018,"Total","Other","Heat sold","2018TotalOtherHeat sold",37.832007099044
-"871",2018,"Total","Transport","Heat sold","2018TotalTransportHeat sold",0
-"872",2018,"Total","Non-heat total","Heat sold","2018TotalNon-heat totalHeat sold",37.8805810563178
-"873",2018,"Total","Overall total","Heat sold","2018TotalOverall totalHeat sold",1256.30873441869
-"874",2018,"Total","Overall total excluding transport","Heat sold","2018TotalOverall total excluding transportHeat sold",1256.30873441869
-"875",2017,"Domestic","Space heating","Heat sold","2017DomesticSpace heatingHeat sold",268.564263989356
-"878",2017,"Domestic","Heat total","Heat sold","2017DomesticHeat totalHeat sold",268.564263989356
-"879",2017,"Domestic","Lighting and appliances","Heat sold","2017DomesticLighting and appliancesHeat sold",0
-"880",2017,"Domestic","Overall total","Heat sold","2017DomesticOverall totalHeat sold",268.564263989356
-"881",2017,"Service","Space heating","Heat sold","2017ServiceSpace heatingHeat sold",240.749685528094
-"882",2017,"Service","Water heating","Heat sold","2017ServiceWater heatingHeat sold",15.9077336744702
-"883",2017,"Service","Cooking/catering","Heat sold","2017ServiceCooking/cateringHeat sold",0.391699610645484
-"884",2017,"Service","Heat total","Heat sold","2017ServiceHeat totalHeat sold",257.04911881321
-"885",2017,"Service","Computing","Heat sold","2017ServiceComputingHeat sold",0
-"886",2017,"Service","Cooling and ventilation","Heat sold","2017ServiceCooling and ventilationHeat sold",0.0467941359671976
-"887",2017,"Service","Lighting","Heat sold","2017ServiceLightingHeat sold",0
-"888",2017,"Service","Other","Heat sold","2017ServiceOtherHeat sold",36.4457866614681
-"889",2017,"Service","Overall total","Heat sold","2017ServiceOverall totalHeat sold",293.541699610645
-"890",2017,"Industry","Space heating","Heat sold","2017IndustrySpace heatingHeat sold",0
-"891",2017,"Industry","High temperature process","Heat sold","2017IndustryHigh temperature processHeat sold",0
-"892",2017,"Industry","Low temperature process","Heat sold","2017IndustryLow temperature processHeat sold",0
-"893",2017,"Industry","Drying/separation","Heat sold","2017IndustryDrying/separationHeat sold",0
-"894",2017,"Industry","Unkown (heat)","Heat sold","2017IndustryUnkown (heat)Heat sold",681.757453574296
-"895",2017,"Industry","Heat total","Heat sold","2017IndustryHeat totalHeat sold",681.757453574296
-"896",2017,"Industry","Motors","Heat sold","2017IndustryMotorsHeat sold",0
-"897",2017,"Industry","Compressed air","Heat sold","2017IndustryCompressed airHeat sold",0
-"898",2017,"Industry","Lighting","Heat sold","2017IndustryLightingHeat sold",0
-"899",2017,"Industry","Refrigeration","Heat sold","2017IndustryRefrigerationHeat sold",0
-"900",2017,"Industry","Other","Heat sold","2017IndustryOtherHeat sold",0
-"901",2017,"Industry","Overall total","Heat sold","2017IndustryOverall totalHeat sold",681.757453574296
-"902",2017,"Transport","Non-heat purposes","Heat sold","2017TransportNon-heat purposesHeat sold",0
-"903",2017,"Total","Space heating","Heat sold","2017TotalSpace heatingHeat sold",509.31394951745
-"904",2017,"Total","Water heating","Heat sold","2017TotalWater heatingHeat sold",15.9077336744702
-"905",2017,"Total","Cooking/catering","Heat sold","2017TotalCooking/cateringHeat sold",0.391699610645484
-"906",2017,"Total","Process use","Heat sold","2017TotalProcess useHeat sold",0
-"907",2017,"Total","Drying/separation","Heat sold","2017TotalDrying/separationHeat sold",0
-"908",2017,"Total","Unkown (heat)","Heat sold","2017TotalUnkown (heat)Heat sold",681.757453574296
-"909",2017,"Total","Heat total","Heat sold","2017TotalHeat totalHeat sold",1207.37083637686
-"910",2017,"Total","Computing","Heat sold","2017TotalComputingHeat sold",0
-"911",2017,"Total","Cooling and ventilation","Heat sold","2017TotalCooling and ventilationHeat sold",0.0467941359671976
-"912",2017,"Total","Lighting and appliances","Heat sold","2017TotalLighting and appliancesHeat sold",0
-"913",2017,"Total","Motors","Heat sold","2017TotalMotorsHeat sold",0
-"914",2017,"Total","Compressed air","Heat sold","2017TotalCompressed airHeat sold",0
-"915",2017,"Total","Refrigeration","Heat sold","2017TotalRefrigerationHeat sold",0
-"916",2017,"Total","Other","Heat sold","2017TotalOtherHeat sold",36.4457866614681
-"917",2017,"Total","Transport","Heat sold","2017TotalTransportHeat sold",0
-"918",2017,"Total","Non-heat total","Heat sold","2017TotalNon-heat totalHeat sold",36.4925807974353
-"919",2017,"Total","Overall total","Heat sold","2017TotalOverall totalHeat sold",1243.8634171743
-"920",2017,"Total","Overall total excluding transport","Heat sold","2017TotalOverall total excluding transportHeat sold",1243.8634171743
-"921",2020,"Domestic","Space heating","Bioenergy & Waste","2020DomesticSpace heatingBioenergy & Waste",207.572413323377
-"922",2020,"Domestic","Water heating","Bioenergy & Waste","2020DomesticWater heatingBioenergy & Waste",61.8899940394949
-"923",2020,"Domestic","Cooking/catering","Bioenergy & Waste","2020DomesticCooking/cateringBioenergy & Waste",0
-"924",2020,"Domestic","Heat total","Bioenergy & Waste","2020DomesticHeat totalBioenergy & Waste",269.462407362872
-"925",2020,"Domestic","Lighting and appliances","Bioenergy & Waste","2020DomesticLighting and appliancesBioenergy & Waste",0
-"926",2020,"Domestic","Overall total","Bioenergy & Waste","2020DomesticOverall totalBioenergy & Waste",269.462407362872
-"927",2020,"Service","Space heating","Bioenergy & Waste","2020ServiceSpace heatingBioenergy & Waste",991.591917584019
-"928",2020,"Service","Water heating","Bioenergy & Waste","2020ServiceWater heatingBioenergy & Waste",128.392183030408
-"929",2020,"Service","Cooking/catering","Bioenergy & Waste","2020ServiceCooking/cateringBioenergy & Waste",0
-"930",2020,"Service","Heat total","Bioenergy & Waste","2020ServiceHeat totalBioenergy & Waste",1119.98410061443
-"931",2020,"Service","Computing","Bioenergy & Waste","2020ServiceComputingBioenergy & Waste",0
-"932",2020,"Service","Cooling and ventilation","Bioenergy & Waste","2020ServiceCooling and ventilationBioenergy & Waste",0
-"933",2020,"Service","Lighting","Bioenergy & Waste","2020ServiceLightingBioenergy & Waste",0
-"934",2020,"Service","Other","Bioenergy & Waste","2020ServiceOtherBioenergy & Waste",0
-"935",2020,"Service","Overall total","Bioenergy & Waste","2020ServiceOverall totalBioenergy & Waste",1119.98410061443
-"936",2020,"Industry","Space heating","Bioenergy & Waste","2020IndustrySpace heatingBioenergy & Waste",0
-"937",2020,"Industry","High temperature process","Bioenergy & Waste","2020IndustryHigh temperature processBioenergy & Waste",0
-"938",2020,"Industry","Low temperature process","Bioenergy & Waste","2020IndustryLow temperature processBioenergy & Waste",0
-"939",2020,"Industry","Drying/separation","Bioenergy & Waste","2020IndustryDrying/separationBioenergy & Waste",0
-"940",2020,"Industry","Unkown (heat)","Bioenergy & Waste","2020IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
-"941",2020,"Industry","Heat total","Bioenergy & Waste","2020IndustryHeat totalBioenergy & Waste",1676.28698914035
-"942",2020,"Industry","Motors","Bioenergy & Waste","2020IndustryMotorsBioenergy & Waste",0
-"943",2020,"Industry","Compressed air","Bioenergy & Waste","2020IndustryCompressed airBioenergy & Waste",0
-"944",2020,"Industry","Lighting","Bioenergy & Waste","2020IndustryLightingBioenergy & Waste",0
-"945",2020,"Industry","Refrigeration","Bioenergy & Waste","2020IndustryRefrigerationBioenergy & Waste",0
-"946",2020,"Industry","Other","Bioenergy & Waste","2020IndustryOtherBioenergy & Waste",0
-"947",2020,"Industry","Overall total","Bioenergy & Waste","2020IndustryOverall totalBioenergy & Waste",1676.28698914035
-"948",2020,"Transport","Non-heat purposes","Bioenergy & Waste","2020TransportNon-heat purposesBioenergy & Waste",1638.39609488822
-"949",2020,"Total","Space heating","Bioenergy & Waste","2020TotalSpace heatingBioenergy & Waste",1199.1643309074
-"950",2020,"Total","Water heating","Bioenergy & Waste","2020TotalWater heatingBioenergy & Waste",190.282177069903
-"951",2020,"Total","Cooking/catering","Bioenergy & Waste","2020TotalCooking/cateringBioenergy & Waste",0
-"952",2020,"Total","Process use","Bioenergy & Waste","2020TotalProcess useBioenergy & Waste",0
-"953",2020,"Total","Drying/separation","Bioenergy & Waste","2020TotalDrying/separationBioenergy & Waste",0
-"954",2020,"Total","Unkown (heat)","Bioenergy & Waste","2020TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
-"955",2020,"Total","Heat total","Bioenergy & Waste","2020TotalHeat totalBioenergy & Waste",3065.73349711765
-"956",2020,"Total","Computing","Bioenergy & Waste","2020TotalComputingBioenergy & Waste",0
-"957",2020,"Total","Cooling and ventilation","Bioenergy & Waste","2020TotalCooling and ventilationBioenergy & Waste",0
-"958",2020,"Total","Lighting and appliances","Bioenergy & Waste","2020TotalLighting and appliancesBioenergy & Waste",0
-"959",2020,"Total","Motors","Bioenergy & Waste","2020TotalMotorsBioenergy & Waste",0
-"960",2020,"Total","Compressed air","Bioenergy & Waste","2020TotalCompressed airBioenergy & Waste",0
-"961",2020,"Total","Refrigeration","Bioenergy & Waste","2020TotalRefrigerationBioenergy & Waste",0
-"962",2020,"Total","Other","Bioenergy & Waste","2020TotalOtherBioenergy & Waste",0
-"963",2020,"Total","Transport","Bioenergy & Waste","2020TotalTransportBioenergy & Waste",1638.39609488822
-"964",2020,"Total","Non-heat total","Bioenergy & Waste","2020TotalNon-heat totalBioenergy & Waste",1638.39609488822
-"965",2020,"Total","Overall total","Bioenergy & Waste","2020TotalOverall totalBioenergy & Waste",4704.12959200587
-"966",2020,"Total","Overall total excluding transport","Bioenergy & Waste","2020TotalOverall total excluding transportBioenergy & Waste",3065.73349711765
-"967",2019,"Domestic","Space heating","Bioenergy & Waste","2019DomesticSpace heatingBioenergy & Waste",207.597830701356
-"968",2019,"Domestic","Water heating","Bioenergy & Waste","2019DomesticWater heatingBioenergy & Waste",61.8975725098052
-"969",2019,"Domestic","Cooking/catering","Bioenergy & Waste","2019DomesticCooking/cateringBioenergy & Waste",0
-"970",2019,"Domestic","Heat total","Bioenergy & Waste","2019DomesticHeat totalBioenergy & Waste",269.495403211161
-"971",2019,"Domestic","Lighting and appliances","Bioenergy & Waste","2019DomesticLighting and appliancesBioenergy & Waste",0
-"972",2019,"Domestic","Overall total","Bioenergy & Waste","2019DomesticOverall totalBioenergy & Waste",269.495403211161
-"973",2019,"Service","Space heating","Bioenergy & Waste","2019ServiceSpace heatingBioenergy & Waste",885.494898166712
-"974",2019,"Service","Water heating","Bioenergy & Waste","2019ServiceWater heatingBioenergy & Waste",114.654648774181
-"975",2019,"Service","Cooking/catering","Bioenergy & Waste","2019ServiceCooking/cateringBioenergy & Waste",0
-"976",2019,"Service","Heat total","Bioenergy & Waste","2019ServiceHeat totalBioenergy & Waste",1000.14954694089
-"977",2019,"Service","Computing","Bioenergy & Waste","2019ServiceComputingBioenergy & Waste",0
-"978",2019,"Service","Cooling and ventilation","Bioenergy & Waste","2019ServiceCooling and ventilationBioenergy & Waste",0
-"979",2019,"Service","Lighting","Bioenergy & Waste","2019ServiceLightingBioenergy & Waste",0
-"980",2019,"Service","Other","Bioenergy & Waste","2019ServiceOtherBioenergy & Waste",190.920453059106
-"981",2019,"Service","Overall total","Bioenergy & Waste","2019ServiceOverall totalBioenergy & Waste",1191.07
-"982",2019,"Industry","Space heating","Bioenergy & Waste","2019IndustrySpace heatingBioenergy & Waste",0
-"983",2019,"Industry","High temperature process","Bioenergy & Waste","2019IndustryHigh temperature processBioenergy & Waste",0
-"984",2019,"Industry","Low temperature process","Bioenergy & Waste","2019IndustryLow temperature processBioenergy & Waste",0
-"985",2019,"Industry","Drying/separation","Bioenergy & Waste","2019IndustryDrying/separationBioenergy & Waste",0
-"986",2019,"Industry","Unkown (heat)","Bioenergy & Waste","2019IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
-"987",2019,"Industry","Heat total","Bioenergy & Waste","2019IndustryHeat totalBioenergy & Waste",1676.28698914035
-"988",2019,"Industry","Motors","Bioenergy & Waste","2019IndustryMotorsBioenergy & Waste",0
-"989",2019,"Industry","Compressed air","Bioenergy & Waste","2019IndustryCompressed airBioenergy & Waste",0
-"990",2019,"Industry","Lighting","Bioenergy & Waste","2019IndustryLightingBioenergy & Waste",0
-"991",2019,"Industry","Refrigeration","Bioenergy & Waste","2019IndustryRefrigerationBioenergy & Waste",0
-"992",2019,"Industry","Other","Bioenergy & Waste","2019IndustryOtherBioenergy & Waste",0
-"993",2019,"Industry","Overall total","Bioenergy & Waste","2019IndustryOverall totalBioenergy & Waste",1676.28698914035
-"994",2019,"Transport","Non-heat purposes","Bioenergy & Waste","2019TransportNon-heat purposesBioenergy & Waste",1736.05300680099
-"995",2019,"Total","Space heating","Bioenergy & Waste","2019TotalSpace heatingBioenergy & Waste",1093.09272886807
-"996",2019,"Total","Water heating","Bioenergy & Waste","2019TotalWater heatingBioenergy & Waste",176.552221283987
-"997",2019,"Total","Cooking/catering","Bioenergy & Waste","2019TotalCooking/cateringBioenergy & Waste",0
-"998",2019,"Total","Process use","Bioenergy & Waste","2019TotalProcess useBioenergy & Waste",0
-"999",2019,"Total","Drying/separation","Bioenergy & Waste","2019TotalDrying/separationBioenergy & Waste",0
-"1000",2019,"Total","Unkown (heat)","Bioenergy & Waste","2019TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
-"1001",2019,"Total","Heat total","Bioenergy & Waste","2019TotalHeat totalBioenergy & Waste",2945.93193929241
-"1002",2019,"Total","Computing","Bioenergy & Waste","2019TotalComputingBioenergy & Waste",0
-"1003",2019,"Total","Cooling and ventilation","Bioenergy & Waste","2019TotalCooling and ventilationBioenergy & Waste",0
-"1004",2019,"Total","Lighting and appliances","Bioenergy & Waste","2019TotalLighting and appliancesBioenergy & Waste",0
-"1005",2019,"Total","Motors","Bioenergy & Waste","2019TotalMotorsBioenergy & Waste",0
-"1006",2019,"Total","Compressed air","Bioenergy & Waste","2019TotalCompressed airBioenergy & Waste",0
-"1007",2019,"Total","Refrigeration","Bioenergy & Waste","2019TotalRefrigerationBioenergy & Waste",0
-"1008",2019,"Total","Other","Bioenergy & Waste","2019TotalOtherBioenergy & Waste",190.920453059106
-"1009",2019,"Total","Transport","Bioenergy & Waste","2019TotalTransportBioenergy & Waste",1736.05300680099
-"1010",2019,"Total","Non-heat total","Bioenergy & Waste","2019TotalNon-heat totalBioenergy & Waste",1926.9734598601
-"1011",2019,"Total","Overall total","Bioenergy & Waste","2019TotalOverall totalBioenergy & Waste",4872.90539915251
-"1012",2019,"Total","Overall total excluding transport","Bioenergy & Waste","2019TotalOverall total excluding transportBioenergy & Waste",3136.85239235152
-"1013",2018,"Domestic","Space heating","Bioenergy & Waste","2018DomesticSpace heatingBioenergy & Waste",207.878364493684
-"1014",2018,"Domestic","Water heating","Bioenergy & Waste","2018DomesticWater heatingBioenergy & Waste",61.9812167400625
-"1015",2018,"Domestic","Cooking/catering","Bioenergy & Waste","2018DomesticCooking/cateringBioenergy & Waste",0
-"1016",2018,"Domestic","Heat total","Bioenergy & Waste","2018DomesticHeat totalBioenergy & Waste",269.859581233747
-"1017",2018,"Domestic","Lighting and appliances","Bioenergy & Waste","2018DomesticLighting and appliancesBioenergy & Waste",0
-"1018",2018,"Domestic","Overall total","Bioenergy & Waste","2018DomesticOverall totalBioenergy & Waste",269.859581233747
-"1019",2018,"Service","Space heating","Bioenergy & Waste","2018ServiceSpace heatingBioenergy & Waste",878.067883774036
-"1020",2018,"Service","Water heating","Bioenergy & Waste","2018ServiceWater heatingBioenergy & Waste",113.692992497679
-"1021",2018,"Service","Cooking/catering","Bioenergy & Waste","2018ServiceCooking/cateringBioenergy & Waste",0
-"1022",2018,"Service","Heat total","Bioenergy & Waste","2018ServiceHeat totalBioenergy & Waste",991.760876271714
-"1023",2018,"Service","Computing","Bioenergy & Waste","2018ServiceComputingBioenergy & Waste",0
-"1024",2018,"Service","Cooling and ventilation","Bioenergy & Waste","2018ServiceCooling and ventilationBioenergy & Waste",0
-"1025",2018,"Service","Lighting","Bioenergy & Waste","2018ServiceLightingBioenergy & Waste",0
-"1026",2018,"Service","Other","Bioenergy & Waste","2018ServiceOtherBioenergy & Waste",189.319123728286
-"1027",2018,"Service","Overall total","Bioenergy & Waste","2018ServiceOverall totalBioenergy & Waste",1181.08
-"1028",2018,"Industry","Space heating","Bioenergy & Waste","2018IndustrySpace heatingBioenergy & Waste",0
-"1029",2018,"Industry","High temperature process","Bioenergy & Waste","2018IndustryHigh temperature processBioenergy & Waste",0
-"1030",2018,"Industry","Low temperature process","Bioenergy & Waste","2018IndustryLow temperature processBioenergy & Waste",0
-"1031",2018,"Industry","Drying/separation","Bioenergy & Waste","2018IndustryDrying/separationBioenergy & Waste",0
-"1032",2018,"Industry","Unkown (heat)","Bioenergy & Waste","2018IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
-"1033",2018,"Industry","Heat total","Bioenergy & Waste","2018IndustryHeat totalBioenergy & Waste",1676.28698914035
-"1034",2018,"Industry","Motors","Bioenergy & Waste","2018IndustryMotorsBioenergy & Waste",0
-"1035",2018,"Industry","Compressed air","Bioenergy & Waste","2018IndustryCompressed airBioenergy & Waste",0
-"1036",2018,"Industry","Lighting","Bioenergy & Waste","2018IndustryLightingBioenergy & Waste",0
-"1037",2018,"Industry","Refrigeration","Bioenergy & Waste","2018IndustryRefrigerationBioenergy & Waste",0
-"1038",2018,"Industry","Other","Bioenergy & Waste","2018IndustryOtherBioenergy & Waste",0
-"1039",2018,"Industry","Overall total","Bioenergy & Waste","2018IndustryOverall totalBioenergy & Waste",1676.28698914035
-"1040",2018,"Transport","Non-heat purposes","Bioenergy & Waste","2018TransportNon-heat purposesBioenergy & Waste",1364.79411483711
-"1041",2018,"Total","Space heating","Bioenergy & Waste","2018TotalSpace heatingBioenergy & Waste",1085.94624826772
-"1042",2018,"Total","Water heating","Bioenergy & Waste","2018TotalWater heatingBioenergy & Waste",175.674209237741
-"1043",2018,"Total","Cooking/catering","Bioenergy & Waste","2018TotalCooking/cateringBioenergy & Waste",0
-"1044",2018,"Total","Process use","Bioenergy & Waste","2018TotalProcess useBioenergy & Waste",0
-"1045",2018,"Total","Drying/separation","Bioenergy & Waste","2018TotalDrying/separationBioenergy & Waste",0
-"1046",2018,"Total","Unkown (heat)","Bioenergy & Waste","2018TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
-"1047",2018,"Total","Heat total","Bioenergy & Waste","2018TotalHeat totalBioenergy & Waste",2937.90744664582
-"1048",2018,"Total","Computing","Bioenergy & Waste","2018TotalComputingBioenergy & Waste",0
-"1049",2018,"Total","Cooling and ventilation","Bioenergy & Waste","2018TotalCooling and ventilationBioenergy & Waste",0
-"1050",2018,"Total","Lighting and appliances","Bioenergy & Waste","2018TotalLighting and appliancesBioenergy & Waste",0
-"1051",2018,"Total","Motors","Bioenergy & Waste","2018TotalMotorsBioenergy & Waste",0
-"1052",2018,"Total","Compressed air","Bioenergy & Waste","2018TotalCompressed airBioenergy & Waste",0
-"1053",2018,"Total","Refrigeration","Bioenergy & Waste","2018TotalRefrigerationBioenergy & Waste",0
-"1054",2018,"Total","Other","Bioenergy & Waste","2018TotalOtherBioenergy & Waste",189.319123728286
-"1055",2018,"Total","Transport","Bioenergy & Waste","2018TotalTransportBioenergy & Waste",1364.79411483711
-"1056",2018,"Total","Non-heat total","Bioenergy & Waste","2018TotalNon-heat totalBioenergy & Waste",1554.11323856539
-"1057",2018,"Total","Overall total","Bioenergy & Waste","2018TotalOverall totalBioenergy & Waste",4492.02068521121
-"1058",2018,"Total","Overall total excluding transport","Bioenergy & Waste","2018TotalOverall total excluding transportBioenergy & Waste",3127.2265703741
-"1059",2017,"Domestic","Space heating","Bioenergy & Waste","2017DomesticSpace heatingBioenergy & Waste",207.804815678226
-"1060",2017,"Domestic","Water heating","Bioenergy & Waste","2017DomesticWater heatingBioenergy & Waste",60.7594483111293
-"1061",2017,"Domestic","Cooking/catering","Bioenergy & Waste","2017DomesticCooking/cateringBioenergy & Waste",0
-"1062",2017,"Domestic","Heat total","Bioenergy & Waste","2017DomesticHeat totalBioenergy & Waste",268.564263989356
-"1063",2017,"Domestic","Lighting and appliances","Bioenergy & Waste","2017DomesticLighting and appliancesBioenergy & Waste",0
-"1064",2017,"Domestic","Overall total","Bioenergy & Waste","2017DomesticOverall totalBioenergy & Waste",268.564263989356
-"1065",2017,"Service","Space heating","Bioenergy & Waste","2017ServiceSpace heatingBioenergy & Waste",863.630184123807
-"1066",2017,"Service","Water heating","Bioenergy & Waste","2017ServiceWater heatingBioenergy & Waste",111.823586602816
-"1067",2017,"Service","Cooking/catering","Bioenergy & Waste","2017ServiceCooking/cateringBioenergy & Waste",0
-"1068",2017,"Service","Heat total","Bioenergy & Waste","2017ServiceHeat totalBioenergy & Waste",975.453770726623
-"1069",2017,"Service","Computing","Bioenergy & Waste","2017ServiceComputingBioenergy & Waste",0
-"1070",2017,"Service","Cooling and ventilation","Bioenergy & Waste","2017ServiceCooling and ventilationBioenergy & Waste",0
-"1071",2017,"Service","Lighting","Bioenergy & Waste","2017ServiceLightingBioenergy & Waste",0
-"1072",2017,"Service","Other","Bioenergy & Waste","2017ServiceOtherBioenergy & Waste",186.206229273377
-"1073",2017,"Service","Overall total","Bioenergy & Waste","2017ServiceOverall totalBioenergy & Waste",1161.66
-"1074",2017,"Industry","Space heating","Bioenergy & Waste","2017IndustrySpace heatingBioenergy & Waste",0
-"1075",2017,"Industry","High temperature process","Bioenergy & Waste","2017IndustryHigh temperature processBioenergy & Waste",0
-"1076",2017,"Industry","Low temperature process","Bioenergy & Waste","2017IndustryLow temperature processBioenergy & Waste",0
-"1077",2017,"Industry","Drying/separation","Bioenergy & Waste","2017IndustryDrying/separationBioenergy & Waste",0
-"1078",2017,"Industry","Unkown (heat)","Bioenergy & Waste","2017IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
-"1079",2017,"Industry","Heat total","Bioenergy & Waste","2017IndustryHeat totalBioenergy & Waste",1676.28698914035
-"1080",2017,"Industry","Motors","Bioenergy & Waste","2017IndustryMotorsBioenergy & Waste",0
-"1081",2017,"Industry","Compressed air","Bioenergy & Waste","2017IndustryCompressed airBioenergy & Waste",0
-"1082",2017,"Industry","Lighting","Bioenergy & Waste","2017IndustryLightingBioenergy & Waste",0
-"1083",2017,"Industry","Refrigeration","Bioenergy & Waste","2017IndustryRefrigerationBioenergy & Waste",0
-"1084",2017,"Industry","Other","Bioenergy & Waste","2017IndustryOtherBioenergy & Waste",0
-"1085",2017,"Industry","Overall total","Bioenergy & Waste","2017IndustryOverall totalBioenergy & Waste",1676.28698914035
-"1086",2017,"Transport","Non-heat purposes","Bioenergy & Waste","2017TransportNon-heat purposesBioenergy & Waste",997.124295404605
-"1087",2017,"Total","Space heating","Bioenergy & Waste","2017TotalSpace heatingBioenergy & Waste",1071.43499980203
-"1088",2017,"Total","Water heating","Bioenergy & Waste","2017TotalWater heatingBioenergy & Waste",172.583034913945
-"1089",2017,"Total","Cooking/catering","Bioenergy & Waste","2017TotalCooking/cateringBioenergy & Waste",0
-"1090",2017,"Total","Process use","Bioenergy & Waste","2017TotalProcess useBioenergy & Waste",0
-"1091",2017,"Total","Drying/separation","Bioenergy & Waste","2017TotalDrying/separationBioenergy & Waste",0
-"1092",2017,"Total","Unkown (heat)","Bioenergy & Waste","2017TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
-"1093",2017,"Total","Heat total","Bioenergy & Waste","2017TotalHeat totalBioenergy & Waste",2920.30502385633
-"1094",2017,"Total","Computing","Bioenergy & Waste","2017TotalComputingBioenergy & Waste",0
-"1095",2017,"Total","Cooling and ventilation","Bioenergy & Waste","2017TotalCooling and ventilationBioenergy & Waste",0
-"1096",2017,"Total","Lighting and appliances","Bioenergy & Waste","2017TotalLighting and appliancesBioenergy & Waste",0
-"1097",2017,"Total","Motors","Bioenergy & Waste","2017TotalMotorsBioenergy & Waste",0
-"1098",2017,"Total","Compressed air","Bioenergy & Waste","2017TotalCompressed airBioenergy & Waste",0
-"1099",2017,"Total","Refrigeration","Bioenergy & Waste","2017TotalRefrigerationBioenergy & Waste",0
-"1100",2017,"Total","Other","Bioenergy & Waste","2017TotalOtherBioenergy & Waste",186.206229273377
-"1101",2017,"Total","Transport","Bioenergy & Waste","2017TotalTransportBioenergy & Waste",997.124295404605
-"1102",2017,"Total","Non-heat total","Bioenergy & Waste","2017TotalNon-heat totalBioenergy & Waste",1183.33052467798
-"1103",2017,"Total","Overall total","Bioenergy & Waste","2017TotalOverall totalBioenergy & Waste",4103.63554853431
-"1104",2017,"Total","Overall total excluding transport","Bioenergy & Waste","2017TotalOverall total excluding transportBioenergy & Waste",3106.51125312971
-"1105",2020,"Domestic","Space heating","Total","2020DomesticSpace heatingTotal",23825.7441076173
-"1106",2020,"Domestic","Water heating","Total","2020DomesticWater heatingTotal",6726.05557250992
-"1107",2020,"Domestic","Cooking/catering","Total","2020DomesticCooking/cateringTotal",1131.58161772894
-"1108",2020,"Domestic","Heat total","Total","2020DomesticHeat totalTotal",31683.3812978562
-"1109",2020,"Domestic","Lighting and appliances","Total","2020DomesticLighting and appliancesTotal",6874.73195834627
-"1110",2020,"Domestic","Overall total","Total","2020DomesticOverall totalTotal",38558.1132562024
-"1111",2020,"Service","Space heating","Total","2020ServiceSpace heatingTotal",9127.60113273806
-"1112",2020,"Service","Water heating","Total","2020ServiceWater heatingTotal",1286.18156297376
-"1113",2020,"Service","Cooking/catering","Total","2020ServiceCooking/cateringTotal",1969.4538924114
-"1114",2020,"Service","Heat total","Total","2020ServiceHeat totalTotal",12383.2365881232
-"1115",2020,"Service","Computing","Total","2020ServiceComputingTotal",712.765590114844
-"1116",2020,"Service","Cooling and ventilation","Total","2020ServiceCooling and ventilationTotal",961.796508790982
-"1117",2020,"Service","Lighting","Total","2020ServiceLightingTotal",1565.14326317928
-"1118",2020,"Service","Other","Total","2020ServiceOtherTotal",2838.78338824531
-"1119",2020,"Service","Overall total","Total","2020ServiceOverall totalTotal",18461.7253384536
-"1120",2020,"Industry","Space heating","Total","2020IndustrySpace heatingTotal",1793.60929507901
-"1121",2020,"Industry","High temperature process","Total","2020IndustryHigh temperature processTotal",3408.3302493572
-"1122",2020,"Industry","Low temperature process","Total","2020IndustryLow temperature processTotal",6028.16923750645
-"1123",2020,"Industry","Drying/separation","Total","2020IndustryDrying/separationTotal",1642.70939842714
-"1124",2020,"Industry","Unkown (heat)","Total","2020IndustryUnkown (heat)Total",2358.04444271465
-"1125",2020,"Industry","Heat total","Total","2020IndustryHeat totalTotal",15230.8626230845
-"1126",2020,"Industry","Motors","Total","2020IndustryMotorsTotal",2683.29695827286
-"1127",2020,"Industry","Compressed air","Total","2020IndustryCompressed airTotal",755.376166693148
-"1128",2020,"Industry","Lighting","Total","2020IndustryLightingTotal",229.315814826352
-"1129",2020,"Industry","Refrigeration","Total","2020IndustryRefrigerationTotal",443.534523982769
-"1130",2020,"Industry","Other","Total","2020IndustryOtherTotal",1558.73009126353
-"1131",2020,"Industry","Overall total","Total","2020IndustryOverall totalTotal",20901.1161781231
-"1132",2020,"Transport","Non-heat purposes","Total","2020TransportNon-heat purposesTotal",40434.0026226073
-"1133",2020,"Total","Space heating","Total","2020TotalSpace heatingTotal",34746.9545354344
-"1134",2020,"Total","Water heating","Total","2020TotalWater heatingTotal",8012.23713548368
-"1135",2020,"Total","Cooking/catering","Total","2020TotalCooking/cateringTotal",3101.03551014034
-"1136",2020,"Total","Process use","Total","2020TotalProcess useTotal",9436.49948686365
-"1137",2020,"Total","Drying/separation","Total","2020TotalDrying/separationTotal",1642.70939842714
-"1138",2020,"Total","Unkown (heat)","Total","2020TotalUnkown (heat)Total",2358.04444271465
-"1139",2020,"Total","Heat total","Total","2020TotalHeat totalTotal",59297.4805090638
-"1140",2020,"Total","Computing","Total","2020TotalComputingTotal",712.765590114844
-"1141",2020,"Total","Cooling and ventilation","Total","2020TotalCooling and ventilationTotal",961.796508790982
-"1142",2020,"Total","Lighting and appliances","Total","2020TotalLighting and appliancesTotal",8669.19103635191
-"1143",2020,"Total","Motors","Total","2020TotalMotorsTotal",2683.29695827286
-"1144",2020,"Total","Compressed air","Total","2020TotalCompressed airTotal",755.376166693148
-"1145",2020,"Total","Refrigeration","Total","2020TotalRefrigerationTotal",443.534523982769
-"1146",2020,"Total","Other","Total","2020TotalOtherTotal",4397.51347950884
-"1147",2020,"Total","Transport","Total","2020TotalTransportTotal",40460.918525408
-"1148",2020,"Total","Non-heat total","Total","2020TotalNon-heat totalTotal",59084.3927891234
-"1149",2020,"Total","Overall total","Total","2020TotalOverall totalTotal",118381.873298187
-"1150",2020,"Total","Overall total excluding transport","Total","2020TotalOverall total excluding transportTotal",77920.9547727792
-"1151",2019,"Domestic","Space heating","Total","2019DomesticSpace heatingTotal",23385.8653862719
-"1152",2019,"Domestic","Water heating","Total","2019DomesticWater heatingTotal",6600.0694237663
-"1153",2019,"Domestic","Cooking/catering","Total","2019DomesticCooking/cateringTotal",1103.18553592831
-"1154",2019,"Domestic","Heat total","Total","2019DomesticHeat totalTotal",31089.1203459665
-"1155",2019,"Domestic","Lighting and appliances","Total","2019DomesticLighting and appliancesTotal",6618.34581740281
-"1156",2019,"Domestic","Overall total","Total","2019DomesticOverall totalTotal",37707.4661633693
-"1157",2019,"Service","Space heating","Total","2019ServiceSpace heatingTotal",9617.59386149739
-"1158",2019,"Service","Water heating","Total","2019ServiceWater heatingTotal",1361.79212238886
-"1159",2019,"Service","Cooking/catering","Total","2019ServiceCooking/cateringTotal",2153.28960126788
-"1160",2019,"Service","Heat total","Total","2019ServiceHeat totalTotal",13132.6755851541
-"1161",2019,"Service","Computing","Total","2019ServiceComputingTotal",806.278526775259
-"1162",2019,"Service","Cooling and ventilation","Total","2019ServiceCooling and ventilationTotal",1085.6730531477
-"1163",2019,"Service","Lighting","Total","2019ServiceLightingTotal",1770.48586790656
-"1164",2019,"Service","Other","Total","2019ServiceOtherTotal",3399.8086666386
-"1165",2019,"Service","Overall total","Total","2019ServiceOverall totalTotal",20194.9216996222
-"1166",2019,"Industry","Space heating","Total","2019IndustrySpace heatingTotal",2335.40946878561
-"1167",2019,"Industry","High temperature process","Total","2019IndustryHigh temperature processTotal",3738.00522259788
-"1168",2019,"Industry","Low temperature process","Total","2019IndustryLow temperature processTotal",6239.01406343093
-"1169",2019,"Industry","Drying/separation","Total","2019IndustryDrying/separationTotal",1725.86181900229
-"1170",2019,"Industry","Unkown (heat)","Total","2019IndustryUnkown (heat)Total",2358.04444271465
-"1171",2019,"Industry","Heat total","Total","2019IndustryHeat totalTotal",16396.3350165314
-"1172",2019,"Industry","Motors","Total","2019IndustryMotorsTotal",2683.29695827286
-"1173",2019,"Industry","Compressed air","Total","2019IndustryCompressed airTotal",755.376166693148
-"1174",2019,"Industry","Lighting","Total","2019IndustryLightingTotal",229.315814826352
-"1175",2019,"Industry","Refrigeration","Total","2019IndustryRefrigerationTotal",443.534523982769
-"1176",2019,"Industry","Other","Total","2019IndustryOtherTotal",1634.65728894327
-"1177",2019,"Industry","Overall total","Total","2019IndustryOverall totalTotal",22142.5157692498
-"1178",2019,"Transport","Non-heat purposes","Total","2019TransportNon-heat purposesTotal",56629.4786130277
-"1179",2019,"Total","Space heating","Total","2019TotalSpace heatingTotal",35338.8687165549
-"1180",2019,"Total","Water heating","Total","2019TotalWater heatingTotal",7961.86154615516
-"1181",2019,"Total","Cooking/catering","Total","2019TotalCooking/cateringTotal",3256.47513719619
-"1182",2019,"Total","Process use","Total","2019TotalProcess useTotal",9977.01928602881
-"1183",2019,"Total","Drying/separation","Total","2019TotalDrying/separationTotal",1725.86181900229
-"1184",2019,"Total","Unkown (heat)","Total","2019TotalUnkown (heat)Total",2358.04444271465
-"1185",2019,"Total","Heat total","Total","2019TotalHeat totalTotal",60618.130947652
-"1186",2019,"Total","Computing","Total","2019TotalComputingTotal",806.278526775259
-"1187",2019,"Total","Cooling and ventilation","Total","2019TotalCooling and ventilationTotal",1085.6730531477
-"1188",2019,"Total","Lighting and appliances","Total","2019TotalLighting and appliancesTotal",8618.14750013572
-"1189",2019,"Total","Motors","Total","2019TotalMotorsTotal",2683.29695827286
-"1190",2019,"Total","Compressed air","Total","2019TotalCompressed airTotal",755.376166693148
-"1191",2019,"Total","Refrigeration","Total","2019TotalRefrigerationTotal",443.534523982769
-"1192",2019,"Total","Other","Total","2019TotalOtherTotal",5034.46595558187
-"1193",2019,"Total","Transport","Total","2019TotalTransportTotal",56644.6058160018
-"1194",2019,"Total","Non-heat total","Total","2019TotalNon-heat totalTotal",76071.3785005911
-"1195",2019,"Total","Overall total","Total","2019TotalOverall totalTotal",136689.509448243
-"1196",2019,"Total","Overall total excluding transport","Total","2019TotalOverall total excluding transportTotal",80044.9036322413
-"1197",2018,"Domestic","Space heating","Total","2018DomesticSpace heatingTotal",24232.414576504
-"1198",2018,"Domestic","Water heating","Total","2018DomesticWater heatingTotal",6831.71792839789
-"1199",2018,"Domestic","Cooking/catering","Total","2018DomesticCooking/cateringTotal",1130.43651755426
-"1200",2018,"Domestic","Heat total","Total","2018DomesticHeat totalTotal",32194.5690224561
-"1201",2018,"Domestic","Lighting and appliances","Total","2018DomesticLighting and appliancesTotal",6697.369701329
-"1202",2018,"Domestic","Overall total","Total","2018DomesticOverall totalTotal",38891.9387237851
-"1203",2018,"Service","Space heating","Total","2018ServiceSpace heatingTotal",9671.68626355945
-"1204",2018,"Service","Water heating","Total","2018ServiceWater heatingTotal",1369.91228361009
-"1205",2018,"Service","Cooking/catering","Total","2018ServiceCooking/cateringTotal",2172.50739345202
-"1206",2018,"Service","Heat total","Total","2018ServiceHeat totalTotal",13214.1059406216
-"1207",2018,"Service","Computing","Total","2018ServiceComputingTotal",824.634974062178
-"1208",2018,"Service","Cooling and ventilation","Total","2018ServiceCooling and ventilationTotal",1109.25313668446
-"1209",2018,"Service","Lighting","Total","2018ServiceLightingTotal",1810.79430900625
-"1210",2018,"Service","Other","Total","2018ServiceOtherTotal",3459.85333924807
-"1211",2018,"Service","Overall total","Total","2018ServiceOverall totalTotal",20418.6416996225
-"1212",2018,"Industry","Space heating","Total","2018IndustrySpace heatingTotal",3409.08667889719
-"1213",2018,"Industry","High temperature process","Total","2018IndustryHigh temperature processTotal",4869.66030107782
-"1214",2018,"Industry","Low temperature process","Total","2018IndustryLow temperature processTotal",7025.90032733041
-"1215",2018,"Industry","Drying/separation","Total","2018IndustryDrying/separationTotal",1966.96957705949
-"1216",2018,"Industry","Unkown (heat)","Total","2018IndustryUnkown (heat)Total",2358.04444271465
-"1217",2018,"Industry","Heat total","Total","2018IndustryHeat totalTotal",19629.6613270796
-"1218",2018,"Industry","Motors","Total","2018IndustryMotorsTotal",3660.91710353235
-"1219",2018,"Industry","Compressed air","Total","2018IndustryCompressed airTotal",882.344787576966
-"1220",2018,"Industry","Lighting","Total","2018IndustryLightingTotal",310.262025885764
-"1221",2018,"Industry","Refrigeration","Total","2018IndustryRefrigerationTotal",386.477292243084
-"1222",2018,"Industry","Other","Total","2018IndustryOtherTotal",1907.95643096669
-"1223",2018,"Industry","Overall total","Total","2018IndustryOverall totalTotal",26777.6189672844
-"1224",2018,"Transport","Non-heat purposes","Total","2018TransportNon-heat purposesTotal",56891.8730802176
-"1225",2018,"Total","Space heating","Total","2018TotalSpace heatingTotal",37313.1875189606
-"1226",2018,"Total","Water heating","Total","2018TotalWater heatingTotal",8201.63021200798
-"1227",2018,"Total","Cooking/catering","Total","2018TotalCooking/cateringTotal",3302.94391100628
-"1228",2018,"Total","Process use","Total","2018TotalProcess useTotal",11895.5606284082
-"1229",2018,"Total","Drying/separation","Total","2018TotalDrying/separationTotal",1966.96957705949
-"1230",2018,"Total","Unkown (heat)","Total","2018TotalUnkown (heat)Total",2358.04444271465
-"1231",2018,"Total","Heat total","Total","2018TotalHeat totalTotal",65038.3362901573
-"1232",2018,"Total","Computing","Total","2018TotalComputingTotal",824.634974062178
-"1233",2018,"Total","Cooling and ventilation","Total","2018TotalCooling and ventilationTotal",1109.25313668446
-"1234",2018,"Total","Lighting and appliances","Total","2018TotalLighting and appliancesTotal",8818.42603622101
-"1235",2018,"Total","Motors","Total","2018TotalMotorsTotal",3660.91710353235
-"1236",2018,"Total","Compressed air","Total","2018TotalCompressed airTotal",882.344787576966
-"1237",2018,"Total","Refrigeration","Total","2018TotalRefrigerationTotal",386.477292243084
-"1238",2018,"Total","Other","Total","2018TotalOtherTotal",5367.80977021476
-"1239",2018,"Total","Transport","Total","2018TotalTransportTotal",56901.5948637969
-"1240",2018,"Total","Non-heat total","Total","2018TotalNon-heat totalTotal",77951.4579643317
-"1241",2018,"Total","Overall total","Total","2018TotalOverall totalTotal",142989.794254489
-"1242",2018,"Total","Overall total excluding transport","Total","2018TotalOverall total excluding transportTotal",86088.1993906921
-"1243",2017,"Domestic","Space heating","Total","2017DomesticSpace heatingTotal",23640.0353854549
-"1244",2017,"Domestic","Water heating","Total","2017DomesticWater heatingTotal",6540.18192692893
-"1245",2017,"Domestic","Cooking/catering","Total","2017DomesticCooking/cateringTotal",1086.25690331254
-"1246",2017,"Domestic","Heat total","Total","2017DomesticHeat totalTotal",31266.4742156964
-"1247",2017,"Domestic","Lighting and appliances","Total","2017DomesticLighting and appliancesTotal",6661.67235120989
-"1248",2017,"Domestic","Overall total","Total","2017DomesticOverall totalTotal",37928.1465669062
-"1249",2017,"Service","Space heating","Total","2017ServiceSpace heatingTotal",9340.62840317332
-"1250",2017,"Service","Water heating","Total","2017ServiceWater heatingTotal",1325.61328104045
-"1251",2017,"Service","Cooking/catering","Total","2017ServiceCooking/cateringTotal",2126.63122442918
-"1252",2017,"Service","Heat total","Total","2017ServiceHeat totalTotal",12792.872908643
-"1253",2017,"Service","Computing","Total","2017ServiceComputingTotal",829.849956593575
-"1254",2017,"Service","Cooling and ventilation","Total","2017ServiceCooling and ventilationTotal",1114.51342461561
-"1255",2017,"Service","Lighting","Total","2017ServiceLightingTotal",1822.24575235566
-"1256",2017,"Service","Other","Total","2017ServiceOtherTotal",3442.88965741478
-"1257",2017,"Service","Overall total","Total","2017ServiceOverall totalTotal",20002.3716996226
-"1258",2017,"Industry","Space heating","Total","2017IndustrySpace heatingTotal",3572.61817122325
-"1259",2017,"Industry","High temperature process","Total","2017IndustryHigh temperature processTotal",3014.6751450156
-"1260",2017,"Industry","Low temperature process","Total","2017IndustryLow temperature processTotal",11298.0668080878
-"1261",2017,"Industry","Drying/separation","Total","2017IndustryDrying/separationTotal",4904.40484885622
-"1262",2017,"Industry","Unkown (heat)","Total","2017IndustryUnkown (heat)Total",2358.04444271465
-"1263",2017,"Industry","Heat total","Total","2017IndustryHeat totalTotal",25147.8094158975
-"1264",2017,"Industry","Motors","Total","2017IndustryMotorsTotal",6553.96103132315
-"1265",2017,"Industry","Compressed air","Total","2017IndustryCompressed airTotal",1666.4115023605
-"1266",2017,"Industry","Lighting","Total","2017IndustryLightingTotal",228.988517933384
-"1267",2017,"Industry","Refrigeration","Total","2017IndustryRefrigerationTotal",436.849711917359
-"1268",2017,"Industry","Other","Total","2017IndustryOtherTotal",3210.02726006769
-"1269",2017,"Industry","Overall total","Total","2017IndustryOverall totalTotal",37244.0474394996
-"1270",2017,"Transport","Non-heat purposes","Total","2017TransportNon-heat purposesTotal",57002.5809119289
-"1271",2017,"Total","Space heating","Total","2017TotalSpace heatingTotal",36553.2819598515
-"1272",2017,"Total","Water heating","Total","2017TotalWater heatingTotal",7865.79520796938
-"1273",2017,"Total","Cooking/catering","Total","2017TotalCooking/cateringTotal",3212.88812774172
-"1274",2017,"Total","Process use","Total","2017TotalProcess useTotal",14312.7419531034
-"1275",2017,"Total","Drying/separation","Total","2017TotalDrying/separationTotal",4904.40484885622
-"1276",2017,"Total","Unkown (heat)","Total","2017TotalUnkown (heat)Total",2358.04444271465
-"1277",2017,"Total","Heat total","Total","2017TotalHeat totalTotal",69207.1565402368
-"1278",2017,"Total","Computing","Total","2017TotalComputingTotal",829.849956593575
-"1279",2017,"Total","Cooling and ventilation","Total","2017TotalCooling and ventilationTotal",1114.51342461561
-"1280",2017,"Total","Lighting and appliances","Total","2017TotalLighting and appliancesTotal",8712.90662149894
-"1281",2017,"Total","Motors","Total","2017TotalMotorsTotal",6553.96103132315
-"1282",2017,"Total","Compressed air","Total","2017TotalCompressed airTotal",1666.4115023605
-"1283",2017,"Total","Refrigeration","Total","2017TotalRefrigerationTotal",436.849711917359
-"1284",2017,"Total","Other","Total","2017TotalOtherTotal",6652.91691748248
-"1285",2017,"Total","Transport","Total","2017TotalTransportTotal",57002.5809119289
-"1286",2017,"Total","Non-heat total","Total","2017TotalNon-heat totalTotal",82969.9900777205
-"1287",2017,"Total","Overall total","Total","2017TotalOverall totalTotal",152177.146617957
-"1288",2017,"Total","Overall total excluding transport","Total","2017TotalOverall total excluding transportTotal",95174.5657060284
+"738",2020,"Domestic","Heat total","Heat sold","2020DomesticHeat totalHeat sold",269.462407362872
+"739",2020,"Domestic","Lighting and appliances","Heat sold","2020DomesticLighting and appliancesHeat sold",0
+"740",2020,"Domestic","Overall total","Heat sold","2020DomesticOverall totalHeat sold",269.462407362872
+"741",2020,"Service","Space heating","Heat sold","2020ServiceSpace heatingHeat sold",246.252066196825
+"742",2020,"Service","Water heating","Heat sold","2020ServiceWater heatingHeat sold",16.271308007129
+"743",2020,"Service","Cooking/catering","Heat sold","2020ServiceCooking/cateringHeat sold",0
+"744",2020,"Service","Heat total","Heat sold","2020ServiceHeat totalHeat sold",262.523374203954
+"745",2020,"Service","Computing","Heat sold","2020ServiceComputingHeat sold",0
+"746",2020,"Service","Cooling and ventilation","Heat sold","2020ServiceCooling and ventilationHeat sold",0.0478636250034596
+"747",2020,"Service","Lighting","Heat sold","2020ServiceLightingHeat sold",0
+"748",2020,"Service","Other","Heat sold","2020ServiceOtherHeat sold",0
+"749",2020,"Service","Overall total","Heat sold","2020ServiceOverall totalHeat sold",262.571237828957
+"750",2020,"Industry","Space heating","Heat sold","2020IndustrySpace heatingHeat sold",0
+"751",2020,"Industry","High temperature process","Heat sold","2020IndustryHigh temperature processHeat sold",0
+"752",2020,"Industry","Low temperature process","Heat sold","2020IndustryLow temperature processHeat sold",0
+"753",2020,"Industry","Drying/separation","Heat sold","2020IndustryDrying/separationHeat sold",0
+"754",2020,"Industry","Unkown (heat)","Heat sold","2020IndustryUnkown (heat)Heat sold",681.757453574296
+"755",2020,"Industry","Heat total","Heat sold","2020IndustryHeat totalHeat sold",681.757453574296
+"756",2020,"Industry","Motors","Heat sold","2020IndustryMotorsHeat sold",0
+"757",2020,"Industry","Compressed air","Heat sold","2020IndustryCompressed airHeat sold",0
+"758",2020,"Industry","Lighting","Heat sold","2020IndustryLightingHeat sold",0
+"759",2020,"Industry","Refrigeration","Heat sold","2020IndustryRefrigerationHeat sold",0
+"760",2020,"Industry","Other","Heat sold","2020IndustryOtherHeat sold",0
+"761",2020,"Industry","Overall total","Heat sold","2020IndustryOverall totalHeat sold",681.757453574296
+"762",2020,"Transport","Non-heat purposes","Heat sold","2020TransportNon-heat purposesHeat sold",0
+"763",2020,"Total","Space heating","Heat sold","2020TotalSpace heatingHeat sold",515.714473559697
+"764",2020,"Total","Water heating","Heat sold","2020TotalWater heatingHeat sold",16.271308007129
+"765",2020,"Total","Cooking/catering","Heat sold","2020TotalCooking/cateringHeat sold",0
+"766",2020,"Total","Process use","Heat sold","2020TotalProcess useHeat sold",0
+"767",2020,"Total","Drying/separation","Heat sold","2020TotalDrying/separationHeat sold",0
+"768",2020,"Total","Unkown (heat)","Heat sold","2020TotalUnkown (heat)Heat sold",681.757453574296
+"769",2020,"Total","Heat total","Heat sold","2020TotalHeat totalHeat sold",1213.74323514112
+"770",2020,"Total","Computing","Heat sold","2020TotalComputingHeat sold",0
+"771",2020,"Total","Cooling and ventilation","Heat sold","2020TotalCooling and ventilationHeat sold",0.0478636250034596
+"772",2020,"Total","Lighting and appliances","Heat sold","2020TotalLighting and appliancesHeat sold",0
+"773",2020,"Total","Motors","Heat sold","2020TotalMotorsHeat sold",0
+"774",2020,"Total","Compressed air","Heat sold","2020TotalCompressed airHeat sold",0
+"775",2020,"Total","Refrigeration","Heat sold","2020TotalRefrigerationHeat sold",0
+"776",2020,"Total","Other","Heat sold","2020TotalOtherHeat sold",0
+"777",2020,"Total","Transport","Heat sold","2020TotalTransportHeat sold",0
+"778",2020,"Total","Non-heat total","Heat sold","2020TotalNon-heat totalHeat sold",0.0478636250034596
+"779",2020,"Total","Overall total","Heat sold","2020TotalOverall totalHeat sold",1213.79109876613
+"780",2020,"Total","Overall total excluding transport","Heat sold","2020TotalOverall total excluding transportHeat sold",1213.79109876613
+"781",2019,"Domestic","Space heating","Heat sold","2019DomesticSpace heatingHeat sold",269.495403211161
+"782",2019,"Domestic","Heat total","Heat sold","2019DomesticHeat totalHeat sold",269.495403211161
+"783",2019,"Domestic","Lighting and appliances","Heat sold","2019DomesticLighting and appliancesHeat sold",0
+"784",2019,"Domestic","Overall total","Heat sold","2019DomesticOverall totalHeat sold",269.495403211161
+"785",2019,"Service","Space heating","Heat sold","2019ServiceSpace heatingHeat sold",245.003764910784
+"786",2019,"Service","Water heating","Heat sold","2019ServiceWater heatingHeat sold",16.1888254719587
+"787",2019,"Service","Cooking/catering","Heat sold","2019ServiceCooking/cateringHeat sold",0.391699610645484
+"788",2019,"Service","Heat total","Heat sold","2019ServiceHeat totalHeat sold",261.584289993389
+"789",2019,"Service","Computing","Heat sold","2019ServiceComputingHeat sold",0
+"790",2019,"Service","Cooling and ventilation","Heat sold","2019ServiceCooling and ventilationHeat sold",0.0476209946549345
+"791",2019,"Service","Lighting","Heat sold","2019ServiceLightingHeat sold",0
+"792",2019,"Service","Other","Heat sold","2019ServiceOtherHeat sold",37.089788622602
+"793",2019,"Service","Overall total","Heat sold","2019ServiceOverall totalHeat sold",298.721699610645
+"794",2019,"Industry","Space heating","Heat sold","2019IndustrySpace heatingHeat sold",0
+"795",2019,"Industry","High temperature process","Heat sold","2019IndustryHigh temperature processHeat sold",0
+"796",2019,"Industry","Low temperature process","Heat sold","2019IndustryLow temperature processHeat sold",0
+"797",2019,"Industry","Drying/separation","Heat sold","2019IndustryDrying/separationHeat sold",0
+"798",2019,"Industry","Unkown (heat)","Heat sold","2019IndustryUnkown (heat)Heat sold",681.757453574296
+"799",2019,"Industry","Heat total","Heat sold","2019IndustryHeat totalHeat sold",681.757453574296
+"800",2019,"Industry","Motors","Heat sold","2019IndustryMotorsHeat sold",0
+"801",2019,"Industry","Compressed air","Heat sold","2019IndustryCompressed airHeat sold",0
+"802",2019,"Industry","Lighting","Heat sold","2019IndustryLightingHeat sold",0
+"803",2019,"Industry","Refrigeration","Heat sold","2019IndustryRefrigerationHeat sold",0
+"804",2019,"Industry","Other","Heat sold","2019IndustryOtherHeat sold",0
+"805",2019,"Industry","Overall total","Heat sold","2019IndustryOverall totalHeat sold",681.757453574296
+"806",2019,"Transport","Non-heat purposes","Heat sold","2019TransportNon-heat purposesHeat sold",0
+"807",2019,"Total","Space heating","Heat sold","2019TotalSpace heatingHeat sold",514.499168121946
+"808",2019,"Total","Water heating","Heat sold","2019TotalWater heatingHeat sold",16.1888254719587
+"809",2019,"Total","Cooking/catering","Heat sold","2019TotalCooking/cateringHeat sold",0.391699610645484
+"810",2019,"Total","Process use","Heat sold","2019TotalProcess useHeat sold",0
+"811",2019,"Total","Drying/separation","Heat sold","2019TotalDrying/separationHeat sold",0
+"812",2019,"Total","Unkown (heat)","Heat sold","2019TotalUnkown (heat)Heat sold",681.757453574296
+"813",2019,"Total","Heat total","Heat sold","2019TotalHeat totalHeat sold",1212.83714677885
+"814",2019,"Total","Computing","Heat sold","2019TotalComputingHeat sold",0
+"815",2019,"Total","Cooling and ventilation","Heat sold","2019TotalCooling and ventilationHeat sold",0.0476209946549345
+"816",2019,"Total","Lighting and appliances","Heat sold","2019TotalLighting and appliancesHeat sold",0
+"817",2019,"Total","Motors","Heat sold","2019TotalMotorsHeat sold",0
+"818",2019,"Total","Compressed air","Heat sold","2019TotalCompressed airHeat sold",0
+"819",2019,"Total","Refrigeration","Heat sold","2019TotalRefrigerationHeat sold",0
+"820",2019,"Total","Other","Heat sold","2019TotalOtherHeat sold",37.089788622602
+"821",2019,"Total","Transport","Heat sold","2019TotalTransportHeat sold",0
+"822",2019,"Total","Non-heat total","Heat sold","2019TotalNon-heat totalHeat sold",37.1374096172569
+"823",2019,"Total","Overall total","Heat sold","2019TotalOverall totalHeat sold",1249.9745563961
+"824",2019,"Total","Overall total excluding transport","Heat sold","2019TotalOverall total excluding transportHeat sold",1249.9745563961
+"825",2018,"Domestic","Space heating","Heat sold","2018DomesticSpace heatingHeat sold",269.859581233747
+"826",2018,"Domestic","Heat total","Heat sold","2018DomesticHeat totalHeat sold",269.859581233747
+"827",2018,"Domestic","Lighting and appliances","Heat sold","2018DomesticLighting and appliancesHeat sold",0
+"828",2018,"Domestic","Overall total","Heat sold","2018DomesticOverall totalHeat sold",269.859581233747
+"829",2018,"Service","Space heating","Heat sold","2018ServiceSpace heatingHeat sold",249.906632461877
+"830",2018,"Service","Water heating","Heat sold","2018ServiceWater heatingHeat sold",16.5127864818055
+"831",2018,"Service","Cooking/catering","Heat sold","2018ServiceCooking/cateringHeat sold",0.391699610645484
+"832",2018,"Service","Heat total","Heat sold","2018ServiceHeat totalHeat sold",266.811118554328
+"833",2018,"Service","Computing","Heat sold","2018ServiceComputingHeat sold",0
+"834",2018,"Service","Cooling and ventilation","Heat sold","2018ServiceCooling and ventilationHeat sold",0.0485739572738128
+"835",2018,"Service","Lighting","Heat sold","2018ServiceLightingHeat sold",0
+"836",2018,"Service","Other","Heat sold","2018ServiceOtherHeat sold",37.832007099044
+"837",2018,"Service","Overall total","Heat sold","2018ServiceOverall totalHeat sold",304.691699610645
+"838",2018,"Industry","Space heating","Heat sold","2018IndustrySpace heatingHeat sold",0
+"839",2018,"Industry","High temperature process","Heat sold","2018IndustryHigh temperature processHeat sold",0
+"840",2018,"Industry","Low temperature process","Heat sold","2018IndustryLow temperature processHeat sold",0
+"841",2018,"Industry","Drying/separation","Heat sold","2018IndustryDrying/separationHeat sold",0
+"842",2018,"Industry","Unkown (heat)","Heat sold","2018IndustryUnkown (heat)Heat sold",681.757453574296
+"843",2018,"Industry","Heat total","Heat sold","2018IndustryHeat totalHeat sold",681.757453574296
+"844",2018,"Industry","Motors","Heat sold","2018IndustryMotorsHeat sold",0
+"845",2018,"Industry","Compressed air","Heat sold","2018IndustryCompressed airHeat sold",0
+"846",2018,"Industry","Lighting","Heat sold","2018IndustryLightingHeat sold",0
+"847",2018,"Industry","Refrigeration","Heat sold","2018IndustryRefrigerationHeat sold",0
+"848",2018,"Industry","Other","Heat sold","2018IndustryOtherHeat sold",0
+"849",2018,"Industry","Overall total","Heat sold","2018IndustryOverall totalHeat sold",681.757453574296
+"850",2018,"Transport","Non-heat purposes","Heat sold","2018TransportNon-heat purposesHeat sold",0
+"851",2018,"Total","Space heating","Heat sold","2018TotalSpace heatingHeat sold",519.766213695623
+"852",2018,"Total","Water heating","Heat sold","2018TotalWater heatingHeat sold",16.5127864818055
+"853",2018,"Total","Cooking/catering","Heat sold","2018TotalCooking/cateringHeat sold",0.391699610645484
+"854",2018,"Total","Process use","Heat sold","2018TotalProcess useHeat sold",0
+"855",2018,"Total","Drying/separation","Heat sold","2018TotalDrying/separationHeat sold",0
+"856",2018,"Total","Unkown (heat)","Heat sold","2018TotalUnkown (heat)Heat sold",681.757453574296
+"857",2018,"Total","Heat total","Heat sold","2018TotalHeat totalHeat sold",1218.42815336237
+"858",2018,"Total","Computing","Heat sold","2018TotalComputingHeat sold",0
+"859",2018,"Total","Cooling and ventilation","Heat sold","2018TotalCooling and ventilationHeat sold",0.0485739572738128
+"860",2018,"Total","Lighting and appliances","Heat sold","2018TotalLighting and appliancesHeat sold",0
+"861",2018,"Total","Motors","Heat sold","2018TotalMotorsHeat sold",0
+"862",2018,"Total","Compressed air","Heat sold","2018TotalCompressed airHeat sold",0
+"863",2018,"Total","Refrigeration","Heat sold","2018TotalRefrigerationHeat sold",0
+"864",2018,"Total","Other","Heat sold","2018TotalOtherHeat sold",37.832007099044
+"865",2018,"Total","Transport","Heat sold","2018TotalTransportHeat sold",0
+"866",2018,"Total","Non-heat total","Heat sold","2018TotalNon-heat totalHeat sold",37.8805810563178
+"867",2018,"Total","Overall total","Heat sold","2018TotalOverall totalHeat sold",1256.30873441869
+"868",2018,"Total","Overall total excluding transport","Heat sold","2018TotalOverall total excluding transportHeat sold",1256.30873441869
+"869",2017,"Domestic","Space heating","Heat sold","2017DomesticSpace heatingHeat sold",268.564263989356
+"870",2017,"Domestic","Heat total","Heat sold","2017DomesticHeat totalHeat sold",268.564263989356
+"871",2017,"Domestic","Lighting and appliances","Heat sold","2017DomesticLighting and appliancesHeat sold",0
+"872",2017,"Domestic","Overall total","Heat sold","2017DomesticOverall totalHeat sold",268.564263989356
+"873",2017,"Service","Space heating","Heat sold","2017ServiceSpace heatingHeat sold",240.749685528094
+"874",2017,"Service","Water heating","Heat sold","2017ServiceWater heatingHeat sold",15.9077336744702
+"875",2017,"Service","Cooking/catering","Heat sold","2017ServiceCooking/cateringHeat sold",0.391699610645484
+"876",2017,"Service","Heat total","Heat sold","2017ServiceHeat totalHeat sold",257.04911881321
+"877",2017,"Service","Computing","Heat sold","2017ServiceComputingHeat sold",0
+"878",2017,"Service","Cooling and ventilation","Heat sold","2017ServiceCooling and ventilationHeat sold",0.0467941359671976
+"879",2017,"Service","Lighting","Heat sold","2017ServiceLightingHeat sold",0
+"880",2017,"Service","Other","Heat sold","2017ServiceOtherHeat sold",36.4457866614681
+"881",2017,"Service","Overall total","Heat sold","2017ServiceOverall totalHeat sold",293.541699610645
+"882",2017,"Industry","Space heating","Heat sold","2017IndustrySpace heatingHeat sold",0
+"883",2017,"Industry","High temperature process","Heat sold","2017IndustryHigh temperature processHeat sold",0
+"884",2017,"Industry","Low temperature process","Heat sold","2017IndustryLow temperature processHeat sold",0
+"885",2017,"Industry","Drying/separation","Heat sold","2017IndustryDrying/separationHeat sold",0
+"886",2017,"Industry","Unkown (heat)","Heat sold","2017IndustryUnkown (heat)Heat sold",681.757453574296
+"887",2017,"Industry","Heat total","Heat sold","2017IndustryHeat totalHeat sold",681.757453574296
+"888",2017,"Industry","Motors","Heat sold","2017IndustryMotorsHeat sold",0
+"889",2017,"Industry","Compressed air","Heat sold","2017IndustryCompressed airHeat sold",0
+"890",2017,"Industry","Lighting","Heat sold","2017IndustryLightingHeat sold",0
+"891",2017,"Industry","Refrigeration","Heat sold","2017IndustryRefrigerationHeat sold",0
+"892",2017,"Industry","Other","Heat sold","2017IndustryOtherHeat sold",0
+"893",2017,"Industry","Overall total","Heat sold","2017IndustryOverall totalHeat sold",681.757453574296
+"894",2017,"Transport","Non-heat purposes","Heat sold","2017TransportNon-heat purposesHeat sold",0
+"895",2017,"Total","Space heating","Heat sold","2017TotalSpace heatingHeat sold",509.31394951745
+"896",2017,"Total","Water heating","Heat sold","2017TotalWater heatingHeat sold",15.9077336744702
+"897",2017,"Total","Cooking/catering","Heat sold","2017TotalCooking/cateringHeat sold",0.391699610645484
+"898",2017,"Total","Process use","Heat sold","2017TotalProcess useHeat sold",0
+"899",2017,"Total","Drying/separation","Heat sold","2017TotalDrying/separationHeat sold",0
+"900",2017,"Total","Unkown (heat)","Heat sold","2017TotalUnkown (heat)Heat sold",681.757453574296
+"901",2017,"Total","Heat total","Heat sold","2017TotalHeat totalHeat sold",1207.37083637686
+"902",2017,"Total","Computing","Heat sold","2017TotalComputingHeat sold",0
+"903",2017,"Total","Cooling and ventilation","Heat sold","2017TotalCooling and ventilationHeat sold",0.0467941359671976
+"904",2017,"Total","Lighting and appliances","Heat sold","2017TotalLighting and appliancesHeat sold",0
+"905",2017,"Total","Motors","Heat sold","2017TotalMotorsHeat sold",0
+"906",2017,"Total","Compressed air","Heat sold","2017TotalCompressed airHeat sold",0
+"907",2017,"Total","Refrigeration","Heat sold","2017TotalRefrigerationHeat sold",0
+"908",2017,"Total","Other","Heat sold","2017TotalOtherHeat sold",36.4457866614681
+"909",2017,"Total","Transport","Heat sold","2017TotalTransportHeat sold",0
+"910",2017,"Total","Non-heat total","Heat sold","2017TotalNon-heat totalHeat sold",36.4925807974353
+"911",2017,"Total","Overall total","Heat sold","2017TotalOverall totalHeat sold",1243.8634171743
+"912",2017,"Total","Overall total excluding transport","Heat sold","2017TotalOverall total excluding transportHeat sold",1243.8634171743
+"913",2020,"Domestic","Space heating","Bioenergy & Waste","2020DomesticSpace heatingBioenergy & Waste",207.572413323377
+"914",2020,"Domestic","Water heating","Bioenergy & Waste","2020DomesticWater heatingBioenergy & Waste",61.8899940394949
+"915",2020,"Domestic","Cooking/catering","Bioenergy & Waste","2020DomesticCooking/cateringBioenergy & Waste",0
+"916",2020,"Domestic","Heat total","Bioenergy & Waste","2020DomesticHeat totalBioenergy & Waste",269.462407362872
+"917",2020,"Domestic","Lighting and appliances","Bioenergy & Waste","2020DomesticLighting and appliancesBioenergy & Waste",0
+"918",2020,"Domestic","Overall total","Bioenergy & Waste","2020DomesticOverall totalBioenergy & Waste",269.462407362872
+"919",2020,"Service","Space heating","Bioenergy & Waste","2020ServiceSpace heatingBioenergy & Waste",991.591917584019
+"920",2020,"Service","Water heating","Bioenergy & Waste","2020ServiceWater heatingBioenergy & Waste",128.392183030408
+"921",2020,"Service","Cooking/catering","Bioenergy & Waste","2020ServiceCooking/cateringBioenergy & Waste",0
+"922",2020,"Service","Heat total","Bioenergy & Waste","2020ServiceHeat totalBioenergy & Waste",1119.98410061443
+"923",2020,"Service","Computing","Bioenergy & Waste","2020ServiceComputingBioenergy & Waste",0
+"924",2020,"Service","Cooling and ventilation","Bioenergy & Waste","2020ServiceCooling and ventilationBioenergy & Waste",0
+"925",2020,"Service","Lighting","Bioenergy & Waste","2020ServiceLightingBioenergy & Waste",0
+"926",2020,"Service","Other","Bioenergy & Waste","2020ServiceOtherBioenergy & Waste",0
+"927",2020,"Service","Overall total","Bioenergy & Waste","2020ServiceOverall totalBioenergy & Waste",1119.98410061443
+"928",2020,"Industry","Space heating","Bioenergy & Waste","2020IndustrySpace heatingBioenergy & Waste",0
+"929",2020,"Industry","High temperature process","Bioenergy & Waste","2020IndustryHigh temperature processBioenergy & Waste",0
+"930",2020,"Industry","Low temperature process","Bioenergy & Waste","2020IndustryLow temperature processBioenergy & Waste",0
+"931",2020,"Industry","Drying/separation","Bioenergy & Waste","2020IndustryDrying/separationBioenergy & Waste",0
+"932",2020,"Industry","Unkown (heat)","Bioenergy & Waste","2020IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
+"933",2020,"Industry","Heat total","Bioenergy & Waste","2020IndustryHeat totalBioenergy & Waste",1676.28698914035
+"934",2020,"Industry","Motors","Bioenergy & Waste","2020IndustryMotorsBioenergy & Waste",0
+"935",2020,"Industry","Compressed air","Bioenergy & Waste","2020IndustryCompressed airBioenergy & Waste",0
+"936",2020,"Industry","Lighting","Bioenergy & Waste","2020IndustryLightingBioenergy & Waste",0
+"937",2020,"Industry","Refrigeration","Bioenergy & Waste","2020IndustryRefrigerationBioenergy & Waste",0
+"938",2020,"Industry","Other","Bioenergy & Waste","2020IndustryOtherBioenergy & Waste",0
+"939",2020,"Industry","Overall total","Bioenergy & Waste","2020IndustryOverall totalBioenergy & Waste",1676.28698914035
+"940",2020,"Transport","Non-heat purposes","Bioenergy & Waste","2020TransportNon-heat purposesBioenergy & Waste",1638.39609488822
+"941",2020,"Total","Space heating","Bioenergy & Waste","2020TotalSpace heatingBioenergy & Waste",1199.1643309074
+"942",2020,"Total","Water heating","Bioenergy & Waste","2020TotalWater heatingBioenergy & Waste",190.282177069903
+"943",2020,"Total","Cooking/catering","Bioenergy & Waste","2020TotalCooking/cateringBioenergy & Waste",0
+"944",2020,"Total","Process use","Bioenergy & Waste","2020TotalProcess useBioenergy & Waste",0
+"945",2020,"Total","Drying/separation","Bioenergy & Waste","2020TotalDrying/separationBioenergy & Waste",0
+"946",2020,"Total","Unkown (heat)","Bioenergy & Waste","2020TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
+"947",2020,"Total","Heat total","Bioenergy & Waste","2020TotalHeat totalBioenergy & Waste",3065.73349711765
+"948",2020,"Total","Computing","Bioenergy & Waste","2020TotalComputingBioenergy & Waste",0
+"949",2020,"Total","Cooling and ventilation","Bioenergy & Waste","2020TotalCooling and ventilationBioenergy & Waste",0
+"950",2020,"Total","Lighting and appliances","Bioenergy & Waste","2020TotalLighting and appliancesBioenergy & Waste",0
+"951",2020,"Total","Motors","Bioenergy & Waste","2020TotalMotorsBioenergy & Waste",0
+"952",2020,"Total","Compressed air","Bioenergy & Waste","2020TotalCompressed airBioenergy & Waste",0
+"953",2020,"Total","Refrigeration","Bioenergy & Waste","2020TotalRefrigerationBioenergy & Waste",0
+"954",2020,"Total","Other","Bioenergy & Waste","2020TotalOtherBioenergy & Waste",0
+"955",2020,"Total","Transport","Bioenergy & Waste","2020TotalTransportBioenergy & Waste",1638.39609488822
+"956",2020,"Total","Non-heat total","Bioenergy & Waste","2020TotalNon-heat totalBioenergy & Waste",1638.39609488822
+"957",2020,"Total","Overall total","Bioenergy & Waste","2020TotalOverall totalBioenergy & Waste",4704.12959200587
+"958",2020,"Total","Overall total excluding transport","Bioenergy & Waste","2020TotalOverall total excluding transportBioenergy & Waste",3065.73349711765
+"959",2019,"Domestic","Space heating","Bioenergy & Waste","2019DomesticSpace heatingBioenergy & Waste",207.597830701356
+"960",2019,"Domestic","Water heating","Bioenergy & Waste","2019DomesticWater heatingBioenergy & Waste",61.8975725098052
+"961",2019,"Domestic","Cooking/catering","Bioenergy & Waste","2019DomesticCooking/cateringBioenergy & Waste",0
+"962",2019,"Domestic","Heat total","Bioenergy & Waste","2019DomesticHeat totalBioenergy & Waste",269.495403211161
+"963",2019,"Domestic","Lighting and appliances","Bioenergy & Waste","2019DomesticLighting and appliancesBioenergy & Waste",0
+"964",2019,"Domestic","Overall total","Bioenergy & Waste","2019DomesticOverall totalBioenergy & Waste",269.495403211161
+"965",2019,"Service","Space heating","Bioenergy & Waste","2019ServiceSpace heatingBioenergy & Waste",885.494898166712
+"966",2019,"Service","Water heating","Bioenergy & Waste","2019ServiceWater heatingBioenergy & Waste",114.654648774181
+"967",2019,"Service","Cooking/catering","Bioenergy & Waste","2019ServiceCooking/cateringBioenergy & Waste",0
+"968",2019,"Service","Heat total","Bioenergy & Waste","2019ServiceHeat totalBioenergy & Waste",1000.14954694089
+"969",2019,"Service","Computing","Bioenergy & Waste","2019ServiceComputingBioenergy & Waste",0
+"970",2019,"Service","Cooling and ventilation","Bioenergy & Waste","2019ServiceCooling and ventilationBioenergy & Waste",0
+"971",2019,"Service","Lighting","Bioenergy & Waste","2019ServiceLightingBioenergy & Waste",0
+"972",2019,"Service","Other","Bioenergy & Waste","2019ServiceOtherBioenergy & Waste",190.920453059106
+"973",2019,"Service","Overall total","Bioenergy & Waste","2019ServiceOverall totalBioenergy & Waste",1191.07
+"974",2019,"Industry","Space heating","Bioenergy & Waste","2019IndustrySpace heatingBioenergy & Waste",0
+"975",2019,"Industry","High temperature process","Bioenergy & Waste","2019IndustryHigh temperature processBioenergy & Waste",0
+"976",2019,"Industry","Low temperature process","Bioenergy & Waste","2019IndustryLow temperature processBioenergy & Waste",0
+"977",2019,"Industry","Drying/separation","Bioenergy & Waste","2019IndustryDrying/separationBioenergy & Waste",0
+"978",2019,"Industry","Unkown (heat)","Bioenergy & Waste","2019IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
+"979",2019,"Industry","Heat total","Bioenergy & Waste","2019IndustryHeat totalBioenergy & Waste",1676.28698914035
+"980",2019,"Industry","Motors","Bioenergy & Waste","2019IndustryMotorsBioenergy & Waste",0
+"981",2019,"Industry","Compressed air","Bioenergy & Waste","2019IndustryCompressed airBioenergy & Waste",0
+"982",2019,"Industry","Lighting","Bioenergy & Waste","2019IndustryLightingBioenergy & Waste",0
+"983",2019,"Industry","Refrigeration","Bioenergy & Waste","2019IndustryRefrigerationBioenergy & Waste",0
+"984",2019,"Industry","Other","Bioenergy & Waste","2019IndustryOtherBioenergy & Waste",0
+"985",2019,"Industry","Overall total","Bioenergy & Waste","2019IndustryOverall totalBioenergy & Waste",1676.28698914035
+"986",2019,"Transport","Non-heat purposes","Bioenergy & Waste","2019TransportNon-heat purposesBioenergy & Waste",1736.05300680099
+"987",2019,"Total","Space heating","Bioenergy & Waste","2019TotalSpace heatingBioenergy & Waste",1093.09272886807
+"988",2019,"Total","Water heating","Bioenergy & Waste","2019TotalWater heatingBioenergy & Waste",176.552221283987
+"989",2019,"Total","Cooking/catering","Bioenergy & Waste","2019TotalCooking/cateringBioenergy & Waste",0
+"990",2019,"Total","Process use","Bioenergy & Waste","2019TotalProcess useBioenergy & Waste",0
+"991",2019,"Total","Drying/separation","Bioenergy & Waste","2019TotalDrying/separationBioenergy & Waste",0
+"992",2019,"Total","Unkown (heat)","Bioenergy & Waste","2019TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
+"993",2019,"Total","Heat total","Bioenergy & Waste","2019TotalHeat totalBioenergy & Waste",2945.93193929241
+"994",2019,"Total","Computing","Bioenergy & Waste","2019TotalComputingBioenergy & Waste",0
+"995",2019,"Total","Cooling and ventilation","Bioenergy & Waste","2019TotalCooling and ventilationBioenergy & Waste",0
+"996",2019,"Total","Lighting and appliances","Bioenergy & Waste","2019TotalLighting and appliancesBioenergy & Waste",0
+"997",2019,"Total","Motors","Bioenergy & Waste","2019TotalMotorsBioenergy & Waste",0
+"998",2019,"Total","Compressed air","Bioenergy & Waste","2019TotalCompressed airBioenergy & Waste",0
+"999",2019,"Total","Refrigeration","Bioenergy & Waste","2019TotalRefrigerationBioenergy & Waste",0
+"1000",2019,"Total","Other","Bioenergy & Waste","2019TotalOtherBioenergy & Waste",190.920453059106
+"1001",2019,"Total","Transport","Bioenergy & Waste","2019TotalTransportBioenergy & Waste",1736.05300680099
+"1002",2019,"Total","Non-heat total","Bioenergy & Waste","2019TotalNon-heat totalBioenergy & Waste",1926.9734598601
+"1003",2019,"Total","Overall total","Bioenergy & Waste","2019TotalOverall totalBioenergy & Waste",4872.90539915251
+"1004",2019,"Total","Overall total excluding transport","Bioenergy & Waste","2019TotalOverall total excluding transportBioenergy & Waste",3136.85239235152
+"1005",2018,"Domestic","Space heating","Bioenergy & Waste","2018DomesticSpace heatingBioenergy & Waste",207.878364493684
+"1006",2018,"Domestic","Water heating","Bioenergy & Waste","2018DomesticWater heatingBioenergy & Waste",61.9812167400625
+"1007",2018,"Domestic","Cooking/catering","Bioenergy & Waste","2018DomesticCooking/cateringBioenergy & Waste",0
+"1008",2018,"Domestic","Heat total","Bioenergy & Waste","2018DomesticHeat totalBioenergy & Waste",269.859581233747
+"1009",2018,"Domestic","Lighting and appliances","Bioenergy & Waste","2018DomesticLighting and appliancesBioenergy & Waste",0
+"1010",2018,"Domestic","Overall total","Bioenergy & Waste","2018DomesticOverall totalBioenergy & Waste",269.859581233747
+"1011",2018,"Service","Space heating","Bioenergy & Waste","2018ServiceSpace heatingBioenergy & Waste",878.067883774036
+"1012",2018,"Service","Water heating","Bioenergy & Waste","2018ServiceWater heatingBioenergy & Waste",113.692992497679
+"1013",2018,"Service","Cooking/catering","Bioenergy & Waste","2018ServiceCooking/cateringBioenergy & Waste",0
+"1014",2018,"Service","Heat total","Bioenergy & Waste","2018ServiceHeat totalBioenergy & Waste",991.760876271714
+"1015",2018,"Service","Computing","Bioenergy & Waste","2018ServiceComputingBioenergy & Waste",0
+"1016",2018,"Service","Cooling and ventilation","Bioenergy & Waste","2018ServiceCooling and ventilationBioenergy & Waste",0
+"1017",2018,"Service","Lighting","Bioenergy & Waste","2018ServiceLightingBioenergy & Waste",0
+"1018",2018,"Service","Other","Bioenergy & Waste","2018ServiceOtherBioenergy & Waste",189.319123728286
+"1019",2018,"Service","Overall total","Bioenergy & Waste","2018ServiceOverall totalBioenergy & Waste",1181.08
+"1020",2018,"Industry","Space heating","Bioenergy & Waste","2018IndustrySpace heatingBioenergy & Waste",0
+"1021",2018,"Industry","High temperature process","Bioenergy & Waste","2018IndustryHigh temperature processBioenergy & Waste",0
+"1022",2018,"Industry","Low temperature process","Bioenergy & Waste","2018IndustryLow temperature processBioenergy & Waste",0
+"1023",2018,"Industry","Drying/separation","Bioenergy & Waste","2018IndustryDrying/separationBioenergy & Waste",0
+"1024",2018,"Industry","Unkown (heat)","Bioenergy & Waste","2018IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
+"1025",2018,"Industry","Heat total","Bioenergy & Waste","2018IndustryHeat totalBioenergy & Waste",1676.28698914035
+"1026",2018,"Industry","Motors","Bioenergy & Waste","2018IndustryMotorsBioenergy & Waste",0
+"1027",2018,"Industry","Compressed air","Bioenergy & Waste","2018IndustryCompressed airBioenergy & Waste",0
+"1028",2018,"Industry","Lighting","Bioenergy & Waste","2018IndustryLightingBioenergy & Waste",0
+"1029",2018,"Industry","Refrigeration","Bioenergy & Waste","2018IndustryRefrigerationBioenergy & Waste",0
+"1030",2018,"Industry","Other","Bioenergy & Waste","2018IndustryOtherBioenergy & Waste",0
+"1031",2018,"Industry","Overall total","Bioenergy & Waste","2018IndustryOverall totalBioenergy & Waste",1676.28698914035
+"1032",2018,"Transport","Non-heat purposes","Bioenergy & Waste","2018TransportNon-heat purposesBioenergy & Waste",1364.79411483711
+"1033",2018,"Total","Space heating","Bioenergy & Waste","2018TotalSpace heatingBioenergy & Waste",1085.94624826772
+"1034",2018,"Total","Water heating","Bioenergy & Waste","2018TotalWater heatingBioenergy & Waste",175.674209237741
+"1035",2018,"Total","Cooking/catering","Bioenergy & Waste","2018TotalCooking/cateringBioenergy & Waste",0
+"1036",2018,"Total","Process use","Bioenergy & Waste","2018TotalProcess useBioenergy & Waste",0
+"1037",2018,"Total","Drying/separation","Bioenergy & Waste","2018TotalDrying/separationBioenergy & Waste",0
+"1038",2018,"Total","Unkown (heat)","Bioenergy & Waste","2018TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
+"1039",2018,"Total","Heat total","Bioenergy & Waste","2018TotalHeat totalBioenergy & Waste",2937.90744664582
+"1040",2018,"Total","Computing","Bioenergy & Waste","2018TotalComputingBioenergy & Waste",0
+"1041",2018,"Total","Cooling and ventilation","Bioenergy & Waste","2018TotalCooling and ventilationBioenergy & Waste",0
+"1042",2018,"Total","Lighting and appliances","Bioenergy & Waste","2018TotalLighting and appliancesBioenergy & Waste",0
+"1043",2018,"Total","Motors","Bioenergy & Waste","2018TotalMotorsBioenergy & Waste",0
+"1044",2018,"Total","Compressed air","Bioenergy & Waste","2018TotalCompressed airBioenergy & Waste",0
+"1045",2018,"Total","Refrigeration","Bioenergy & Waste","2018TotalRefrigerationBioenergy & Waste",0
+"1046",2018,"Total","Other","Bioenergy & Waste","2018TotalOtherBioenergy & Waste",189.319123728286
+"1047",2018,"Total","Transport","Bioenergy & Waste","2018TotalTransportBioenergy & Waste",1364.79411483711
+"1048",2018,"Total","Non-heat total","Bioenergy & Waste","2018TotalNon-heat totalBioenergy & Waste",1554.11323856539
+"1049",2018,"Total","Overall total","Bioenergy & Waste","2018TotalOverall totalBioenergy & Waste",4492.02068521121
+"1050",2018,"Total","Overall total excluding transport","Bioenergy & Waste","2018TotalOverall total excluding transportBioenergy & Waste",3127.2265703741
+"1051",2017,"Domestic","Space heating","Bioenergy & Waste","2017DomesticSpace heatingBioenergy & Waste",207.804815678226
+"1052",2017,"Domestic","Water heating","Bioenergy & Waste","2017DomesticWater heatingBioenergy & Waste",60.7594483111293
+"1053",2017,"Domestic","Cooking/catering","Bioenergy & Waste","2017DomesticCooking/cateringBioenergy & Waste",0
+"1054",2017,"Domestic","Heat total","Bioenergy & Waste","2017DomesticHeat totalBioenergy & Waste",268.564263989356
+"1055",2017,"Domestic","Lighting and appliances","Bioenergy & Waste","2017DomesticLighting and appliancesBioenergy & Waste",0
+"1056",2017,"Domestic","Overall total","Bioenergy & Waste","2017DomesticOverall totalBioenergy & Waste",268.564263989356
+"1057",2017,"Service","Space heating","Bioenergy & Waste","2017ServiceSpace heatingBioenergy & Waste",863.630184123807
+"1058",2017,"Service","Water heating","Bioenergy & Waste","2017ServiceWater heatingBioenergy & Waste",111.823586602816
+"1059",2017,"Service","Cooking/catering","Bioenergy & Waste","2017ServiceCooking/cateringBioenergy & Waste",0
+"1060",2017,"Service","Heat total","Bioenergy & Waste","2017ServiceHeat totalBioenergy & Waste",975.453770726623
+"1061",2017,"Service","Computing","Bioenergy & Waste","2017ServiceComputingBioenergy & Waste",0
+"1062",2017,"Service","Cooling and ventilation","Bioenergy & Waste","2017ServiceCooling and ventilationBioenergy & Waste",0
+"1063",2017,"Service","Lighting","Bioenergy & Waste","2017ServiceLightingBioenergy & Waste",0
+"1064",2017,"Service","Other","Bioenergy & Waste","2017ServiceOtherBioenergy & Waste",186.206229273377
+"1065",2017,"Service","Overall total","Bioenergy & Waste","2017ServiceOverall totalBioenergy & Waste",1161.66
+"1066",2017,"Industry","Space heating","Bioenergy & Waste","2017IndustrySpace heatingBioenergy & Waste",0
+"1067",2017,"Industry","High temperature process","Bioenergy & Waste","2017IndustryHigh temperature processBioenergy & Waste",0
+"1068",2017,"Industry","Low temperature process","Bioenergy & Waste","2017IndustryLow temperature processBioenergy & Waste",0
+"1069",2017,"Industry","Drying/separation","Bioenergy & Waste","2017IndustryDrying/separationBioenergy & Waste",0
+"1070",2017,"Industry","Unkown (heat)","Bioenergy & Waste","2017IndustryUnkown (heat)Bioenergy & Waste",1676.28698914035
+"1071",2017,"Industry","Heat total","Bioenergy & Waste","2017IndustryHeat totalBioenergy & Waste",1676.28698914035
+"1072",2017,"Industry","Motors","Bioenergy & Waste","2017IndustryMotorsBioenergy & Waste",0
+"1073",2017,"Industry","Compressed air","Bioenergy & Waste","2017IndustryCompressed airBioenergy & Waste",0
+"1074",2017,"Industry","Lighting","Bioenergy & Waste","2017IndustryLightingBioenergy & Waste",0
+"1075",2017,"Industry","Refrigeration","Bioenergy & Waste","2017IndustryRefrigerationBioenergy & Waste",0
+"1076",2017,"Industry","Other","Bioenergy & Waste","2017IndustryOtherBioenergy & Waste",0
+"1077",2017,"Industry","Overall total","Bioenergy & Waste","2017IndustryOverall totalBioenergy & Waste",1676.28698914035
+"1078",2017,"Transport","Non-heat purposes","Bioenergy & Waste","2017TransportNon-heat purposesBioenergy & Waste",997.124295404605
+"1079",2017,"Total","Space heating","Bioenergy & Waste","2017TotalSpace heatingBioenergy & Waste",1071.43499980203
+"1080",2017,"Total","Water heating","Bioenergy & Waste","2017TotalWater heatingBioenergy & Waste",172.583034913945
+"1081",2017,"Total","Cooking/catering","Bioenergy & Waste","2017TotalCooking/cateringBioenergy & Waste",0
+"1082",2017,"Total","Process use","Bioenergy & Waste","2017TotalProcess useBioenergy & Waste",0
+"1083",2017,"Total","Drying/separation","Bioenergy & Waste","2017TotalDrying/separationBioenergy & Waste",0
+"1084",2017,"Total","Unkown (heat)","Bioenergy & Waste","2017TotalUnkown (heat)Bioenergy & Waste",1676.28698914035
+"1085",2017,"Total","Heat total","Bioenergy & Waste","2017TotalHeat totalBioenergy & Waste",2920.30502385633
+"1086",2017,"Total","Computing","Bioenergy & Waste","2017TotalComputingBioenergy & Waste",0
+"1087",2017,"Total","Cooling and ventilation","Bioenergy & Waste","2017TotalCooling and ventilationBioenergy & Waste",0
+"1088",2017,"Total","Lighting and appliances","Bioenergy & Waste","2017TotalLighting and appliancesBioenergy & Waste",0
+"1089",2017,"Total","Motors","Bioenergy & Waste","2017TotalMotorsBioenergy & Waste",0
+"1090",2017,"Total","Compressed air","Bioenergy & Waste","2017TotalCompressed airBioenergy & Waste",0
+"1091",2017,"Total","Refrigeration","Bioenergy & Waste","2017TotalRefrigerationBioenergy & Waste",0
+"1092",2017,"Total","Other","Bioenergy & Waste","2017TotalOtherBioenergy & Waste",186.206229273377
+"1093",2017,"Total","Transport","Bioenergy & Waste","2017TotalTransportBioenergy & Waste",997.124295404605
+"1094",2017,"Total","Non-heat total","Bioenergy & Waste","2017TotalNon-heat totalBioenergy & Waste",1183.33052467798
+"1095",2017,"Total","Overall total","Bioenergy & Waste","2017TotalOverall totalBioenergy & Waste",4103.63554853431
+"1096",2017,"Total","Overall total excluding transport","Bioenergy & Waste","2017TotalOverall total excluding transportBioenergy & Waste",3106.51125312971
+"1097",2020,"Domestic","Space heating","Total","2020DomesticSpace heatingTotal",23825.7441076173
+"1098",2020,"Domestic","Water heating","Total","2020DomesticWater heatingTotal",6726.05557250992
+"1099",2020,"Domestic","Cooking/catering","Total","2020DomesticCooking/cateringTotal",1131.58161772894
+"1100",2020,"Domestic","Heat total","Total","2020DomesticHeat totalTotal",31683.3812978562
+"1101",2020,"Domestic","Lighting and appliances","Total","2020DomesticLighting and appliancesTotal",6874.73195834627
+"1102",2020,"Domestic","Overall total","Total","2020DomesticOverall totalTotal",38558.1132562024
+"1103",2020,"Service","Space heating","Total","2020ServiceSpace heatingTotal",9127.60113273806
+"1104",2020,"Service","Water heating","Total","2020ServiceWater heatingTotal",1286.18156297376
+"1105",2020,"Service","Cooking/catering","Total","2020ServiceCooking/cateringTotal",1969.4538924114
+"1106",2020,"Service","Heat total","Total","2020ServiceHeat totalTotal",12383.2365881232
+"1107",2020,"Service","Computing","Total","2020ServiceComputingTotal",712.765590114844
+"1108",2020,"Service","Cooling and ventilation","Total","2020ServiceCooling and ventilationTotal",961.796508790982
+"1109",2020,"Service","Lighting","Total","2020ServiceLightingTotal",1565.14326317928
+"1110",2020,"Service","Other","Total","2020ServiceOtherTotal",2838.78338824531
+"1111",2020,"Service","Overall total","Total","2020ServiceOverall totalTotal",18461.7253384536
+"1112",2020,"Industry","Space heating","Total","2020IndustrySpace heatingTotal",1793.60929507901
+"1113",2020,"Industry","High temperature process","Total","2020IndustryHigh temperature processTotal",3408.3302493572
+"1114",2020,"Industry","Low temperature process","Total","2020IndustryLow temperature processTotal",6028.16923750645
+"1115",2020,"Industry","Drying/separation","Total","2020IndustryDrying/separationTotal",1642.70939842714
+"1116",2020,"Industry","Unkown (heat)","Total","2020IndustryUnkown (heat)Total",2358.04444271465
+"1117",2020,"Industry","Heat total","Total","2020IndustryHeat totalTotal",15230.8626230845
+"1118",2020,"Industry","Motors","Total","2020IndustryMotorsTotal",2683.29695827286
+"1119",2020,"Industry","Compressed air","Total","2020IndustryCompressed airTotal",755.376166693148
+"1120",2020,"Industry","Lighting","Total","2020IndustryLightingTotal",229.315814826352
+"1121",2020,"Industry","Refrigeration","Total","2020IndustryRefrigerationTotal",443.534523982769
+"1122",2020,"Industry","Other","Total","2020IndustryOtherTotal",1558.73009126353
+"1123",2020,"Industry","Overall total","Total","2020IndustryOverall totalTotal",20901.1161781231
+"1124",2020,"Transport","Non-heat purposes","Total","2020TransportNon-heat purposesTotal",40434.0026226073
+"1125",2020,"Total","Space heating","Total","2020TotalSpace heatingTotal",34746.9545354344
+"1126",2020,"Total","Water heating","Total","2020TotalWater heatingTotal",8012.23713548368
+"1127",2020,"Total","Cooking/catering","Total","2020TotalCooking/cateringTotal",3101.03551014034
+"1128",2020,"Total","Process use","Total","2020TotalProcess useTotal",9436.49948686365
+"1129",2020,"Total","Drying/separation","Total","2020TotalDrying/separationTotal",1642.70939842714
+"1130",2020,"Total","Unkown (heat)","Total","2020TotalUnkown (heat)Total",2358.04444271465
+"1131",2020,"Total","Heat total","Total","2020TotalHeat totalTotal",59297.4805090638
+"1132",2020,"Total","Computing","Total","2020TotalComputingTotal",712.765590114844
+"1133",2020,"Total","Cooling and ventilation","Total","2020TotalCooling and ventilationTotal",961.796508790982
+"1134",2020,"Total","Lighting and appliances","Total","2020TotalLighting and appliancesTotal",8669.19103635191
+"1135",2020,"Total","Motors","Total","2020TotalMotorsTotal",2683.29695827286
+"1136",2020,"Total","Compressed air","Total","2020TotalCompressed airTotal",755.376166693148
+"1137",2020,"Total","Refrigeration","Total","2020TotalRefrigerationTotal",443.534523982769
+"1138",2020,"Total","Other","Total","2020TotalOtherTotal",4397.51347950884
+"1139",2020,"Total","Transport","Total","2020TotalTransportTotal",40460.918525408
+"1140",2020,"Total","Non-heat total","Total","2020TotalNon-heat totalTotal",59084.3927891234
+"1141",2020,"Total","Overall total","Total","2020TotalOverall totalTotal",118381.873298187
+"1142",2020,"Total","Overall total excluding transport","Total","2020TotalOverall total excluding transportTotal",77920.9547727792
+"1143",2019,"Domestic","Space heating","Total","2019DomesticSpace heatingTotal",23385.8653862719
+"1144",2019,"Domestic","Water heating","Total","2019DomesticWater heatingTotal",6600.0694237663
+"1145",2019,"Domestic","Cooking/catering","Total","2019DomesticCooking/cateringTotal",1103.18553592831
+"1146",2019,"Domestic","Heat total","Total","2019DomesticHeat totalTotal",31089.1203459665
+"1147",2019,"Domestic","Lighting and appliances","Total","2019DomesticLighting and appliancesTotal",6618.34581740281
+"1148",2019,"Domestic","Overall total","Total","2019DomesticOverall totalTotal",37707.4661633693
+"1149",2019,"Service","Space heating","Total","2019ServiceSpace heatingTotal",9617.59386149739
+"1150",2019,"Service","Water heating","Total","2019ServiceWater heatingTotal",1361.79212238886
+"1151",2019,"Service","Cooking/catering","Total","2019ServiceCooking/cateringTotal",2153.28960126788
+"1152",2019,"Service","Heat total","Total","2019ServiceHeat totalTotal",13132.6755851541
+"1153",2019,"Service","Computing","Total","2019ServiceComputingTotal",806.278526775259
+"1154",2019,"Service","Cooling and ventilation","Total","2019ServiceCooling and ventilationTotal",1085.6730531477
+"1155",2019,"Service","Lighting","Total","2019ServiceLightingTotal",1770.48586790656
+"1156",2019,"Service","Other","Total","2019ServiceOtherTotal",3399.8086666386
+"1157",2019,"Service","Overall total","Total","2019ServiceOverall totalTotal",20194.9216996222
+"1158",2019,"Industry","Space heating","Total","2019IndustrySpace heatingTotal",2335.40946878561
+"1159",2019,"Industry","High temperature process","Total","2019IndustryHigh temperature processTotal",3738.00522259788
+"1160",2019,"Industry","Low temperature process","Total","2019IndustryLow temperature processTotal",6239.01406343093
+"1161",2019,"Industry","Drying/separation","Total","2019IndustryDrying/separationTotal",1725.86181900229
+"1162",2019,"Industry","Unkown (heat)","Total","2019IndustryUnkown (heat)Total",2358.04444271465
+"1163",2019,"Industry","Heat total","Total","2019IndustryHeat totalTotal",16396.3350165314
+"1164",2019,"Industry","Motors","Total","2019IndustryMotorsTotal",2683.29695827286
+"1165",2019,"Industry","Compressed air","Total","2019IndustryCompressed airTotal",755.376166693148
+"1166",2019,"Industry","Lighting","Total","2019IndustryLightingTotal",229.315814826352
+"1167",2019,"Industry","Refrigeration","Total","2019IndustryRefrigerationTotal",443.534523982769
+"1168",2019,"Industry","Other","Total","2019IndustryOtherTotal",1634.65728894327
+"1169",2019,"Industry","Overall total","Total","2019IndustryOverall totalTotal",22142.5157692498
+"1170",2019,"Transport","Non-heat purposes","Total","2019TransportNon-heat purposesTotal",56629.4786130277
+"1171",2019,"Total","Space heating","Total","2019TotalSpace heatingTotal",35338.8687165549
+"1172",2019,"Total","Water heating","Total","2019TotalWater heatingTotal",7961.86154615516
+"1173",2019,"Total","Cooking/catering","Total","2019TotalCooking/cateringTotal",3256.47513719619
+"1174",2019,"Total","Process use","Total","2019TotalProcess useTotal",9977.01928602881
+"1175",2019,"Total","Drying/separation","Total","2019TotalDrying/separationTotal",1725.86181900229
+"1176",2019,"Total","Unkown (heat)","Total","2019TotalUnkown (heat)Total",2358.04444271465
+"1177",2019,"Total","Heat total","Total","2019TotalHeat totalTotal",60618.130947652
+"1178",2019,"Total","Computing","Total","2019TotalComputingTotal",806.278526775259
+"1179",2019,"Total","Cooling and ventilation","Total","2019TotalCooling and ventilationTotal",1085.6730531477
+"1180",2019,"Total","Lighting and appliances","Total","2019TotalLighting and appliancesTotal",8618.14750013572
+"1181",2019,"Total","Motors","Total","2019TotalMotorsTotal",2683.29695827286
+"1182",2019,"Total","Compressed air","Total","2019TotalCompressed airTotal",755.376166693148
+"1183",2019,"Total","Refrigeration","Total","2019TotalRefrigerationTotal",443.534523982769
+"1184",2019,"Total","Other","Total","2019TotalOtherTotal",5034.46595558187
+"1185",2019,"Total","Transport","Total","2019TotalTransportTotal",56644.6058160018
+"1186",2019,"Total","Non-heat total","Total","2019TotalNon-heat totalTotal",76071.3785005911
+"1187",2019,"Total","Overall total","Total","2019TotalOverall totalTotal",136689.509448243
+"1188",2019,"Total","Overall total excluding transport","Total","2019TotalOverall total excluding transportTotal",80044.9036322413
+"1189",2018,"Domestic","Space heating","Total","2018DomesticSpace heatingTotal",24232.414576504
+"1190",2018,"Domestic","Water heating","Total","2018DomesticWater heatingTotal",6831.71792839789
+"1191",2018,"Domestic","Cooking/catering","Total","2018DomesticCooking/cateringTotal",1130.43651755426
+"1192",2018,"Domestic","Heat total","Total","2018DomesticHeat totalTotal",32194.5690224561
+"1193",2018,"Domestic","Lighting and appliances","Total","2018DomesticLighting and appliancesTotal",6697.369701329
+"1194",2018,"Domestic","Overall total","Total","2018DomesticOverall totalTotal",38891.9387237851
+"1195",2018,"Service","Space heating","Total","2018ServiceSpace heatingTotal",9671.68626355945
+"1196",2018,"Service","Water heating","Total","2018ServiceWater heatingTotal",1369.91228361009
+"1197",2018,"Service","Cooking/catering","Total","2018ServiceCooking/cateringTotal",2172.50739345202
+"1198",2018,"Service","Heat total","Total","2018ServiceHeat totalTotal",13214.1059406216
+"1199",2018,"Service","Computing","Total","2018ServiceComputingTotal",824.634974062178
+"1200",2018,"Service","Cooling and ventilation","Total","2018ServiceCooling and ventilationTotal",1109.25313668446
+"1201",2018,"Service","Lighting","Total","2018ServiceLightingTotal",1810.79430900625
+"1202",2018,"Service","Other","Total","2018ServiceOtherTotal",3459.85333924807
+"1203",2018,"Service","Overall total","Total","2018ServiceOverall totalTotal",20418.6416996225
+"1204",2018,"Industry","Space heating","Total","2018IndustrySpace heatingTotal",3409.08667889719
+"1205",2018,"Industry","High temperature process","Total","2018IndustryHigh temperature processTotal",4869.66030107782
+"1206",2018,"Industry","Low temperature process","Total","2018IndustryLow temperature processTotal",7025.90032733041
+"1207",2018,"Industry","Drying/separation","Total","2018IndustryDrying/separationTotal",1966.96957705949
+"1208",2018,"Industry","Unkown (heat)","Total","2018IndustryUnkown (heat)Total",2358.04444271465
+"1209",2018,"Industry","Heat total","Total","2018IndustryHeat totalTotal",19629.6613270796
+"1210",2018,"Industry","Motors","Total","2018IndustryMotorsTotal",3660.91710353235
+"1211",2018,"Industry","Compressed air","Total","2018IndustryCompressed airTotal",882.344787576966
+"1212",2018,"Industry","Lighting","Total","2018IndustryLightingTotal",310.262025885764
+"1213",2018,"Industry","Refrigeration","Total","2018IndustryRefrigerationTotal",386.477292243084
+"1214",2018,"Industry","Other","Total","2018IndustryOtherTotal",1907.95643096669
+"1215",2018,"Industry","Overall total","Total","2018IndustryOverall totalTotal",26777.6189672844
+"1216",2018,"Transport","Non-heat purposes","Total","2018TransportNon-heat purposesTotal",56891.8730802176
+"1217",2018,"Total","Space heating","Total","2018TotalSpace heatingTotal",37313.1875189606
+"1218",2018,"Total","Water heating","Total","2018TotalWater heatingTotal",8201.63021200798
+"1219",2018,"Total","Cooking/catering","Total","2018TotalCooking/cateringTotal",3302.94391100628
+"1220",2018,"Total","Process use","Total","2018TotalProcess useTotal",11895.5606284082
+"1221",2018,"Total","Drying/separation","Total","2018TotalDrying/separationTotal",1966.96957705949
+"1222",2018,"Total","Unkown (heat)","Total","2018TotalUnkown (heat)Total",2358.04444271465
+"1223",2018,"Total","Heat total","Total","2018TotalHeat totalTotal",65038.3362901573
+"1224",2018,"Total","Computing","Total","2018TotalComputingTotal",824.634974062178
+"1225",2018,"Total","Cooling and ventilation","Total","2018TotalCooling and ventilationTotal",1109.25313668446
+"1226",2018,"Total","Lighting and appliances","Total","2018TotalLighting and appliancesTotal",8818.42603622101
+"1227",2018,"Total","Motors","Total","2018TotalMotorsTotal",3660.91710353235
+"1228",2018,"Total","Compressed air","Total","2018TotalCompressed airTotal",882.344787576966
+"1229",2018,"Total","Refrigeration","Total","2018TotalRefrigerationTotal",386.477292243084
+"1230",2018,"Total","Other","Total","2018TotalOtherTotal",5367.80977021476
+"1231",2018,"Total","Transport","Total","2018TotalTransportTotal",56901.5948637969
+"1232",2018,"Total","Non-heat total","Total","2018TotalNon-heat totalTotal",77951.4579643317
+"1233",2018,"Total","Overall total","Total","2018TotalOverall totalTotal",142989.794254489
+"1234",2018,"Total","Overall total excluding transport","Total","2018TotalOverall total excluding transportTotal",86088.1993906921
+"1235",2017,"Domestic","Space heating","Total","2017DomesticSpace heatingTotal",23640.0353854549
+"1236",2017,"Domestic","Water heating","Total","2017DomesticWater heatingTotal",6540.18192692893
+"1237",2017,"Domestic","Cooking/catering","Total","2017DomesticCooking/cateringTotal",1086.25690331254
+"1238",2017,"Domestic","Heat total","Total","2017DomesticHeat totalTotal",31266.4742156964
+"1239",2017,"Domestic","Lighting and appliances","Total","2017DomesticLighting and appliancesTotal",6661.67235120989
+"1240",2017,"Domestic","Overall total","Total","2017DomesticOverall totalTotal",37928.1465669062
+"1241",2017,"Service","Space heating","Total","2017ServiceSpace heatingTotal",9340.62840317332
+"1242",2017,"Service","Water heating","Total","2017ServiceWater heatingTotal",1325.61328104045
+"1243",2017,"Service","Cooking/catering","Total","2017ServiceCooking/cateringTotal",2126.63122442918
+"1244",2017,"Service","Heat total","Total","2017ServiceHeat totalTotal",12792.872908643
+"1245",2017,"Service","Computing","Total","2017ServiceComputingTotal",829.849956593575
+"1246",2017,"Service","Cooling and ventilation","Total","2017ServiceCooling and ventilationTotal",1114.51342461561
+"1247",2017,"Service","Lighting","Total","2017ServiceLightingTotal",1822.24575235566
+"1248",2017,"Service","Other","Total","2017ServiceOtherTotal",3442.88965741478
+"1249",2017,"Service","Overall total","Total","2017ServiceOverall totalTotal",20002.3716996226
+"1250",2017,"Industry","Space heating","Total","2017IndustrySpace heatingTotal",3572.61817122325
+"1251",2017,"Industry","High temperature process","Total","2017IndustryHigh temperature processTotal",3014.6751450156
+"1252",2017,"Industry","Low temperature process","Total","2017IndustryLow temperature processTotal",11298.0668080878
+"1253",2017,"Industry","Drying/separation","Total","2017IndustryDrying/separationTotal",4904.40484885622
+"1254",2017,"Industry","Unkown (heat)","Total","2017IndustryUnkown (heat)Total",2358.04444271465
+"1255",2017,"Industry","Heat total","Total","2017IndustryHeat totalTotal",25147.8094158975
+"1256",2017,"Industry","Motors","Total","2017IndustryMotorsTotal",6553.96103132315
+"1257",2017,"Industry","Compressed air","Total","2017IndustryCompressed airTotal",1666.4115023605
+"1258",2017,"Industry","Lighting","Total","2017IndustryLightingTotal",228.988517933384
+"1259",2017,"Industry","Refrigeration","Total","2017IndustryRefrigerationTotal",436.849711917359
+"1260",2017,"Industry","Other","Total","2017IndustryOtherTotal",3210.02726006769
+"1261",2017,"Industry","Overall total","Total","2017IndustryOverall totalTotal",37244.0474394996
+"1262",2017,"Transport","Non-heat purposes","Total","2017TransportNon-heat purposesTotal",57002.5809119289
+"1263",2017,"Total","Space heating","Total","2017TotalSpace heatingTotal",36553.2819598515
+"1264",2017,"Total","Water heating","Total","2017TotalWater heatingTotal",7865.79520796938
+"1265",2017,"Total","Cooking/catering","Total","2017TotalCooking/cateringTotal",3212.88812774172
+"1266",2017,"Total","Process use","Total","2017TotalProcess useTotal",14312.7419531034
+"1267",2017,"Total","Drying/separation","Total","2017TotalDrying/separationTotal",4904.40484885622
+"1268",2017,"Total","Unkown (heat)","Total","2017TotalUnkown (heat)Total",2358.04444271465
+"1269",2017,"Total","Heat total","Total","2017TotalHeat totalTotal",69207.1565402368
+"1270",2017,"Total","Computing","Total","2017TotalComputingTotal",829.849956593575
+"1271",2017,"Total","Cooling and ventilation","Total","2017TotalCooling and ventilationTotal",1114.51342461561
+"1272",2017,"Total","Lighting and appliances","Total","2017TotalLighting and appliancesTotal",8712.90662149894
+"1273",2017,"Total","Motors","Total","2017TotalMotorsTotal",6553.96103132315
+"1274",2017,"Total","Compressed air","Total","2017TotalCompressed airTotal",1666.4115023605
+"1275",2017,"Total","Refrigeration","Total","2017TotalRefrigerationTotal",436.849711917359
+"1276",2017,"Total","Other","Total","2017TotalOtherTotal",6652.91691748248
+"1277",2017,"Total","Transport","Total","2017TotalTransportTotal",57002.5809119289
+"1278",2017,"Total","Non-heat total","Total","2017TotalNon-heat totalTotal",82969.9900777205
+"1279",2017,"Total","Overall total","Total","2017TotalOverall totalTotal",152177.146617957
+"1280",2017,"Total","Overall total excluding transport","Total","2017TotalOverall total excluding transportTotal",95174.5657060284

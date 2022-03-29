@@ -145,7 +145,7 @@ write.table(NSElecTariff,
 
 SSElecFuel <- SSElecTariff
 
-SSElecFuel[2:9] <- SSElecTariff[2:9] + SSGasTariff[2:9]
+SSElecFuel[2:9] <- SSElecTariff[2:9] + SSElecTariff[2:9]
 
 SSElecFuel$Total <- SSElecFuel$Total - SSElecFuel$Headroom
 
