@@ -8,7 +8,7 @@ GDP <-
   read_excel(
     "Data Sources/QNAS/QNAS.xlsx",
     sheet = "Table A",
-    skip = 4
+    skip = 5
   )
 ### Create Subset with only relevant data ###
 # is.na(GDP$Quarter2) means that only the rows where there is nothing in that column are extracted.
@@ -20,7 +20,7 @@ GDP <-
   )
 
 ### Remove excess rows from the bottom ###
-GDP <- head(GDP[c(1,3,9)],-10)
+GDP <- head(GDP[c(1,3,9)],-9)
 
 
 names(GDP) <- c("Year", "GVA", "GDP at Market Prices")
