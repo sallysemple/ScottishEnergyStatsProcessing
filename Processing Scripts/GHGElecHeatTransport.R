@@ -8,18 +8,18 @@ FullDataset <- read_excel("Data Sources/Greenhouse Gas/FullDataset.xlsx",
 
 FullDataset$Category <- "Other"
 
-FullDataset[which(FullDataset$`CCP_categories` == "Industry"),]$Category <- "Industry"
+FullDataset[which(FullDataset$`CCP_category` == "Industry"),]$Category <- "Industry"
 
-FullDataset[which(FullDataset$IPCC == "1A1ai_Public_Electricity&Heat_Production"),]$Category <- "Electricity"
+FullDataset[which(FullDataset$IPCC_name == "1A1ai_Public_Electricity&Heat_Production"),]$Category <- "Electricity"
 
 
 FullDataset[which(FullDataset$`NCFormat` == "International Aviation and Shipping"),]$Category <- "Transport"
 FullDataset[which(FullDataset$`NCFormat` == "Transport"),]$Category <- "Transport"
-FullDataset[which(FullDataset$`SG_categories` == "Transport"),]$`SG_categories` <- "Domestic Transport"
+FullDataset[which(FullDataset$`Old_SG_name` == "Transport"),]$`Old_SG_name` <- "Domestic Transport"
 
-FullDataset[which(FullDataset$`SG_categories` == "Business and Industrial Process" & FullDataset$SourceName == "Miscellaneous industrial/commercial combustion"),]$Category <- "Heat"
-FullDataset[which(FullDataset$`SG_categories` == "Public"),]$Category <- "Heat"
-FullDataset[which(FullDataset$`SG_categories` == "Residential" & FullDataset$SourceName == "Domestic combustion"),]$Category <- "Heat"
+FullDataset[which(FullDataset$`Old_SG_name` == "Business and Industrial Process" & FullDataset$SourceName == "Miscellaneous industrial/commercial combustion"),]$Category <- "Heat"
+FullDataset[which(FullDataset$`Old_SG_name` == "Public"),]$Category <- "Heat"
+FullDataset[which(FullDataset$`Old_SG_name` == "Residential" & FullDataset$SourceName == "Domestic combustion"),]$Category <- "Heat"
 
 #Take Inventory and map what we include 
 
@@ -29,7 +29,7 @@ HeatDataset <- FullDataset[which(FullDataset$Category == "Heat"),]
 
 FullDataset <- FullDataset %>%
   group_by(EmissionYear, Category) %>% 
-  summarise( `GHG Emissions (MtCO2e)` = sum(`GHG Emissions (MtCO2e)`))
+  summarise( `Emmisions (MtCO2e)` = sum(`Emmisions (MtCO2e)`))
 
 FullDataset <- dcast(FullDataset, EmissionYear ~ Category)
 
@@ -45,7 +45,7 @@ write.csv(
 
 ElectricityDataset <- ElectricityDataset %>%
   group_by(EmissionYear, SourceName) %>% 
-  summarise( `GHG Emissions (MtCO2e)` = sum(`GHG Emissions (MtCO2e)`))
+  summarise( `Emmisions (MtCO2e)` = sum(`Emmisions (MtCO2e)`))
 
 ElectricityDataset <- dcast(ElectricityDataset, EmissionYear ~ SourceName)
 
@@ -57,10 +57,10 @@ write.csv(
 )
 
 HeatDataset <- HeatDataset %>%
-  group_by(EmissionYear, `SG_categories`) %>% 
-  summarise( `GHG Emissions (MtCO2e)` = sum(`GHG Emissions (MtCO2e)`))
+  group_by(EmissionYear, `Old_SG_name`) %>% 
+  summarise( `Emmisions (MtCO2e)` = sum(`Emmisions (MtCO2e)`))
 
-HeatDataset <- dcast(HeatDataset, EmissionYear ~ `SG_categories`)
+HeatDataset <- dcast(HeatDataset, EmissionYear ~ `Old_SG_name`)
 
 write.csv(
   HeatDataset,
@@ -70,10 +70,10 @@ write.csv(
 )
 
 TransportDataset <- TransportDataset %>%
-  group_by(EmissionYear, `SG_categories`) %>% 
-  summarise( `GHG Emissions (MtCO2e)` = sum(`GHG Emissions (MtCO2e)`))
+  group_by(EmissionYear, `Old_SG_name`) %>% 
+  summarise( `Emmisions (MtCO2e)` = sum(`Emmisions (MtCO2e)`))
 
-TransportDataset <- dcast(TransportDataset, EmissionYear ~ `SG_categories`)
+TransportDataset <- dcast(TransportDataset, EmissionYear ~ `Old_SG_name`)
 
 write.csv(
   TransportDataset,
