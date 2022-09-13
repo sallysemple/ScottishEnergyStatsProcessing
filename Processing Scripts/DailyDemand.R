@@ -185,7 +185,8 @@ GBElecDemand <- ElecDemand
 
 ElecDemand$Total <-
   ElecDemand$ND + (ElecDemand$EMBEDDED_WIND_GENERATION * ElecDemand$WindProportion) + (ElecDemand$EMBEDDED_SOLAR_GENERATION * ElecDemand$SolarProportion) - (ElecDemand$ENGLAND_WALES_DEMAND)
-
+  #ElecDemand$ND + (ElecDemand$EMBEDDED_WIND_GENERATION) + (ElecDemand$EMBEDDED_SOLAR_GENERATION)
+  
 ElecDemand <- ElecDemand %>%  select(c("SETTLEMENT_DATE", "SETTLEMENT_PERIOD", "Total"))
 
 ElecDemandHalfHourly <- ElecDemand
