@@ -16,7 +16,7 @@ for (year in yearstart:yearend) {
   
   tryCatch({
     RenewableElecCapLA <- read_excel("Data Sources/Renewable Generation/RenewableElecLA.xlsx", 
-                                  sheet = paste0("LA - Capacity, ", year), skip = 1)
+                                  sheet = paste0("LA - Capacity, ", year), skip = 3)
     
     RenewableElecCapLA$Year <- year
     
@@ -38,10 +38,10 @@ RenewableElecCapLA[3:5] <- NULL
 RenewableElecCapLA[3:15] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 Unallocated <- RenewableElecCapLA %>% group_by(Year) %>% 
-  summarise_at(c(3:15), funs(sum))
+  summarise_at(c(3:15), list(sum))
 
 Unallocated$LACode <- " "
-Unallocated$`Local Authority Name` <- "Unallocated"
+Unallocated$`Local Authority Name  [note 5][note 6][note 7] [note 8][note 9]` <- "Unallocated"
 
 RenewableElecCapLA <- rbind(RenewableElecCapLA, Unallocated)
 

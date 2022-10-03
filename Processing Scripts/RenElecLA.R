@@ -16,16 +16,18 @@ for (year in yearstart:yearend) {
   
   tryCatch({
     RenewableElecLA <- read_excel("Data Sources/Renewable Generation/RenewableElecLA.xlsx", 
-                                  sheet = paste0("LA - Generation, ", year), skip = 1)
+                                  sheet = paste0("LA - Generation, ", year), skip = 4)
     
     RenewableElecLA$Year <- year
-    
+    # RenewableElecLA$Hydro <- as.numeric(RenewableElecLA$Hydro)
+    # RenewableElecLA$Hydro <- as.numeric(RenewableElecLA$Hydro)
     RenElecLAList[[year]] <- RenewableElecLA
-    
+
   }, error = function(e) {
     cat("ERROR :", conditionMessage(e), "\n")
   })
 }
+
 
 RenewableElecLA <- bind_rows(RenElecLAList)
 
@@ -38,10 +40,10 @@ RenewableElecLA[3:5] <- NULL
 RenewableElecLA[3:15] %<>% lapply(function(x) as.numeric(as.character(x))/1000)
 
 Unallocated <- RenewableElecLA %>% group_by(Year) %>% 
-  summarise_at(c(3:15), funs(sum))
+  summarise_at(c(3:15), list(sum))
 
 Unallocated$LACode <- " "
-Unallocated$`Local Authority Name` <- "Unallocated"
+Unallocated$`Local Authority Name  [note 5][note 6][note 7] [note 8][note 9]` <- "Unallocated"
 
 RenewableElecLA <- rbind(RenewableElecLA, Unallocated)
 

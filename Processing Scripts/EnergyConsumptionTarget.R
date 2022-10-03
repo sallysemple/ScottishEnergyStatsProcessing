@@ -29,6 +29,8 @@ BaselineConsumption$Region <- "All local authorities"
 # Baseline Total
 BaselineTotal <- BaselineConsumption$`All fuels - Total`
 
+EnergyTarget <- as_tibble(EnergyTarget[-c(29)])
+
 # Add baseline back to main data
 EnergyTarget <- rbind(BaselineConsumption, EnergyTarget)
 

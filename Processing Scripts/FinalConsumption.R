@@ -13,8 +13,8 @@ print("FinalConsumption")
 
 ### Is Sub-National individual fuel Source more recent than Sub-National Final Consumption? ###
 
-SubNationalElec <- TRUE
-SubNationalGas <- TRUE
+SubNationalElec <- FALSE
+SubNationalGas <- FALSE
 #SubNationalTransport <- TRUE Code needs written
 
 
