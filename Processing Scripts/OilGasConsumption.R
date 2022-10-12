@@ -11,7 +11,7 @@ source("Processing Scripts/FinalConsumption.R")
 
 ###Remove Latest Year - Might be needed if provisional data is being rolled forward
 
-RemoveLatestYear <- 1
+RemoveLatestYear <- 0
 
 if(RemoveLatestYear == 1){
 TotalFinalLAConsumption <- TotalFinalLAConsumption[which(TotalFinalLAConsumption$Year < max(TotalFinalLAConsumption$Year)),]
@@ -26,6 +26,10 @@ ScotlandFinalConsumption <- TotalFinalLAConsumption[which(TotalFinalLAConsumptio
 #UK
 
 UKFinalConsumption <- TotalFinalLAConsumption[which(TotalFinalLAConsumption$`LA Code` ==  'K03000001'),]
+
+duplicated_names <- duplicated(colnames(UKFinalConsumption))
+
+UKFinalConsumption <-   UKFinalConsumption[!duplicated_names]
 
 #There are two UK rows, one that includes unallocated consumption. This function keeps the values which are larger per column, which will be inclusive of unallocated consumption
 UKFinalConsumption <- UKFinalConsumption %>% group_by(Year) %>% summarise_all(max)
