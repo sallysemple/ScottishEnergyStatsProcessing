@@ -1,5 +1,13 @@
+library(plyr)
+library(dplyr)
+library(readr)
 library(readxl)
 library(tidyverse)
+library(reshape2)
+library(readr)
+library(lubridate)
+library(zoo)
+library(magrittr)
 
 print("ElecGenByFuel")
 
@@ -38,7 +46,7 @@ EWFuel <- AllFuel[which(AllFuel$`Country` %in% c('England', 'Wales')),]
 ScotlandFuel <- dcast(ScotlandFuel, Year ~ Fuel)
 EWFuel <-dcast(EWFuel, Year ~ Fuel, sum)
 
-ScotlandFuel$'Low Carbon' <- ScotlandFuel$Renewables + ScotlandFuel$Nuclear
+ScotlandFuel$'Low Carbon' <- ScotlandFuel$Renewables + ScotlandFuel$Nuclear + ScotlandFuel$`Pumped storage`
 
 ScotlandFuel <- select(ScotlandFuel,
                        "Year",
@@ -49,19 +57,19 @@ ScotlandFuel <- select(ScotlandFuel,
                        "Bioenergy",
                        "Renewables",
                        "Nuclear",
+                       "Pumped storage",
                        "Low Carbon",
                        "Coal",
                        "Oil",
                        "Gas",
-                       "Fossil fuels", 
-                       "Pumped storage",
+                       "Fossil fuels",
                        "Other fuels",
                        "Total all generating companies")
 
 
-names(ScotlandFuel) <- c("Year",	"Hydro",	"Wind",	"Wave / tidal",	"Solar PV",	"Bioenergy and Waste",	"Renewables",	"Nuclear",	"Low Carbon",	"Coal",	"Oil",	"Gas",	"Fossil Fuels",	"Pumped hydro",	"Other",	"Total")
+names(ScotlandFuel) <- c("Year",	"Hydro",	"Wind",	"Wave / tidal",	"Solar PV",	"Bioenergy and Waste",	"Renewables",	"Nuclear", "Pumped hydro",	"Low Carbon",	"Coal",	"Oil",	"Gas",	"Fossil Fuels",	"Other",	"Total")
 
-EWFuel$'Low Carbon' <- EWFuel$Renewables + EWFuel$Nuclear
+EWFuel$'Low Carbon' <- EWFuel$Renewables + EWFuel$Nuclear + EWFuel$`Pumped storage`
 
 EWFuel <- select(EWFuel,
                        "Year",
@@ -72,17 +80,17 @@ EWFuel <- select(EWFuel,
                        "Bioenergy",
                        "Renewables",
                        "Nuclear",
+                       "Pumped storage",
                        "Low Carbon",
                        "Coal",
                        "Oil",
                        "Gas",
                        "Fossil fuels", 
-                       "Pumped storage",
                        "Other fuels",
                        "Total all generating companies")
 
 
-names(EWFuel) <- c("Year",	"Hydro",	"Wind",	"Wave / tidal",	"Solar PV",	"Bioenergy and Waste",	"Renewables",	"Nuclear",	"Low Carbon",	"Coal",	"Oil",	"Gas",	"Fossil Fuels",	"Pumped hydro",	"Other",	"Total")
+names(EWFuel) <- c("Year",	"Hydro",	"Wind",	"Wave / tidal",	"Solar PV",	"Bioenergy and Waste",	"Renewables",	"Nuclear","Pumped hydro",	"Low Carbon",	"Coal",	"Oil",	"Gas",	"Fossil Fuels",	"Other",	"Total")
 
 write_csv(ScotlandFuel, "Output/Electricity Generation/ScotlandFuelElecGen.csv")
 write_csv(EWFuel, "Output/Electricity Generation/EWFuelElecGen.csv")
