@@ -52,3 +52,4 @@ HeatDetailed <- HeatWorking
 HeatWorking[4:20] <- NULL
 
 write_csv(HeatWorking[which(substr(HeatWorking$`LA Code`,1,1)== "S"),], "Output/Consumption/HeatConsumptionbyLAMap.csv")
+

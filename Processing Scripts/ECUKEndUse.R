@@ -119,7 +119,7 @@ OldElectricitySplit <- read_excel("Data Sources/Subnational Consumption/Electric
 ElectricitySplit <- bind_rows(OldElectricitySplit, ElectricitySplit)
 
 # Fill LACode (for Scotland) to each Row
-ElectricityBioenergySplit <- fill(ElectricitySplit, `LA Code`, .direction = c("down"))
+ElectricitySplit <- fill(ElectricitySplit, `LA Code`, .direction = c("down"))
 
 # Write to CSV
 write_csv(ElectricitySplit, "Output/Consumption/ElectricitySplit.csv")

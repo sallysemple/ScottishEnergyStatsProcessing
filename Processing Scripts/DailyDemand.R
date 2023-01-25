@@ -193,9 +193,9 @@ ElecDemandHalfHourly <- ElecDemand
 
 ElecDemandHalfHourly$Quarter <- lubridate::quarter(ElecDemandHalfHourly$SETTLEMENT_DATE, with_year = TRUE, fiscal_start = 1)
 
-#fwrite(
-#  ElecDemandHalfHourly,
-#  "R Data Output/ElecDemandHalfHourly.csv")
+fwrite(
+ ElecDemandHalfHourly,
+  "R Data Output/ElecDemandHalfHourly.csv")
 
 
 ElecDemand <- group_by(ElecDemand, SETTLEMENT_DATE)

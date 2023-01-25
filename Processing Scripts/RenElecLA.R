@@ -32,6 +32,7 @@ for (year in yearstart:yearend) {
 RenewableElecLA <- bind_rows(RenElecLAList)
 
 names(RenewableElecLA)[1] <- "LACode"
+names(RenewableElecLA)[2] <- "Local Authority Name"
 
 RenewableElecLA <- RenewableElecLA[which(substr(RenewableElecLA$LACode,1,2)== "S1"),]
 
@@ -43,7 +44,8 @@ Unallocated <- RenewableElecLA %>% group_by(Year) %>%
   summarise_at(c(3:15), list(sum))
 
 Unallocated$LACode <- " "
-Unallocated$`Local Authority Name  [note 5][note 6][note 7] [note 8][note 9]` <- "Unallocated"
+Unallocated$`Local Authority Name` <- "Unallocated"
+
 
 RenewableElecLA <- rbind(RenewableElecLA, Unallocated)
 
@@ -90,3 +92,4 @@ write.table(RenewableElecLA,
             "Output/Renewable Generation/LARenGen.txt",
             sep = "\t",
             row.names = FALSE)
+
