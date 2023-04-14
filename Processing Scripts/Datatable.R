@@ -7,6 +7,7 @@ library(reshape2)
 library(magrittr)
 library(tidyverse)
 library(data.table)
+library(dplyr)
 
 print("OperationalCorrectionsREPD")
 
@@ -160,7 +161,7 @@ if ("Q1" %in% colnames(RESTATS))
 
 RESTATS <- RESTATS[which(RESTATS$Country == "Scotland"),]
 
-RESTATS <- RESTATS[c(2,5,6,61)]
+RESTATS <- RESTATS[c(2,5,6,67)]
 
 RESTATS <- RESTATS[which(RESTATS$Capacity > 0),]
 

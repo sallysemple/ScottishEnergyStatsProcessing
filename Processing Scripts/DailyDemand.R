@@ -54,7 +54,7 @@ GasDemand$Date <- as.Date(GasDemand$Date, format = "%Y-%m-%d")
 TransportDemand <-
   read_excel("Data Sources/Daily Demand/Transport/ET_3.13.xlsx",
              sheet = "Month",
-             skip = 2)
+             skip = 5)
 
 #Name important columns
 names(TransportDemand)[c(1, 6, 7, 9)] <- c("YEAR", "Motor Spirit", "Aviation turbine fuel", "DERV fuel")
@@ -195,7 +195,7 @@ ElecDemandHalfHourly$Quarter <- lubridate::quarter(ElecDemandHalfHourly$SETTLEME
 
 fwrite(
  ElecDemandHalfHourly,
-  "R Data Output/ElecDemandHalfHourly.csv")
+  "Output/Daily Demand/ElecDemandHalfHourly.csv")
 
 
 ElecDemand <- group_by(ElecDemand, SETTLEMENT_DATE)

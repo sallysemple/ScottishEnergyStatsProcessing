@@ -7,7 +7,7 @@ library(lubridate)
 
 print("Exports to GB")
 
-ElecDemand <- read_excel("Data Sources/Transfer Data/2020.xlsx")
+ElecDemand <- read_excel("Data Sources/Transfer Data/2022.xlsx")
 
 ElecDemand$Month <- format(ymd(ElecDemand$SETT_DATE), format = "%b %Y")
 
@@ -19,7 +19,7 @@ ElecDemand <-  ElecDemand %>%
 
 names(ElecDemand) <- c("Month Year", "Exports to GB")
 
-ElecDemandPP <- read_excel("Data Sources/Transfer Data/Preprocessed/Pre2020.xlsx")
+ElecDemandPP <- read_excel("Data Sources/Transfer Data/Preprocessed/Pre2022.xlsx")
 
 ElecDemandPP$`Month Year` <- format(ymd(ElecDemandPP$`Month Year`), format = "%b %Y")
 

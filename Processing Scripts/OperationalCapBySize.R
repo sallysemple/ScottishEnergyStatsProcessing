@@ -42,7 +42,7 @@ DECCsheets[which(DECCsheets$`Capacity` < 5),]$CapacityBand <- "<5MW"
 
 DECCsheets[which(substr(DECCsheets$`Project Name`,1,4) == "FIT-"),]$CapacityBand <- "<5MW"
 
-DECCsheets <- DECCsheets %>%  group_by(`RenewableArea`,   CapacityBand) %>% 
+DECCsheets <- DECCsheets %>%  group_by(RenewableArea,   CapacityBand) %>% 
   summarise(`Capacity` = sum(`Capacity`, na.rm = TRUE))
 
 Table <- dcast(DECCsheets, `RenewableArea` ~ CapacityBand, value.var = "Capacity")
@@ -66,7 +66,7 @@ QTRCapacityScotland <- read_delim("Output/Quarter Capacity/QTRCapacityScotland.t
 QTRCapacityScotland <- tail(QTRCapacityScotland,1)
 
 Table[which(Table$`Technology Type` == "Wind Onshore"),]$Total <- QTRCapacityScotland$`Onshore Wind`
-Table[which(Table$`Technology Type` == "Wind Offshore"),]$Total <- QTRCapacityScotland$`Offshore Wind`
+Table[which(Table$`Technology Type` == "Wind Offshore"),]$Total <- QTRCapacityScotland$`Offshore Wind - Seabed` + QTRCapacityScotland$`Offshore Wind - Floating`
 Table[which(Table$`Technology Type` == "Hydro"),]$Total <- QTRCapacityScotland$`Small scale Hydro` + QTRCapacityScotland$`Large scale Hydro`
 Table[which(Table$`Technology Type` == "Solar Photovoltaics"),]$Total <- QTRCapacityScotland$`Solar photovoltaics`
 Table[which(Table$`Technology Type` == "Biomass and Waste"),]$Total <-  QTRCapacityScotland$`Anaerobic Digestion` + 

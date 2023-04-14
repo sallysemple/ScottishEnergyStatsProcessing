@@ -16,7 +16,7 @@ for (year in yearstart:yearend) {
   
   tryCatch({
     RenewableElecLA <- read_excel("Data Sources/Renewable Generation/RenewableElecLA.xlsx", 
-                                  sheet = paste0("LA - Generation, ", year), skip = 4)
+                                  sheet = paste0("LA - Generation, ", year), skip = 6)
     
     RenewableElecLA$Year <- year
     # RenewableElecLA$Hydro <- as.numeric(RenewableElecLA$Hydro)
@@ -28,6 +28,7 @@ for (year in yearstart:yearend) {
   })
 }
 
+#RenewableElecLA[3:15] <- as.numeric(RenewableElecLA[3:18])
 
 RenewableElecLA <- bind_rows(RenElecLAList)
 

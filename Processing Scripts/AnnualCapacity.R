@@ -16,6 +16,7 @@ AnnualCapacity <- RenElecCap
 AnnualCapacity$Hydro <- AnnualCapacity$`Small scale Hydro` + AnnualCapacity$`Large scale Hydro`
 
 AnnualCapacity$`Bioenergy and Waste` <- AnnualCapacity$`Landfill gas` + AnnualCapacity$`Sewage sludge digestion` + AnnualCapacity$`Energy from Waste` + AnnualCapacity$`Animal Biomass` + AnnualCapacity$`Anaerobic Digestion` + AnnualCapacity$`Plant Biomass`
+AnnualCapacity$`Offshore Wind` <- AnnualCapacity$`Offshore Wind - Seabed` + AnnualCapacity$`Offshore Wind - Floating`
 
 AnnualCapacity <- select(AnnualCapacity,
                          "Quarter",                 

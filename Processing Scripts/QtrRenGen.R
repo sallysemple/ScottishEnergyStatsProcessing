@@ -12,7 +12,7 @@ print("QTRRenGen")
 #Read Source Data
 RenElecGen <- read_excel("Data Sources/Energy Trends/RenGenCap.xlsx", 
                         sheet = "Scotland - Qtr", col_names = FALSE, 
-                        skip = 6, n_max = 27)
+                        skip = 6, n_max = 28)
 #Transpose Data Frame
 RenElecGen <- as.data.frame(t(RenElecGen))
 
@@ -26,10 +26,10 @@ names(RenElecGen)[1] <- c("Y")
 RenElecGen$Quarter <- paste0(substr(RenElecGen$Y,1,4), " Q", substr(RenElecGen$Y,8,8))
 
 #Convert all but the first and last columns to numeric
-RenElecGen[2:27] %<>% lapply(function(x) as.numeric(as.character(x)))
+RenElecGen[2:28] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 #Convert Data Frame to Tibble, keeping only important columns
-RenElecGen <- as_tibble(RenElecGen[c(28,17:25)])
+RenElecGen <- as_tibble(RenElecGen[c(29,18:26)])
 
 #Drop Rows without Data
 RenElecGen <- RenElecGen[complete.cases(RenElecGen),]

@@ -12,7 +12,7 @@ print("QTRRenGen")
 #Read Source Data
 UKRenElecGen <- read_excel("Data Sources/Energy Trends/RenGenCap.xlsx", 
                          sheet = "Quarter", col_names = FALSE, 
-                         skip = 6, n_max = 32)
+                         skip = 6, n_max = 33)
 #Transpose Data Frame
 UKRenElecGen <- as.data.frame(t(UKRenElecGen))
 
@@ -26,10 +26,10 @@ names(UKRenElecGen)[1] <- c("Y")
 UKRenElecGen$Quarter <- paste0(substr(UKRenElecGen$Y,1,4), " Q", substr(UKRenElecGen$Y,8,8))
 
 #Convert all but the first and last columns to numeric
-UKRenElecGen[2:31] %<>% lapply(function(x) as.numeric(as.character(x)))
+UKRenElecGen[2:32] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 #Convert Data Frame to Tibble, keeping only important columns
-UKRenElecGen <- as_tibble(UKRenElecGen[c(32,18:30)])
+UKRenElecGen <- as_tibble(UKRenElecGen[c(33,19:31)])
 
 #Drop Rows without Data
 UKRenElecGen <- UKRenElecGen[complete.cases(UKRenElecGen),]
@@ -85,7 +85,7 @@ write_csv(ScottishRenPropofUK, "Output/Renewable Generation/ScotPropofUKRenGen.c
 #Read Source Data
 NIRenElecGen <- read_excel("Data Sources/Energy Trends/RenGenCap.xlsx", 
                            sheet = "Northern Ireland - Qtr", col_names = FALSE, 
-                           skip = 6, n_max = 32)
+                           skip = 6, n_max = 33)
 #Transpose Data Frame
 NIRenElecGen <- as.data.frame(t(NIRenElecGen))
 

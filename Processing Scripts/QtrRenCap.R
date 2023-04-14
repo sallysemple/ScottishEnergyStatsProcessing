@@ -12,7 +12,7 @@ print("QTRRenElecCap")
 #Read Source Data
 RenElecCap <- read_excel("Data Sources/Energy Trends/RenGenCap.xlsx", 
                          sheet = "Scotland - Qtr", col_names = FALSE, 
-                         skip = 6, n_max = 27)
+                         skip = 6, n_max = 28)
 #Transpose Data Frame
 RenElecCap <- as.data.frame(t(RenElecCap))
 
@@ -26,10 +26,10 @@ names(RenElecCap)[1] <- c("Y")
 RenElecCap$Quarter <- paste0(substr(RenElecCap$Y,1,4), " Q", substr(RenElecCap$Y,8,8))
 
 #Convert all but the first and last columns to numeric
-RenElecCap[2:27] %<>% lapply(function(x) as.numeric(as.character(x)))
+RenElecCap[2:28] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 #Convert Data Frame to Tibble, keeping only important columns
-RenElecCap <- as_tibble(RenElecCap[c(28,2:14)])
+RenElecCap <- as_tibble(RenElecCap[c(29,2:15)])
 
 #Drop Rows without Data
 RenElecCap <- RenElecCap[complete.cases(RenElecCap),]
@@ -38,7 +38,7 @@ RenElecCap <- RenElecCap[complete.cases(RenElecCap),]
 RenElecCap$Quarter <- as.yearqtr(RenElecCap$Quarter)
 
 #Give Columns final names
-names(RenElecCap) <- c("Quarter", "Onshore Wind", "Offshore Wind", "Shoreline wave / tidal", "Solar photovoltaics", "Small scale Hydro", "Large scale Hydro", "Landfill gas", "Sewage sludge digestion", "Energy from Waste", "Animal Biomass", "Anaerobic Digestion", "Plant Biomass", "Total")
+names(RenElecCap) <- c("Quarter", "Onshore Wind", "Offshore Wind - Seabed","Offshore Wind - Floating", "Shoreline wave / tidal", "Solar photovoltaics", "Small scale Hydro", "Large scale Hydro", "Landfill gas", "Sewage sludge digestion", "Energy from Waste", "Animal Biomass", "Anaerobic Digestion", "Plant Biomass", "Total")
 
 
 write.table(RenElecCap,
