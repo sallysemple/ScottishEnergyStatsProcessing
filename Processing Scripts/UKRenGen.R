@@ -99,10 +99,10 @@ names(NIRenElecGen)[1] <- c("Y")
 NIRenElecGen$Quarter <- paste0(substr(NIRenElecGen$Y,1,4), " Q", substr(NIRenElecGen$Y,8,8))
 
 #Convert all but the first and last columns to numeric
-NIRenElecGen[2:32] %<>% lapply(function(x) as.numeric(as.character(x)))
+NIRenElecGen[2:33] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 #Convert Data Frame to Tibble, keeping only important columns
-NIRenElecGen <- as_tibble(NIRenElecGen[c(33,17:25)])
+NIRenElecGen <- as_tibble(NIRenElecGen[c(34,18:26)])
 
 #Drop Rows without Data
 NIRenElecGen <- NIRenElecGen[complete.cases(NIRenElecGen),]
