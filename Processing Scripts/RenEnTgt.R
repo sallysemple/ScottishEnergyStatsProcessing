@@ -16,7 +16,8 @@ names(RenElecTgt) <- c("Year", "Renwable Electricity Generation", "Gross Electri
 
 # Source Ren Heat Target
 source("Processing Scripts/RenewableHeatTarget.R")
-RenHeatTgt
+RenHeatTgt <- RenHeatTgt [c(1,2,5,7,10)]
+names(RenHeatTgt) <- c("Year","Renewable Heat Generation","Heat Consumption", "Heat Target", "Renewable Heat Capacity")
 
 # Souce Biofuels
 source("Processing Scripts/BiofuelsinTransport.R")
