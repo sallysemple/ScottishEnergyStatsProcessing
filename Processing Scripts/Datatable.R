@@ -161,7 +161,7 @@ if ("Q1" %in% colnames(RESTATS))
 
 RESTATS <- RESTATS[which(RESTATS$Country == "Scotland"),]
 
-RESTATS <- RESTATS[c(2,5,6,67)]
+RESTATS <- RESTATS[c(2,5,6,66)]
 
 RESTATS <- RESTATS[which(RESTATS$Capacity > 0),]
 

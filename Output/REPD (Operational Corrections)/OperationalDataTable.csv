@@ -32,6 +32,7 @@
 "Anaerobic Digestion","Stracathro Renewable Energy","Stracathro Renewable Energy (Unknown)",0.46
 "Anaerobic Digestion","TECA AD","TECA AD (Waste AD)",0.35
 "Anaerobic Digestion","Tornagrain Gas Mill","Tornagrain Gas Mill (Unknown)",0.46
+"Anaerobic Digestion","Wester Clockeasy Farm (Farm AD)","Wester Clockeasy Farm (Farm AD)",0.125
 "Biomass","Acharn Forest Killin Biomass Plant","Acharn Forest Killin Biomass Plant",5.6
 "Biomass","Adam Wilson & Sons 1","Adam Wilson & Sons 1",2.464
 "Biomass","Angus Hotel CHP","Angus Hotel CHP",0.049
@@ -156,6 +157,13 @@
 "Landfill Gas","Wellbank Gas to Energy","Wellbank Gas to Energy",0.93
 "Landfill Gas","West Carron Landfill Site","West Carron Landfill Site",0.48
 "Landfill Gas","Wester Hatton","Wester Hatton",0.33
+"Large Hydro","Drax Power Ltd","Bonnington",11
+"Large Hydro","Drax Power Ltd","Carsfad",12
+"Large Hydro","Drax Power Ltd","Earlstoun",14
+"Large Hydro","Drax Power Ltd","Glenlee",24
+"Large Hydro","Drax Power Ltd","Kendoon",24
+"Large Hydro","Drax Power Ltd","Stonebyres",6
+"Large Hydro","Drax Power Ltd","Tongland",33
 "Large Hydro","Rio Tinto Alcan","Fort William",90
 "Large Hydro","Rio Tinto Alcan","Kinlochleven",19.5
 "Large Hydro","Scottish & Southern Energy plc","Aigas",20
@@ -196,16 +204,9 @@
 "Large Hydro","Scottish & Southern Energy plc","Striven",8
 "Large Hydro","Scottish & Southern Energy plc","Torr Achilty",15
 "Large Hydro","Scottish & Southern Energy plc","Tummel",34
-"Large Hydro","Scottish Power (Galloway)","Carsfad",12
-"Large Hydro","Scottish Power (Galloway)","Earlstoun",14
-"Large Hydro","Scottish Power (Galloway)","Glenlee",24
-"Large Hydro","Scottish Power (Galloway)","Kendoon",24
-"Large Hydro","Scottish Power (Galloway)","Tongland",33
-"Large Hydro","Scottish Power (Lanark)","Bonnington",11
-"Large Hydro","Scottish Power (Lanark)","Stonebyres",6
 "Municipal Solid Waste Combustion","Baldovie Incineration Plant","Baldovie Incineration Plant",11
 "Municipal Solid Waste Combustion","Dargavel (ACT- gasification)","Dargavel (ACT- gasification)",7
-"Municipal Solid Waste Combustion","Glasgow Renewable Energy and Recycling Centre","Glasgow Renewable Energy and Recycling Centre",15.057
+"Municipal Solid Waste Combustion","Glasgow Renewable Energy and Recycling Centre","Glasgow Renewable Energy and Recycling Centre",13
 "Municipal Solid Waste Combustion","Viridor","Dunbar",36.78
 "Photovoltaics","Aldi Bathgate RDC","Aldi Bathgate RDC",0.8
 "Photovoltaics","Anesco Ltd","New Mains of Guynd (Scotland)",4.98784
@@ -218,7 +219,7 @@
 "Photovoltaics","Cupar Wastewater Treatment Works Solar Farm","Cupar Wastewater Treatment Works Solar Farm",0.62
 "Photovoltaics","Edinburgh College","Edinburgh College",0.62725
 "Photovoltaics","Finmont Service Reservoir","Finmont Service Reservoir",0.25
-"Photovoltaics","FIT-PV S","FIT-PV S",297.309468
+"Photovoltaics","FIT-PV S","FIT-PV S",296.495
 "Photovoltaics","Greencoat Solar Assets I & II Ltd","Errol",12.99942
 "Photovoltaics","Greencoat Solar Assets I & II Ltd","West Strathore Solar Limited",4.9773
 "Photovoltaics","Gunnista, Bressay Solar panels","Gunnista, Bressay Solar panels",0.15
@@ -227,6 +228,7 @@
 "Photovoltaics","Lightsource Renewable Energy Ltd","Middle Balbeggie PV",4.997475
 "Photovoltaics","Lightsource Renewable Energy Ltd","Pressock Solar Farm",4.249
 "Photovoltaics","Lochaber High School (Resubmission)","Lochaber High School (Resubmission)",0.27
+"Photovoltaics","MCS-PV S","MCS-PV S",143.073
 "Photovoltaics","Octopus Investments Ltd","Site To North East Of, Lochcraigs Farm",4.992
 "Photovoltaics","Parkhill Solar Farm","Parkhill Solar Farm",4.99
 "Photovoltaics","Perth Wastewater Treatment Works (Extension)","Perth Wastewater Treatment Works (Extension)",0.3
@@ -273,6 +275,7 @@
 "Small Hydro","Cleghorn Bridge Hydro","Cleghorn Bridge Hydro",0.32
 "Small Hydro","Conaglen House","Conaglen House",0.25
 "Small Hydro","Deanston HES","Deanston HES",0.4
+"Small Hydro","Drax Power Ltd","Drumjohn",1
 "Small Hydro","Drimsynie Estate Power Station","Drimsynie Estate Power Station",0.4
 "Small Hydro","Duror Hydro Scheme","Duror Hydro Scheme",0.71
 "Small Hydro","ELIOCK HOUSE PRIVATE HYDRO","ELIOCK HOUSE PRIVATE HYDRO",0.56
@@ -280,7 +283,7 @@
 "Small Hydro","Faichemard Farm Hydro","Faichemard Farm Hydro",0.165
 "Small Hydro","Fairburn House","Fairburn House",0.11
 "Small Hydro","Fettykil Mills","Fettykil Mills",0.4
-"Small Hydro","FIT-Hydro S","FIT-Hydro S",173.68662
+"Small Hydro","FIT-Hydro S","FIT-Hydro S",179.779
 "Small Hydro","Forebush Power Station","Forebush Power Station",0.65
 "Small Hydro","Forrest Estate","Forrest Estate",3.611
 "Small Hydro","Garbhaig Hydro","Garbhaig Hydro",2.972
@@ -315,22 +318,22 @@
 "Small Hydro","Ormsary Fish Farm","Ormsary Fish Farm",0.785
 "Small Hydro","Roshven","Roshven",0.5
 "Small Hydro","Rottal Hydro Ltd","Rottal Hydro Ltd",0.45
+"Small Hydro","RWE Npower (Kielder)","Auchtertyre Hydro Scheme (SRO)",0.6
+"Small Hydro","RWE Npower (Kielder)","Black Rock",3.5
+"Small Hydro","RWE Npower (Kielder)","Braevallich Hydroelectric Scheme",2.274
+"Small Hydro","RWE Npower (Kielder)","Carnoch Hydro Electric Generating Station",1.35
+"Small Hydro","RWE Npower (Kielder)","Cia Aig Hydro",3
+"Small Hydro","RWE Npower (Kielder)","Douglas Water",2.969
+"Small Hydro","RWE Npower (Kielder)","Garrogie Hydro Scheme",2.4
+"Small Hydro","RWE Npower (Kielder)","Garry Gualach Hydro Scheme (SRO)",0.78
 "Small Hydro","RWE Npower (Kielder)","Glen Noe",2
-"Small Hydro","RWE Npower Plc","Auchtertyre Hydro Scheme (SRO)",0.6
-"Small Hydro","RWE Npower Plc","Black Rock",3.5
+"Small Hydro","RWE Npower (Kielder)","Glen Tarbert (SRO)",0.85
+"Small Hydro","RWE Npower (Kielder)","Grudie",2
+"Small Hydro","RWE Npower (Kielder)","Inverbain Hydroelectric Scheme",0.95
+"Small Hydro","RWE Npower (Kielder)","Inverlael",2.5
+"Small Hydro","RWE Npower (Kielder)","Maldie",4
+"Small Hydro","RWE Npower (Kielder)","River E Hydro Electric Generating Station",3
 "Small Hydro","RWE Npower Plc","Blantyre Mills",0.57
-"Small Hydro","RWE Npower Plc","Braevallich Hydroelectric Scheme",2.274
-"Small Hydro","RWE Npower Plc","Carnoch Hydro Electric Generating Station",1.35
-"Small Hydro","RWE Npower Plc","Cia Aig Hydro",3
-"Small Hydro","RWE Npower Plc","Douglas Water",2.969
-"Small Hydro","RWE Npower Plc","Garrogie Hydro Scheme",2.4
-"Small Hydro","RWE Npower Plc","Garry Gualach Hydro Scheme (SRO)",0.78
-"Small Hydro","RWE Npower Plc","Glen Tarbert (SRO)",0.85
-"Small Hydro","RWE Npower Plc","Grudie",2
-"Small Hydro","RWE Npower Plc","Inverbain Hydroelectric Scheme",0.95
-"Small Hydro","RWE Npower Plc","Inverlael",2.5
-"Small Hydro","RWE Npower Plc","Maldie",4
-"Small Hydro","RWE Npower Plc","River E Hydro Electric Generating Station",3
 "Small Hydro","Saline ROC","Saline ROC",0.09
 "Small Hydro","Scottish & Southern Energy plc","Achanalt",3.1
 "Small Hydro","Scottish & Southern Energy plc","Awe Barrage - A",0.886
@@ -379,7 +382,6 @@
 "Small Hydro","Scottish & Southern Energy plc","Tralaig Power Station",0.084
 "Small Hydro","Scottish & Southern Energy plc","Trinafour",0.55
 "Small Hydro","Scottish & Southern Energy plc","Vaich Power Station",0.32
-"Small Hydro","Scottish Power (Galloway)","Drumjohn",1
 "Small Hydro","Silverhills House","Silverhills House",0.278
 "Small Hydro","Stanley Mills (SRO)","Stanley Mills (SRO)",0.84
 "Small Hydro","Stoneywood Mill","Stoneywood Mill",0.62
@@ -389,6 +391,7 @@
 "Small Hydro","Temporis Capital Ltd","Derrydarroch",1.995
 "Small Hydro","Temporis Capital Ltd","Upper Falloch Hydro",0.896
 "Small Hydro","The Coignafearn Estate","The Coignafearn Estate",0.13
+"Small Hydro","Tobermory Power Station","Tobermory Power Station",0.28
 "Small Hydro","Tombuie Hydro","Tombuie Hydro",0.35
 "Small Hydro","Twin Loch Hydro","Twin Loch Hydro",0.5
 "Small Hydro","Victoria Falls Station","Victoria Falls Station",1.12
@@ -400,17 +403,18 @@
 "Tidal","Magallanes (FoW - EMEC)","Magallanes (FoW - EMEC)",2
 "Tidal","Ness of Quoys","Inner Sound Phase 1A (MeyGen) Ness of Quoys",5.7
 "Tidal","S G E Tidal Array","S G E Tidal Array",0.5
+"Tidal","Shetland Tidal Array (extension)","Shetland Tidal Array (extension)",1.4
 "Tidal","The Fall of Warness Tidal Scheme, (EMEC)","Eday Birth 2",1.2
 "Tidal","Tocardo EMEC Array","Tocardo EMEC Array",1.451
-"Wind Offshore","Kentish Flats Ltd","Aberdeen Bay Offshore Windfarm - Demonstration (European Offshore Wind Deployment Centre – EOWDC)",96.8
-"Wind Offshore","Kincardine Offshore Windfarm - Phase 1 + Phase 2","Kincardine Offshore Windfarm - Phase 1 + Phase 2",49.625
-"Wind Offshore","Methil Wind Turbine Demonstration Project","FEPODWT (Levenmouth demonstration turbine - Fife Energy Park)",7.35
-"Wind Offshore","Moray Offshore Windfarm East Limited","Moray East",950
-"Wind Offshore","RWE Renewables UK Ltd","Robin Rigg Offshore Wind Farm (East)",84
-"Wind Offshore","RWE Renewables UK Ltd","Robin Rigg Offshore Wind Farm (West)",90
-"Wind Offshore","Scira Offshore Energy Ltd","Hywind Scotland Pilot Park (Hywind 2) Demonstrator",30
-"Wind Offshore","Scottish & Southern Energy plc","Beatrice Offshore windfarm",588
-"Wind Offshore","Scottish & Southern Energy plc","Seagreen Offshore Wind Farm",270
+"Wind Offshore","Beatrice Demonstration Offshore Windfarm","Kincardine Offshore Windfarm - Phase 1 + Phase 2",49.625
+"Wind Offshore","E.ON UK Plc","Beatrice Offshore windfarm",588
+"Wind Offshore","Kincardine Offshore Windfarm - Phase 1 + Phase 2","Seagreen Offshore Wind Farm",270
+"Wind Offshore","Levenmouth demonstration turbine (Fife Energy Park)","Moray East",950
+"Wind Offshore","Orsted Burbo (UK) Ltd","FEPODWT (Levenmouth demonstration turbine - Fife Energy Park)",7.35
+"Wind Offshore","Orsted Burbo (UK) Ltd","Robin Rigg Offshore Wind Farm (East)",84
+"Wind Offshore","RWE Npower Renewables Ltd (Offshore)","Robin Rigg Offshore Wind Farm (West)",90
+"Wind Offshore","RWE Renewables UK Ltd","Hywind Scotland Pilot Park (Hywind 2) Demonstrator",30
+"Wind Offshore","Scottish & Southern Energy plc","Aberdeen Bay Offshore Windfarm - Demonstration (European Offshore Wind Deployment Centre – EOWDC)",96.8
 "Wind Onshore","Abernethy Trust","Abernethy Trust",0.012
 "Wind Onshore","Achlachan","Achlachan",10.25
 "Wind Onshore","Afton Wind Farm","Afton Wind Farm",50
@@ -422,6 +426,7 @@
 "Wind Onshore","An Talla","An Talla",0.006
 "Wind Onshore","Ardgrain Wind Cluster","Ardgrain Wind Cluster",2.4
 "Wind Onshore","Ark Hill","Ark Hill",6.48
+"Wind Onshore","Arnish Moor Windfarm","Arnish Moor Windfarm",3.9
 "Wind Onshore","Auchadaduie Wind Farm","Auchadaduie Wind Farm",7.05
 "Wind Onshore","Baird Memorial Primary School","Baird Memorial Primary School",0.006
 "Wind Onshore","Balnamoon","Balnamoon",0.9
@@ -433,6 +438,7 @@
 "Wind Onshore","Beinn nan Oighrean Windfarm","Beinn nan Oighrean Windfarm",4.6
 "Wind Onshore","BERRIEDALE","BERRIEDALE",0.03225
 "Wind Onshore","Berriedale Farm","Berriedale Farm",0.022
+"Wind Onshore","Betty Hill - Phase 1","Betty Hill - Phase 1",6
 "Wind Onshore","Binn Eco Park","Binn Eco Park",9.2
 "Wind Onshore","Birsay Energy","Birsay Energy",0.9
 "Wind Onshore","Black Hill Wind Ltd","Black Hill Wind Farm",28.6
@@ -457,12 +463,14 @@
 "Wind Onshore","Clochnahill Wind Farm","Clochnahill Wind Farm",5.2
 "Wind Onshore","Coire Na Cloiche","Coire Na Cloiche",29.9
 "Wind Onshore","Courtstone Wind Turbine","Courtstone Wind Turbine",2.3
+"Wind Onshore","Creag Riabhach Wind Farm","Creag Riabhach Wind Farm",90
 "Wind Onshore","Crossdykes (Community Share)","Crossdykes (Community Share)",48
 "Wind Onshore","Cubico Sustainable Investments Ltd","Penmanshiel-GP",28.7
 "Wind Onshore","Cumbernauld Primary School","Cumbernauld Primary School",0.006
 "Wind Onshore","Cypex Ltd","Cypex Ltd",0.08
 "Wind Onshore","Denhill","Denhill Wind Turbine",2.3
 "Wind Onshore","Deuchries","Deuchries",6.9
+"Wind Onshore","Deuchries Windfarm (extension)","Deuchries Windfarm (extension)",2
 "Wind Onshore","Discover Carmichael Visitor Centre","Carmichael Village",0.05
 "Wind Onshore","Drumduff Wind Farm","Drumduff Wind Farm",8.53
 "Wind Onshore","DUNMAGLASS ESTATE WIND TURBINE","DUNMAGLASS ESTATE WIND TURBINE",0.6
@@ -499,7 +507,7 @@
 "Wind Onshore","Falck Renewables Wind Ltd","Nutberry Wind Farm",15
 "Wind Onshore","Falck Renewables Wind Ltd","West Browncastle Wind Farm",30
 "Wind Onshore","Fife Council","Fife Council",0.0075
-"Wind Onshore","FIT-Wind S","FIT-Wind S",317.14542
+"Wind Onshore","FIT-Wind S","FIT-Wind S",317.457
 "Wind Onshore","Flotta Wind Farm","Flotta Wind Farm",2
 "Wind Onshore","Fred Olsen Renewables Ltd","Brockloch Rig (Windy Standard 3)",61.5
 "Wind Onshore","Fred Olsen Renewables Ltd","Crystal Rig II Wind Farm",138
@@ -554,6 +562,7 @@
 "Wind Onshore","Kennoxhead Phase 1","Kennoxhead Phase 1",62
 "Wind Onshore","Kentish Flats Ltd","Clashindarroch Wind Farm",36.9
 "Wind Onshore","Kentish Flats Ltd","Edinbane Wind Farm",41
+"Wind Onshore","Kentish Flats Ltd","South Kyle",240
 "Wind Onshore","Kilmory Primary School","Kilmory Primary School",0.006
 "Wind Onshore","Kinegar Quarry (resubmission)","Kinegar Quarry (resubmission)",5
 "Wind Onshore","Lanakshire","Lanakshire",0.05
@@ -563,6 +572,7 @@
 "Wind Onshore","Locheport Community Windfarm (Resubmission)","Locheport Community Windfarm (Resubmission)",1.8
 "Wind Onshore","Lower Rumster","Lower Rumster",0.2
 "Wind Onshore","Mackies Hill of Easterton Wind Turbine","Mackies Hill of Easterton Wind Turbine",2.55
+"Wind Onshore","MCS-Wind S","MCS-Wind S",1.744
 "Wind Onshore","Methil Docks Wind Turbine","Methil Docks Wind Turbine",0.75
 "Wind Onshore","Millour Hill Community Windfarm (Re-submission)","Millour Hill Community Windfarm (Re-submission)",24
 "Wind Onshore","Milton of Fisherie Wind Cluster","Milton of Fisherie Wind Cluster",4.6
@@ -575,7 +585,6 @@
 "Wind Onshore","Newton of Fortrie","Newton of Fortrie",6.9
 "Wind Onshore","North Highland College, Thurso","North Highland College, Thurso",0.0025
 "Wind Onshore","Northfield Wind Energy Project (Burray, Orkney)","Northfield Wind Energy Project Burray",0.85
-"Wind Onshore","Pates Hill","Pates Hill",14
 "Wind Onshore","Pitkinnie Wind Turbine (Forsyth)","Pitkinnie Wind Turbine (Forsyth)",0.225
 "Wind Onshore","Port Charlotte Community Centre Renewables","Port Charlotte Community Centre Renewables",0.006
 "Wind Onshore","Redbog","Redbog",1.6
@@ -657,7 +666,7 @@
 "Wind Onshore","Scottish Power Renewables UK Ltd","Ewe Hill II",36.8
 "Wind Onshore","Scottish Power Renewables UK Ltd","Glenapp",22
 "Wind Onshore","Scottish Power Renewables UK Ltd","Green Knowes Windfarm",27
-"Wind Onshore","Scottish Power Renewables UK Ltd","Hagshaw Hill 1",15.6
+"Wind Onshore","Scottish Power Renewables UK Ltd","Hagshaw Hill 1",12
 "Wind Onshore","Scottish Power Renewables UK Ltd","Hagshaw Hill 2",26
 "Wind Onshore","Scottish Power Renewables UK Ltd","Halsary",30
 "Wind Onshore","Scottish Power Renewables UK Ltd","Hare Hill (scotland)",13.2
@@ -727,9 +736,8 @@
 "Wind Onshore","Woodlands Farm Wind Turbines","Woodlands Farm Wind Turbines",1.4
 "Wind Onshore","WPO UK Services Ltd","Airies",39.9
 "Wind Onshore","WPO UK Services Ltd","AOE Windfarm",11.5
-"Wind Onshore","WPO UK Services Ltd","Arnish Moor Windfarm",3.9
-"Wind Onshore","WPO UK Services Ltd","Betty Hill - Phase 1",6
 "Wind Onshore","WPO UK Services Ltd","Dummuies Windfarm",12.25
 "Wind Onshore","WPO UK Services Ltd","FMC Technologies",1.5
 "Wind Onshore","WPO UK Services Ltd","Lairg Wind Farm",7.5
-"Wind Onshore","WPO UK Services Ltd","Quixwood Moor",29.9
+"Wind Onshore","WPO UK Services Ltd","Pates Hill",14
+"Wind Onshore","WPO UK Services Ltd","Quixwood Moor",26.65
