@@ -25,8 +25,10 @@ GrowthSectorEmployment2 <- GrowthSectorEmployment
 
 GrowthSectorEmployment[1,1] <- "NoPAYEOnly"
 
-GrowthSectorEmployment[c(2,10:ncol(GrowthSectorEmployment))] <- NULL
+GrowthSector <- GrowthSectorEmployment
 
+GrowthSectorEmployment[c(2,10:ncol(GrowthSectorEmployment))] <- NULL
+names(GrowthSectorEmployment)[8] <- 2015
 
 GrowthSectorEmployment2[1,1] <- "WithPAYE"
 
@@ -35,7 +37,7 @@ GrowthSectorEmployment2[2:10] <- NULL
 names(GrowthSectorEmployment2)[2] <- 2015
 
 
-#GrowthSector <- merge(GrowthSector, GrowthSectorEmployment2, all = TRUE)
+GrowthSector <- merge(GrowthSectorEmployment, GrowthSectorEmployment2, all = TRUE)
 
 ### Read Source File ###
 GrowthSectorTurnover <-
@@ -53,7 +55,7 @@ GrowthSectorTurnover <- GrowthSectorTurnover[which(substr(GrowthSectorTurnover$C
 
 GrowthSectorTurnover[1,1] <- "Turnover"
 
-#GrowthSector <- merge(GrowthSector, GrowthSectorTurnover, all = TRUE)
+GrowthSector <- merge(GrowthSector, GrowthSectorTurnover, all = TRUE)
 
 ### Read Source File ###
 GrowthSectorGVA <-
@@ -71,7 +73,7 @@ GrowthSectorGVA <- GrowthSectorGVA[which(substr(GrowthSectorGVA$Category,1,6) ==
 
 GrowthSectorGVA[1,1] <- "GVA"
 
-#GrowthSector <- merge(GrowthSector, GrowthSectorTurnover, all = TRUE)
+GrowthSector <- merge(GrowthSector, GrowthSectorGVA, all = TRUE)
 
 GrowthSectorExportsRUK <-
   read_excel("Data Sources/Growth Sector Statistics/GS+database.xlsx",
@@ -89,7 +91,7 @@ GrowthSectorExportsRUK <- GrowthSectorExportsRUK[which(substr(GrowthSectorExport
 GrowthSectorExportsRUK[1,1] <- "ExportsRUK"
 
 
-#GrowthSector <- merge(GrowthSector, GrowthSectorExportsRUK, all = TRUE)
+GrowthSector <- merge(GrowthSector, GrowthSectorExportsRUK, all = TRUE)
 
 GrowthSectorExportsWorld <-
   read_excel("Data Sources/Growth Sector Statistics/GS+database.xlsx",
@@ -107,9 +109,9 @@ GrowthSectorExportsWorld <- GrowthSectorExportsWorld[which(substr(GrowthSectorEx
 GrowthSectorExportsWorld[1,1] <- "ExportsWorld"
 
 
-#GrowthSector <- merge(GrowthSector, GrowthSectorExportsWorld, all = TRUE)
+GrowthSector <- merge(GrowthSector, GrowthSectorExportsWorld, all = TRUE)
 
-GrowthSector <- bind_rows(GrowthSectorEmployment,GrowthSectorEmployment2,GrowthSectorTurnover,GrowthSectorGVA,GrowthSectorExportsRUK,GrowthSectorExportsWorld)
+#GrowthSector <- bind_rows(GrowthSectorEmployment,GrowthSectorEmployment2, GrowthSectorTurnover,GrowthSectorGVA,GrowthSectorExportsRUK,GrowthSectorExportsWorld )
 
 GrowthSector <- GrowthSector[order(names(GrowthSector))]
 
@@ -129,8 +131,12 @@ GrowthSector <- as_tibble(GrowthSector)
 
 names(GrowthSector)[1] <- "Year"
 
+GrowthSector <- GrowthSector [c(1,5,7,6,4,2,3)]
+
 write.csv(
   GrowthSector,
   "Output/Growth Sector/GrowthSector.csv",
   row.names = FALSE
 )
+
+

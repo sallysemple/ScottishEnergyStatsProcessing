@@ -17,9 +17,9 @@ EUWind <-
 
 
 EUWind[1, 1] <- "EU (27)"
-EUWind[2, 1] <- "EU (28)"
-EUWind[3, 1] <- "Euro Area"
-EUWind[8, 1] <- "Germany"
+#EUWind[2, 1] <- "EU (28)"
+#EUWind[3, 1] <- "Euro Area"
+EUWind[6, 1] <- "Germany"
 EUWind[40, 1] <- "Kosovo"
 
 EUWind[2:ncol(EUWind)] %<>% lapply(function(x) as.numeric(as.character(x)))
@@ -34,13 +34,13 @@ RenGen <- select(RenGen,
                  Year,
                  Wind)
 
-RenGen$`GEO/TIME` <- "SCOTLAND"
+RenGen$`TIME` <- "SCOTLAND"
 
 EUYearMax <-  max(as.numeric(names(EUWind)), na.rm = TRUE)
 
 RenGen <- RenGen[which(RenGen$Year <= EUYearMax),]
 
-EUWindScotland <- dcast(RenGen, `GEO/TIME` ~ Year, value.var = 'Wind')
+EUWindScotland <- dcast(RenGen, `TIME` ~ Year, value.var = 'Wind')
 EUWind <- bind_rows(EUWind, EUWindScotland)
 
 if(is.na(EUWind[1,ncol(EUWind)])){
@@ -53,7 +53,7 @@ EUWind <- EUWind[complete.cases(EUWind[1], EUWind[ncol(EUWind)]),]
 
 EUWind[is.na(EUWind)] <- 0
 
-EUWind[which(EUWind$`GEO/TIME` == "United Kingdom"),][2:ncol(EUWind)] <- EUWind[which(EUWind$`GEO/TIME` == "United Kingdom"),][2:ncol(EUWind)] - EUWind[which(EUWind$`GEO/TIME` == "SCOTLAND"),][2:ncol(EUWind)]
+#EUWind[which(EUWind$`GEO/TIME` == "United Kingdom"),][2:ncol(EUWind)] <- EUWind[which(EUWind$`GEO/TIME` == "United Kingdom"),][2:ncol(EUWind)] - EUWind[which(EUWind$`GEO/TIME` == "SCOTLAND"),][2:ncol(EUWind)]
 
 write.table(
   EUWind,
@@ -76,9 +76,9 @@ EUHydro <-
 
 
 EUHydro[1, 1] <- "EU (27)"
-EUHydro[2, 1] <- "EU (28)"
-EUHydro[3, 1] <- "Euro Area"
-EUHydro[8, 1] <- "Germany"
+#EUHydro[2, 1] <- "EU (28)"
+#EUHydro[3, 1] <- "Euro Area"
+EUHydro[6, 1] <- "Germany"
 EUHydro[40, 1] <- "Kosovo"
 
 EUHydro[2:ncol(EUHydro)] %<>% lapply(function(x) as.numeric(as.character(x)))
@@ -91,13 +91,13 @@ RenGen <- select(RenGen,
                  Year,
                  Hydro)
 
-RenGen$`GEO/TIME` <- "SCOTLAND"
+RenGen$`TIME` <- "SCOTLAND"
 
-EUYearMax <-  max(as.numeric(names(EUWind)), na.rm = TRUE)
+EUYearMax <-  max(as.numeric(names(EUHydro)), na.rm = TRUE)
 
 RenGen <- RenGen[which(RenGen$Year <= EUYearMax),]
 
-EUHydroScotland <- dcast(RenGen, `GEO/TIME` ~ Year, value.var = 'Hydro')
+EUHydroScotland <- dcast(RenGen, `TIME` ~ Year, value.var = 'Hydro')
 EUHydro <- bind_rows(EUHydro, EUHydroScotland)
 
 if(is.na(EUHydro[1,ncol(EUHydro)])){
@@ -110,7 +110,7 @@ EUHydro <- EUHydro[complete.cases(EUHydro[1], EUHydro[ncol(EUHydro)]),]
 
 EUHydro[is.na(EUHydro)] <- 0
 
-EUHydro[which(EUHydro$`GEO/TIME` == "United Kingdom"),][2:ncol(EUHydro)] <- EUHydro[which(EUHydro$`GEO/TIME` == "United Kingdom"),][2:ncol(EUHydro)] - EUHydro[which(EUHydro$`GEO/TIME` == "SCOTLAND"),][2:ncol(EUHydro)]
+#EUHydro[which(EUHydro$`TIME` == "United Kingdom"),][2:ncol(EUHydro)] <- EUHydro[which(EUHydro$`TIME` == "United Kingdom"),][2:ncol(EUHydro)] - EUHydro[which(EUHydro$`TIME` == "SCOTLAND"),][2:ncol(EUHydro)]
 
 write.table(
   EUHydro,

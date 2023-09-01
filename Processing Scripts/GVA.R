@@ -20,8 +20,10 @@ GDP <-
   )
 
 ### Remove excess rows from the bottom ###
-GDP <- head(GDP[c(1,3,9)],-6)
-
+#GDP <- head(GDP[c(1,3,9)],-1)
+ 
+### Keep relevant columns ###
+GDP <- GDP[c(1,3,9)]
 
 names(GDP) <- c("Year", "GVA", "GDP at Market Prices")
 

@@ -14,7 +14,7 @@ GreenhouseGasSector[is.na(GreenhouseGasSector)] <- 0
 
 GreenhouseGasSector[c(1,3:9)] %<>% lapply(function(GreenhouseGasSector) as.numeric(as.character(GreenhouseGasSector)))
 
-GreenhouseGasSector$Total <- GreenhouseGasSector$ch4 + GreenhouseGasSector$co2 + GreenhouseGasSector$hfcs + GreenhouseGasSector$n2o + GreenhouseGasSector$nf3 + GreenhouseGasSector$pfcs + GreenhouseGasSector$sf6
+GreenhouseGasSector$Total <- GreenhouseGasSector$ch4 + GreenhouseGasSector$co2 + GreenhouseGasSector$hfc + GreenhouseGasSector$n2o + GreenhouseGasSector$nf3 + GreenhouseGasSector$pfc + GreenhouseGasSector$sf6
 
 GreenhouseGasSector[3:9] <- NULL
 
