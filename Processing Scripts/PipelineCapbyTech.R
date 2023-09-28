@@ -14,7 +14,7 @@ source("Processing Scripts/OperationalCorrectionsREPD.R")
 names(REPD) <- c("Ref", "County", "Authority", "Tech", "Status", "Operational", "Capacity", "Turbines", "LA", "LACode")
 
 REPD <- REPD  %>% 
-  mutate(`Tech` = replace(`Tech`, `Tech` == "Tidal Barrage and Tidal Stream", "Shoreline wave / tidal")) %>% 
+  mutate(`Tech` = replace(`Tech`, `Tech` == "Tidal Stream", "Shoreline wave / tidal")) %>% 
   mutate(`Tech` = replace(`Tech`, `Tech` == "Shoreline Wave", "Shoreline wave / tidal")) %>% 
   mutate(`Tech` = replace(`Tech`, `Tech` == "Advanced Conversion Technologies", "Bioenergy and Waste")) %>% 
   mutate(`Tech` = replace(`Tech`, `Tech` == "Anaerobic Digestion", "Bioenergy and Waste")) %>% 

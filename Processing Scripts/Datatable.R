@@ -72,7 +72,7 @@ source("Processing Scripts/LACodeFunction.R")
 
 REPD$LACode <- LACodeUpdate(REPD$LACode)
 
-REPD <- REPD[c(1,7,8,11,21,50,51)]
+REPD <- REPD[c(1,7,8,11,23,54,55)]
 
 REPD <- REPD[-which(is.na(REPD$LA)),]
 
@@ -82,7 +82,7 @@ REPD <- REPD[which(REPD$`Technology Type` != "Battery"),]
 
 REPD <- REPD[which(REPD$`Technology Type` != "Pumped Storage Hydroelectricity"),]
 
-REPD <- REPD %>%  group_by(`Ref`,`Development Status (short)`) %>% 
+REPD <- REPD %>%  group_by(`Ref ID`,`Development Status (short)`) %>% 
   summarise(`Site Name` = first(`Site Name`), `Technology Type` = first (`Technology Type`), `Installed Capacity (MWelec)` = sum(`Installed Capacity (MWelec)`), LA = first(LA), LACode = first(LACode))
 
 REPD[which(is.na(REPD$LACode)),]$LACode <- " "
