@@ -16,7 +16,7 @@ for (year in yearstart:yearend) {
   
   tryCatch({
     RenewableElecCapLA <- read_excel("Data Sources/Renewable Generation/RenewableElecLA.xlsx", 
-                                  sheet = paste0("LA - Capacity, ", year), skip = 3)
+                                  sheet = paste0("LA - Capacity, ", year), skip = 5)
     
     RenewableElecCapLA$Year <- year
     
@@ -30,6 +30,8 @@ for (year in yearstart:yearend) {
 RenewableElecCapLA <-bind_rows(RenElecLAList)
 
 names(RenewableElecCapLA)[1] <- "LACode"
+
+names(RenewableElecCapLA) [2] <- "Local Authority Name  [note 5][note 6][note 7] [note 8][note 9]"
 
 RenewableElecCapLA <- RenewableElecCapLA[which(substr(RenewableElecCapLA$LACode,1,2)== "S1"),]
 
@@ -74,6 +76,7 @@ QTRCapacityScotland$`Bioenergy and Waste` <- QTRCapacityScotland$`Landfill gas` 
 
 QTRCapacityScotland$Hydro <- QTRCapacityScotland$`Small scale Hydro` + QTRCapacityScotland$`Large scale Hydro`
 
+QTRCapacityScotland$`Offshore Wind` <- QTRCapacityScotland$`Offshore Wind - Seabed` + QTRCapacityScotland$`Offshore Wind - Floating`
 
 QTRCapacityScotland$LACode <- "S92000003"
 
@@ -83,7 +86,9 @@ RenewableElecCapLA <- rbind.fill(RenewableElecCapLA, QTRCapacityScotland)
 
 RenewableElecCapLA <- RenewableElecCapLA[ , colSums(is.na(RenewableElecCapLA)) == 0]
 
-RenewableElecCapLA <- RenewableElecCapLA[c(9,1,2,4,6,5,3,7,10,8)]
+RenewableElecCapLA$Total <- RenewableElecCapLA$`Solar photovoltaics`+RenewableElecCapLA$`Onshore Wind`+RenewableElecCapLA$`Offshore Wind`+RenewableElecCapLA$Hydro+RenewableElecCapLA$`Shoreline wave / tidal`+RenewableElecCapLA$`Bioenergy and Waste`
+
+RenewableElecCapLA <- RenewableElecCapLA[c( 8,1,2,4,6,5,3,7,9,10)]
 
 RenewableElecCapLA[which(RenewableElecCapLA$LAName == "Unallocated"),][4:10] <- RenewableElecCapLA[which(RenewableElecCapLA$LAName == "Scotland"),][4:10] - RenewableElecCapLA[which(RenewableElecCapLA$LAName == "Unallocated"),][4:10]
 

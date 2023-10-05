@@ -26,10 +26,10 @@ names(UKRenElecGen)[1] <- c("Y")
 UKRenElecGen$Quarter <- paste0(substr(UKRenElecGen$Y,1,4), " Q", substr(UKRenElecGen$Y,8,8))
 
 #Convert all but the first and last columns to numeric
-UKRenElecGen[2:32] %<>% lapply(function(x) as.numeric(as.character(x)))
+UKRenElecGen[2:33] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 #Convert Data Frame to Tibble, keeping only important columns
-UKRenElecGen <- as_tibble(UKRenElecGen[c(33,19:31)])
+UKRenElecGen <- as_tibble(UKRenElecGen[c(34,20:33)])
 
 #Drop Rows without Data
 UKRenElecGen <- UKRenElecGen[complete.cases(UKRenElecGen),]
@@ -38,7 +38,7 @@ UKRenElecGen <- UKRenElecGen[complete.cases(UKRenElecGen),]
 UKRenElecGen$Quarter <- as.yearqtr(UKRenElecGen$Quarter)
 
 #Give Columns final names
-names(UKRenElecGen) <- c("Quarter", "Onshore Wind", "Offshore Wind", "Shoreline wave / tidal", "Solar photovoltaics", "Hydro", "Landfill gas", "Sewage sludge digestion", "Energy from Waste","Co-firing with fossil fuels", "Animal Biomass", "Anaerobic Digestion", "Plant Biomass", "Total")
+names(UKRenElecGen) <- c("Quarter", "Onshore Wind", "Offshore Wind", "Shoreline wave / tidal", "Solar photovoltaics", "Hydro", "Landfill gas", "Sewage sludge digestion", "Energy from Waste","Co-firing with fossil fuels", "Animal Biomass", "Anaerobic Digestion", "Plant Biomass", "Liquid Biofuels", "Total")
 
 #Export
 write.csv(UKRenElecGen,
@@ -102,7 +102,7 @@ NIRenElecGen$Quarter <- paste0(substr(NIRenElecGen$Y,1,4), " Q", substr(NIRenEle
 NIRenElecGen[2:33] %<>% lapply(function(x) as.numeric(as.character(x)))
 
 #Convert Data Frame to Tibble, keeping only important columns
-NIRenElecGen <- as_tibble(NIRenElecGen[c(34,18:26)])
+NIRenElecGen <- as_tibble(NIRenElecGen[c(34,19:26)])
 
 #Drop Rows without Data
 NIRenElecGen <- NIRenElecGen[complete.cases(NIRenElecGen),]
@@ -123,7 +123,7 @@ GBRenElecGen <- GBRenElecGen[which(GBRenElecGen$Quarter %in% NIRenElecGen$Quarte
 GBRenElecGen <- select(GBRenElecGen, names(NIRenElecGen))
 
 #Take NI figures away from UK figures, to give GB figures
-GBRenElecGen[2:11] <- GBRenElecGen[2:11] - NIRenElecGen[2:11]
+GBRenElecGen[2:10] <- GBRenElecGen[2:10] - NIRenElecGen[2:10]
 
 
 #Export
